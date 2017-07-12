@@ -1,1 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="/atom.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-07-12T10:39:36-04:00</updated><id>/</id><title>Northern Robotics Laboratory</title><subtitle>Website showcasing research and news from the Northern Robotics Laboratory, Laval University</subtitle></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="/atom.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-07-12T12:09:31-04:00</updated><id>/</id><title>Northern Robotics Laboratory</title><subtitle>Website showcasing research and news from the Northern Robotics Laboratory, Laval University</subtitle><entry><title>How to change this website</title><link href="/articles/how-to-change-website/" rel="alternate" type="text/html" title="How to change this website" /><published>2017-07-12T00:00:00-04:00</published><updated>2017-07-12T00:00:00-04:00</updated><id>/articles/how-to-change-website</id><content type="html" xml:base="/articles/how-to-change-website/">&lt;p&gt;This is a small tutorial on how to modify this website.&lt;/p&gt;
+
+&lt;p&gt;First, get the proper autorization.&lt;/p&gt;
+
+&lt;p&gt;Clone local copies:&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/norlab-ulaval/website.git
+git clone https://github.com/norlab-ulaval/norlab-ulaval.github.io.git
+&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;website
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Do some modifications&lt;/p&gt;
+
+&lt;p&gt;Open a local server:&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll serve
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Validate your modifications on [http://localhost:4000/]&lt;/p&gt;
+
+&lt;p&gt;Send your modifications on GitHub: &lt;code class=&quot;highlighter-rouge&quot;&gt;git pull&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;git add&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;git commit&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;git push&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Publish the compiled website:&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ../norlab-ulaval-github.io
+git pull &lt;span class=&quot;c&quot;&gt;# just in case&lt;/span&gt;
+rsync -a ../website/_site/ .
+git add ./&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;
+git commit -a -m &lt;span class=&quot;s2&quot;&gt;&quot;Your comment&quot;&lt;/span&gt;
+git push
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><category term="sample" /><summary>This is a small tutorial on how to modify this website.</summary></entry></feed>
