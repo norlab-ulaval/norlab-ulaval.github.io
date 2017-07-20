@@ -1,4 +1,90 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="/atom.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-07-17T14:51:23-04:00</updated><id>/</id><title>Northern Robotics Laboratory</title><subtitle>Website showcasing research and news from the Northern Robotics Laboratory, Laval University</subtitle><entry><title>Test article 3</title><link href="/articles/test3/" rel="alternate" type="text/html" title="Test article 3" /><published>2017-07-14T00:00:00-04:00</published><updated>2017-07-14T00:00:00-04:00</updated><id>/articles/test3</id><content type="html" xml:base="/articles/test3/">&lt;p&gt;This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout.&lt;/p&gt;</content><category term="sample" /><summary>This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout.</summary></entry><entry><title>Test article 2</title><link href="/articles/test2/" rel="alternate" type="text/html" title="Test article 2" /><published>2017-07-14T00:00:00-04:00</published><updated>2017-07-14T00:00:00-04:00</updated><id>/articles/test2</id><content type="html" xml:base="/articles/test2/">&lt;p&gt;This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout.&lt;/p&gt;</content><category term="sample" /><summary>This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout.</summary></entry><entry><title>Test article</title><link href="/articles/test/" rel="alternate" type="text/html" title="Test article" /><published>2017-07-13T00:00:00-04:00</published><updated>2017-07-13T00:00:00-04:00</updated><id>/articles/test</id><content type="html" xml:base="/articles/test/">&lt;p&gt;This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout.&lt;/p&gt;</content><category term="sample" /><summary>This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout.</summary></entry><entry><title>How to change this website</title><link href="/articles/how-to-change-website/" rel="alternate" type="text/html" title="How to change this website" /><published>2017-07-12T00:00:00-04:00</published><updated>2017-07-12T00:00:00-04:00</updated><id>/articles/how-to-change-website</id><content type="html" xml:base="/articles/how-to-change-website/">&lt;p&gt;This is a quick tutorial on how to modify and deploy this website.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="/atom.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-07-20T14:13:24-04:00</updated><id>/</id><title>Northern Robotics Laboratory</title><subtitle>Website showcasing research and news from the Northern Robotics Laboratory, Laval University</subtitle><entry><title>Introduction to LaTeX with  MathJax</title><link href="/articles/mathjax/" rel="alternate" type="text/html" title="Introduction to LaTeX with  MathJax" /><published>2017-07-18T00:00:00-04:00</published><updated>2017-07-18T00:00:00-04:00</updated><id>/articles/mathjax</id><content type="html" xml:base="/articles/mathjax/">&lt;p&gt;Here are some basics to get you started with $\LaTeX$ equations in this Jekyll installation.
+This post assumes that you already know how to write an equation in LaTeX and how to add a post on this website using markdown syntax.&lt;/p&gt;
+
+&lt;h2 id=&quot;starting-a-new-markdown-file&quot;&gt;Starting a new markdown file&lt;/h2&gt;
+
+&lt;p&gt;You will need to set the variable &lt;code class=&quot;highlighter-rouge&quot;&gt;use_math&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; in the front matter of the file (header of the markdown).
+In this case, the front matter looks like that:&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;article&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Introduction&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;LaTeX&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;MathJax&quot;&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;categories&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;articles&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;tags&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;howto&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;latex&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;jekyll&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;use_math&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;writing-equations&quot;&gt;Writing equations&lt;/h2&gt;
+
+&lt;p&gt;In-line equations:&lt;/p&gt;
+
+&lt;div class=&quot;language-tex highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;This is a test with &lt;span class=&quot;p&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; A &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; B&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;x &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;$&lt;/span&gt; inline equations.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Result:&lt;/p&gt;
+
+&lt;p&gt;This is a test with $ A = B_x $ inline equations.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Equations without numbers:&lt;/p&gt;
+
+&lt;div class=&quot;language-tex highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
+ A&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; B&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;x 
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Result:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;A_1 = B_x&lt;/script&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Equations with numbers&lt;/p&gt;
+
+&lt;div class=&quot;language-tex highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;\begin{equation}&lt;/span&gt;  
+ A = &lt;span class=&quot;k&quot;&gt;\frac&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;1&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;n&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;\sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;_&lt;/span&gt;i&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;n B&lt;span class=&quot;p&quot;&gt;_&lt;/span&gt;i 
+&lt;span class=&quot;nt&quot;&gt;\end{equation}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Result:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{equation}  
+ A = \frac{1}{n} \sum_i^n B_i 
+\end{equation}&lt;/script&gt;
+
+&lt;h2 id=&quot;how-to-change-the-configuration-of-mathjax&quot;&gt;How to change the configuration of MathJax&lt;/h2&gt;
+
+&lt;p&gt;We store the configuration of MathJax in &lt;code class=&quot;highlighter-rouge&quot;&gt;/includes/mathjax_support.html&lt;/code&gt;. 
+The content of that file currently looks like that:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;	
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- MathJax options --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/x-mathjax-config&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;MathJax&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Hub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+		&lt;span class=&quot;na&quot;&gt;TeX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+			&lt;span class=&quot;na&quot;&gt;equationNumbers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+			&lt;span class=&quot;na&quot;&gt;autoNumber&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;AMS&quot;&lt;/span&gt;
+			&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+		&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+		&lt;span class=&quot;na&quot;&gt;tex2jax&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+			&lt;span class=&quot;na&quot;&gt;inlineMath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;$&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;$&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+			&lt;span class=&quot;na&quot;&gt;displayMath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;$$&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;$$&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+			&lt;span class=&quot;na&quot;&gt;processEscapes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+		&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- add MathJax / Latext services--&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/javascript&quot;&lt;/span&gt;
+	&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://cdn.rawgit.com/mathjax/MathJax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><category term="howto" /><category term="latex" /><category term="jekyll" /><summary>Here are some basics to get you started with $\LaTeX$ equations in this Jekyll installation.
+This post assumes that you already know how to write an equation in LaTeX and how to add a post on this website using markdown syntax.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{&quot;teaser&quot;=&gt;&quot;mathjax_logo-400x200.png&quot;, &quot;feature&quot;=&gt;&quot;mathjax_logo-1600x330.png&quot;}" /></entry><entry><title>Test article 3</title><link href="/articles/test3/" rel="alternate" type="text/html" title="Test article 3" /><published>2017-07-14T00:00:00-04:00</published><updated>2017-07-14T00:00:00-04:00</updated><id>/articles/test3</id><content type="html" xml:base="/articles/test3/">&lt;p&gt;This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout.&lt;/p&gt;</content><category term="sample" /><summary>This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout.</summary></entry><entry><title>Test article 2</title><link href="/articles/test2/" rel="alternate" type="text/html" title="Test article 2" /><published>2017-07-14T00:00:00-04:00</published><updated>2017-07-14T00:00:00-04:00</updated><id>/articles/test2</id><content type="html" xml:base="/articles/test2/">&lt;p&gt;This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout.&lt;/p&gt;</content><category term="sample" /><summary>This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout.</summary></entry><entry><title>Test article</title><link href="/articles/test/" rel="alternate" type="text/html" title="Test article" /><published>2017-07-13T00:00:00-04:00</published><updated>2017-07-13T00:00:00-04:00</updated><id>/articles/test</id><content type="html" xml:base="/articles/test/">&lt;p&gt;This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout.&lt;/p&gt;</content><category term="sample" /><summary>This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout.</summary></entry><entry><title>How to change this website</title><link href="/articles/how-to-change-website/" rel="alternate" type="text/html" title="How to change this website" /><published>2017-07-12T00:00:00-04:00</published><updated>2017-07-12T00:00:00-04:00</updated><id>/articles/how-to-change-website</id><content type="html" xml:base="/articles/how-to-change-website/">&lt;p&gt;This is a quick tutorial on how to modify and deploy this website.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
