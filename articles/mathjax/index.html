@@ -49,6 +49,7 @@ This post assumes that you already know how to write an equation in LaTeX and ho
       <script src="/js/vendor/respond.min.js"></script>
     <![endif]-->
 
+		<!-- Load MathJax if required -->
 		
 			
 <!-- MathJax options -->
@@ -74,6 +75,9 @@ This post assumes that you already know how to write an equation in LaTeX and ho
 
 
 		
+
+		<!-- Load extra fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Rokkitt:200" rel="stylesheet">
 
   </head>
 
@@ -189,19 +193,19 @@ In this case, the front matter looks like that:</p>
 
 <h2 id="writing-equations">Writing equations</h2>
 
-<p>In-line equations:</p>
+<p>In-line equation:</p>
 
-<div class="language-tex highlighter-rouge"><pre class="highlight"><code>This is a test with <span class="p">$</span><span class="nb"> A </span><span class="o">=</span><span class="nb"> B</span><span class="p">_</span><span class="nb">x </span><span class="p">$</span> inline equations.
+<div class="language-tex highlighter-rouge"><pre class="highlight"><code>This is a test with <span class="p">$</span><span class="nb"> A </span><span class="o">=</span><span class="nb"> B</span><span class="p">_</span><span class="nb">x </span><span class="p">$</span> as an inline equation.
 </code></pre>
 </div>
 
 <p>Result:</p>
 
-<p>This is a test with $ A = B_x $ inline equations.</p>
+<p>This is a test with $ A = B_x $ as an inline equation.</p>
 
 <hr />
 
-<p>Equations without numbers:</p>
+<p>Equation without numbers:</p>
 
 <div class="language-tex highlighter-rouge"><pre class="highlight"><code><span class="p">$$</span><span class="nb">
  A</span><span class="p">_</span><span class="m">1</span><span class="nb"> </span><span class="o">=</span><span class="nb"> B</span><span class="p">_</span><span class="nb">x 
@@ -294,10 +298,10 @@ The content of that file currently looks like that:</p>
 		<ul class="menu-item">
 		
       
-			<li><a href="https://www.ift.ulaval.ca" target="_blank">Département d'informatique et de génie logiciel</a></li>
+			<li><a href="https://www.ulaval.ca" target="_blank">Université Laval</a></li>
 		
       
-			<li><a href="https://www.ulaval.ca" target="_blank">Université Laval</a></li>
+			<li><a href="https://www.ift.ulaval.ca" target="_blank">Département d'informatique et de génie logiciel</a></li>
 		
 		</ul>
 	</nav><!-- /.bottom-menu -->

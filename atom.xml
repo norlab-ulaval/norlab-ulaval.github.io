@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="/atom.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-07-21T17:00:06-04:00</updated><id>/</id><title>Northern Robotics Laboratory</title><subtitle>Website showcasing research and news from the Northern Robotics Laboratory, Laval University</subtitle><entry><title>Introduction to LaTeX with  MathJax</title><link href="/articles/mathjax/" rel="alternate" type="text/html" title="Introduction to LaTeX with  MathJax" /><published>2017-07-18T00:00:00-04:00</published><updated>2017-07-18T00:00:00-04:00</updated><id>/articles/mathjax</id><content type="html" xml:base="/articles/mathjax/">&lt;p&gt;Here are some basics to get you started with $\LaTeX$ equations in this Jekyll installation.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="/atom.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-07-24T15:38:39-04:00</updated><id>/</id><title>Northern Robotics Laboratory</title><subtitle>Website showcasing research and news from the Northern Robotics Laboratory, Laval University</subtitle><entry><title>Introduction to LaTeX with  MathJax</title><link href="/articles/mathjax/" rel="alternate" type="text/html" title="Introduction to LaTeX with  MathJax" /><published>2017-07-18T00:00:00-04:00</published><updated>2017-07-18T00:00:00-04:00</updated><id>/articles/mathjax</id><content type="html" xml:base="/articles/mathjax/">&lt;p&gt;Here are some basics to get you started with $\LaTeX$ equations in this Jekyll installation.
 This post assumes that you already know how to write an equation in LaTeX and how to add a post on this website using markdown syntax.&lt;/p&gt;
 
 &lt;h2 id=&quot;starting-a-new-markdown-file&quot;&gt;Starting a new markdown file&lt;/h2&gt;
@@ -18,19 +18,19 @@ In this case, the front matter looks like that:&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-equations&quot;&gt;Writing equations&lt;/h2&gt;
 
-&lt;p&gt;In-line equations:&lt;/p&gt;
+&lt;p&gt;In-line equation:&lt;/p&gt;
 
-&lt;div class=&quot;language-tex highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;This is a test with &lt;span class=&quot;p&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; A &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; B&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;x &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;$&lt;/span&gt; inline equations.
+&lt;div class=&quot;language-tex highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;This is a test with &lt;span class=&quot;p&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; A &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; B&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;x &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;$&lt;/span&gt; as an inline equation.
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Result:&lt;/p&gt;
 
-&lt;p&gt;This is a test with $ A = B_x $ inline equations.&lt;/p&gt;
+&lt;p&gt;This is a test with $ A = B_x $ as an inline equation.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;Equations without numbers:&lt;/p&gt;
+&lt;p&gt;Equation without numbers:&lt;/p&gt;
 
 &lt;div class=&quot;language-tex highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
  A&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; B&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;x 
