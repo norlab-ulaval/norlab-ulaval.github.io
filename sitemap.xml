@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>/articles/mathjax/</loc>
+<loc>/research/mathjax/</loc>
 <lastmod>2017-07-18T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>/people/f-pomerleau/</loc>
+<lastmod>2017-07-14T00:00:00-04:00</lastmod>
 </url>
 <url>
 <loc>/articles/test3/</loc>
@@ -13,11 +17,11 @@
 <lastmod>2017-07-14T00:00:00-04:00</lastmod>
 </url>
 <url>
-<loc>/articles/test/</loc>
+<loc>/news/not-official-launch/</loc>
 <lastmod>2017-07-13T00:00:00-04:00</lastmod>
 </url>
 <url>
-<loc>/articles/how-to-change-website/</loc>
+<loc>/research/how-to-change-website/</loc>
 <lastmod>2017-07-12T00:00:00-04:00</lastmod>
 </url>
 <url>
@@ -25,5 +29,14 @@
 </url>
 <url>
 <loc>/</loc>
+</url>
+<url>
+<loc>/news/</loc>
+</url>
+<url>
+<loc>/people/</loc>
+</url>
+<url>
+<loc>/research/</loc>
 </url>
 </urlset>
