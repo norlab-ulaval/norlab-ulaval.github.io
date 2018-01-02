@@ -271,30 +271,7 @@ In this case, the front matter looks like that:</p>
 
 <h2 id="how-to-change-the-configuration-of-mathjax">How to change the configuration of MathJax</h2>
 
-<p>We store the configuration of MathJax in <code class="highlighter-rouge">/includes/mathjax_support.html</code>. 
-The content of that file currently looks like that:</p>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html">	
-<span class="c">&lt;!-- MathJax options --&gt;</span>
-<span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/x-mathjax-config"</span><span class="nt">&gt;</span>
-	<span class="nx">MathJax</span><span class="p">.</span><span class="nx">Hub</span><span class="p">.</span><span class="nx">Config</span><span class="p">({</span>
-		<span class="na">TeX</span><span class="p">:</span> <span class="p">{</span>
-			<span class="na">equationNumbers</span><span class="p">:</span> <span class="p">{</span>
-			<span class="na">autoNumber</span><span class="p">:</span> <span class="s2">"AMS"</span>
-			<span class="p">}</span>
-		<span class="p">},</span>
-		<span class="na">tex2jax</span><span class="p">:</span> <span class="p">{</span>
-			<span class="na">inlineMath</span><span class="p">:</span> <span class="p">[</span> <span class="p">[</span><span class="s1">'$'</span><span class="p">,</span><span class="s1">'$'</span><span class="p">]</span> <span class="p">],</span>
-			<span class="na">displayMath</span><span class="p">:</span> <span class="p">[</span> <span class="p">[</span><span class="s1">'$$'</span><span class="p">,</span><span class="s1">'$$'</span><span class="p">]</span> <span class="p">],</span>
-			<span class="na">processEscapes</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
-		<span class="p">}</span>
-	<span class="p">});</span>
-<span class="nt">&lt;/script&gt;</span>
-
-<span class="c">&lt;!-- add MathJax / Latext services--&gt;</span>
-<span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span>
-	<span class="na">src=</span><span class="s">"https://cdn.rawgit.com/mathjax/MathJax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"</span><span class="nt">&gt;</span>
-<span class="nt">&lt;/script&gt;</span></code></pre></figure>
+<p>We store the configuration of MathJax in <code class="highlighter-rouge">/includes/mathjax_support.html</code>.</p>
 
 
 				<hr />
