@@ -17,7 +17,7 @@
 	
 	
 	<meta name="twitter:card" content="summary">
-	<meta name="twitter:image" content="/images/norlab_logo_dark_120px.png">
+	<meta name="twitter:image" content="http://localhost:4000/images/norlab_logo_dark_120px.png">
 	
 	<!-- Open Graph -->
 	<meta property="og:locale" content="en">
@@ -26,24 +26,24 @@
 	<meta property="og:description" content="This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout. This is just a test article to debug the layout.
 
 ">
-	<meta property="og:url" content="/articles/test2/">
+	<meta property="og:url" content="http://localhost:4000/articles/test2/">
 	<meta property="og:site_name" content="Northern Robotics Laboratory">
 
-    <link rel="canonical" href="/articles/test2/">
+    <link rel="canonical" href="http://localhost:4000/articles/test2/">
 
-    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Northern Robotics Laboratory Atom Feed">
-    <link href="/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
+    <link href="http://localhost:4000/atom.xml" type="application/atom+xml" rel="alternate" title="Northern Robotics Laboratory Atom Feed">
+    <link href="http://localhost:4000/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
 
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="cleartype" content="on">
 
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="http://localhost:4000/css/main.css">
     <!-- HTML5 Shiv and Media Query Support for IE -->
     <!--[if lt IE 9]>
-      <script src="/js/vendor/html5shiv.min.js"></script>
-      <script src="/js/vendor/respond.min.js"></script>
+      <script src="http://localhost:4000/js/vendor/html5shiv.min.js"></script>
+      <script src="http://localhost:4000/js/vendor/respond.min.js"></script>
     <![endif]-->
 
 		<!-- Load MathJax if required -->
@@ -59,36 +59,44 @@
 
     <header id="masthead">
   <div class="inner-wrap">
-    <a href="/" class="site-title">Northern Robotics Laboratory </a>
+    <a href="http://localhost:4000/" class="site-title">Northern Robotics Laboratory </a>
     <nav role="navigation" class="menu top-menu">
         <ul class="menu-item">
-	<li class="home"><a href="/">Northern Robotics Laboratory</a></li>
+	<!--li class="home"><a href="/">Northern Robotics Laboratory</a></li-->
 	
     
-    <li><a href="/research/" >Research</a></li>
+    <li>
+		<a href="http://localhost:4000/research/" 
+		>Research</a></li>
   
     
-    <li><a href="" >Publications</a></li>
+    <li>
+		<a href="http://localhost:4000/publications/" 
+		>Publications</a></li>
   
     
-    <li><a href="/people/" >People</a></li>
+    <li>
+		<a href="http://localhost:4000/people/" 
+		>People</a></li>
   
     
-    <li><a href="/contact/" >Contact</a></li>
+    <li>
+		<a href="http://localhost:4000/contact/" 
+		>Contact</a></li>
   
 
-	<!-- Language tabs-->
-	
+	<!-- Search for url -->
 	
 
 	
-		<li class="language-box"> 
-		<span class="current-lang">EN</span> 
-		
-			<a style="color:#FFF7F6" href="/error/traduction-manquante/">FR</a> 
-		
-		</li>
+
 	
+
+	
+		<li class="language-box"><span class="current-lang"> EN</span> </li>
+		
+			<li class="language-box"> <a  style="color:#e4e4e4;" href="/error/traduction-manquante/">FR</a> </li>
+		
 	
 
 </ul>
@@ -99,32 +107,45 @@
 
     <nav role="navigation" id="js-menu" class="sliding-menu-content">
   <h5>Northern Robotics Laboratory <span>Table of Contents</span></h5>
+
   <ul class="menu-item">
-    <li>
-      <a href="{"en"=>"/research/", "fr"=>"/research/"}">
+    
+			
+			<li>
+      	<a href="http://localhost:4000/research/">
         
-        <div class="title">{"en"=>"Research", "fr"=>"Recherche"}</div>
-        
-      </a>
-    </li><li>
-      <a href="">
-        
-        <div class="title">{"en"=>"Publications", "fr"=>"Publications"}</div>
+        <div class="title">Research</div>
         
       </a>
-    </li><li>
-      <a href="{"en"=>"/people/", "fr"=>"/people/"}">
+    	</li>
+		
+			
+			<li>
+      	<a href="http://localhost:4000/publications/">
         
-        <div class="title">{"en"=>"People", "fr"=>"Personnes"}</div>
-        
-      </a>
-    </li><li>
-      <a href="{"en"=>"/contact/", "fr"=>"/contact/"}">
-        
-        <div class="title">{"en"=>"Contact", "fr"=>"Contact"}</div>
+        <div class="title">Publications</div>
         
       </a>
-    </li>
+    	</li>
+		
+			
+			<li>
+      	<a href="http://localhost:4000/people/">
+        
+        <div class="title">People</div>
+        
+      </a>
+    	</li>
+		
+			
+			<li>
+      	<a href="http://localhost:4000/contact/">
+        
+        <div class="title">Contact</div>
+        
+      </a>
+    	</li>
+		
   </ul>
 </nav>
 <button type="button" id="js-menu-trigger" class="sliding-menu-button lines-button x2" role="button" aria-label="Toggle Navigation">
@@ -141,11 +162,11 @@
 		
   <nav class="breadcrumbs">
     <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-      <a href="" itemprop="url">
+      <a href="http://localhost:4000" itemprop="url">
         <span itemprop="title">Home</span>
       </a> › 
     <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-      <a href="/articles/" itemprop="url">
+      <a href="http://localhost:4000/articles/" itemprop="url">
         <span itemprop="title">Articles</span>
       </a>
     </span>
@@ -164,17 +185,17 @@
 					
 
 <div class="author-image">
-	<img src="/images/people/f_pomerleau.jpg" alt="François Pomerleau">
+	<img src="http://localhost:4000/images/people/f_pomerleau.jpg" alt="François Pomerleau">
 </div><!-- ./author-image -->
 <div class="author-content">
 	<h3 class="author-name" >Written by <a href="/people/f-pomerleau" itemprop="author">François Pomerleau</a></h3>
-	<p class="author-bio">I'm primarily working with outdoor mobile robots. Mainly focussing on field robotics targeting working systems that can be used outside research laboratories.</p>
+	<p class="author-bio"></p>
 </div><!-- ./author-content -->
 
 					<div class="inline-btn">
-	<a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Test%20article%202&amp;url=/articles/test2/&amp;via=" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Share on Twitter</a>
-	<a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=/articles/test2/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Share on Facebook</a>
-	<a class="btn-social google-plus"  href="https://plus.google.com/share?url=/articles/test2/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i> Share on Google+</a>
+	<a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Test%20article%202&amp;url=http://localhost:4000/articles/test2/&amp;via=" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Share on Twitter</a>
+	<a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/articles/test2/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Share on Facebook</a>
+	<a class="btn-social google-plus"  href="https://plus.google.com/share?url=http://localhost:4000/articles/test2/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i> Share on Google+</a>
 </div><!-- /.share-this -->
 
 					<div class="page-meta">
@@ -202,12 +223,12 @@
 		
 		</ul>
 	</nav><!-- /.bottom-menu -->
-	<p class="copyright">&#169; 2017 <a href="">Northern Robotics Laboratory</a> powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> + <a href="http://mmistakes.github.io/skinny-bones-jekyll/" rel="nofollow">Skinny Bones</a>.</p>
+	<p class="copyright">&#169; 2018 <a href="http://localhost:4000">Northern Robotics Laboratory</a> powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> + <a href="http://mmistakes.github.io/skinny-bones-jekyll/" rel="nofollow">Skinny Bones</a>.</p>
 </footer>
     </div>
 
-    <script src="/js/vendor/jquery-1.9.1.min.js"></script>
-    <script src="/js/main.js"></script>
+    <script src="http://localhost:4000/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="http://localhost:4000/js/main.js"></script>
 
   </body>
 

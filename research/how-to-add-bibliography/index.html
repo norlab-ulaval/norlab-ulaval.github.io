@@ -2,16 +2,16 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>French Version of the Site • Northern Robotics Laboratory</title>
-    <meta name="description" content="We start the deployment of the French version of the website.
-Don’t hesitate to report any article missing a translation.
+    <title>How to Add Bibliography to a Post • Northern Robotics Laboratory</title>
+    <meta name="description" content="This is a small tutorial on how to use the plugin jekyll-shcolar on this website.
+
 ">
-    <meta name="keywords" content="website">
+    <meta name="keywords" content="howto, jekyll, website, bibtex">
     
     	<!-- Twitter Cards -->
-	<meta name="twitter:title" content="French Version of the Site">
-	<meta name="twitter:description" content="We start the deployment of the French version of the website.
-Don’t hesitate to report any article missing a translation.
+	<meta name="twitter:title" content="How to Add Bibliography to a Post">
+	<meta name="twitter:description" content="This is a small tutorial on how to use the plugin jekyll-shcolar on this website.
+
 ">
 	
 	
@@ -22,14 +22,14 @@ Don’t hesitate to report any article missing a translation.
 	<!-- Open Graph -->
 	<meta property="og:locale" content="en">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="French Version of the Site">
-	<meta property="og:description" content="We start the deployment of the French version of the website.
-Don’t hesitate to report any article missing a translation.
+	<meta property="og:title" content="How to Add Bibliography to a Post">
+	<meta property="og:description" content="This is a small tutorial on how to use the plugin jekyll-shcolar on this website.
+
 ">
-	<meta property="og:url" content="http://localhost:4000/news/french-version/">
+	<meta property="og:url" content="http://localhost:4000/research/how-to-add-bibliography/">
 	<meta property="og:site_name" content="Northern Robotics Laboratory">
 
-    <link rel="canonical" href="http://localhost:4000/news/french-version/">
+    <link rel="canonical" href="http://localhost:4000/research/how-to-add-bibliography/">
 
     <link href="http://localhost:4000/atom.xml" type="application/atom+xml" rel="alternate" title="Northern Robotics Laboratory Atom Feed">
     <link href="http://localhost:4000/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
@@ -95,7 +95,7 @@ Don’t hesitate to report any article missing a translation.
 	
 		<li class="language-box"><span class="current-lang"> EN</span> </li>
 		
-			<li class="language-box"> <a href="/news/version-francaise/">FR</a> </li>
+			<li class="language-box"> <a  style="color:#e4e4e4;" href="/error/traduction-manquante/">FR</a> </li>
 		
 	
 
@@ -166,19 +166,38 @@ Don’t hesitate to report any article missing a translation.
         <span itemprop="title">Home</span>
       </a> › 
     <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-      <a href="http://localhost:4000/news/" itemprop="url">
-        <span itemprop="title">News</span>
+      <a href="http://localhost:4000/research/" itemprop="url">
+        <span itemprop="title">Research</span>
       </a>
     </span>
   </nav><!-- /.breadcrumbs -->
 
 		<div class="page-title">
-			<h1>French Version of the Site</h1>
+			<h1>How to Add Bibliography to a Post</h1>
 		</div>
 		<div class="inner-wrap">
 			<div id="content" class="page-content" itemprop="articleBody">
-				<p>We start the deployment of the French version of the website.
-Don’t hesitate to report any article missing a translation.</p>
+				<p>This is a small tutorial on how to use the plugin <code class="highlighter-rouge">jekyll-shcolar</code> on this website.</p>
+
+<p>Use <code class="highlighter-rouge">{% cite Pomerleau2010a %}</code> in a text to cite a work like this <a href="#Pomerleau2010a">(Pomerleau &amp; Colas, 2010)</a>.</p>
+
+<p>Print only the cited bibliography:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% bibliography --cited %}
+</code></pre></div></div>
+<p>Result:</p>
+
+<ol class="bibliography"><li><span id="Pomerleau2010a">Pomerleau, F., &amp; Colas, F. (2010). Evaluation of stereo reconstruction for 3D mapping. <i>4th International Conference on Cognitive Systems, CogSys 2010</i>.</span></li></ol>
+
+<p>Print a bibliography filtered by author name:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% bibliography -q @*[author ^= Paton] %}
+</code></pre></div></div>
+<p>Result:</p>
+
+<ol class="bibliography"><li><span id="Pomerleau2017b">Paton, M., Pomerleau, F., MacTavish, K., Ostafew, C. J., &amp; Barfoot, T. D. (2017). Expanding the Limits of Vision-based Localization for Long-term Route-following Autonomy. <i>Journal of Field Robotics</i>, <i>34</i>(1), 98–122.</span></li>
+<li><span id="Pomerleau2016a">Paton, M., Pomerleau, F., &amp; Barfoot, T. D. (2016). In the dead of winter: Challenging vision-based path following in extreme conditions. <i>Springer Tracts in Advanced Robotics</i>, <i>113</i>, 563–576.</span></li>
+<li><span id="Pomerleau2015b">Paton, M., Pomerleau, F., &amp; Barfoot, T. D. (2015). Eyes in the Back of Your Head: Robust Visual Teach &amp; Repeat Using Multiple Stereo Cameras. <i>Proceedings -2015 12th Conference on Computer and Robot Vision, CRV 2015</i>, 46–53.</span></li></ol>
 
 
 				<hr />
@@ -194,13 +213,13 @@ Don’t hesitate to report any article missing a translation.</p>
 </div><!-- ./author-content -->
 
 					<div class="inline-btn">
-	<a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=French%20Version%20of%20the%20Site&amp;url=http://localhost:4000/news/french-version/&amp;via=" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Share on Twitter</a>
-	<a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/news/french-version/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Share on Facebook</a>
-	<a class="btn-social google-plus"  href="https://plus.google.com/share?url=http://localhost:4000/news/french-version/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i> Share on Google+</a>
+	<a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=How%20to%20Add%20Bibliography%20to%20a%20Post&amp;url=http://localhost:4000/research/how-to-add-bibliography/&amp;via=" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Share on Twitter</a>
+	<a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/research/how-to-add-bibliography/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Share on Facebook</a>
+	<a class="btn-social google-plus"  href="https://plus.google.com/share?url=http://localhost:4000/research/how-to-add-bibliography/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i> Share on Google+</a>
 </div><!-- /.share-this -->
 
 					<div class="page-meta">
-	<p>Updated <time datetime="2017-08-18T00:00:00Z" itemprop="datePublished">August 18, 2017</time></p>
+	<p>Updated <time datetime="2018-01-01T00:00:00Z" itemprop="datePublished">January 01, 2018</time></p>
 </div><!-- /.page-meta -->
 				</footer><!-- /.footer -->
 				<aside>
