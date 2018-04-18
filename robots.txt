@@ -1,1 +1,1 @@
-Sitemap: https://norlab-ulaval.github.io/sitemap.xml
+Sitemap: https://norlab.ulaval.ca/sitemap.xml
