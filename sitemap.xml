@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://norlab.ulaval.ca/publications/challenging-datasets/</loc>
+<lastmod>2012-09-06T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>https://norlab.ulaval.ca/publications/review-icp/</loc>
+<lastmod>2015-06-25T00:00:00-04:00</lastmod>
+</url>
+<url>
 <loc>https://norlab.ulaval.ca/research/how-to-change-website/</loc>
 <lastmod>2017-07-12T00:00:00-04:00</lastmod>
 </url>
@@ -67,6 +75,10 @@
 <url>
 <loc>https://norlab.ulaval.ca/research/libpointmatcher/</loc>
 <lastmod>2018-05-10T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>https://norlab.ulaval.ca/news/simon-pierre/</loc>
+<lastmod>2018-05-11T00:00:00-04:00</lastmod>
 </url>
 <url>
 <loc>https://norlab.ulaval.ca/accueil/</loc>
