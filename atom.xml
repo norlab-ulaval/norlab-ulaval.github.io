@@ -1,4 +1,83 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://norlab.ulaval.ca/atom.xml" rel="self" type="application/atom+xml" /><link href="https://norlab.ulaval.ca/" rel="alternate" type="text/html" /><updated>2018-05-09T17:52:48-04:00</updated><id>https://norlab.ulaval.ca/</id><title type="html">Northern Robotics Laboratory</title><subtitle>Website showcasing research and news from the Northern Robotics Laboratory, Laval University</subtitle><entry><title type="html">Limnobotics - Navire de surface autonome pour l’observation de lacs</title><link href="https://norlab.ulaval.ca/research/limnobotics_fr/" rel="alternate" type="text/html" title="Limnobotics - Navire de surface autonome pour l'observation de lacs" /><published>2018-05-09T00:00:00-04:00</published><updated>2018-05-09T00:00:00-04:00</updated><id>https://norlab.ulaval.ca/research/limnobotics_fr</id><content type="html" xml:base="https://norlab.ulaval.ca/research/limnobotics_fr/">&lt;p&gt;Limnobotics est un projet scientifique qui réunit les domaines de la limnologie (l’étude des eaux douces) et de la robotique pour une meilleure compréhension de l’hydrologie et de la biologie du lac Zurich, un lac préalpin de la Suisse.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://norlab.ulaval.ca/atom.xml" rel="self" type="application/atom+xml" /><link href="https://norlab.ulaval.ca/" rel="alternate" type="text/html" /><updated>2018-05-11T10:15:54-04:00</updated><id>https://norlab.ulaval.ca/</id><title type="html">Northern Robotics Laboratory</title><subtitle>Website showcasing research and news from the Northern Robotics Laboratory, Laval University</subtitle><entry><title type="html">Libpointmatcher</title><link href="https://norlab.ulaval.ca/research/libpointmatcher/" rel="alternate" type="text/html" title="Libpointmatcher" /><published>2018-05-10T00:00:00-04:00</published><updated>2018-05-10T00:00:00-04:00</updated><id>https://norlab.ulaval.ca/research/libpointmatcher</id><content type="html" xml:base="https://norlab.ulaval.ca/research/libpointmatcher/">&lt;p&gt;Libpointmatcher is a library that implements the Iterative Closest Point (ICP) algorithm for alignment of point clouds. 
+It supports both point-to-point and point-to-plane ICP. 
+With the former, it is able to solve not only for a rigid transform, but also for a scale change between the clouds (that is, a similarity transform).&lt;/p&gt;
+
+&lt;p&gt;The library implements a set of filters to help denoise and subsample the input point clouds. It supports a variety of file types and it can be configured via both YAML files and an in-memory API.
+Libpointmatcher is written in C++ and fast enough for real-time application.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: &lt;em&gt;This project is ongoing and was started during a formal employment at ETH Zurich, within the &lt;a href=&quot;http://www.asl.ethz.ch/&quot;&gt;ASL&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;
+&lt;a href=&quot;https://github.com/ethz-asl/libpointmatcher&quot; target=&quot;_blank&quot; class=&quot;btn&quot;&gt;
+&lt;img src=&quot;/images/logos/github.svg&quot; style=&quot;padding-right: 1em; width: 4em; -webkit-filter: invert(100%); filter: invert(100%);&quot; /&gt;
+See it on GitHub
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Main Investigator and scientific lead&lt;/strong&gt;: &lt;a href=&quot;../../people/f_pomerleau/&quot;&gt;François Pomerleau&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Scientific Support&lt;/strong&gt;: Francis Colas, Stéphane Magnenat&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;publications&quot;&gt;Publications&lt;/h1&gt;
+
+&lt;ol class=&quot;bibliography&quot; reversed=&quot;reversed&quot;&gt;&lt;li&gt;&lt;span id=&quot;Pomerleau2015fsr&quot;&gt;McGarey, P., Pomerleau, F., &amp;amp; Barfoot, T. D. (2015). System Design of a Tethered Robotic Explorer (TReX) for 3D Mapping of Steep Terrain and Harsh Environments. In &lt;i&gt;In Proceedings of Field and Service Robotics (FSR)&lt;/i&gt;.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Pomerleau2015a&quot;&gt;Pomerleau, F., Colas, F., &amp;amp; Siegwart, R. (2015). A Review of Point Cloud Registration Algorithms for Mobile Robotics. &lt;i&gt;Foundations and Trends in Robotics&lt;/i&gt;, &lt;i&gt;4&lt;/i&gt;(1), 1–104. https://doi.org/10.1561/2300000035&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Pomerleau2015c&quot;&gt;Krüsi, P., Bücheler, B., Pomerleau, F., Schwesinger, U., Siegwart, R., &amp;amp; Furgale, P. (2015). Lighting-invariant adaptive route following using iterative closest point matching. &lt;i&gt;Journal of Field Robotics&lt;/i&gt;, &lt;i&gt;32&lt;/i&gt;(4), 534–564.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Pomerleau2015d&quot;&gt;Hitz, G., Pomerleau, F., Colas, F., &amp;amp; Siegwart, R. (2015). Relaxing the planar assumption: 3D state estimation for an autonomous surface vessel. &lt;i&gt;International Journal of Robotics Research&lt;/i&gt;, &lt;i&gt;34&lt;/i&gt;(13), 1604–1621.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Pomerleau2014d&quot;&gt;Pomerleau, F., Krüsi, P., Colas, F., Furgale, P., &amp;amp; Siegwart, R. (2014). Long-term 3D map maintenance in dynamic environments. In &lt;i&gt;Proceedings - IEEE International Conference on Robotics and Automation&lt;/i&gt; (pp. 3712–3719).&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Pomerleau2013&quot;&gt;Pomerleau, F. (2013). &lt;i&gt;Applied Registration for Robotics: Methodology and Tools for ICP-like Algorithms&lt;/i&gt; (PhD thesis). Eidgenössische Technische Hochschule (ETH) Zurich.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Pomerleau2013b&quot;&gt;Pomerleau, F., Colas, F., Siegwart, R., &amp;amp; Magnenat, S. (2013). Comparing ICP variants on real-world data sets: Open-source library and experimental protocol. &lt;i&gt;Autonomous Robots&lt;/i&gt;, &lt;i&gt;34&lt;/i&gt;(3), 133–148.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
+
+&lt;h1 id=&quot;results&quot;&gt;Results&lt;/h1&gt;
+
+&lt;div style=&quot;padding-bottom: 20px&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; allowfullscreen=&quot;&quot; src=&quot;//youtube.com/embed/
+jlAArM_6N-I
+&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;	
+&lt;/div&gt;
+
+&lt;div style=&quot;padding-bottom: 20px&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; allowfullscreen=&quot;&quot; src=&quot;//youtube.com/embed/
+cMgLyLpnsoU
+&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;	
+&lt;/div&gt;
+
+&lt;div style=&quot;padding-bottom: 20px&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; allowfullscreen=&quot;&quot; src=&quot;//www.youtube.com/embed/
+ygIvzWVfPYk
+&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;	
+&lt;/div&gt;
+
+&lt;div style=&quot;padding-bottom: 20px&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; allowfullscreen=&quot;&quot; src=&quot;//www.youtube.com/embed/
+lP5Mj-TGaiw
+&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;	
+&lt;/div&gt;
+
+&lt;div style=&quot;padding-bottom: 20px&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; allowfullscreen=&quot;&quot; src=&quot;//www.youtube.com/embed/
+UCCAUf64tD0
+&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;	
+&lt;/div&gt;
+
+&lt;div style=&quot;padding-bottom: 20px&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; allowfullscreen=&quot;&quot; src=&quot;//www.youtube.com/embed/
+M5Y99o7um88
+&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;	
+&lt;/div&gt;
+
+&lt;div style=&quot;padding-bottom: 20px&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; allowfullscreen=&quot;&quot; src=&quot;//www.youtube.com/embed/
+g8l-Xq4qYeE
+&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;	
+&lt;/div&gt;
+
+&lt;div style=&quot;padding-bottom: 20px&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; allowfullscreen=&quot;&quot; src=&quot;//www.youtube.com/embed/
+rIZud3F5IJw
+&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;	
+&lt;/div&gt;</content><author><name>François Pomerleau</name><email>f.pomerleau@gmail.com</email></author><category term="project" /><category term="mapping" /><category term="software" /><category term="localization" /><category term="library" /><category term="point clouds" /><summary type="html">Libpointmatcher is a library that implements the Iterative Closest Point (ICP) algorithm for alignment of point clouds. It supports both point-to-point and point-to-plane ICP. With the former, it is able to solve not only for a rigid transform, but also for a scale change between the clouds (that is, a similarity transform).</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22projects/libpointmatcher_feature.png%22,%20%22teaser%22=%3E%22projects/libpointmatcher_teaser.png%22,%20%22thumb%22=%3Enil%7D" /></entry><entry><title type="html">Limnobotics</title><link href="https://norlab.ulaval.ca/research/limnobotics_fr/" rel="alternate" type="text/html" title="Limnobotics" /><published>2018-05-09T00:00:00-04:00</published><updated>2018-05-09T00:00:00-04:00</updated><id>https://norlab.ulaval.ca/research/limnobotics_fr</id><content type="html" xml:base="https://norlab.ulaval.ca/research/limnobotics_fr/">&lt;p&gt;Limnobotics est un projet scientifique qui réunit les domaines de la limnologie (l’étude des eaux douces) et de la robotique pour une meilleure compréhension de l’hydrologie et de la biologie du lac Zurich, un lac préalpin de la Suisse.&lt;/p&gt;
 
 &lt;p&gt;Ce projet multidisciplinaire vise à documenter les paramètres limnologiques du lac Zurich avec couverture spatiale et temporelle sans précédant pour une meilleure compréhension de la présence massive de la cyanobactérie toxique &lt;a href=&quot;http://fr.wikipedia.org/wiki/Planktothrix_rubescens&quot;&gt;&lt;em&gt;Planktothrix rubescens&lt;/em&gt;&lt;/a&gt;, de même que la dynamique de sa population. 
 Nous avons développé un bateau autonome équipé d’une variété de capteurs (température, pH, lumière, oxygène, nutriments, et pigments algaux) pour permettre la surveillance continue de la distribution spatiotemporelle des cyanobactéries. 
@@ -10,9 +89,7 @@ Les données de terrain générées à l’aide de notre bateau autonome serviro
   &lt;li&gt;guider des campagnes d’échantillonnage manuel selon des événements spécifiques, de même que les analyses en laboratoire subséquentes, telles que la classification des souches, l’expression génique de la production de microcystine et la détection cellulaire des concentrations de microcystine.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Ce projet est une collaboration entre la &lt;a href=&quot;http://www.botinst.uzh.ch/en/research/limnology/pernthaler.html&quot;&gt;station limnologique&lt;/a&gt; de l’&lt;a href=&quot;http://www.uzh.ch/&quot;&gt;Université de Zurich&lt;/a&gt;, et le &lt;a href=&quot;http://www.asl.ethz.ch/&quot;&gt;Autonomous Systems Lab (ASL)&lt;/a&gt; de &lt;a href=&quot;http://www.ethz.ch/&quot;&gt;ETH Zurich&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Ce projet est subventionné par le &lt;a href=&quot;http://www.snf.ch/fr/Pages/default.aspx&quot;&gt;SNF&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Limnobotics est une collaboration entre la &lt;a href=&quot;http://www.botinst.uzh.ch/en/research/limnology/pernthaler.html&quot;&gt;station limnologique&lt;/a&gt; de l’&lt;a href=&quot;http://www.uzh.ch/&quot;&gt;Université de Zurich&lt;/a&gt;, et le &lt;a href=&quot;http://www.asl.ethz.ch/&quot;&gt;Autonomous Systems Lab (ASL)&lt;/a&gt; de &lt;a href=&quot;http://www.ethz.ch/&quot;&gt;ETH Zurich&lt;/a&gt; et est subventionné par le &lt;a href=&quot;http://www.snf.ch/fr/Pages/default.aspx&quot;&gt;SNF&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: &lt;em&gt;Ce projet est maintenant terminé et fût réalisé lors d’un précédent emploi à l’ETH Zurich, au sein de l’&lt;a href=&quot;http://www.asl.ethz.ch/&quot;&gt;ASL&lt;/a&gt;.
 Il est utilisé ici pour mettre en valeur des compétences de recherche et pour inspirer des projets futures.&lt;/em&gt;&lt;/p&gt;
@@ -45,7 +122,7 @@ Il est utilisé ici pour mettre en valeur des compétences de recherche et pour 
 &lt;/div&gt;
 &lt;div style=&quot;padding-bottom: 20px&quot;&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; allowfullscreen=&quot;&quot; src=&quot;//www.youtube.com/embed/g8l-Xq4qYeE&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;	
-&lt;/div&gt;</content><author><name>François Pomerleau</name><email>f.pomerleau@gmail.com</email></author><category term="project" /><category term="mapping" /><category term="robot" /><category term="localization" /><category term="EKF" /><category term="path planning" /><summary type="html">Limnobotics est un projet scientifique qui réunit les domaines de la limnologie (l’étude des eaux douces) et de la robotique pour une meilleure compréhension de l’hydrologie et de la biologie du lac Zurich, un lac préalpin de la Suisse.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22projects/limnobotics_feature.jpg%22,%20%22teaser%22=%3E%22projects/limnobotics_teaser.jpg%22,%20%22thumb%22=%3Enil%7D" /></entry><entry><title type="html">Limnobotics - Autonomous Surface Vessel for Lake Monitoring</title><link href="https://norlab.ulaval.ca/research/limnobotics/" rel="alternate" type="text/html" title="Limnobotics - Autonomous Surface Vessel for Lake Monitoring" /><published>2018-05-09T00:00:00-04:00</published><updated>2018-05-09T00:00:00-04:00</updated><id>https://norlab.ulaval.ca/research/limnobotics</id><content type="html" xml:base="https://norlab.ulaval.ca/research/limnobotics/">&lt;p&gt;The goal of this multi-disciplinary project is to provide unprecedented spatial and temporal coverage of key limnological parameters of Lake Zurich for a better understanding of the mass occurrence and population dynamics of the toxic cyanobacterium &lt;a href=&quot;http://en.wikipedia.org/wiki/Planktothrix&quot;&gt;&lt;em&gt;Planktothrix rubescens&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;</content><author><name>François Pomerleau</name><email>f.pomerleau@gmail.com</email></author><category term="project" /><category term="mapping" /><category term="robot" /><category term="localization" /><category term="EKF" /><category term="path planning" /><summary type="html">Limnobotics est un projet scientifique qui réunit les domaines de la limnologie (l’étude des eaux douces) et de la robotique pour une meilleure compréhension de l’hydrologie et de la biologie du lac Zurich, un lac préalpin de la Suisse.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22projects/limnobotics_feature.jpg%22,%20%22teaser%22=%3E%22projects/limnobotics_teaser.jpg%22,%20%22thumb%22=%3Enil%7D" /></entry><entry><title type="html">Limnobotics</title><link href="https://norlab.ulaval.ca/research/limnobotics/" rel="alternate" type="text/html" title="Limnobotics" /><published>2018-05-09T00:00:00-04:00</published><updated>2018-05-09T00:00:00-04:00</updated><id>https://norlab.ulaval.ca/research/limnobotics</id><content type="html" xml:base="https://norlab.ulaval.ca/research/limnobotics/">&lt;p&gt;The goal of this multi-disciplinary project is to provide unprecedented spatial and temporal coverage of key limnological parameters of Lake Zurich for a better understanding of the mass occurrence and population dynamics of the toxic cyanobacterium &lt;a href=&quot;http://en.wikipedia.org/wiki/Planktothrix&quot;&gt;&lt;em&gt;Planktothrix rubescens&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;We developped an Autonomous Boat equipped with a variety of sensors (temperature, pH, light, oxygen, nutrients, and algal pigments) to allow for the high-frequency monitoring of cyanobacterial spatiotemporal distribution. 
 In parallel, we will develop and apply methods to rapidly assess the contribution of toxic strains to the P. rubescens population. 
@@ -56,9 +133,7 @@ The boat-generated field data will serve&lt;/p&gt;
   &lt;li&gt;as a guide to specific (event-driven) manual sampling campaigns and subsequent laboratory analyses, such as strain typing, gene expression of microcystin production and single-cell detection of microcystin concentration.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;This project is a collaboration between the &lt;a href=&quot;http://www.botinst.uzh.ch/en/research/limnology/pernthaler.html&quot;&gt;Limnological Station&lt;/a&gt; from &lt;a href=&quot;http://www.uzh.ch/&quot;&gt;University of Zurich&lt;/a&gt;, and the &lt;a href=&quot;http://www.asl.ethz.ch/&quot;&gt;Autonomous Systems Lab (ASL)&lt;/a&gt; from &lt;a href=&quot;http://www.ethz.ch/&quot;&gt;ETH Zurich&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;This project was funded by the &lt;a href=&quot;http://www.snf.ch&quot;&gt;SNF&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Limnobotics is a collaboration between the &lt;a href=&quot;http://www.botinst.uzh.ch/en/research/limnology/pernthaler.html&quot;&gt;Limnological Station&lt;/a&gt; from &lt;a href=&quot;http://www.uzh.ch/&quot;&gt;University of Zurich&lt;/a&gt;, and the &lt;a href=&quot;http://www.asl.ethz.ch/&quot;&gt;Autonomous Systems Lab (ASL)&lt;/a&gt; from &lt;a href=&quot;http://www.ethz.ch/&quot;&gt;ETH Zurich&lt;/a&gt; and was funded by the &lt;a href=&quot;http://www.snf.ch&quot;&gt;SNF&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: &lt;em&gt;This project is now over and was realized during a formal employment at ETH Zurich, within the &lt;a href=&quot;http://www.asl.ethz.ch/&quot;&gt;ASL&lt;/a&gt;.
 It is used here to showcase reseach competences and to inspire future projects.&lt;/em&gt;&lt;/p&gt;
@@ -91,7 +166,7 @@ It is used here to showcase reseach competences and to inspire future projects.&
 &lt;/div&gt;
 &lt;div style=&quot;padding-bottom: 20px&quot;&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; allowfullscreen=&quot;&quot; src=&quot;//www.youtube.com/embed/g8l-Xq4qYeE&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;	
-&lt;/div&gt;</content><author><name>François Pomerleau</name><email>f.pomerleau@gmail.com</email></author><category term="project" /><category term="mapping" /><category term="robot" /><category term="localization" /><category term="EKF" /><category term="path planning" /><summary type="html">The goal of this multi-disciplinary project is to provide unprecedented spatial and temporal coverage of key limnological parameters of Lake Zurich for a better understanding of the mass occurrence and population dynamics of the toxic cyanobacterium Planktothrix rubescens.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22projects/limnobotics_feature.jpg%22,%20%22teaser%22=%3E%22projects/limnobotics_teaser.jpg%22,%20%22thumb%22=%3Enil%7D" /></entry><entry><title type="html">TReX - Tethered Robotic Explorer</title><link href="https://norlab.ulaval.ca/research/trex/" rel="alternate" type="text/html" title="TReX - Tethered Robotic Explorer" /><published>2018-05-08T00:00:00-04:00</published><updated>2018-05-08T00:00:00-04:00</updated><id>https://norlab.ulaval.ca/research/trex</id><content type="html" xml:base="https://norlab.ulaval.ca/research/trex/">&lt;p&gt;Tethered mobile robots are ideal for mapping extreme environments because an attached electromechanical tether provides support on steep terrain, continuous power, and a reliable wired connection. 
+&lt;/div&gt;</content><author><name>François Pomerleau</name><email>f.pomerleau@gmail.com</email></author><category term="project" /><category term="mapping" /><category term="robot" /><category term="localization" /><category term="EKF" /><category term="path planning" /><summary type="html">The goal of this multi-disciplinary project is to provide unprecedented spatial and temporal coverage of key limnological parameters of Lake Zurich for a better understanding of the mass occurrence and population dynamics of the toxic cyanobacterium Planktothrix rubescens.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22projects/limnobotics_feature.jpg%22,%20%22teaser%22=%3E%22projects/limnobotics_teaser.jpg%22,%20%22thumb%22=%3Enil%7D" /></entry><entry><title type="html">TReX</title><link href="https://norlab.ulaval.ca/research/trex/" rel="alternate" type="text/html" title="TReX" /><published>2018-05-08T00:00:00-04:00</published><updated>2018-05-08T00:00:00-04:00</updated><id>https://norlab.ulaval.ca/research/trex</id><content type="html" xml:base="https://norlab.ulaval.ca/research/trex/">&lt;p&gt;Tethered mobile robots are ideal for mapping extreme environments because an attached electromechanical tether provides support on steep terrain, continuous power, and a reliable wired connection. 
 TReX is a platform that was designed for deployment to harsh environments for geologic survey, disaster response, and infrastructure inspection.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: &lt;em&gt;This project is now over and was realized during a formal employment at the University of Toronto, within the &lt;a href=&quot;http://asrl.utias.utoronto.ca/&quot;&gt;ASRL&lt;/a&gt;.
@@ -164,64 +239,4 @@ Finalement, il est membre du regroupement pour les environnements intelligents F
 Si l’information manquante est importante pour vous, n’hésitez pas à nous contacter et nous ferons notre possible pour trouver une solution.&lt;/p&gt;</content><author><name>François Pomerleau</name><email>f.pomerleau@gmail.com</email></author><category term="website" /><summary type="html">Cette page n’a toujours pas de traduction en français. Si l’information manquante est importante pour vous, n’hésitez pas à nous contacter et nous ferons notre possible pour trouver une solution.</summary></entry><entry><title type="html">Missing translation</title><link href="https://norlab.ulaval.ca/error/missing-translation/" rel="alternate" type="text/html" title="Missing translation" /><published>2017-11-26T00:00:00-05:00</published><updated>2017-11-26T00:00:00-05:00</updated><id>https://norlab.ulaval.ca/error/missing-translation</id><content type="html" xml:base="https://norlab.ulaval.ca/error/missing-translation/">&lt;p&gt;This page is still missing a translation.
 If the missing information is important to you, don’t hesitate to report to us and we will do our best to find a solution.&lt;/p&gt;</content><author><name>François Pomerleau</name><email>f.pomerleau@gmail.com</email></author><category term="website" /><summary type="html">This page is still missing a translation. If the missing information is important to you, don’t hesitate to report to us and we will do our best to find a solution.</summary></entry><entry><title type="html">Version française du site</title><link href="https://norlab.ulaval.ca/news/version-francaise/" rel="alternate" type="text/html" title="Version française du site" /><published>2017-08-18T00:00:00-04:00</published><updated>2017-08-18T00:00:00-04:00</updated><id>https://norlab.ulaval.ca/news/version-francaise</id><content type="html" xml:base="https://norlab.ulaval.ca/news/version-francaise/">&lt;p&gt;Nous commençons le déploiement du site web en français. 
 N’hésitez pas à mentionner tout article dont la traduction est manquante.&lt;/p&gt;</content><author><name>François Pomerleau</name><email>f.pomerleau@gmail.com</email></author><category term="website" /><summary type="html">Nous commençons le déploiement du site web en français. N’hésitez pas à mentionner tout article dont la traduction est manquante.</summary></entry><entry><title type="html">French Version of the Site</title><link href="https://norlab.ulaval.ca/news/french-version/" rel="alternate" type="text/html" title="French Version of the Site" /><published>2017-08-18T00:00:00-04:00</published><updated>2017-08-18T00:00:00-04:00</updated><id>https://norlab.ulaval.ca/news/french-version</id><content type="html" xml:base="https://norlab.ulaval.ca/news/french-version/">&lt;p&gt;We start the deployment of the French version of the website.
-Don’t hesitate to report any article missing a translation.&lt;/p&gt;</content><author><name>François Pomerleau</name><email>f.pomerleau@gmail.com</email></author><category term="website" /><summary type="html">We start the deployment of the French version of the website. Don’t hesitate to report any article missing a translation.</summary></entry><entry><title type="html">Introduction to LaTeX with MathJax</title><link href="https://norlab.ulaval.ca/research/mathjax/" rel="alternate" type="text/html" title="Introduction to LaTeX with  MathJax" /><published>2017-07-18T00:00:00-04:00</published><updated>2017-07-18T00:00:00-04:00</updated><id>https://norlab.ulaval.ca/research/mathjax</id><content type="html" xml:base="https://norlab.ulaval.ca/research/mathjax/">&lt;p&gt;Here are some basics to get you started with $\LaTeX$ equations in this Jekyll installation.
-This post assumes that you already know how to write an equation in LaTeX and how to add a post on this website using markdown syntax.&lt;/p&gt;
-
-&lt;h2 id=&quot;starting-a-new-markdown-file&quot;&gt;Starting a new markdown file&lt;/h2&gt;
-
-&lt;p&gt;You will need to set the variable &lt;code class=&quot;highlighter-rouge&quot;&gt;use_math&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; in the front matter of the file (header of the markdown).
-In this case, the front matter looks like that:&lt;/p&gt;
-
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;article&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Introduction&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;LaTeX&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;MathJax&quot;&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;categories&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;articles&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;tags&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;howto&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;latex&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;jekyll&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;use_math&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
-&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;writing-equations&quot;&gt;Writing equations&lt;/h2&gt;
-
-&lt;p&gt;In-line equation:&lt;/p&gt;
-
-&lt;div class=&quot;language-tex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;This is a test with &lt;span class=&quot;p&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; A &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; B&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;x &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;$&lt;/span&gt; as an inline equation.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Result:&lt;/p&gt;
-
-&lt;p&gt;This is a test with $ A = B_x $ as an inline equation.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Equation without numbers:&lt;/p&gt;
-
-&lt;div class=&quot;language-tex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
- A&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; B&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;x 
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Result:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;A_1 = B_x&lt;/script&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Equations with numbers&lt;/p&gt;
-
-&lt;div class=&quot;language-tex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\begin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;equation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;  
- A &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\frac&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n B&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;i 
-&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\end&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;equation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Result:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{equation}  
- A = \frac{1}{n} \sum_i^n B_i 
-\end{equation}&lt;/script&gt;
-
-&lt;h2 id=&quot;how-to-change-the-configuration-of-mathjax&quot;&gt;How to change the configuration of MathJax&lt;/h2&gt;
-
-&lt;p&gt;We store the configuration of MathJax in &lt;code class=&quot;highlighter-rouge&quot;&gt;/includes/mathjax_support.html&lt;/code&gt;.&lt;/p&gt;</content><author><name>François Pomerleau</name><email>f.pomerleau@gmail.com</email></author><category term="howto" /><category term="latex" /><category term="jekyll" /><category term="mathjax" /><category term="website" /><summary type="html">Here are some basics to get you started with $\LaTeX$ equations in this Jekyll installation. This post assumes that you already know how to write an equation in LaTeX and how to add a post on this website using markdown syntax.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22teaser%22=%3E%22mathjax_logo-400x200.png%22,%20%22feature%22=%3E%22mathjax_logo-1600x330.png%22%7D" /></entry></feed>
+Don’t hesitate to report any article missing a translation.&lt;/p&gt;</content><author><name>François Pomerleau</name><email>f.pomerleau@gmail.com</email></author><category term="website" /><summary type="html">We start the deployment of the French version of the website. Don’t hesitate to report any article missing a translation.</summary></entry></feed>
