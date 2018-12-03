@@ -1,4 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://norlab.ulaval.ca/atom.xml" rel="self" type="application/atom+xml" /><link href="https://norlab.ulaval.ca/" rel="alternate" type="text/html" /><updated>2018-11-29T11:42:08-05:00</updated><id>https://norlab.ulaval.ca/atom.xml</id><title type="html">Northern Robotics Laboratory</title><subtitle>Website showcasing research and news from the Northern Robotics Laboratory, Laval University</subtitle><entry><title type="html">Manipulation</title><link href="https://norlab.ulaval.ca/research/manipulation/" rel="alternate" type="text/html" title="Manipulation" /><published>2018-11-23T00:00:00-05:00</published><updated>2018-11-23T00:00:00-05:00</updated><id>https://norlab.ulaval.ca/research/manipulation</id><content type="html" xml:base="https://norlab.ulaval.ca/research/manipulation/">&lt;p&gt;This project is financed through &lt;a href=&quot;http://www.chistera.eu&quot;&gt;CHIST-ERA&lt;/a&gt; and is part of an international research project named &lt;em&gt;Perception-guided robust and reproducible robotic grasping and manipulation&lt;/em&gt;.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://norlab.ulaval.ca/atom.xml" rel="self" type="application/atom+xml" /><link href="https://norlab.ulaval.ca/" rel="alternate" type="text/html" /><updated>2018-12-03T17:55:59-05:00</updated><id>https://norlab.ulaval.ca/atom.xml</id><title type="html">Northern Robotics Laboratory</title><subtitle>Website showcasing research and news from the Northern Robotics Laboratory, Laval University</subtitle><entry><title type="html">Information to Prospective Students</title><link href="https://norlab.ulaval.ca/research/prospective-students/" rel="alternate" type="text/html" title="Information to Prospective Students" /><published>2018-11-30T00:00:00-05:00</published><updated>2018-11-30T00:00:00-05:00</updated><id>https://norlab.ulaval.ca/research/prospective-students</id><content type="html" xml:base="https://norlab.ulaval.ca/research/prospective-students/">&lt;p&gt;Here are some information for prospective students who want to apply to a position at Norlab.
+Read those information carefully before communicating with us.&lt;/p&gt;
+
+&lt;p&gt;For international students, because of the immigration procedure and the risk of recruiting with limited information, we will only answer emails which are recommended by a professor known by the laboratory.
+For Canadian students, it is expected that you will ask for funding to the &lt;a href=&quot;http://www.nserc-crsng.gc.ca/Students-Etudiants/PG-CS/index_eng.asp&quot;&gt;Natural Sciences and Engineering Research Council of Canada (NSERC)&lt;/a&gt;, and students from Quebec are expected to also ask for funding to the &lt;a href=&quot;http://www.frqnt.gouv.qc.ca/en/bourses-et-subventions&quot;&gt;Fonds de recherche du Québec – Nature et technologies (FRQNT)&lt;/a&gt;.
+It takes typically 8 months to receive and answer from the funding agencies, so you need to plan at least a year in advance if you want to do research in our lab.
+If you have a high profile, we offer support to write a strong proposal. 
+Those grants are highly competitive, so you will need to work on research skills, grads, and social implications through your undergraduate studies.&lt;/p&gt;
+
+&lt;p&gt;We try to keep an international level of research, so are standards are a bit higher than what is requested by the Faculty.
+Here is what to expect:&lt;/p&gt;
+
+&lt;div&gt;
+&lt;div class=&quot;three-cols&quot;&gt;
+    &lt;h1 class=&quot;col-title&quot;&gt; M. Sc. &lt;/h1&gt;
+    &lt;p&gt;Minimum 2 years of studies&lt;/p&gt;
+
+    &lt;p&gt;Minimum 1 publication&lt;/p&gt;
+
+    &lt;p&gt;Grant of 17 000 CAD / year&lt;/p&gt;
+
+    &lt;p&gt;Bonus of 5 000 CAD if you have a grant&lt;/p&gt;
+
+    &lt;p&gt;A maximum of 650 CAD in grants for merit&lt;/p&gt;
+
+    &lt;p&gt;Travel to international conferences&lt;/p&gt;
+  &lt;/div&gt;
+
+&lt;div class=&quot;three-cols&quot;&gt;
+
+  &lt;/div&gt;
+
+&lt;div class=&quot;three-cols&quot;&gt;
+    &lt;h1 class=&quot;col-title&quot;&gt; Ph. D. &lt;/h1&gt;
+    &lt;p&gt;Minimum 3 years of studies&lt;/p&gt;
+
+    &lt;p&gt;Minimum 3 publications&lt;/p&gt;
+
+    &lt;p&gt;Support for teaching activities&lt;/p&gt;
+
+    &lt;p&gt;Grant of 21 000 CAD / year&lt;/p&gt;
+
+    &lt;p&gt;Bonus of 8 000 CAD if you have a grant&lt;/p&gt;
+
+    &lt;p&gt;A total of 3 500 CAD in grants for a regular progression&lt;/p&gt;
+
+    &lt;p&gt;A maximum of 8 500 CAD in grants for merit (including 750 CAD per publication and 1000 CAD per conference)&lt;/p&gt;
+
+    &lt;p&gt;International students receive a tuition fee exemption&lt;/p&gt;
+
+    &lt;p&gt;Possibility of 4-8 months training &lt;a href=&quot;#our-international-network&quot;&gt;abroad&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+&lt;p&gt;&lt;!-- class=&quot;grid&quot;--&gt;&lt;/p&gt;
+
+&lt;p&gt;… and for both levels:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Students should have an active implication in the development and maintenance of lab’s  infrastructure&lt;/li&gt;
+  &lt;li&gt;Student should support teaching activities through contracts, when needed&lt;/li&gt;
+  &lt;li&gt;The lab covers travel expenses to international conferences for accepted publications&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Those numbers are given as average and will depend on the status and particularities of each candidats.&lt;/p&gt;
+
+&lt;h1 id=&quot;targeted-journals-and-conferences&quot;&gt;Targeted Journals and Conferences&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;International Journal of Robotics Research&lt;/li&gt;
+  &lt;li&gt;Journal of Field Robotics (JFR)&lt;/li&gt;
+  &lt;li&gt;Autonomous Robots&lt;/li&gt;
+  &lt;li&gt;IEEE Robotics and Automation Letters (RA-L)&lt;/li&gt;
+  &lt;li&gt;IEEE International Conference on Robotics and Automation (ICRA) - location rotating through North America, Europe, and Asia each year.&lt;/li&gt;
+  &lt;li&gt;IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) - location rotating through North America, Europe, and Asia each year.&lt;/li&gt;
+  &lt;li&gt;International Conference on Field and Service Robotics (FSR) - location rotating through North America, Europe, and Asia each year.&lt;/li&gt;
+  &lt;li&gt;Conference on Computer and Robot Vision (CRV) - typically in Canada.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;our-international-network&quot;&gt;Our International Network&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Switzerland: ETH Zurich&lt;/li&gt;
+  &lt;li&gt;Hong Kong: Hong Kong University of Science and Technology&lt;/li&gt;
+  &lt;li&gt;China: ShanghaiTech&lt;/li&gt;
+  &lt;li&gt;England: Oxford&lt;/li&gt;
+  &lt;li&gt;Australia: Queensland University of Technology’s (QUT)&lt;/li&gt;
+  &lt;li&gt;Germany: University of Bonn&lt;/li&gt;
+  &lt;li&gt;France: Georgia Tech Lorraine; Institut Pascal&lt;/li&gt;
+  &lt;li&gt;USA: Jet Propulsion Laboratory; University of Nevada&lt;/li&gt;
+  &lt;li&gt;Canada: University of Toronto&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>François Pomerleau</name><email>francois.pomerleau@ift.ulaval.ca</email></author><category term="howto" /><category term="grants" /><category term="salary" /><category term="students" /><summary type="html">Here are some information for prospective students who want to apply to a position at Norlab. Read those information carefully before communicating with us.</summary></entry><entry><title type="html">Manipulation</title><link href="https://norlab.ulaval.ca/research/manipulation/" rel="alternate" type="text/html" title="Manipulation" /><published>2018-11-23T00:00:00-05:00</published><updated>2018-11-23T00:00:00-05:00</updated><id>https://norlab.ulaval.ca/research/manipulation</id><content type="html" xml:base="https://norlab.ulaval.ca/research/manipulation/">&lt;p style=&quot;text-align: center;&quot;&gt;
+	&lt;a class=&quot;btn-info&quot; href=&quot;/research/prospective-students&quot;&gt;Open position for a Ph.D. student!&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;This project is financed through &lt;a href=&quot;http://www.chistera.eu&quot;&gt;CHIST-ERA&lt;/a&gt; and is part of an international research project named &lt;em&gt;Perception-guided robust and reproducible robotic grasping and manipulation&lt;/em&gt;.
 In this project, the team of researchers will address the problem of autonomous robotic grasping of objects in challenging scenes.&lt;/p&gt;
 
 &lt;p&gt;We consider two industrially and economically important open challenges which require advanced vision-guided grasping:&lt;/p&gt;
@@ -25,7 +119,7 @@ The initial solutions will be proposed using an UR10e equipped with a flash lida
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Technical Lead&lt;/strong&gt;: TBD&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>François Pomerleau</name><email>francois.pomerleau@ift.ulaval.ca</email></author><category term="project" /><category term="mapping" /><category term="robot. arm" /><category term="gripper" /><category term="flash lidar" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22projects/manipulation_feature.jpg%22,%20%22teaser%22=%3E%22projects/manipulation_teaser.jpg%22,%20%22thumb%22=%3Enil%7D" /></entry><entry><title type="html">Johann Laconte</title><link href="https://norlab.ulaval.ca/people/j_laconte/" rel="alternate" type="text/html" title="Johann Laconte" /><published>2018-11-22T00:00:00-05:00</published><updated>2018-11-22T00:00:00-05:00</updated><id>https://norlab.ulaval.ca/people/j_laconte</id><content type="html" xml:base="https://norlab.ulaval.ca/people/j_laconte/">&lt;p&gt;Johann Laconte is currently a Ph.D student in robotics at Institut Pascal, France. 
+&lt;/ul&gt;</content><author><name>François Pomerleau</name><email>francois.pomerleau@ift.ulaval.ca</email></author><category term="project" /><category term="mapping" /><category term="robot. arm" /><category term="gripper" /><category term="flash lidar" /><summary type="html">Open position for a Ph.D. student!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22projects/manipulation_feature.jpg%22,%20%22teaser%22=%3E%22projects/manipulation_teaser.jpg%22,%20%22thumb%22=%3Enil%7D" /></entry><entry><title type="html">Johann Laconte</title><link href="https://norlab.ulaval.ca/people/j_laconte/" rel="alternate" type="text/html" title="Johann Laconte" /><published>2018-11-22T00:00:00-05:00</published><updated>2018-11-22T00:00:00-05:00</updated><id>https://norlab.ulaval.ca/people/j_laconte</id><content type="html" xml:base="https://norlab.ulaval.ca/people/j_laconte/">&lt;p&gt;Johann Laconte is currently a Ph.D student in robotics at Institut Pascal, France. 
 He got an Engineering degree in computer sciences and modelisation from ISIMA (Institut Supérieur d’Informatique, de Modélisation et de leurs Applications) as well as a Master’s degree in Robotics from Université d’Auvergne, France, in 2018.
 He did an internship at Thales, during which he participated in the development of LIDAR SLAM algorithm.
 He also did an research internship at Norlab, working on the characterization of LIDAR’s bias.
@@ -324,33 +418,4 @@ It is used here to showcase reseach competences and to inspire future projects.&
 &lt;/div&gt;
 &lt;div style=&quot;padding-bottom: 20px&quot;&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; allowfullscreen=&quot;&quot; src=&quot;//www.youtube.com/embed/g8l-Xq4qYeE&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;	
-&lt;/div&gt;</content><author><name>François Pomerleau</name><email>francois.pomerleau@ift.ulaval.ca</email></author><category term="project" /><category term="mapping" /><category term="robot" /><category term="localization" /><category term="EKF" /><category term="path planning" /><summary type="html">The goal of this multi-disciplinary project is to provide unprecedented spatial and temporal coverage of key limnological parameters of Lake Zurich for a better understanding of the mass occurrence and population dynamics of the toxic cyanobacterium Planktothrix rubescens.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22projects/limnobotics_feature.jpg%22,%20%22teaser%22=%3E%22projects/limnobotics_teaser.jpg%22,%20%22thumb%22=%3Enil%7D" /></entry><entry><title type="html">TReX</title><link href="https://norlab.ulaval.ca/research/trex/" rel="alternate" type="text/html" title="TReX" /><published>2018-05-08T00:00:00-04:00</published><updated>2018-05-08T00:00:00-04:00</updated><id>https://norlab.ulaval.ca/research/trex</id><content type="html" xml:base="https://norlab.ulaval.ca/research/trex/">&lt;p&gt;Tethered mobile robots are ideal for mapping extreme environments because an attached electromechanical tether provides support on steep terrain, continuous power, and a reliable wired connection. 
-TReX is a platform that was designed for deployment to harsh environments for geologic survey, disaster response, and infrastructure inspection.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: &lt;em&gt;This project is now over and was realized during a formal employment at the University of Toronto, within the &lt;a href=&quot;http://asrl.utias.utoronto.ca/&quot;&gt;ASRL&lt;/a&gt;.
-It is used here to showcase reseach competences and to inspire future projects.&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Main Investigator&lt;/strong&gt;: &lt;a href=&quot;http://asrl.utias.utoronto.ca/~tdb/&quot;&gt;Tim Barfoot&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Technical Lead&lt;/strong&gt;: &lt;a href=&quot;http://asrl.utias.utoronto.ca/~pmm/&quot;&gt;Patrick McGarey&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Scientific Support&lt;/strong&gt;: &lt;a href=&quot;../../people/f_pomerleau/&quot;&gt;François Pomerleau&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;publications&quot;&gt;Publications&lt;/h1&gt;
-
-&lt;ol class=&quot;bibliography&quot; reversed=&quot;reversed&quot;&gt;&lt;li&gt;&lt;span id=&quot;Pomerleau2018jfr&quot;&gt;McGarey, P., Yoon, D., Tang, T., Pomerleau, F., &amp;amp; Barfoot, T. D. (2018). Field Report: Developing and Deploying a Tethered Robot to Map Extremely Steep Terrain. &lt;i&gt;Journal of Field Robotics&lt;/i&gt;, &lt;i&gt;35&lt;/i&gt;(8), 1327–1241.&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;Pomerleau2017fsr&quot;&gt;McGarey, P., Yoon, D., Tang, T., Pomerleau, F., &amp;amp; Barfoot, T. D. (2018). Field Deployment of the Tethered Robotic eXplorer to Map Extremely Steep Terrain. In &lt;i&gt;Proceedings of the Conference on Field and Service Robotics (FSR). Springer Tracts in Advanced Robotics&lt;/i&gt; (Vol. 5, pp. 303–317).&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;Pomerleau2016b&quot;&gt;McGarey, P., Pomerleau, F., &amp;amp; Barfoot, T. D. (2016). System design of a tethered robotic explorer (TReX) for 3D mapping of steep terrain and harsh environments. In &lt;i&gt;Proceedings of the Conference on Field and Service Robotics (FSR). Springer Tracts in Advanced Robotics&lt;/i&gt; (Vol. 113, pp. 267–281).&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;Pomerleau2016c&quot;&gt;McGarey, P., Mactavish, K., Pomerleau, F., &amp;amp; Barfoot, T. D. (2016). The line leading the blind: Towards nonvisual localization and mapping for tethered mobile robots. In &lt;i&gt;Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)&lt;/i&gt; (Vol. 2016-June, pp. 4799–4806).&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
-
-&lt;h1 id=&quot;results&quot;&gt;Results&lt;/h1&gt;
-
-&lt;div style=&quot;padding-bottom: 20px&quot;&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; allowfullscreen=&quot;&quot; src=&quot;//www.youtube.com/embed/9r10kC7GTmc&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;	
-&lt;/div&gt;
-&lt;div style=&quot;padding-bottom: 20px&quot;&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; allowfullscreen=&quot;&quot; src=&quot;//www.youtube.com/embed/Q2gOOhK45lY&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;	
-&lt;/div&gt;
-&lt;div style=&quot;padding-bottom: 20px&quot;&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; allowfullscreen=&quot;&quot; src=&quot;//youtube.com/embed/i7e7iHxMmu0&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;	
-&lt;/div&gt;</content><author><name>François Pomerleau</name><email>francois.pomerleau@ift.ulaval.ca</email></author><category term="project" /><category term="mapping" /><category term="robot" /><summary type="html">Tethered mobile robots are ideal for mapping extreme environments because an attached electromechanical tether provides support on steep terrain, continuous power, and a reliable wired connection. TReX is a platform that was designed for deployment to harsh environments for geologic survey, disaster response, and infrastructure inspection.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22projects/trex_feature.jpg%22,%20%22teaser%22=%3E%22projects/trex_teaser.jpg%22,%20%22thumb%22=%3Enil%7D" /></entry></feed>
+&lt;/div&gt;</content><author><name>François Pomerleau</name><email>francois.pomerleau@ift.ulaval.ca</email></author><category term="project" /><category term="mapping" /><category term="robot" /><category term="localization" /><category term="EKF" /><category term="path planning" /><summary type="html">The goal of this multi-disciplinary project is to provide unprecedented spatial and temporal coverage of key limnological parameters of Lake Zurich for a better understanding of the mass occurrence and population dynamics of the toxic cyanobacterium Planktothrix rubescens.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22projects/limnobotics_feature.jpg%22,%20%22teaser%22=%3E%22projects/limnobotics_teaser.jpg%22,%20%22thumb%22=%3Enil%7D" /></entry></feed>
