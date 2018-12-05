@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://norlab.ulaval.ca/atom.xml" rel="self" type="application/atom+xml" /><link href="https://norlab.ulaval.ca/" rel="alternate" type="text/html" /><updated>2018-12-03T17:58:11-05:00</updated><id>https://norlab.ulaval.ca/atom.xml</id><title type="html">Northern Robotics Laboratory</title><subtitle>Website showcasing research and news from the Northern Robotics Laboratory, Laval University</subtitle><entry><title type="html">Information for Prospective Students</title><link href="https://norlab.ulaval.ca/research/prospective-students/" rel="alternate" type="text/html" title="Information for Prospective Students" /><published>2018-11-30T00:00:00-05:00</published><updated>2018-11-30T00:00:00-05:00</updated><id>https://norlab.ulaval.ca/research/prospective-students</id><content type="html" xml:base="https://norlab.ulaval.ca/research/prospective-students/">&lt;p&gt;Here are some information for prospective students who want to apply to a position at Norlab.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://norlab.ulaval.ca/atom.xml" rel="self" type="application/atom+xml" /><link href="https://norlab.ulaval.ca/" rel="alternate" type="text/html" /><updated>2018-12-05T17:22:10-05:00</updated><id>https://norlab.ulaval.ca/atom.xml</id><title type="html">Northern Robotics Laboratory</title><subtitle>Website showcasing research and news from the Northern Robotics Laboratory, Laval University</subtitle><entry><title type="html">Information for Prospective Students</title><link href="https://norlab.ulaval.ca/research/prospective-students/" rel="alternate" type="text/html" title="Information for Prospective Students" /><published>2018-11-30T00:00:00-05:00</published><updated>2018-11-30T00:00:00-05:00</updated><id>https://norlab.ulaval.ca/research/prospective-students</id><content type="html" xml:base="https://norlab.ulaval.ca/research/prospective-students/">&lt;p&gt;Here are some information for prospective students who want to apply to a position at Norlab.
 Read those information carefully before communicating with us.&lt;/p&gt;
 
 &lt;p&gt;For international students, because of the immigration procedure and the risk of recruiting with limited information, we will only answer emails which are recommended by a professor known by the laboratory.
-For Canadian students, it is expected that you will ask for funding to the &lt;a href=&quot;http://www.nserc-crsng.gc.ca/Students-Etudiants/PG-CS/index_eng.asp&quot;&gt;Natural Sciences and Engineering Research Council of Canada (NSERC)&lt;/a&gt;, and students from Quebec are expected to also ask for funding to the &lt;a href=&quot;http://www.frqnt.gouv.qc.ca/en/bourses-et-subventions&quot;&gt;Fonds de recherche du Québec – Nature et technologies (FRQNT)&lt;/a&gt;.
+For Canadian students, it is expected that you will ask for funding to the &lt;a href=&quot;http://www.nserc-crsng.gc.ca/Students-Etudiants/PG-CS/index_eng.asp&quot;&gt;Natural Sciences and Engineering Research Council of Canada (NSERC)&lt;/a&gt;, and students from Quebec are expected to also ask for funding to the &lt;a href=&quot;http://www.frqnt.gouv.qc.ca/en/bourses-et-subventions&quot;&gt;Fonds de recherche du Québec Nature et technologies (FRQNT)&lt;/a&gt;.
 It takes typically 8 months to receive and answer from the funding agencies, so you need to plan at least a year in advance if you want to do research in our lab.
 If you have a high profile, we offer support to write a strong proposal. 
 Those grants are highly competitive, so you will need to work on research skills, grads, and social implications through your undergraduate studies.&lt;/p&gt;
@@ -10,58 +10,92 @@ Those grants are highly competitive, so you will need to work on research skills
 &lt;p&gt;We try to keep an international level of research, so are standards are a bit higher than what is requested by the Faculty.
 Here is what to expect:&lt;/p&gt;
 
-&lt;div&gt;
+&lt;div class=&quot;grid&quot;&gt;
 &lt;div class=&quot;three-cols&quot;&gt;
     &lt;h1 class=&quot;col-title&quot;&gt; M. Sc. &lt;/h1&gt;
-    &lt;p&gt;Minimum 2 years of studies&lt;/p&gt;
+    &lt;p&gt;What we ask:&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Minimum 2 years of studies&lt;/li&gt;
+      &lt;li&gt;Minimum 1 publication&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#suggested-lectures&quot;&gt;3-4 lectures&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
 
-    &lt;p&gt;Minimum 1 publication&lt;/p&gt;
-
-    &lt;p&gt;Grant of 17 000 CAD / year&lt;/p&gt;
-
-    &lt;p&gt;Bonus of 5 000 CAD if you have a grant&lt;/p&gt;
-
-    &lt;p&gt;A maximum of 650 CAD in grants for merit&lt;/p&gt;
-
-    &lt;p&gt;Travel to international conferences&lt;/p&gt;
-  &lt;/div&gt;
-
-&lt;div class=&quot;three-cols&quot;&gt;
-
+    &lt;p&gt;What we offer:&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Grant of $17 000 / year&lt;/li&gt;
+      &lt;li&gt;Bonus of $5 000 if you have a grant from NSERC or FRQNT&lt;/li&gt;
+      &lt;li&gt;A maximum of $650 in grants for merit&lt;/li&gt;
+      &lt;li&gt;Travel expenses to &lt;a href=&quot;#targeted-journals-and-conferences&quot;&gt;international conferences&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
   &lt;/div&gt;
 
 &lt;div class=&quot;three-cols&quot;&gt;
     &lt;h1 class=&quot;col-title&quot;&gt; Ph. D. &lt;/h1&gt;
-    &lt;p&gt;Minimum 3 years of studies&lt;/p&gt;
+    &lt;p&gt;What we ask:&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Minimum 3 years of studies&lt;/li&gt;
+      &lt;li&gt;Minimum 3 publications&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#suggested-lectures&quot;&gt;3 lectures&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
 
-    &lt;p&gt;Minimum 3 publications&lt;/p&gt;
+    &lt;p&gt;What we offer:&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Grant of $21 000 / year&lt;/li&gt;
+      &lt;li&gt;Bonus of $8 000 if you have a grant from NSERC or FRQNT&lt;/li&gt;
+      &lt;li&gt;A total of $3 500 in grants for a regular progression&lt;/li&gt;
+      &lt;li&gt;A maximum of $8 500 in grants for merit (including $750 / publication and $1000 / conference)&lt;/li&gt;
+      &lt;li&gt;International students receive a tuition fee exemption&lt;/li&gt;
+      &lt;li&gt;Possibility of 4-8 months training &lt;a href=&quot;#our-international-network&quot;&gt;abroad&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Travel expenses to &lt;a href=&quot;#targeted-journals-and-conferences&quot;&gt;international conferences&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
 
-    &lt;p&gt;Support for teaching activities&lt;/p&gt;
+  &lt;/div&gt;
 
-    &lt;p&gt;Grant of 21 000 CAD / year&lt;/p&gt;
+&lt;div class=&quot;three-cols&quot;&gt;
+    &lt;h1 class=&quot;col-title&quot;&gt; Postdoc &lt;/h1&gt;
+    &lt;p&gt;What we ask:&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Research project management&lt;/li&gt;
+      &lt;li&gt;Active publications&lt;/li&gt;
+      &lt;li&gt;Student supervision&lt;/li&gt;
+    &lt;/ul&gt;
 
-    &lt;p&gt;Bonus of 8 000 CAD if you have a grant&lt;/p&gt;
+    &lt;p&gt;What we offer:&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Negotiable salary&lt;/li&gt;
+      &lt;li&gt;Salary includes benefits such as pension and insurances&lt;/li&gt;
+      &lt;li&gt;International postdoc can ask for a provincial tax exemption&lt;/li&gt;
+      &lt;li&gt;Travel expenses to &lt;a href=&quot;#targeted-journals-and-conferences&quot;&gt;international conferences&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
 
-    &lt;p&gt;A total of 3 500 CAD in grants for a regular progression&lt;/p&gt;
-
-    &lt;p&gt;A maximum of 8 500 CAD in grants for merit (including 750 CAD per publication and 1000 CAD per conference)&lt;/p&gt;
-
-    &lt;p&gt;International students receive a tuition fee exemption&lt;/p&gt;
-
-    &lt;p&gt;Possibility of 4-8 months training &lt;a href=&quot;#our-international-network&quot;&gt;abroad&lt;/a&gt;&lt;/p&gt;
   &lt;/div&gt;
 
 &lt;/div&gt;
 &lt;p&gt;&lt;!-- class=&quot;grid&quot;--&gt;&lt;/p&gt;
 
-&lt;p&gt;… and for both levels:&lt;/p&gt;
+&lt;p&gt;… and for all levels, you should&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Students should have an active implication in the development and maintenance of lab’s  infrastructure&lt;/li&gt;
-  &lt;li&gt;Student should support teaching activities through contracts, when needed&lt;/li&gt;
-  &lt;li&gt;The lab covers travel expenses to international conferences for accepted publications&lt;/li&gt;
+  &lt;li&gt;be self-driven, autonomous, ethical, and meticulous&lt;/li&gt;
+  &lt;li&gt;develop communication skills with international standards&lt;/li&gt;
+  &lt;li&gt;have an active implication in the development and maintenance of lab’s  infrastructure&lt;/li&gt;
+  &lt;li&gt;support teaching activities through paid contracts, when needed&lt;/li&gt;
+  &lt;li&gt;demonstrate collegiality through social activities of the lab&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Those numbers are given as average and will depend on the status and particularities of each candidats.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This information is given as an average and the specific details will depend on the status and particularities of each candidate.&lt;/p&gt;
+
+&lt;h1 id=&quot;suggested-lectures&quot;&gt;Suggested Lectures&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Introduction to mobile robotics (GLO-7021)&lt;/li&gt;
+  &lt;li&gt;Learning through deep neural networks (GLO-7030)&lt;/li&gt;
+  &lt;li&gt;Advance techniques in artificial intelligence (IFT-7025)&lt;/li&gt;
+  &lt;li&gt;Numerical vision (GIF-7001)&lt;/li&gt;
+  &lt;li&gt;Algorithmic photography (GIF-7105)&lt;/li&gt;
+  &lt;li&gt;Elements of robotics (GMC-7046)&lt;/li&gt;
+  &lt;li&gt;Active sensors (GMT-7007)&lt;/li&gt;
+  &lt;li&gt;Advanced satellite positioning (GMT-7037)&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h1 id=&quot;targeted-journals-and-conferences&quot;&gt;Targeted Journals and Conferences&lt;/h1&gt;
 
@@ -73,6 +107,7 @@ Here is what to expect:&lt;/p&gt;
   &lt;li&gt;IEEE International Conference on Robotics and Automation (ICRA) - location rotating through North America, Europe, and Asia each year.&lt;/li&gt;
   &lt;li&gt;IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) - location rotating through North America, Europe, and Asia each year.&lt;/li&gt;
   &lt;li&gt;International Conference on Field and Service Robotics (FSR) - location rotating through North America, Europe, and Asia each year.&lt;/li&gt;
+  &lt;li&gt;International Conference on Robotics: Science and Systems (RSS) - typically in the US.&lt;/li&gt;
   &lt;li&gt;Conference on Computer and Robot Vision (CRV) - typically in Canada.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -87,7 +122,7 @@ Here is what to expect:&lt;/p&gt;
   &lt;li&gt;Germany: University of Bonn&lt;/li&gt;
   &lt;li&gt;France: Georgia Tech Lorraine; Institut Pascal&lt;/li&gt;
   &lt;li&gt;USA: Jet Propulsion Laboratory; University of Nevada&lt;/li&gt;
-  &lt;li&gt;Canada: University of Toronto&lt;/li&gt;
+  &lt;li&gt;Canada: University of Toronto; McGill&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>François Pomerleau</name><email>francois.pomerleau@ift.ulaval.ca</email></author><category term="howto" /><category term="grants" /><category term="salary" /><category term="students" /><summary type="html">Here are some information for prospective students who want to apply to a position at Norlab. Read those information carefully before communicating with us.</summary></entry><entry><title type="html">Manipulation</title><link href="https://norlab.ulaval.ca/research/manipulation/" rel="alternate" type="text/html" title="Manipulation" /><published>2018-11-23T00:00:00-05:00</published><updated>2018-11-23T00:00:00-05:00</updated><id>https://norlab.ulaval.ca/research/manipulation</id><content type="html" xml:base="https://norlab.ulaval.ca/research/manipulation/">&lt;p style=&quot;text-align: center;&quot;&gt;
 	&lt;a class=&quot;btn-info&quot; href=&quot;/research/prospective-students&quot;&gt;Open position for a Ph.D. student!&lt;/a&gt;
 &lt;/p&gt;
