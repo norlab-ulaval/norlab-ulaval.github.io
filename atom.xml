@@ -1,29 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://norlab.ulaval.ca/atom.xml" rel="self" type="application/atom+xml" /><link href="https://norlab.ulaval.ca/" rel="alternate" type="text/html" /><updated>2018-12-05T17:22:10-05:00</updated><id>https://norlab.ulaval.ca/atom.xml</id><title type="html">Northern Robotics Laboratory</title><subtitle>Website showcasing research and news from the Northern Robotics Laboratory, Laval University</subtitle><entry><title type="html">Information for Prospective Students</title><link href="https://norlab.ulaval.ca/research/prospective-students/" rel="alternate" type="text/html" title="Information for Prospective Students" /><published>2018-11-30T00:00:00-05:00</published><updated>2018-11-30T00:00:00-05:00</updated><id>https://norlab.ulaval.ca/research/prospective-students</id><content type="html" xml:base="https://norlab.ulaval.ca/research/prospective-students/">&lt;p&gt;Here are some information for prospective students who want to apply to a position at Norlab.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://norlab.ulaval.ca/atom.xml" rel="self" type="application/atom+xml" /><link href="https://norlab.ulaval.ca/" rel="alternate" type="text/html" /><updated>2018-12-06T10:28:01-05:00</updated><id>https://norlab.ulaval.ca/atom.xml</id><title type="html">Northern Robotics Laboratory</title><subtitle>Website showcasing research and news from the Northern Robotics Laboratory, Laval University</subtitle><entry><title type="html">Information for Prospective Students</title><link href="https://norlab.ulaval.ca/research/prospective-students/" rel="alternate" type="text/html" title="Information for Prospective Students" /><published>2018-11-30T00:00:00-05:00</published><updated>2018-11-30T00:00:00-05:00</updated><id>https://norlab.ulaval.ca/research/prospective-students</id><content type="html" xml:base="https://norlab.ulaval.ca/research/prospective-students/">&lt;p&gt;Here are some information for prospective students who want to apply to a position at Norlab.
 Read those information carefully before communicating with us.&lt;/p&gt;
 
-&lt;p&gt;For international students, because of the immigration procedure and the risk of recruiting with limited information, we will only answer emails which are recommended by a professor known by the laboratory.
-For Canadian students, it is expected that you will ask for funding to the &lt;a href=&quot;http://www.nserc-crsng.gc.ca/Students-Etudiants/PG-CS/index_eng.asp&quot;&gt;Natural Sciences and Engineering Research Council of Canada (NSERC)&lt;/a&gt;, and students from Quebec are expected to also ask for funding to the &lt;a href=&quot;http://www.frqnt.gouv.qc.ca/en/bourses-et-subventions&quot;&gt;Fonds de recherche du Québec Nature et technologies (FRQNT)&lt;/a&gt;.
+&lt;p&gt;&lt;strong&gt;For international students&lt;/strong&gt;, because of the immigration procedure and the risk of recruiting with limited information, we will only answer emails which are recommended by a professor known by the laboratory.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;For Canadian students&lt;/strong&gt;, it is expected that you will ask for funding to the &lt;a href=&quot;http://www.nserc-crsng.gc.ca/Students-Etudiants/PG-CS/index_eng.asp&quot;&gt;Natural Sciences and Engineering Research Council of Canada (NSERC)&lt;/a&gt;, and students from Quebec are expected to also ask for funding to the &lt;a href=&quot;http://www.frqnt.gouv.qc.ca/en/bourses-et-subventions&quot;&gt;Fonds de recherche du Québec Nature et technologies (FRQNT)&lt;/a&gt;.
 It takes typically 8 months to receive and answer from the funding agencies, so you need to plan at least a year in advance if you want to do research in our lab.
 If you have a high profile, we offer support to write a strong proposal. 
 Those grants are highly competitive, so you will need to work on research skills, grads, and social implications through your undergraduate studies.&lt;/p&gt;
 
 &lt;p&gt;We try to keep an international level of research, so are standards are a bit higher than what is requested by the Faculty.
-Here is what to expect:&lt;/p&gt;
+Here is what you can expect:&lt;/p&gt;
 
 &lt;div class=&quot;grid&quot;&gt;
 &lt;div class=&quot;three-cols&quot;&gt;
     &lt;h1 class=&quot;col-title&quot;&gt; M. Sc. &lt;/h1&gt;
-    &lt;p&gt;What we ask:&lt;/p&gt;
+    &lt;p&gt;Workload:&lt;/p&gt;
     &lt;ul&gt;
       &lt;li&gt;Minimum 2 years of studies&lt;/li&gt;
       &lt;li&gt;Minimum 1 publication&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#suggested-lectures&quot;&gt;3-4 lectures&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 
-    &lt;p&gt;What we offer:&lt;/p&gt;
+    &lt;p&gt;Support:&lt;/p&gt;
     &lt;ul&gt;
       &lt;li&gt;Grant of $17 000 / year&lt;/li&gt;
-      &lt;li&gt;Bonus of $5 000 if you have a grant from NSERC or FRQNT&lt;/li&gt;
+      &lt;li&gt;Bonus of $5 000 from Norlab if you have a grant from NSERC or FRQNT&lt;/li&gt;
       &lt;li&gt;A maximum of $650 in grants for merit&lt;/li&gt;
       &lt;li&gt;Travel expenses to &lt;a href=&quot;#targeted-journals-and-conferences&quot;&gt;international conferences&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
@@ -31,17 +32,17 @@ Here is what to expect:&lt;/p&gt;
 
 &lt;div class=&quot;three-cols&quot;&gt;
     &lt;h1 class=&quot;col-title&quot;&gt; Ph. D. &lt;/h1&gt;
-    &lt;p&gt;What we ask:&lt;/p&gt;
+    &lt;p&gt;Workload:&lt;/p&gt;
     &lt;ul&gt;
       &lt;li&gt;Minimum 3 years of studies&lt;/li&gt;
       &lt;li&gt;Minimum 3 publications&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#suggested-lectures&quot;&gt;3 lectures&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 
-    &lt;p&gt;What we offer:&lt;/p&gt;
+    &lt;p&gt;Support:&lt;/p&gt;
     &lt;ul&gt;
       &lt;li&gt;Grant of $21 000 / year&lt;/li&gt;
-      &lt;li&gt;Bonus of $8 000 if you have a grant from NSERC or FRQNT&lt;/li&gt;
+      &lt;li&gt;Bonus of $8 000 from Norlab if you have a grant from NSERC or FRQNT&lt;/li&gt;
       &lt;li&gt;A total of $3 500 in grants for a regular progression&lt;/li&gt;
       &lt;li&gt;A maximum of $8 500 in grants for merit (including $750 / publication and $1000 / conference)&lt;/li&gt;
       &lt;li&gt;International students receive a tuition fee exemption&lt;/li&gt;
@@ -53,14 +54,14 @@ Here is what to expect:&lt;/p&gt;
 
 &lt;div class=&quot;three-cols&quot;&gt;
     &lt;h1 class=&quot;col-title&quot;&gt; Postdoc &lt;/h1&gt;
-    &lt;p&gt;What we ask:&lt;/p&gt;
+    &lt;p&gt;Workload:&lt;/p&gt;
     &lt;ul&gt;
       &lt;li&gt;Research project management&lt;/li&gt;
       &lt;li&gt;Active publications&lt;/li&gt;
       &lt;li&gt;Student supervision&lt;/li&gt;
     &lt;/ul&gt;
 
-    &lt;p&gt;What we offer:&lt;/p&gt;
+    &lt;p&gt;Support:&lt;/p&gt;
     &lt;ul&gt;
       &lt;li&gt;Negotiable salary&lt;/li&gt;
       &lt;li&gt;Salary includes benefits such as pension and insurances&lt;/li&gt;
@@ -123,7 +124,17 @@ Here is what to expect:&lt;/p&gt;
   &lt;li&gt;France: Georgia Tech Lorraine; Institut Pascal&lt;/li&gt;
   &lt;li&gt;USA: Jet Propulsion Laboratory; University of Nevada&lt;/li&gt;
   &lt;li&gt;Canada: University of Toronto; McGill&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>François Pomerleau</name><email>francois.pomerleau@ift.ulaval.ca</email></author><category term="howto" /><category term="grants" /><category term="salary" /><category term="students" /><summary type="html">Here are some information for prospective students who want to apply to a position at Norlab. Read those information carefully before communicating with us.</summary></entry><entry><title type="html">Manipulation</title><link href="https://norlab.ulaval.ca/research/manipulation/" rel="alternate" type="text/html" title="Manipulation" /><published>2018-11-23T00:00:00-05:00</published><updated>2018-11-23T00:00:00-05:00</updated><id>https://norlab.ulaval.ca/research/manipulation</id><content type="html" xml:base="https://norlab.ulaval.ca/research/manipulation/">&lt;p style=&quot;text-align: center;&quot;&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;how-to-apply&quot;&gt;How to apply&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Read about grant opportunities from &lt;a href=&quot;http://www.nserc-crsng.gc.ca/Students-Etudiants/PG-CS/index_eng.asp&quot;&gt;NSERC&lt;/a&gt; and &lt;a href=&quot;http://www.frqnt.gouv.qc.ca/en/bourses-et-subventions&quot;&gt;FRQNT&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Read about the &lt;a href=&quot;/research/#projects&quot;&gt;past projects&lt;/a&gt; to make sure that the general topic highly motivate you&lt;/li&gt;
+  &lt;li&gt;Read about graduated studies on the &lt;a href=&quot;https://www.fesp.ulaval.ca/&quot;&gt;Faculty of graduated and postdoctoral studies&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Make sure that we are advertising an open position on our web site, then&lt;/li&gt;
+  &lt;li&gt;Contact us for a meeting&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>François Pomerleau</name><email>francois.pomerleau@ift.ulaval.ca</email></author><category term="howto" /><category term="grants" /><category term="salary" /><category term="students" /><summary type="html">Here are some information for prospective students who want to apply to a position at Norlab. Read those information carefully before communicating with us.</summary></entry><entry><title type="html">Manipulation</title><link href="https://norlab.ulaval.ca/research/manipulation/" rel="alternate" type="text/html" title="Manipulation" /><published>2018-11-23T00:00:00-05:00</published><updated>2018-11-23T00:00:00-05:00</updated><id>https://norlab.ulaval.ca/research/manipulation</id><content type="html" xml:base="https://norlab.ulaval.ca/research/manipulation/">&lt;p style=&quot;text-align: center;&quot;&gt;
 	&lt;a class=&quot;btn-info&quot; href=&quot;/research/prospective-students&quot;&gt;Open position for a Ph.D. student!&lt;/a&gt;
 &lt;/p&gt;
 
