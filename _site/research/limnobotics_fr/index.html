@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Limnobotics • Northern Robotics Laboratory</title>
+    <meta name="description" content="Limnobotics est un projet scientifique qui réunit les domaines de la limnologie (l’étude des eaux douces) et de la robotique pour une meilleure compréhension de l’hydrologie et de la biologie du lac Zurich, un lac préalpin de la Suisse.
+
+">
+    <meta name="keywords" content="project, mapping, robot, localization, EKF, path planning">
+    
+    	<!-- Twitter Cards -->
+	<meta name="twitter:title" content="Limnobotics">
+	<meta name="twitter:description" content="Limnobotics est un projet scientifique qui réunit les domaines de la limnologie (l’étude des eaux douces) et de la robotique pour une meilleure compréhension de l’hydrologie et de la biologie du lac Zurich, un lac préalpin de la Suisse.
+
+">
+	
+	
+	
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="https://norlab.ulaval.ca/images/projects/limnobotics_feature.jpg">
+	
+	<!-- Open Graph -->
+	<meta property="og:locale" content="en">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Limnobotics">
+	<meta property="og:description" content="Limnobotics est un projet scientifique qui réunit les domaines de la limnologie (l’étude des eaux douces) et de la robotique pour une meilleure compréhension de l’hydrologie et de la biologie du lac Zurich, un lac préalpin de la Suisse.
+
+">
+	<meta property="og:image" content="https://norlab.ulaval.ca/images/projects/limnobotics_teaser.jpg">
+	<meta property="og:url" content="https://norlab.ulaval.ca/research/limnobotics_fr/">
+	<meta property="og:site_name" content="Northern Robotics Laboratory">
+
+
+    <link rel="canonical" href="https://norlab.ulaval.ca/research/limnobotics_fr/">
+
+    <link href="https://norlab.ulaval.ca/atom.xml" type="application/atom+xml" rel="alternate" title="Northern Robotics Laboratory Atom Feed">
+    <link href="https://norlab.ulaval.ca/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cleartype" content="on">
+
+    <link rel="stylesheet" href="https://norlab.ulaval.ca/css/main.css">
+    <!-- HTML5 Shiv and Media Query Support for IE -->
+    <!--[if lt IE 9]>
+      <script src="https://norlab.ulaval.ca/js/vendor/html5shiv.min.js"></script>
+      <script src="https://norlab.ulaval.ca/js/vendor/respond.min.js"></script>
+    <![endif]-->
+
+		<!-- Load MathJax if required -->
+		
+
+		<!-- Load extra fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Rokkitt:200" rel="stylesheet">
+
+  </head>
+
+  <body id="js-body">
+    <!--[if lt IE 9]><div class="upgrade notice-warning"><strong>Your browser is quite old!</strong> Why not <a href="http://whatbrowser.org/">upgrade to a newer one</a> to better enjoy this site?</div><![endif]-->
+
+    <header id="masthead">
+  <div class="inner-wrap">
+    <a href="https://norlab.ulaval.ca/accueil/" class="site-title">Laboratoire de robotique boréale </a>
+    <nav role="navigation" class="menu top-menu">
+        <ul class="menu-item">
+	<!--li class="home"><a href="/">Northern Robotics Laboratory</a></li-->
+	
+    
+    <li>
+		<a href="https://norlab.ulaval.ca/recherche/" 
+		>Recherche</a></li>
+  
+    
+    <li>
+		<a href="https://norlab.ulaval.ca/publications_fr/" 
+		>Publications</a></li>
+  
+    
+    <li>
+		<a href="https://norlab.ulaval.ca/equipe/" 
+		>Équipe</a></li>
+  
+    
+    <li>
+		<a href="https://norlab.ulaval.ca/contact_fr/" 
+		>Nous joindre</a></li>
+  
+
+	<!-- Search for url -->
+	
+
+	
+
+	
+
+	
+		
+			<li class="language-box"> <a href="/research/limnobotics/">EN</a> </li>
+		
+		<li class="language-box"><span class="current-lang"> FR</span> </li>
+	
+
+</ul>
+
+    </nav>
+  </div><!-- /.inner-wrap -->
+</header><!-- /.masthead -->
+
+    <nav role="navigation" id="js-menu" class="sliding-menu-content">
+  <h5>Laboratoire de robotique boréale <span>Table des matières</span></h5>
+
+  <ul class="menu-item">
+    
+			
+			<li>
+      	<a href="https://norlab.ulaval.ca/recherche/">
+        
+        <div class="title">Recherche</div>
+        
+      </a>
+    	</li>
+		
+			
+			<li>
+      	<a href="https://norlab.ulaval.ca/publications_fr/">
+        
+        <div class="title">Publications</div>
+        
+      </a>
+    	</li>
+		
+			
+			<li>
+      	<a href="https://norlab.ulaval.ca/equipe/">
+        
+        <div class="title">Équipe</div>
+        
+      </a>
+    	</li>
+		
+			
+			<li>
+      	<a href="https://norlab.ulaval.ca/contact_fr/">
+        
+        <div class="title">Nous joindre</div>
+        
+      </a>
+    	</li>
+		
+  </ul>
+</nav>
+<button type="button" id="js-menu-trigger" class="sliding-menu-button lines-button x2" role="button" aria-label="Toggle Navigation">
+  <span class="nav-lines"></span>
+</button>
+
+<div id="js-menu-screen" class="menu-screen"></div>
+
+
+    <div id="page-wrapper">
+      <div id="main" role="main">
+	<article class="wrap" itemscope itemtype="http://schema.org/Article">
+		
+		<div class="page-feature">
+			<div class="page-image">
+				<img src="https://norlab.ulaval.ca/images/projects/limnobotics_feature.jpg" class="page-feature-image" alt="Limnobotics" itemprop="image">
+				
+			</div><!-- /.page-image -->
+		</div><!-- /.page-feature -->
+		
+		
+  <nav class="breadcrumbs">
+    <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+      <a href="https://norlab.ulaval.ca" itemprop="url">
+        <span itemprop="title">Home</span>
+      </a> › 
+    <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+      <a href="https://norlab.ulaval.ca/research/" itemprop="url">
+        <span itemprop="title">Research</span>
+      </a>
+    </span>
+  </nav><!-- /.breadcrumbs -->
+
+		<div class="page-title">
+			<h1>Limnobotics
+			<p>Un navire de surface autonome pour l'observation de lacs</p>
+			</h1>
+		</div>
+		<div class="inner-wrap">
+			<div id="content" class="page-content" itemprop="articleBody">
+				<p>Limnobotics est un projet scientifique qui réunit les domaines de la limnologie (l’étude des eaux douces) et de la robotique pour une meilleure compréhension de l’hydrologie et de la biologie du lac Zurich, un lac préalpin de la Suisse.</p>
+
+<p>Ce projet multidisciplinaire vise à documenter les paramètres limnologiques du lac Zurich avec couverture spatiale et temporelle sans précédant pour une meilleure compréhension de la présence massive de la cyanobactérie toxique <a href="http://fr.wikipedia.org/wiki/Planktothrix_rubescens"><em>Planktothrix rubescens</em></a>, de même que la dynamique de sa population. 
+Nous avons développé un bateau autonome équipé d’une variété de capteurs (température, pH, lumière, oxygène, nutriments, et pigments algaux) pour permettre la surveillance continue de la distribution spatiotemporelle des cyanobactéries. 
+En parallèle, nous développons et appliquons des techniques de biologie moléculaire pour évaluer en peu de temps la contribution des souches toxiques P. rubescens à la population totale. 
+Les données de terrain générées à l’aide de notre bateau autonome servirons à:</p>
+
+<ol>
+  <li>créer un model à l’échelle du basin lacustre pour illustrer le développement de P. rubescens en fonction des paramètres physico-chimiques;</li>
+  <li>guider des campagnes d’échantillonnage manuel selon des événements spécifiques, de même que les analyses en laboratoire subséquentes, telles que la classification des souches, l’expression génique de la production de microcystine et la détection cellulaire des concentrations de microcystine.</li>
+</ol>
+
+<p>Limnobotics est une collaboration entre la <a href="http://www.botinst.uzh.ch/en/research/limnology/pernthaler.html">station limnologique</a> de l’<a href="http://www.uzh.ch/">Université de Zurich</a>, et le <a href="http://www.asl.ethz.ch/">Autonomous Systems Lab (ASL)</a> de <a href="http://www.ethz.ch/">ETH Zurich</a> et est subventionné par le <a href="http://www.snf.ch/fr/Pages/default.aspx">SNF</a>.</p>
+
+<p><strong>Note</strong>: <em>Ce projet est maintenant terminé et fût réalisé lors d’un précédent emploi à l’ETH Zurich, au sein de l’<a href="http://www.asl.ethz.ch/">ASL</a>.
+Il est utilisé ici pour mettre en valeur des compétences de recherche et pour inspirer des projets futures.</em></p>
+
+<ul>
+  <li><strong>Investigateur principal</strong>: <a href="http://www.asl.ethz.ch/the-lab/people/person-detail.html?persid=29981">Roland Siegwart</a>, Jakob Pernthaler</li>
+  <li><strong>Chef scientifique</strong>: Gregory Hitz</li>
+  <li><strong>Support scientifique</strong>: <a href="../../people/f_pomerleau/">François Pomerleau</a>, Marie-Ève Garneau, <a href="http://dream.georgiatech-metz.fr/?q=node/7">Cédric Pradalier</a>, Thomas Posch</li>
+</ul>
+
+<h1 id="publications">Publications</h1>
+
+<ol class="bibliography" reversed="reversed"><li><span id="Hitz2017">Hitz, G., Galceran, E., Garneau, M.-È., Pomerleau, F., &amp; Siegwart, R. (2017). Adaptive continuous-space informative path planning for online environmental monitoring. <i>Journal of Field Robotics</i>, <i>34</i>(8), 1427–1449.</span><a class="details" href="/bibliography/Hitz2017/"> Bibtex source</a></li>
+<li><span id="Pomerleau2015d">Hitz, G., Pomerleau, F., Colas, F., &amp; Siegwart, R. (2015). Relaxing the planar assumption: 3D state estimation for an autonomous surface vessel. <i>International Journal of Robotics Research</i>, <i>34</i>(13), 1604–1621.</span><a class="details" href="/bibliography/Pomerleau2015d/"> Bibtex source</a></li>
+<li><span id="Hitz2015">Hitz, G., Pomerleau, F., Colas, F., &amp; Siegwart, R. (2015). State Estimation for Shore Monitoring Using an Autonomous Surface Vessel. In <i>Proceedings of the International Symposium on Experimental Robotics (ISER). Springer Tracts in Advanced Robotics</i> (pp. 745–760). Springer International Publishing.</span><a class="details" href="/bibliography/Hitz2015/"> Bibtex source</a></li>
+<li><span id="Pomerleau2014c">Hitz, G., Gotovos, A., Pomerleau, F., Garneau, M.-E., Pradalier, C., Krause, A., &amp; Siegwart, R. Y. (2014). Fully autonomous focused exploration for robotic environmental monitoring. In <i>Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)</i> (pp. 2658–2664).</span><a class="details" href="/bibliography/Pomerleau2014c/"> Bibtex source</a></li>
+<li><span id="Pomerleau2013c">Garneau, M.-È., Posch, T., Hitz, G., Pomerleau, F., Pradalier, C., Siegwart, R., &amp; Pernthaler, J. (2013). Short-term displacement of \textitPlanktothrix Rubescens (cyanobacteria) in a pre-alpine lake observed using an autonomous sampling platform. <i>Limnology and Oceanography</i>, <i>58</i>(5), 1892–1906.</span><a class="details" href="/bibliography/Pomerleau2013c/"> Bibtex source</a></li>
+<li><span id="Pomerleau2012b">Hitz, G., Pomerleau, F., Garneau, M.-E., Pradalier, C., Posch, T., Pernthaler, J., &amp; Siegwart, R. Y. (2012). Autonomous inland water monitoring: Design and application of a surface vessel. <i>IEEE Robotics and Automation Magazine</i>, <i>19</i>(1), 62–72.</span><a class="details" href="/bibliography/Pomerleau2012b/"> Bibtex source</a></li></ol>
+
+<h1 id="resultats">Resultats</h1>
+
+<div style="padding-bottom: 20px">
+<iframe width="560" height="315" allowfullscreen="" src="//youtube.com/embed/Yy7oUfRL07A" frameborder="0"> </iframe>	
+</div>
+<div style="padding-bottom: 20px">
+<iframe width="560" height="315" allowfullscreen="" src="//youtube.com/embed/j4zRHf3ezeM" frameborder="0"> </iframe>	
+</div>
+<div style="padding-bottom: 20px">
+<iframe width="560" height="315" allowfullscreen="" src="//www.youtube.com/embed/xxsHFa6Tzcs" frameborder="0"> </iframe>	
+</div>
+<div style="padding-bottom: 20px">
+<iframe width="560" height="315" allowfullscreen="" src="//www.youtube.com/embed/g8l-Xq4qYeE" frameborder="0"> </iframe>	
+</div>
+
+
+				<hr />
+				<footer class="page-footer">
+					
+
+<div class="author-image">
+	<img src="https://norlab.ulaval.ca/images/people/f_pomerleau_avatar.jpg" alt="François Pomerleau">
+</div><!-- ./author-image -->
+<div class="author-content">
+	<h3 class="author-name" >Écrit par <a href="/people/f_pomerleau_fr" itemprop="author">François Pomerleau</a></h3>
+	<p class="author-bio"></p>
+</div><!-- ./author-content -->
+
+					<div class="inline-btn">
+	<a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Limnobotics&amp;url=https://norlab.ulaval.ca/research/limnobotics_fr/&amp;via=" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Share on Twitter</a>
+	<a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://norlab.ulaval.ca/research/limnobotics_fr/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Share on Facebook</a>
+	<a class="btn-social google-plus"  href="https://plus.google.com/share?url=https://norlab.ulaval.ca/research/limnobotics_fr/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i> Share on Google+</a>
+</div><!-- /.share-this -->
+
+					<div class="page-meta">
+	<p>Updated <time datetime="2018-05-09T00:00:00Z" itemprop="datePublished">May 09, 2018</time></p>
+</div><!-- /.page-meta -->
+				</footer><!-- /.footer -->
+				<aside>
+					
+				</aside>
+			</div><!-- /.content -->
+		</div><!-- /.inner-wrap -->
+		
+	</article><!-- ./wrap -->
+</div><!-- /#main -->
+
+      <footer role="contentinfo" id="site-footer">
+	<nav role="navigation" class="menu bottom-menu">
+		<ul class="menu-item">
+		
+      
+			<li><a href="https://www.ulaval.ca" target="_blank">Université Laval</a></li>
+		
+      
+			<li><a href="https://www.ift.ulaval.ca" target="_blank">Département d'informatique et de génie logiciel</a></li>
+		
+		</ul>
+	</nav><!-- /.bottom-menu -->
+	<p class="copyright">&#169; 2019 <a href="https://norlab.ulaval.ca">Northern Robotics Laboratory</a> powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> + <a href="http://mmistakes.github.io/skinny-bones-jekyll/" rel="nofollow">Skinny Bones</a>.</p>
+</footer>
+    </div>
+
+    <script src="https://norlab.ulaval.ca/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="https://norlab.ulaval.ca/js/main.js"></script>
+
+		
+			<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117436826-1"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-117436826-1');
+</script>
+
+
+		
+
+  </body>
+
+</html>

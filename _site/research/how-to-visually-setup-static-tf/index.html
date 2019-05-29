@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>How to set a static transform with our interactive RVIZ tool • Northern Robotics Laboratory</title>
+    <meta name="description" content="Sometimes, there is a need to quickly set up a static transform in ROS.
+To avoid manually searching for translation and rotation parameters, we have written this minimalistic tool that allows us to do it a more convenient, click-and-drag way.
+
+">
+    <meta name="keywords" content="howto, ros, transform, rviz">
+    
+    	<!-- Twitter Cards -->
+	<meta name="twitter:title" content="How to set a static transform with our interactive RVIZ tool">
+	<meta name="twitter:description" content="Sometimes, there is a need to quickly set up a static transform in ROS.
+To avoid manually searching for translation and rotation parameters, we have written this minimalistic tool that allows us to do it a more convenient, click-and-drag way.
+
+">
+	
+	
+	
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="https://norlab.ulaval.ca/images//rviz_interactive_tf_tool.jpg">
+	
+	<!-- Open Graph -->
+	<meta property="og:locale" content="en">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="How to set a static transform with our interactive RVIZ tool">
+	<meta property="og:description" content="Sometimes, there is a need to quickly set up a static transform in ROS.
+To avoid manually searching for translation and rotation parameters, we have written this minimalistic tool that allows us to do it a more convenient, click-and-drag way.
+
+">
+	<meta property="og:image" content="https://norlab.ulaval.ca/images//rviz_interactive_tf_tool_teaser.jpg">
+	<meta property="og:url" content="https://norlab.ulaval.ca/research/how-to-visually-setup-static-tf/">
+	<meta property="og:site_name" content="Northern Robotics Laboratory">
+
+
+    <link rel="canonical" href="https://norlab.ulaval.ca/research/how-to-visually-setup-static-tf/">
+
+    <link href="https://norlab.ulaval.ca/atom.xml" type="application/atom+xml" rel="alternate" title="Northern Robotics Laboratory Atom Feed">
+    <link href="https://norlab.ulaval.ca/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cleartype" content="on">
+
+    <link rel="stylesheet" href="https://norlab.ulaval.ca/css/main.css">
+    <!-- HTML5 Shiv and Media Query Support for IE -->
+    <!--[if lt IE 9]>
+      <script src="https://norlab.ulaval.ca/js/vendor/html5shiv.min.js"></script>
+      <script src="https://norlab.ulaval.ca/js/vendor/respond.min.js"></script>
+    <![endif]-->
+
+		<!-- Load MathJax if required -->
+		
+
+		<!-- Load extra fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Rokkitt:200" rel="stylesheet">
+
+  </head>
+
+  <body id="js-body">
+    <!--[if lt IE 9]><div class="upgrade notice-warning"><strong>Your browser is quite old!</strong> Why not <a href="http://whatbrowser.org/">upgrade to a newer one</a> to better enjoy this site?</div><![endif]-->
+
+    <header id="masthead">
+  <div class="inner-wrap">
+    <a href="https://norlab.ulaval.ca/" class="site-title">Northern Robotics Laboratory </a>
+    <nav role="navigation" class="menu top-menu">
+        <ul class="menu-item">
+	<!--li class="home"><a href="/">Northern Robotics Laboratory</a></li-->
+	
+    
+    <li>
+		<a href="https://norlab.ulaval.ca/research/" 
+		>Research</a></li>
+  
+    
+    <li>
+		<a href="https://norlab.ulaval.ca/publications/" 
+		>Publications</a></li>
+  
+    
+    <li>
+		<a href="https://norlab.ulaval.ca/people/" 
+		>People</a></li>
+  
+    
+    <li>
+		<a href="https://norlab.ulaval.ca/contact/" 
+		>Contact Us</a></li>
+  
+
+	<!-- Search for url -->
+	
+
+	
+
+	
+
+	
+		<li class="language-box"><span class="current-lang"> EN</span> </li>
+		
+			<li class="language-box"> <a  style="color:#e4e4e4;" href="/error/traduction-manquante/">FR</a> </li>
+		
+	
+
+</ul>
+
+    </nav>
+  </div><!-- /.inner-wrap -->
+</header><!-- /.masthead -->
+
+    <nav role="navigation" id="js-menu" class="sliding-menu-content">
+  <h5>Northern Robotics Laboratory <span>Table of Contents</span></h5>
+
+  <ul class="menu-item">
+    
+			
+			<li>
+      	<a href="https://norlab.ulaval.ca/research/">
+        
+        <div class="title">Research</div>
+        
+      </a>
+    	</li>
+		
+			
+			<li>
+      	<a href="https://norlab.ulaval.ca/publications/">
+        
+        <div class="title">Publications</div>
+        
+      </a>
+    	</li>
+		
+			
+			<li>
+      	<a href="https://norlab.ulaval.ca/people/">
+        
+        <div class="title">People</div>
+        
+      </a>
+    	</li>
+		
+			
+			<li>
+      	<a href="https://norlab.ulaval.ca/contact/">
+        
+        <div class="title">Contact Us</div>
+        
+      </a>
+    	</li>
+		
+  </ul>
+</nav>
+<button type="button" id="js-menu-trigger" class="sliding-menu-button lines-button x2" role="button" aria-label="Toggle Navigation">
+  <span class="nav-lines"></span>
+</button>
+
+<div id="js-menu-screen" class="menu-screen"></div>
+
+
+    <div id="page-wrapper">
+      <div id="main" role="main">
+	<article class="wrap" itemscope itemtype="http://schema.org/Article">
+		
+		<div class="page-feature">
+			<div class="page-image">
+				<img src="https://norlab.ulaval.ca/images//rviz_interactive_tf_tool.jpg" class="page-feature-image" alt="How to set a static transform with our interactive RVIZ tool" itemprop="image">
+				
+			</div><!-- /.page-image -->
+		</div><!-- /.page-feature -->
+		
+		
+  <nav class="breadcrumbs">
+    <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+      <a href="https://norlab.ulaval.ca" itemprop="url">
+        <span itemprop="title">Home</span>
+      </a> › 
+    <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+      <a href="https://norlab.ulaval.ca/research/" itemprop="url">
+        <span itemprop="title">Research</span>
+      </a>
+    </span>
+  </nav><!-- /.breadcrumbs -->
+
+		<div class="page-title">
+			<h1>How to set a static transform with our interactive RVIZ tool
+			<p></p>
+			</h1>
+		</div>
+		<div class="inner-wrap">
+			<div id="content" class="page-content" itemprop="articleBody">
+				<p>Sometimes, there is a need to quickly set up a static transform in ROS.
+To avoid manually searching for translation and rotation parameters, we have written this minimalistic tool that allows us to do it a more convenient, click-and-drag way.</p>
+
+<h1 id="the-problem">The Problem</h1>
+
+<p>The physical configuration of a robot can change or a new sensor is added.
+Since this configuration is reflected by the ROS TF system, the corresponding static transform needs to be updated.
+The classical approach would be trial-and-error with the comand line <code class="highlighter-rouge">rosrun tf static_transform_publisher [params]</code>, looking for the right numbers.
+It is tedious, unnecessary and there is a better way to do this.</p>
+
+<h1 id="solution---interactive-static-transform-tool">Solution - Interactive Static Transform tool</h1>
+
+<p>Following the <a href="http://wiki.ros.org/rviz/Tutorials/Interactive%20Markers%3A%20Getting%20Started">RVIZ Interactive Marker Tutorial</a>, a simple tool was written.
+It helps in finding a transformation between two TF frames by providing
+an RVIZ interactive marker. 
+Its usage is straightforward:</p>
+
+<ol>
+  <li>Set your parent and child frame names in the <a href="https://github.com/norlab-ulaval/norlab_imu_tools/blob/master/launch/interactive_static_transform_publisher.launch">launch file</a>.</li>
+  <li>Run the launch file and also open the RVIZ.</li>
+  <li>The initial transformation is an identity, but you can modify it by displaying
+the interactive marker and moving it around.</li>
+  <li>The marker also offers a context menu, the only command which is there
+prints the current transform value in the form of the <code class="highlighter-rouge">static_transform_publisher</code>
+rosrun command.</li>
+</ol>
+
+<p>The launch file and the code is placed within the <a href="https://github.com/norlab-ulaval/norlab_imu_tools">norlab_imu_tools</a> package:</p>
+
+<div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;launch&gt;</span>
+  <span class="nt">&lt;node</span> <span class="na">pkg=</span><span class="s">"norlab_imu_tools"</span> <span class="na">type=</span><span class="s">"interactive_static_transform_publisher.py"</span> <span class="na">name=</span><span class="s">"interactive_static_transform_publisher_node"</span> <span class="na">output=</span><span class="s">"screen"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">"child_frame"</span> <span class="na">value=</span><span class="s">"moving_frame"</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">"parent_frame"</span> <span class="na">value=</span><span class="s">"base_link"</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">"tf_publish_period_in_sec"</span> <span class="na">value=</span><span class="s">"0.1"</span> <span class="nt">/&gt;</span>
+  <span class="nt">&lt;/node&gt;</span>
+<span class="nt">&lt;/launch&gt;</span>
+</code></pre></div></div>
+
+<p>The final transform output can be copied and pasted into a terminal or just used to set a new launch file:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[INFO] [1556661102.899894]: The equivalent static transform command:
+[INFO] [1556661102.902316]: rosrun tf static_transform_publisher 1.92549085617 0.0 1.12673556805 0.327530413866 -0.155546739697 -0.399795621634 0.841839015484 base_link moving_frame 100
+</code></pre></div></div>
+
+
+				<hr />
+				<footer class="page-footer">
+					
+
+<div class="author-image">
+	<img src="https://norlab.ulaval.ca/images/people/v_kubelka_avatar.jpg" alt="Vladimír Kubelka">
+</div><!-- ./author-image -->
+<div class="author-content">
+	<h3 class="author-name" >Written by <a href="/people/v_kubelka" itemprop="author">Vladimír Kubelka</a></h3>
+	<p class="author-bio"></p>
+</div><!-- ./author-content -->
+
+					<div class="inline-btn">
+	<a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=How%20to%20set%20a%20static%20transform%20with%20our%20interactive%20RVIZ%20tool&amp;url=https://norlab.ulaval.ca/research/how-to-visually-setup-static-tf/&amp;via=" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Share on Twitter</a>
+	<a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://norlab.ulaval.ca/research/how-to-visually-setup-static-tf/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Share on Facebook</a>
+	<a class="btn-social google-plus"  href="https://plus.google.com/share?url=https://norlab.ulaval.ca/research/how-to-visually-setup-static-tf/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i> Share on Google+</a>
+</div><!-- /.share-this -->
+
+					<div class="page-meta">
+	<p>Updated <time datetime="2019-04-30T00:00:00Z" itemprop="datePublished">April 30, 2019</time></p>
+</div><!-- /.page-meta -->
+				</footer><!-- /.footer -->
+				<aside>
+					
+				</aside>
+			</div><!-- /.content -->
+		</div><!-- /.inner-wrap -->
+		
+	</article><!-- ./wrap -->
+</div><!-- /#main -->
+
+      <footer role="contentinfo" id="site-footer">
+	<nav role="navigation" class="menu bottom-menu">
+		<ul class="menu-item">
+		
+      
+			<li><a href="https://www.ulaval.ca" target="_blank">Université Laval</a></li>
+		
+      
+			<li><a href="https://www.ift.ulaval.ca" target="_blank">Département d'informatique et de génie logiciel</a></li>
+		
+		</ul>
+	</nav><!-- /.bottom-menu -->
+	<p class="copyright">&#169; 2019 <a href="https://norlab.ulaval.ca">Northern Robotics Laboratory</a> powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> + <a href="http://mmistakes.github.io/skinny-bones-jekyll/" rel="nofollow">Skinny Bones</a>.</p>
+</footer>
+    </div>
+
+    <script src="https://norlab.ulaval.ca/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="https://norlab.ulaval.ca/js/main.js"></script>
+
+		
+			<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117436826-1"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-117436826-1');
+</script>
+
+
+		
+
+  </body>
+
+</html>
