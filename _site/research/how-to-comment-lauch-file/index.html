@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>How to comment a ROS launch file • Northern Robotics Laboratory</title>
+    <meta name="description" content="I am always forgetting how to have a nested comments in a ROS launch file, so I’m putting this information here in the hope to reduce my time searching on Google.
+
+">
+    <meta name="keywords" content="howto, ros, launch, xml">
+    
+    	<!-- Twitter Cards -->
+	<meta name="twitter:title" content="How to comment a ROS launch file">
+	<meta name="twitter:description" content="I am always forgetting how to have a nested comments in a ROS launch file, so I’m putting this information here in the hope to reduce my time searching on Google.
+
+">
+	
+	
+	
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="https://norlab.ulaval.ca/images//logos/ros_logo.svg">
+	
+	<!-- Open Graph -->
+	<meta property="og:locale" content="en">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="How to comment a ROS launch file">
+	<meta property="og:description" content="I am always forgetting how to have a nested comments in a ROS launch file, so I’m putting this information here in the hope to reduce my time searching on Google.
+
+">
+	<meta property="og:image" content="https://norlab.ulaval.ca/images//logos/ros_logo.svg">
+	<meta property="og:url" content="https://norlab.ulaval.ca/research/how-to-comment-lauch-file/">
+	<meta property="og:site_name" content="Northern Robotics Laboratory">
+
+
+    <link rel="canonical" href="https://norlab.ulaval.ca/research/how-to-comment-lauch-file/">
+
+    <link href="https://norlab.ulaval.ca/atom.xml" type="application/atom+xml" rel="alternate" title="Northern Robotics Laboratory Atom Feed">
+    <link href="https://norlab.ulaval.ca/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cleartype" content="on">
+
+    <link rel="stylesheet" href="https://norlab.ulaval.ca/css/main.css">
+    <!-- HTML5 Shiv and Media Query Support for IE -->
+    <!--[if lt IE 9]>
+      <script src="https://norlab.ulaval.ca/js/vendor/html5shiv.min.js"></script>
+      <script src="https://norlab.ulaval.ca/js/vendor/respond.min.js"></script>
+    <![endif]-->
+
+		<!-- Load MathJax if required -->
+		
+
+		<!-- Load extra fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Rokkitt:200" rel="stylesheet">
+
+  </head>
+
+  <body id="js-body">
+    <!--[if lt IE 9]><div class="upgrade notice-warning"><strong>Your browser is quite old!</strong> Why not <a href="http://whatbrowser.org/">upgrade to a newer one</a> to better enjoy this site?</div><![endif]-->
+
+    <header id="masthead">
+  <div class="inner-wrap">
+    <a href="https://norlab.ulaval.ca/" class="site-title">Northern Robotics Laboratory </a>
+    <nav role="navigation" class="menu top-menu">
+        <ul class="menu-item">
+	<!--li class="home"><a href="/">Northern Robotics Laboratory</a></li-->
+	
+    
+    <li>
+		<a href="https://norlab.ulaval.ca/research/" 
+		>Research</a></li>
+  
+    
+    <li>
+		<a href="https://norlab.ulaval.ca/publications/" 
+		>Publications</a></li>
+  
+    
+    <li>
+		<a href="https://norlab.ulaval.ca/people/" 
+		>People</a></li>
+  
+    
+    <li>
+		<a href="https://norlab.ulaval.ca/contact/" 
+		>Contact Us</a></li>
+  
+
+	<!-- Search for url -->
+	
+
+	
+
+	
+
+	
+		<li class="language-box"><span class="current-lang"> EN</span> </li>
+		
+			<li class="language-box"> <a  style="color:#e4e4e4;" href="/error/traduction-manquante/">FR</a> </li>
+		
+	
+
+</ul>
+
+    </nav>
+  </div><!-- /.inner-wrap -->
+</header><!-- /.masthead -->
+
+    <nav role="navigation" id="js-menu" class="sliding-menu-content">
+  <h5>Northern Robotics Laboratory <span>Table of Contents</span></h5>
+
+  <ul class="menu-item">
+    
+			
+			<li>
+      	<a href="https://norlab.ulaval.ca/research/">
+        
+        <div class="title">Research</div>
+        
+      </a>
+    	</li>
+		
+			
+			<li>
+      	<a href="https://norlab.ulaval.ca/publications/">
+        
+        <div class="title">Publications</div>
+        
+      </a>
+    	</li>
+		
+			
+			<li>
+      	<a href="https://norlab.ulaval.ca/people/">
+        
+        <div class="title">People</div>
+        
+      </a>
+    	</li>
+		
+			
+			<li>
+      	<a href="https://norlab.ulaval.ca/contact/">
+        
+        <div class="title">Contact Us</div>
+        
+      </a>
+    	</li>
+		
+  </ul>
+</nav>
+<button type="button" id="js-menu-trigger" class="sliding-menu-button lines-button x2" role="button" aria-label="Toggle Navigation">
+  <span class="nav-lines"></span>
+</button>
+
+<div id="js-menu-screen" class="menu-screen"></div>
+
+
+    <div id="page-wrapper">
+      <div id="main" role="main">
+	<article class="wrap" itemscope itemtype="http://schema.org/Article">
+		
+		<div class="page-feature">
+			<div class="page-image">
+				<img src="https://norlab.ulaval.ca/images//logos/ros_logo.svg" class="page-feature-image" alt="How to comment a ROS launch file" itemprop="image">
+				
+			</div><!-- /.page-image -->
+		</div><!-- /.page-feature -->
+		
+		
+  <nav class="breadcrumbs">
+    <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+      <a href="https://norlab.ulaval.ca" itemprop="url">
+        <span itemprop="title">Home</span>
+      </a> › 
+    <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+      <a href="https://norlab.ulaval.ca/research/" itemprop="url">
+        <span itemprop="title">Research</span>
+      </a>
+    </span>
+  </nav><!-- /.breadcrumbs -->
+
+		<div class="page-title">
+			<h1>How to comment a ROS launch file
+			<p></p>
+			</h1>
+		</div>
+		<div class="inner-wrap">
+			<div id="content" class="page-content" itemprop="articleBody">
+				<p>I am always forgetting how to have a nested comments in a <a href="http://wiki.ros.org/roslaunch/XML">ROS launch file</a>, so I’m putting this information here in the hope to reduce my time searching on Google.</p>
+
+<h1 id="the-problem">The Problem</h1>
+
+<p>I often have a large launch file with multiple comments in it so I can recall what each parameter do.
+Here is the file that was causing me some troubles:</p>
+
+<div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!--
+This launch file is an example for 3D registration using DSO stero reconstruction
+
+--&gt;</span>
+
+<span class="nt">&lt;launch&gt;</span>
+	<span class="nt">&lt;node</span> <span class="na">name=</span><span class="s">"mapper"</span> <span class="na">type=</span><span class="s">"dynamic_mapper"</span> <span class="na">pkg=</span><span class="s">"ethzasl_icp_mapper"</span> <span class="na">output=</span><span class="s">"screen"</span><span class="nt">&gt;</span>
+		<span class="nt">&lt;remap</span> <span class="na">from=</span><span class="s">"cloud_in"</span> <span class="na">to=</span><span class="s">"/csv_to_pc2/pointcloud"</span> <span class="nt">/&gt;</span>
+		<span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">"subscribe_scan"</span> <span class="na">value=</span><span class="s">"false"</span> <span class="nt">/&gt;</span>
+		<span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">"subscribe_cloud"</span> <span class="na">value=</span><span class="s">"true"</span> <span class="nt">/&gt;</span>
+		<span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">"icpConfig"</span> <span class="na">value=</span><span class="s">"$(find ethzasl_icp_mapper)/launch/kingfisher/DSO/icp.yaml"</span> <span class="nt">/&gt;</span>
+		<span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">"inputFiltersConfig"</span> <span class="na">value=</span><span class="s">"$(find ethzasl_icp_mapper)/launch/kingfisher/DSO/input_filters.yaml"</span> <span class="nt">/&gt;</span>
+		<span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">"mapPostFiltersConfig"</span> <span class="na">value=</span><span class="s">"$(find ethzasl_icp_mapper)/launch/kingfisher/DSO/map_post_filters.yaml"</span> <span class="nt">/&gt;</span>
+		<span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">"odom_frame"</span> <span class="na">value=</span><span class="s">"/pointcloud"</span> <span class="nt">/&gt;</span>
+		<span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">"map_frame"</span> <span class="na">value=</span><span class="s">"/map"</span> <span class="nt">/&gt;</span>
+		<span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">"useROSLogger"</span> <span class="na">value=</span><span class="s">"true"</span> <span class="nt">/&gt;</span>
+		<span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">"minOverlap"</span> <span class="na">value=</span><span class="s">"0.1"</span> <span class="nt">/&gt;</span> 
+		<span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">"maxOverlapToMerge"</span> <span class="na">value=</span><span class="s">"0.85"</span> <span class="nt">/&gt;</span> 
+		<span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">"minMapPointCount"</span> <span class="na">value=</span><span class="s">"500"</span> <span class="nt">/&gt;</span> 
+		<span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">"minReadingPointCount"</span> <span class="na">value=</span><span class="s">"30"</span> <span class="nt">/&gt;</span> 
+
+		<span class="c">&lt;!-- Parameters for dynamic elements --&gt;</span>
+		<span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">"priorStatic"</span> <span class="na">value=</span><span class="s">"0.45"</span><span class="nt">/&gt;</span>
+		<span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">"priorDyn"</span> <span class="na">value=</span><span class="s">"0.55"</span><span class="nt">/&gt;</span>
+		<span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">"maxAngle"</span> <span class="na">value=</span><span class="s">"0.1"</span><span class="nt">/&gt;</span>
+		<span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">"eps_a"</span> <span class="na">value=</span><span class="s">"0.004"</span><span class="nt">/&gt;</span><span class="c">&lt;!--1 deg = 0.017rad--&gt;</span>
+		<span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">"eps_d"</span> <span class="na">value=</span><span class="s">"0.005"</span><span class="nt">/&gt;</span>
+		<span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">"alpha"</span> <span class="na">value=</span><span class="s">"0.99"</span><span class="nt">/&gt;</span>
+		<span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">"beta"</span> <span class="na">value=</span><span class="s">"0.90"</span><span class="nt">/&gt;</span>
+		<span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">"maxDyn"</span> <span class="na">value=</span><span class="s">"0.90"</span><span class="nt">/&gt;</span>
+
+		<span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">"maxDistNewPoint"</span> <span class="na">value=</span><span class="s">"0.1"</span><span class="nt">/&gt;</span>
+		<span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">"sensorMaxRange"</span> <span class="na">value=</span><span class="s">"20.0"</span><span class="nt">/&gt;</span>
+
+
+	<span class="nt">&lt;/node&gt;</span>
+
+	<span class="nt">&lt;node</span> <span class="na">pkg=</span><span class="s">"tf"</span> <span class="na">type=</span><span class="s">"static_transform_publisher"</span> <span class="na">name=</span><span class="s">"correction_tf"</span> <span class="na">args=</span><span class="s">"0 0 0 0 0.2 0 /pointcloud /boat_level 100"</span><span class="nt">/&gt;</span>
+
+<span class="nt">&lt;/launch&gt;</span>
+</code></pre></div></div>
+
+<p>If I want to comment the node <code class="highlighter-rouge">&lt;node name="mapper"&gt;</code>, the typical block comment <code class="highlighter-rouge">&lt;!-- --&gt;</code> will break because of the nested comment <code class="highlighter-rouge">&lt;!--1 deg = 0.017rad--&gt;</code>.
+So much, that even the syntax highlight used for this web site will not render it properly:</p>
+
+<div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;launch&gt;</span>
+	<span class="c">&lt;!--node name="mapper" type="dynamic_mapper" pkg="ethzasl_icp_mapper" output="screen"&gt;
+		&lt;param name="eps_a" value="0.004"/&gt;&lt;!--1 deg = 0.017rad--&gt;</span>
+	<span class="nt">&lt;/node--&gt;</span>
+
+	<span class="nt">&lt;node</span> <span class="na">pkg=</span><span class="s">"tf"</span> <span class="na">type=</span><span class="s">"static_transform_publisher"</span> <span class="na">name=</span><span class="s">"correction_tf"</span> <span class="na">args=</span><span class="s">"0 0 0 0 0.2 0 /pointcloud /boat_level 100"</span><span class="nt">/&gt;</span>
+
+<span class="nt">&lt;/launch&gt;</span>
+</code></pre></div></div>
+
+<h1 id="solution">Solution</h1>
+
+<p>Using the non-existing processing-instruction <code class="highlighter-rouge">&lt;?ignore &lt;stuff&gt; ?&gt;</code> will solve the problem and all the tags in between won’t be parsed and only the node <code class="highlighter-rouge">&lt;tf&gt;</code> will start:</p>
+
+<div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;launch&gt;</span>
+	<span class="err">&lt;</span>?ignore
+	<span class="nt">&lt;node</span> <span class="na">name=</span><span class="s">"mapper"</span> <span class="na">type=</span><span class="s">"dynamic_mapper"</span> <span class="na">pkg=</span><span class="s">"ethzasl_icp_mapper"</span> <span class="na">output=</span><span class="s">"screen"</span><span class="nt">&gt;</span>
+		<span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">"eps_a"</span> <span class="na">value=</span><span class="s">"0.004"</span><span class="nt">/&gt;</span><span class="c">&lt;!--1 deg = 0.017rad--&gt;</span>
+	<span class="nt">&lt;/node&gt;</span>
+	?&gt;
+
+	<span class="nt">&lt;node</span> <span class="na">pkg=</span><span class="s">"tf"</span> <span class="na">type=</span><span class="s">"static_transform_publisher"</span> <span class="na">name=</span><span class="s">"correction_tf"</span> <span class="na">args=</span><span class="s">"0 0 0 0 0.2 0 /pointcloud /boat_level 100"</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;/launch&gt;</span>
+</code></pre></div></div>
+
+
+				<hr />
+				<footer class="page-footer">
+					
+
+<div class="author-image">
+	<img src="https://norlab.ulaval.ca/images/people/f_pomerleau_avatar.jpg" alt="François Pomerleau">
+</div><!-- ./author-image -->
+<div class="author-content">
+	<h3 class="author-name" >Written by <a href="/people/f_pomerleau" itemprop="author">François Pomerleau</a></h3>
+	<p class="author-bio"></p>
+</div><!-- ./author-content -->
+
+					<div class="inline-btn">
+	<a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=How%20to%20comment%20a%20ROS%20launch%20file&amp;url=https://norlab.ulaval.ca/research/how-to-comment-lauch-file/&amp;via=" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Share on Twitter</a>
+	<a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://norlab.ulaval.ca/research/how-to-comment-lauch-file/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Share on Facebook</a>
+	<a class="btn-social google-plus"  href="https://plus.google.com/share?url=https://norlab.ulaval.ca/research/how-to-comment-lauch-file/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i> Share on Google+</a>
+</div><!-- /.share-this -->
+
+					<div class="page-meta">
+	<p>Updated <time datetime="2018-05-16T00:00:00Z" itemprop="datePublished">May 16, 2018</time></p>
+</div><!-- /.page-meta -->
+				</footer><!-- /.footer -->
+				<aside>
+					
+				</aside>
+			</div><!-- /.content -->
+		</div><!-- /.inner-wrap -->
+		
+	</article><!-- ./wrap -->
+</div><!-- /#main -->
+
+      <footer role="contentinfo" id="site-footer">
+	<nav role="navigation" class="menu bottom-menu">
+		<ul class="menu-item">
+		
+      
+			<li><a href="https://www.ulaval.ca" target="_blank">Université Laval</a></li>
+		
+      
+			<li><a href="https://www.ift.ulaval.ca" target="_blank">Département d'informatique et de génie logiciel</a></li>
+		
+		</ul>
+	</nav><!-- /.bottom-menu -->
+	<p class="copyright">&#169; 2019 <a href="https://norlab.ulaval.ca">Northern Robotics Laboratory</a> powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> + <a href="http://mmistakes.github.io/skinny-bones-jekyll/" rel="nofollow">Skinny Bones</a>.</p>
+</footer>
+    </div>
+
+    <script src="https://norlab.ulaval.ca/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="https://norlab.ulaval.ca/js/main.js"></script>
+
+		
+			<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117436826-1"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-117436826-1');
+</script>
+
+
+		
+
+  </body>
+
+</html>

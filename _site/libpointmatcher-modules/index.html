@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Libpointmatcher modules • Northern Robotics Laboratory</title>
+    
+    
+    
+    	<!-- Twitter Cards -->
+	<meta name="twitter:title" content="Libpointmatcher modules">
+	
+	
+	
+	
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:image" content="https://norlab.ulaval.ca/images/norlab_logo_dark_120px.png">
+	
+	<!-- Open Graph -->
+	<meta property="og:locale" content="en">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Libpointmatcher modules">
+	
+	
+	<meta property="og:url" content="https://norlab.ulaval.ca/libpointmatcher-modules/">
+	<meta property="og:site_name" content="Northern Robotics Laboratory">
+
+    
+
+    <link rel="canonical" href="https://norlab.ulaval.ca/libpointmatcher-modules/">
+
+    <link href="https://norlab.ulaval.ca/atom.xml" type="application/atom+xml" rel="alternate" title="Northern Robotics Laboratory Atom Feed">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cleartype" content="on">
+
+    <link rel="stylesheet" href="https://norlab.ulaval.ca/css/main.css">
+    <!-- HTML5 Shiv and Media Query Support for IE -->
+    <!--[if lt IE 9]>
+      <script src="https://norlab.ulaval.ca/js/vendor/html5shiv.min.js"></script>
+      <script src="https://norlab.ulaval.ca/js/vendor/respond.min.js"></script>
+    <![endif]-->
+		
+		<!-- Load extra fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Rokkitt:200" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <header id="masthead">
+  <div class="inner-wrap">
+    <a href="https://norlab.ulaval.ca/" class="site-title">Northern Robotics Laboratory </a>
+    <nav role="navigation" class="menu top-menu">
+        <ul class="menu-item">
+	<!--li class="home"><a href="/">Northern Robotics Laboratory</a></li-->
+	
+    
+    <li>
+		<a href="https://norlab.ulaval.ca/research/" 
+		>Research</a></li>
+  
+    
+    <li>
+		<a href="https://norlab.ulaval.ca/publications/" 
+		>Publications</a></li>
+  
+    
+    <li>
+		<a href="https://norlab.ulaval.ca/people/" 
+		>People</a></li>
+  
+    
+    <li>
+		<a href="https://norlab.ulaval.ca/contact/" 
+		>Contact Us</a></li>
+  
+
+	<!-- Search for url -->
+	
+
+	
+
+	
+
+	
+		<li class="language-box"><span class="current-lang"> EN</span> </li>
+		
+			<li class="language-box"> <a  style="color:#e4e4e4;" href="/error/traduction-manquante/">FR</a> </li>
+		
+	
+
+</ul>
+
+    </nav>
+  </div><!-- /.inner-wrap -->
+</header><!-- /.masthead -->
+
+    <nav role="navigation" id="js-menu" class="sliding-menu-content">
+  <h5>Northern Robotics Laboratory <span>Table of Contents</span></h5>
+
+  <ul class="menu-item">
+    
+			
+			<li>
+      	<a href="https://norlab.ulaval.ca/research/">
+        
+        <div class="title">Research</div>
+        
+      </a>
+    	</li>
+		
+			
+			<li>
+      	<a href="https://norlab.ulaval.ca/publications/">
+        
+        <div class="title">Publications</div>
+        
+      </a>
+    	</li>
+		
+			
+			<li>
+      	<a href="https://norlab.ulaval.ca/people/">
+        
+        <div class="title">People</div>
+        
+      </a>
+    	</li>
+		
+			
+			<li>
+      	<a href="https://norlab.ulaval.ca/contact/">
+        
+        <div class="title">Contact Us</div>
+        
+      </a>
+    	</li>
+		
+  </ul>
+</nav>
+<button type="button" id="js-menu-trigger" class="sliding-menu-button lines-button x2" role="button" aria-label="Toggle Navigation">
+  <span class="nav-lines"></span>
+</button>
+
+<div id="js-menu-screen" class="menu-screen"></div>
+
+
+    
+
+    <div id="page-wrapper">
+      <!--[if lt IE 9]><div class="upgrade notice-warning"><strong>Your browser is quite old!</strong> Why not <a href="http://whatbrowser.org/">upgrade to a newer one</a> to better enjoy this site?</div><![endif]-->
+
+
+      <div id="main" role="main">
+        <div class="wrap">
+          <div class="page-title">
+            <h1>Libpointmatcher modules</h1>
+            
+          </div>
+          <div class="archive-wrap">
+            <div class="page-content">
+              <h2 id="transformation">Transformation</h2>
+
+<h3 id="puretranslation">PureTranslation</h3>
+<p>Pure translation transformation
+A rigid transformation with no rotation.</p>
+
+<h3 id="rigidtransformation">RigidTransformation</h3>
+<p>Rigid transformation.</p>
+
+<h2 id="datapointsfilter">DataPointsFilter</h2>
+
+<h3 id="boundingboxdatapointsfilter">BoundingBoxDataPointsFilter</h3>
+<p>Subsampling. Remove points laying in a bounding box which is axis aligned.</p>
+<ul>
+  <li>xMin (default: -1) - minimum value on x-axis defining one side of the bounding box - min: -inf - max: inf</li>
+  <li>xMax (default: 1) - maximum value on x-axis defining one side of the bounding box - min: -inf - max: inf</li>
+  <li>yMin (default: -1) - minimum value on y-axis defining one side of the bounding box - min: -inf - max: inf</li>
+  <li>yMax (default: 1) - maximum value on y-axis defining one side of the bounding box - min: -inf - max: inf</li>
+  <li>zMin (default: -1) - minimum value on z-axis defining one side of the bounding box - min: -inf - max: inf</li>
+  <li>zMax (default: 1) - maximum value on z-axis defining one side of the bounding box - min: -inf - max: inf</li>
+  <li>removeInside (default: 1) - If set to true (1), remove points inside the bounding box; else (0), remove points outside the bounding box - min: 0 - max: 1</li>
+</ul>
+
+<h3 id="covariancesamplingdatapointsfilter">CovarianceSamplingDataPointsFilter</h3>
+<p>Covariance Sampling (CovS) [1]. Performs stability analysis to select geometrically stable points that can bind the rotational components as well as the translational. Uses an estimate of the covariance matrix to detect pair of points which will not be constrained.</p>
+<ul>
+  <li>nbSample (default: 5000) - Number of point to select. - min: 1 - max: 4294967295</li>
+  <li>torqueNorm (default: 1) - Method for torque normalization: (0) L=1 (no normalization, more t-normals), (1) L=Lavg (average distance, torque is scale-independent), (2) L=Lmax (scale in unit ball, more r-normals) - min: 0 - max: 2</li>
+</ul>
+
+<h3 id="cutatdescriptorthresholddatapointsfilter">CutAtDescriptorThresholdDataPointsFilter</h3>
+<p>Subsampling. Cut points with value of a given descriptor above or below a given threshold.</p>
+<ul>
+  <li>descName (default: none) - Descriptor name used to cut points</li>
+  <li>useLargerThan (default: 1) - If set to 1 (true), points with values above the ‘threshold’ will be cut.  If set to 0 (false), points with values below the ‘threshold’ will be cut. - min: 0 - max: 1</li>
+  <li>threshold (default: 0) - Value at which to cut. - min: -inf - max: inf</li>
+</ul>
+
+<h3 id="distancelimitdatapointsfilter">DistanceLimitDataPointsFilter</h3>
+<p>Subsampling. Filter points based on distance measured on a specific axis. If dim is set to -1, points are filtered based on radial distance.</p>
+<ul>
+  <li>dim (default: -1) - dimension on which the filter will be applied. x=0, y=1, z=2, radius=-1 - min: -1 - max: 2</li>
+  <li>dist (default: 1) - distance limit of the filter. If dim is set to -1 (radius), the absolute value of dist will be used - min: -inf - max: inf</li>
+  <li>removeInside (default: 1) - If set to true (1), remove points before the distance limit; else (0), remove points beyond the distance limit - min: 0 - max: 1</li>
+</ul>
+
+<h3 id="elipsoidsdatapointsfilter">ElipsoidsDataPointsFilter</h3>
+<p>Subsampling, Surfels (Elipsoids). This filter decomposes the point-cloud space in boxes, by recursively splitting the cloud through axis-aligned hyperplanes such as to maximize the evenness of the aspect ratio of the box. When the number of points in a box reaches a value knn or lower, the filter computes the center of mass of these points and its normal by taking the eigenvector corresponding to the smallest eigenvalue of all points in the box.</p>
+<ul>
+  <li>ratio (default: 0.5) - ratio of points to keep with random subsampling. Matrix (normal, density, etc.) will be associated to all points in the same bin. - min: 0.0000001 - max: 0.9999999</li>
+  <li>knn (default: 7) - determined how many points are used to compute the normals. Direct link with the rapidity of the computation (large = fast). Technically, limit over which a box is splitted in two - min: 3 - max: 2147483647</li>
+  <li>samplingMethod (default: 0) - if set to 0, random subsampling using the parameter ratio. If set to 1, bin subsampling with the resulting number of points being 1/knn. - min: 0 - max: 1</li>
+  <li>maxBoxDim (default: inf) - maximum length of a box above which the box is discarded</li>
+  <li>averageExistingDescriptors (default: 1) - whether the filter keep the existing point descriptors and average them or should it drop them</li>
+  <li>maxTimeWindow (default: inf) - maximum spread of times in a surfel</li>
+  <li>minPlanarity (default: 0) - to what extend planarity of surfels needs to be enforced</li>
+  <li>keepNormals (default: 1) - whether the normals should be added as descriptors to the resulting cloud</li>
+  <li>keepDensities (default: 0) - whether the point densities should be added as descriptors to the resulting cloud</li>
+  <li>keepEigenValues (default: 0) - whether the eigen values should be added as descriptors to the resulting cloud</li>
+  <li>keepEigenVectors (default: 0) - whether the eigen vectors should be added as descriptors to the resulting cloud</li>
+  <li>keepMeans (default: 0) - whether the means should be added as descriptors to the resulting cloud</li>
+  <li>keepCovariances (default: 0) - whether the covariances should be added as descriptors to the resulting cloud</li>
+  <li>keepWeights (default: 0) - whether the original number of points should be added as descriptors to the resulting cloud</li>
+  <li>keepShapes (default: 0) - whether the shape parameters of cylindricity (C), sphericality (S) and planarity (P) shall be calculated</li>
+  <li>keepIndices (default: 0) - whether the indices of points an ellipsoid is constructed of shall be kept</li>
+</ul>
+
+<h3 id="fixstepsamplingdatapointsfilter">FixStepSamplingDataPointsFilter</h3>
+<p>Subsampling. This filter reduces the size of the point cloud by only keeping one point over step ones; with step varying in time from startStep to endStep, each iteration getting multiplied by stepMult. If use as prefilter (i.e. before the iterations), only startStep is used.</p>
+<ul>
+  <li>startStep (default: 10) - initial number of point to skip (initial decimation factor) - min: 1 - max: 2147483647</li>
+  <li>endStep (default: 10) - maximal or minimal number of points to skip (final decimation factor) - min: 1 - max: 2147483647</li>
+  <li>stepMult (default: 1) - multiplication factor to compute the new decimation factor for each iteration - min: 0.0000001 - max: inf</li>
+</ul>
+
+<h3 id="gestaltdatapointsfilter">GestaltDataPointsFilter</h3>
+<p>Gestalt descriptors filter.</p>
+<ul>
+  <li>ratio (default: 0.1) - ratio of points to keep with random subsampling. Matrix (normal, density, etc.) will be associated to all points in the same bin. - min: 0.0000001 - max: 0.9999999</li>
+  <li>radius (default: 5) - is the radius of the gestalt descriptor, will be divided into 4 circular and 8 radial bins = 32 bins - min: 0.1 - max: 2147483647</li>
+  <li>knn (default: 7) - determined how many points are used to compute the normals. Direct link with the rapidity of the computation (large = fast). Technically, limit over which a box is splitted in two - min: 3 - max: 2147483647</li>
+  <li>vSizeX (default: 1.0) - Dimension of each voxel cell in x direction - min: -inf - max: inf</li>
+  <li>vSizeY (default: 1.0) - Dimension of each voxel cell in y direction - min: -inf - max: inf</li>
+  <li>vSizeZ (default: 1.0) - Dimension of each voxel cell in z direction - min: -inf - max: inf</li>
+  <li>keepMeans (default: 0) - whether the means should be added as descriptors to the resulting cloud</li>
+  <li>maxBoxDim (default: inf) - maximum length of a box above which the box is discarded</li>
+  <li>averageExistingDescriptors (default: 1) - whether the filter keep the existing point descriptors and average them or should it drop them</li>
+  <li>maxTimeWindow (default: inf) - maximum spread of times in a surfel</li>
+  <li>keepNormals (default: 1) - whether the normals should be added as descriptors to the resulting cloud</li>
+  <li>keepEigenValues (default: 0) - whether the eigen values should be added as descriptors to the resulting cloud</li>
+  <li>keepEigenVectors (default: 0) - whether the eigen vectors should be added as descriptors to the resulting cloud</li>
+  <li>keepCovariances (default: 0) - whether the covariances should be added as descriptors to the resulting cloud</li>
+  <li>keepGestaltFeatures (default: 1) - whether the Gestalt features shall be added to the resulting cloud</li>
+</ul>
+
+<h3 id="identitydatapointsfilter">IdentityDataPointsFilter</h3>
+<p>Does nothing.</p>
+
+<h3 id="incidenceangledatapointsfilter">IncidenceAngleDataPointsFilter</h3>
+<p>Compute the incidence angle using the dot product of the viewing direction and the surface normal.</p>
+
+<p>Required descriptors: normals, observationDirections.
+Produced descritors:  incidenceAngles.
+Altered descriptors:  none.
+Altered features:     none.</p>
+
+<h3 id="maxdensitydatapointsfilter">MaxDensityDataPointsFilter</h3>
+<p>Subsampling. Reduce the points number by randomly removing points with a density highler than a treshold.</p>
+<ul>
+  <li>maxDensity (default: 10) - Maximum density of points to target. Unit: number of points per m^3. - min: 0.0000001 - max: inf</li>
+</ul>
+
+<h3 id="maxdistdatapointsfilter">MaxDistDataPointsFilter</h3>
+<p>Subsampling. Filter points beyond a maximum distance measured on a specific axis. If dim is set to -1, points are filtered based on a maximum radius.</p>
+<ul>
+  <li>dim (default: -1) - dimension on which the filter will be applied. x=0, y=1, z=2, radius=-1 - min: -1 - max: 2</li>
+  <li>maxDist (default: 1) - maximum distance authorized. If dim is set to -1 (radius), the absolute value of minDist will be used. All points beyond that will be filtered. - min: -inf - max: inf</li>
+</ul>
+
+<h3 id="maxpointcountdatapointsfilter">MaxPointCountDataPointsFilter</h3>
+<p>Conditional subsampling. This filter reduces the size of the point cloud by randomly dropping points if their number is above maxCount. Based on [2]</p>
+<ul>
+  <li>seed (default: 1) - srand seed - min: 0 - max: 2147483647</li>
+  <li>maxCount (default: 1000) - maximum number of points - min: 0 - max: 2147483647</li>
+</ul>
+
+<h3 id="maxquantileonaxisdatapointsfilter">MaxQuantileOnAxisDataPointsFilter</h3>
+<p>Subsampling. Filter points beyond a maximum quantile measured on a specific axis.</p>
+<ul>
+  <li>dim (default: 0) - dimension on which the filter will be applied. x=0, y=1, z=2 - min: 0 - max: 2</li>
+  <li>ratio (default: 0.5) - maximum quantile authorized. All points beyond that will be filtered. - min: 0.0000001 - max: 0.9999999</li>
+</ul>
+
+<h3 id="mindistdatapointsfilter">MinDistDataPointsFilter</h3>
+<p>Subsampling. Filter points before a minimum distance measured on a specific axis. If dim is set to -1, points are filtered based on a minimum radius.</p>
+<ul>
+  <li>dim (default: -1) - dimension on which the filter will be applied. x=0, y=1, z=2, radius=-1 - min: -1 - max: 2</li>
+  <li>minDist (default: 1) - minimum value authorized. If dim is set to -1 (radius), the absolute value of minDist will be used. All points before that will be filtered. - min: -inf - max: inf</li>
+</ul>
+
+<h3 id="normalspacedatapointsfilter">NormalSpaceDataPointsFilter</h3>
+<p>Normal Space Sampling (NSS) [3]. Construct a set of buckets in the normal-space, then put all points of the data into buckets based on their normal direction; Finally, uniformly pick points from all the buckets until the desired number of points is selected. <strong>Required</strong> to compute normals as pre-step.</p>
+<ul>
+  <li>nbSample (default: 5000) - Number of point to select. - min: 1 - max: 4294967295</li>
+  <li>seed (default: 1) - Seed for the random generator. - min: 0 - max: 4294967295</li>
+  <li>epsilon (default: 0.09817477042) - Step of discretization for the angle spaces - min: 0.04908738521 - max: 3.14159265359</li>
+</ul>
+
+<h3 id="observationdirectiondatapointsfilter">ObservationDirectionDataPointsFilter</h3>
+<p>This filter extracts observation directions (vector from point to sensor), considering a sensor at position (x,y,z).</p>
+
+<p>Required descriptors: none.
+Produced descritors:  observationDirections.
+Altered descriptors:  none.
+Altered features:     none.</p>
+<ul>
+  <li>x (default: 0) - x-coordinate of sensor</li>
+  <li>y (default: 0) - y-coordinate of sensor</li>
+  <li>z (default: 0) - z-coordinate of sensor</li>
+</ul>
+
+<h3 id="octreegriddatapointsfilter">OctreeGridDataPointsFilter</h3>
+<p>Construct an Octree grid representation of the point cloud. Constructed either by limiting the number of point in each octant or by limiting the size of the bounding box. Down-sample by taking either the first or a random point, or compute the centroid.</p>
+<ul>
+  <li>buildParallel (default: 1) - If 1 (true), use threads to build the octree. - min: 0 - max: 1</li>
+  <li>maxPointByNode (default: 1) - Number of point under which the octree stop dividing. - min: 1 - max: 4294967295</li>
+  <li>maxSizeByNode (default: 0) - Size of the bounding box under which the octree stop dividing. - min: 0 - max: +inf</li>
+  <li>samplingMethod (default: 0) - Method to sample the Octree: First Point (0), Random (1), Centroid (2) (more accurate but costly), Medoid (3) (more accurate but costly) - min: 0 - max: 3</li>
+</ul>
+
+<h3 id="orientnormalsdatapointsfilter">OrientNormalsDataPointsFilter</h3>
+<p>Normals. Reorient normals so that they all point in the same direction, with respect to the observation points.</p>
+<ul>
+  <li>towardCenter (default: 1) - If set to true(1), all the normals will point inside the surface (i.e. toward the observation points). - min: 0 - max: 1</li>
+</ul>
+
+<h3 id="randomsamplingdatapointsfilter">RandomSamplingDataPointsFilter</h3>
+<p>Subsampling. This filter reduces the size of the point cloud by randomly dropping points. Based on [2]</p>
+<ul>
+  <li>prob (default: 0.75) - probability to keep a point, one over decimation factor  - min: 0 - max: 1</li>
+</ul>
+
+<h3 id="removenandatapointsfilter">RemoveNaNDataPointsFilter</h3>
+<p>Remove points having NaN as coordinate.</p>
+
+<h3 id="removesensorbiasdatapointsfilter">RemoveSensorBiasDataPointsFilter</h3>
+<p>Remove the bias induced by the angle of incidence</p>
+
+<p>Required descriptors: incidenceAngles, observationDirections.
+Produced descritors:  none.
+Altered descriptors:  none.
+Altered features:     points coordinates and number of points.</p>
+<ul>
+  <li>sensorType (default: 0) - Type of the sensor used. Choices: 0=Sick LMS-1xx, 1=Velodyne HDL-32E - min: 0 - max: 1</li>
+  <li>angleThreshold (default: 88.) - Threshold at which angle the correction is not applied, in degrees - min: 0. - max: 90.</li>
+</ul>
+
+<h3 id="samplingsurfacenormaldatapointsfilter">SamplingSurfaceNormalDataPointsFilter</h3>
+<p>Subsampling, Normals. This filter decomposes the point-cloud space in boxes, by recursively splitting the cloud through axis-aligned hyperplanes such as to maximize the evenness of the aspect ratio of the box. When the number of points in a box reaches a value knn or lower, the filter computes the center of mass of these points and its normal by taking the eigenvector corresponding to the smallest eigenvalue of all points in the box.</p>
+<ul>
+  <li>ratio (default: 0.5) - ratio of points to keep with random subsampling. Matrix (normal, density, etc.) will be associated to all points in the same bin. - min: 0.0000001 - max: 1.0</li>
+  <li>knn (default: 7) - determined how many points are used to compute the normals. Direct link with the rapidity of the computation (large = fast). Technically, limit over which a box is splitted in two - min: 3 - max: 2147483647</li>
+  <li>samplingMethod (default: 0) - if set to 0, random subsampling using the parameter ratio. If set to 1, bin subsampling with the resulting number of points being 1/knn. - min: 0 - max: 1</li>
+  <li>maxBoxDim (default: inf) - maximum length of a box above which the box is discarded</li>
+  <li>averageExistingDescriptors (default: 1) - whether the filter keep the existing point descriptors and average them or should it drop them</li>
+  <li>keepNormals (default: 1) - whether the normals should be added as descriptors to the resulting cloud</li>
+  <li>keepDensities (default: 0) - whether the point densities should be added as descriptors to the resulting cloud</li>
+  <li>keepEigenValues (default: 0) - whether the eigen values should be added as descriptors to the resulting cloud</li>
+  <li>keepEigenVectors (default: 0) - whether the eigen vectors should be added as descriptors to the resulting cloud</li>
+</ul>
+
+<h3 id="shadowdatapointsfilter">ShadowDataPointsFilter</h3>
+<p>Remove ghost points appearing on edge discontinuties. Assume that the origine of the point cloud is close to where the laser center was. Requires surface normal for every points</p>
+<ul>
+  <li>eps (default: 0.1) - Small angle (in rad) around which a normal shoudn’t be observable - min: 0.0 - max: 3.1416</li>
+</ul>
+
+<h3 id="simplesensornoisedatapointsfilter">SimpleSensorNoiseDataPointsFilter</h3>
+<p>Add a 1D descriptor named <sensorNoise> that would represent the noise radius expressed in meter based on SICK LMS specifications [4].</sensorNoise></p>
+<ul>
+  <li>sensorType (default: 0) - Type of the sensor used. Choices: 0=Sick LMS-1xx, 1=Hokuyo URG-04LX, 2=Hokuyo UTM-30LX, 3=Kinect/Xtion - min: 0 - max: 2147483647</li>
+  <li>gain (default: 1) - If the point cloud is coming from an untrusty source, you can use the gain to augment the uncertainty - min: 1 - max: inf</li>
+</ul>
+
+<h3 id="surfacenormaldatapointsfilter">SurfaceNormalDataPointsFilter</h3>
+<p>This filter extracts the surface normal vector and other statistics to each point by taking the eigenvector corresponding to the smallest eigenvalue of its nearest neighbors.</p>
+
+<p>Required descriptors: none.
+Produced descritors:  normals(optional), densities(optional), eigValues(optional), eigVectors(optional), matchedIds (optional), meanDists(optional).
+Altered descriptors:  none.
+Altered features:     none.</p>
+<ul>
+  <li>knn (default: 5) - number of nearest neighbors to consider, including the point itself - min: 3 - max: 2147483647</li>
+  <li>maxDist (default: inf) - maximum distance to consider for neighbors - min: 0 - max: inf</li>
+  <li>epsilon (default: 0) - approximation to use for the nearest-neighbor search - min: 0 - max: inf</li>
+  <li>keepNormals (default: 1) - whether the normals should be added as descriptors to the resulting cloud</li>
+  <li>keepDensities (default: 0) - whether the point densities should be added as descriptors to the resulting cloud</li>
+  <li>keepEigenValues (default: 0) - whether the eigen values should be added as descriptors to the resulting cloud</li>
+  <li>keepEigenVectors (default: 0) - whether the eigen vectors should be added as descriptors to the resulting cloud</li>
+  <li>keepMatchedIds (default: 0) - whether the identifiers of matches points should be added as descriptors to the resulting cloud</li>
+  <li>keepMeanDist (default: 0) - whether the distance to the nearest neighbor mean should be added as descriptors to the resulting cloud</li>
+  <li>sortEigen (default: 0) - whether the eigenvalues and eigenvectors should be sorted (ascending) based on the eigenvalues</li>
+  <li>smoothNormals (default: 0) - whether the normal vector should be average with the nearest neighbors</li>
+</ul>
+
+<h3 id="voxelgriddatapointsfilter">VoxelGridDataPointsFilter</h3>
+<p>Construct Voxel grid of the point cloud. Down-sample by taking centroid or center of grid cells.</p>
+<ul>
+  <li>vSizeX (default: 1.0) - Dimension of each voxel cell in x direction - min: 0.001 - max: +inf</li>
+  <li>vSizeY (default: 1.0) - Dimension of each voxel cell in y direction - min: 0.001 - max: +inf</li>
+  <li>vSizeZ (default: 1.0) - Dimension of each voxel cell in z direction - min: 0.001 - max: +inf</li>
+  <li>useCentroid (default: 1) - If 1 (true), down-sample by using centroid of voxel cell.  If false (0), use center of voxel cell. - min: 0 - max: 1</li>
+  <li>averageExistingDescriptors (default: 1) - whether the filter keep the existing point descriptors and average them or should it drop them - min: 0 - max: 1</li>
+</ul>
+
+<h2 id="matcher">Matcher</h2>
+
+<h3 id="kdtreematcher">KDTreeMatcher</h3>
+<p>This matcher matches a point from the reading to its closest neighbors in the reference.</p>
+<ul>
+  <li>knn (default: 1) - number of nearest neighbors to consider it the reference - min: 1 - max: 2147483647</li>
+  <li>epsilon (default: 0) - approximation to use for the nearest-neighbor search - min: 0 - max: inf</li>
+  <li>searchType (default: 1) - Nabo search type. 0: brute force, check distance to every point in the data (very slow), 1: kd-tree with linear heap, good for small knn (~up to 30) and 2: kd-tree with tree heap, good for large knn (~from 30) - min: 0 - max: 2</li>
+  <li>maxDist (default: inf) - maximum distance to consider for neighbors - min: 0 - max: inf</li>
+</ul>
+
+<h3 id="kdtreevardistmatcher">KDTreeVarDistMatcher</h3>
+<p>This matcher matches a point from the reading to its closest neighbors in the reference. A maximum search radius per point can be defined.</p>
+<ul>
+  <li>knn (default: 1) - number of nearest neighbors to consider it the reference - min: 1 - max: 2147483647</li>
+  <li>epsilon (default: 0) - approximation to use for the nearest-neighbor search - min: 0 - max: inf</li>
+  <li>searchType (default: 1) - Nabo search type. 0: brute force, check distance to every point in the data (very slow), 1: kd-tree with linear heap, good for small knn (~up to 30) and 2: kd-tree with tree heap, good for large knn (~from 30) - min: 0 - max: 2</li>
+  <li>maxDistField (default: maxSearchDist) - descriptor field name used to set a maximum distance to consider for neighbors per point</li>
+</ul>
+
+<h3 id="nullmatcher">NullMatcher</h3>
+<p>Does nothing, returns no match.</p>
+
+<h2 id="outlierfilter">OutlierFilter</h2>
+
+<h3 id="genericdescriptoroutlierfilter">GenericDescriptorOutlierFilter</h3>
+<p>This filter weights matched points based on a 1D descriptor of either a single point cloud (either the reference or the reading). The descriptor values must be larger than zero.</p>
+<ul>
+  <li>source (default: reference) - Point cloud from which the descriptor will be used: reference or reading</li>
+  <li>descName (default: none) - Descriptor name used to weight paired points</li>
+  <li>useSoftThreshold (default: 0) - If set to 1 (true), uses the value of the descriptor as a weight. If set to 0 (false), uses the parameter ‘threshold’ to set binary weights. - min: 0 - max: 1</li>
+  <li>useLargerThan (default: 1) - If set to 1 (true), values over the ‘threshold’ will have a weight of one.  If set to 0 (false), values under the ‘threshold’ will have a weight of one. All other values will have a weight of zero. - min: 0 - max: 1</li>
+  <li>threshold (default: 0.1) - Value used to determine the binary weights - min: 0.0000001 - max: inf</li>
+</ul>
+
+<h3 id="maxdistoutlierfilter">MaxDistOutlierFilter</h3>
+<p>This filter considers as outlier links whose norms are above a fix threshold.</p>
+<ul>
+  <li>maxDist (default: 1) - threshold distance (Euclidean norm) - min: 0.0000001 - max: inf</li>
+</ul>
+
+<h3 id="mediandistoutlierfilter">MedianDistOutlierFilter</h3>
+<p>This filter considers as outlier links whose norms are above the median link norms times a factor. Based on [5].</p>
+<ul>
+  <li>factor (default: 3) - points farther away factor * median will be considered outliers. - min: 0.0000001 - max: inf</li>
+</ul>
+
+<h3 id="mindistoutlierfilter">MinDistOutlierFilter</h3>
+<p>This filter considers as outlier links whose norms are below a threshold.</p>
+<ul>
+  <li>minDist (default: 1) - threshold distance (Euclidean norm) - min: 0.0000001 - max: inf</li>
+</ul>
+
+<p>NullOutlierFilter
+Does nothing.</p>
+
+<h3 id="robustoutlierfilter">RobustOutlierFilter</h3>
+<p>Robust weight function. 8 robust functions to choose from (Cauchy, Welsch, Switchable Constraint, Geman-McClure, Tukey, Huber, L1 and Student). All the functions are M-Estimator (\cite{RobustWeightFunctions}) except L1 and Student.</p>
+<ul>
+  <li>robustFct (default: cauchy) - Type of robust function used. Available fct: ‘cauchy’, ‘welsch’, ‘sc’(aka Switchable-Constraint), ‘gm’ (aka Geman-McClure), ‘tukey’, ‘huber’ and ‘L1’. (Default: cauchy)</li>
+  <li>tuning (default: 1.0) - Tuning parameter used to limit the influence of outliers.If the ‘scaleEstimator’ is ‘mad’ or ‘none’, this parameter acts as the tuning parameter.If the ‘scaleEstimator’ is ‘berg’ this parameter acts as the target scale (σ*). - min: 0.0000001 - max: inf</li>
+  <li>scaleEstimator (default: mad) - The scale estimator is used to convert the error distance into a Mahalanobis distance. 3 estimators are available: ‘none’: no estimator (scale = 1), ‘mad’: use the median of absolute deviation (a kind of robust standard deviation), ‘berg’: an iterative exponentially decreasing estimator</li>
+  <li>nbIterationForScale (default: 0) - For how many iteration the ‘scaleEstimator’ is recalculated. After ‘nbIterationForScale’ iteration the previous scale is kept. A nbIterationForScale==0 means that the estiamtor is recalculated at each iteration. - min: 0 - max: 100</li>
+  <li>distanceType (default: point2point) - Type of error distance used, either point to point (‘point2point’) or point to plane(‘point2plane’). Point to point gives better result normally.</li>
+  <li>approximation (default: inf) - If the matched distance is larger than this threshold, its weight will be forced to zero. This can save computation as zero values are not minimized. If set to inf (default value), no approximation is done. The unit of this parameter is the same as the distance used, typically meters. - min: 0.0 - max: inf</li>
+</ul>
+
+<h3 id="surfacenormaloutlierfilter">SurfaceNormalOutlierFilter</h3>
+<p>Hard rejection threshold using the angle between the surface normal vector of the reading and the reference. If normal vectors or not in the descriptor for both of the point clouds, does nothing.</p>
+<ul>
+  <li>maxAngle (default: 1.57) - Maximum authorised angle between the 2 surface normals (in radian) - min: 0.0 - max: 3.1416</li>
+</ul>
+
+<h3 id="trimmeddistoutlierfilter">TrimmedDistOutlierFilter</h3>
+<p>Hard rejection threshold using quantile. This filter considers as inlier a certain percentage of the links with the smallest norms. Based on [6].</p>
+<ul>
+  <li>ratio (default: 0.85) - percentage to keep - min: 0.0000001 - max: 1.0</li>
+</ul>
+
+<h3 id="vartrimmeddistoutlierfilter">VarTrimmedDistOutlierFilter</h3>
+<p>Hard rejection threshold using quantile and variable ratio. Based on [7].</p>
+<ul>
+  <li>minRatio (default: 0.05) - min ratio - min: 0.0000001 - max: 1</li>
+  <li>maxRatio (default: 0.99) - max ratio - min: 0.0000001 - max: 1</li>
+  <li>lambda (default: 2.35) - lambda (part of the term that balance the rmsd: 1/ratio^lambda</li>
+</ul>
+
+<h2 id="errorminimizer">ErrorMinimizer</h2>
+
+<h3 id="identityerrorminimizer">IdentityErrorMinimizer</h3>
+<p>Does nothing.</p>
+
+<h3 id="pointtoplaneerrorminimizer">PointToPlaneErrorMinimizer</h3>
+<p>Point-to-plane error (or point-to-line in 2D). Per [8].</p>
+<ul>
+  <li>force2D (default: 0) - If set to true(1), the minimization will be force to give a solution in 2D (i.e., on the XY-plane) even with 3D inputs. - min: 0 - max: 1</li>
+</ul>
+
+<h3 id="pointtoplanewithcoverrorminimizer">PointToPlaneWithCovErrorMinimizer</h3>
+<p>Point-to-plane error (or point-to-line in 2D). Based on [8]. Covariance estimation based on [9].</p>
+<ul>
+  <li>force2D (default: 0) - If set to true(1), the minimization will be force to give a solution in 2D (i.e., on the XY-plane) even with 3D inputs. - min: 0 - max: 1</li>
+  <li>sensorStdDev (default: 0.01) - sensor standard deviation - min: 0. - max: inf</li>
+</ul>
+
+<h3 id="pointtopointerrorminimizer">PointToPointErrorMinimizer</h3>
+<p>Point-to-point error. Based on SVD decomposition. Per [10].</p>
+
+<h3 id="pointtopointsimilarityerrorminimizer">PointToPointSimilarityErrorMinimizer</h3>
+<p>Point-to-point similarity error (rotation + translation + scale). The scale is the same for all coordinates. Based on SVD decomposition. Per [11].</p>
+
+<h3 id="pointtopointwithcoverrorminimizer">PointToPointWithCovErrorMinimizer</h3>
+<p>Point-to-point error. Based on SVD decomposition. Based on [10]. Covariance estimation based on [9].</p>
+<ul>
+  <li>sensorStdDev (default: 0.01) - sensor standard deviation - min: 0. - max: inf</li>
+</ul>
+
+<h2 id="transformationchecker">TransformationChecker</h2>
+
+<h3 id="boundtransformationchecker">BoundTransformationChecker</h3>
+<p>This checker stops the ICP loop with an exception when the transformation values exceed bounds.</p>
+<ul>
+  <li>maxRotationNorm (default: 1) - rotation bound - min: 0 - max: inf</li>
+  <li>maxTranslationNorm (default: 1) - translation bound - min: 0 - max: inf</li>
+</ul>
+
+<h3 id="countertransformationchecker">CounterTransformationChecker</h3>
+<p>This checker stops the ICP loop after a certain number of iterations.</p>
+<ul>
+  <li>maxIterationCount (default: 40) - maximum number of iterations  - min: 0 - max: 2147483647</li>
+</ul>
+
+<h3 id="differentialtransformationchecker">DifferentialTransformationChecker</h3>
+<p>This checker stops the ICP loop when the relative motions (i.e. abs(currentIter - lastIter)) of rotation and translation components are below a fix thresholds. This allows to stop the iteration when the point cloud is stabilized. Smoothing can be applied to avoid oscillations. Inspired by [6].</p>
+<ul>
+  <li>minDiffRotErr (default: 0.001) - threshold for rotation error (radian) - min: 0. - max: 6.2831854</li>
+  <li>minDiffTransErr (default: 0.001) - threshold for translation error - min: 0. - max: inf</li>
+  <li>smoothLength (default: 3) - number of iterations over which to average the differencial error - min: 0 - max: 2147483647</li>
+</ul>
+
+<h2 id="inspector">Inspector</h2>
+
+<h3 id="nullinspector">NullInspector</h3>
+<p>Does nothing.</p>
+
+<h3 id="performanceinspector">PerformanceInspector</h3>
+<p>Keep statistics on performance.</p>
+<ul>
+  <li>baseFileName (default: ) - base file name for the statistics files (if empty, disabled)</li>
+  <li>dumpPerfOnExit (default: 0) - dump performance statistics to stderr on exit</li>
+  <li>dumpStats (default: 0) - dump the statistics on first and last step</li>
+</ul>
+
+<h3 id="vtkfileinspector">VTKFileInspector</h3>
+<p>Dump the different steps into VTK files.</p>
+<ul>
+  <li>baseFileName (default: point-matcher-output) - base file name for the VTK files</li>
+  <li>dumpPerfOnExit (default: 0) - dump performance statistics to stderr on exit</li>
+  <li>dumpStats (default: 0) - dump the statistics on first and last step</li>
+  <li>dumpIterationInfo (default: 0) - dump iteration info</li>
+  <li>dumpDataLinks (default: 0) - dump data links at each iteration</li>
+  <li>dumpReading (default: 0) - dump the reading cloud at each iteration</li>
+  <li>dumpReference (default: 0) - dump the reference cloud at each iteration</li>
+  <li>writeBinary (default: 0) - write binary VTK files</li>
+</ul>
+
+<h2 id="logger">Logger</h2>
+
+<h3 id="filelogger">FileLogger</h3>
+<p>Log using std::stream.</p>
+<ul>
+  <li>infoFileName (default: ) - name of the file to output infos to, or an empty string to output infos to the standard output stream</li>
+  <li>warningFileName (default: ) - name of the file to output warnings to, or an empty string to output warnings to the standard error stream</li>
+  <li>displayLocation (default: 0) - display the location of message in source code</li>
+</ul>
+
+<h3 id="nulllogger">NullLogger</h3>
+<p>Does not log anything.</p>
+
+<h2 id="bibliography">Bibliography</h2>
+
+<p>[1] Geometrically stable sampling for the ICP algorithm. Gelfand, N. and Ikemoto, L. and Rusinkiewicz, Szymon and Levoy, M. Fourth International Conference on 3-D Digital Imaging and Modeling, 2003. 3DIM 2003. Proceedings.. 260–267. 2003.</p>
+
+<p>[2] Registration and integration of multiple range images for 3-D model construction. Masuda, T. and Sakaue, K. and Yokoya, N. In Pattern Recognition, 1996., Proceedings of the 13th International Conference on. 879–883. 1996.</p>
+
+<p>[3] Efficient Variants of the ICP Algorithm. Rusinkiewicz, Szymon and Levoy, Marc Proceedings Third International Conference on 3-D Digital Imaging and Modeling. 145–152. 2001.</p>
+
+<p>[4] Noise Characterization of Depth Sensors for Surface Inspections. F. Pomerleau, A. Breitenmoser, M. Liu, F. Colas, R. Siegwart In  International Conference on Applied Robotics for the Power Industry, 2012. (CARPI 2012). Proceedings of the IEEE. 1–8. 2012.</p>
+
+<p>[5] Simultaneous Localization and Mapping with Active Stereo Vision. Diebel, J. and Reutersward, K. and Thrun, S. and Davis, J. and Gupta, R. In Intelligent Robots and Systems, 2004. (IROS 2004). Proceedings. 2004 IEEE/RSJ International Conference on. 3436–3443. 2004.</p>
+
+<p>[6] The Trimmed Iterative Closest Point Algorithm. Chetverikov, D. and Svirko, D. and Stepanov, D. and Krsek, P. In Pattern Recognition, 2002. Proceedings. 16th International Conference on. 545–548. 2002.</p>
+
+<p>[7] Outlier robust ICP for minimizing fractional RMSD. Phillips, J.M. and Liu, R. and Tomasi, C. In 3-D Digital Imaging and Modeling, 2007. 3DIM ‘07. Sixth International Conference on. 427–434. 2007.</p>
+
+<p>[8] Object modeling by registration of multiple range images. Chen, Y. and Medioni, G. In Robotics and Automation, 1991. Proceedings., 1991 IEEE International Conference on. 2724–2729. 1991.</p>
+
+<p>[9] An Accurate Closed-Form Estimate of {ICP}’s Covariance. Censi, A. In Proceedings of the {IEEE} International Conference on Robotics and Automation ({ICRA}). 3167–3172. 2007.</p>
+
+<p>[10] A Method for Registration of 3-D Shapes. Besl, P.J. and McKay, H.D. In Pattern Analysis and Machine Intelligence, IEEE Transactions. 239–256. 1992.</p>
+
+<p>[11] Least-Squares Estimation of Transformation Parameters Between Two Point Patterns. Umeyama, Shinji IEEE Trans. Pattern Anal. Mach. Intell.. 376–380. 1991.</p>
+
+
+            </div><!-- /.page-content -->
+          </div class="archive-wrap"><!-- /.archive-wrap -->
+        </div><!-- /.wrap -->
+      </div><!-- /#main -->
+
+      <footer role="contentinfo" id="site-footer">
+	<nav role="navigation" class="menu bottom-menu">
+		<ul class="menu-item">
+		
+      
+			<li><a href="https://www.ulaval.ca" target="_blank">Université Laval</a></li>
+		
+      
+			<li><a href="https://www.ift.ulaval.ca" target="_blank">Département d'informatique et de génie logiciel</a></li>
+		
+		</ul>
+	</nav><!-- /.bottom-menu -->
+	<p class="copyright">&#169; 2019 <a href="https://norlab.ulaval.ca">Northern Robotics Laboratory</a> powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> + <a href="http://mmistakes.github.io/skinny-bones-jekyll/" rel="nofollow">Skinny Bones</a>.</p>
+</footer>
+    </div>
+
+    <script src="https://norlab.ulaval.ca/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="https://norlab.ulaval.ca/js/main.js"></script>
+
+  </body>
+
+</html>

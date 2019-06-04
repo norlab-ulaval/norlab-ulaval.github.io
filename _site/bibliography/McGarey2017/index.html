@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>TSLAM: Tethered simultaneous localization and mapping for mobile robots • Northern Robotics Laboratory</title>
+    
+    
+    
+    	<!-- Twitter Cards -->
+	<meta name="twitter:title" content="TSLAM: Tethered simultaneous localization and mapping for mobile robots">
+	
+	
+	
+	
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:image" content="https://norlab.ulaval.ca/images/norlab_logo_dark_120px.png">
+	
+	<!-- Open Graph -->
+	<meta property="og:locale" content="en">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="TSLAM: Tethered simultaneous localization and mapping for mobile robots">
+	
+	
+	<meta property="og:url" content="https://norlab.ulaval.ca/bibliography/McGarey2017/">
+	<meta property="og:site_name" content="Northern Robotics Laboratory">
+
+
+    <link rel="canonical" href="https://norlab.ulaval.ca/bibliography/McGarey2017/">
+
+    <link href="https://norlab.ulaval.ca/atom.xml" type="application/atom+xml" rel="alternate" title="Northern Robotics Laboratory Atom Feed">
+    <link href="https://norlab.ulaval.ca/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cleartype" content="on">
+
+    <link rel="stylesheet" href="https://norlab.ulaval.ca/css/main.css">
+    <!-- HTML5 Shiv and Media Query Support for IE -->
+    <!--[if lt IE 9]>
+      <script src="https://norlab.ulaval.ca/js/vendor/html5shiv.min.js"></script>
+      <script src="https://norlab.ulaval.ca/js/vendor/respond.min.js"></script>
+    <![endif]-->
+
+		<!-- Load MathJax if required -->
+		
+
+		<!-- Load extra fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Rokkitt:200" rel="stylesheet">
+
+  </head>
+
+  <body id="js-body">
+    <!--[if lt IE 9]><div class="upgrade notice-warning"><strong>Your browser is quite old!</strong> Why not <a href="http://whatbrowser.org/">upgrade to a newer one</a> to better enjoy this site?</div><![endif]-->
+
+    <header id="masthead">
+  <div class="inner-wrap">
+    <a href="https://norlab.ulaval.ca/" class="site-title">Northern Robotics Laboratory </a>
+    <nav role="navigation" class="menu top-menu">
+        <ul class="menu-item">
+	<!--li class="home"><a href="/">Northern Robotics Laboratory</a></li-->
+	
+    
+    <li>
+		<a href="https://norlab.ulaval.ca/research/" 
+		>Research</a></li>
+  
+    
+    <li>
+		<a href="https://norlab.ulaval.ca/publications/" 
+		>Publications</a></li>
+  
+    
+    <li>
+		<a href="https://norlab.ulaval.ca/people/" 
+		>People</a></li>
+  
+    
+    <li>
+		<a href="https://norlab.ulaval.ca/contact/" 
+		>Contact Us</a></li>
+  
+
+	<!-- Search for url -->
+	
+
+	
+
+	
+
+	
+		<li class="language-box"><span class="current-lang"> EN</span> </li>
+		
+			<li class="language-box"> <a  style="color:#e4e4e4;" href="/error/traduction-manquante/">FR</a> </li>
+		
+	
+
+</ul>
+
+    </nav>
+  </div><!-- /.inner-wrap -->
+</header><!-- /.masthead -->
+
+    <nav role="navigation" id="js-menu" class="sliding-menu-content">
+  <h5>Northern Robotics Laboratory <span>Table of Contents</span></h5>
+
+  <ul class="menu-item">
+    
+			
+			<li>
+      	<a href="https://norlab.ulaval.ca/research/">
+        
+        <div class="title">Research</div>
+        
+      </a>
+    	</li>
+		
+			
+			<li>
+      	<a href="https://norlab.ulaval.ca/publications/">
+        
+        <div class="title">Publications</div>
+        
+      </a>
+    	</li>
+		
+			
+			<li>
+      	<a href="https://norlab.ulaval.ca/people/">
+        
+        <div class="title">People</div>
+        
+      </a>
+    	</li>
+		
+			
+			<li>
+      	<a href="https://norlab.ulaval.ca/contact/">
+        
+        <div class="title">Contact Us</div>
+        
+      </a>
+    	</li>
+		
+  </ul>
+</nav>
+<button type="button" id="js-menu-trigger" class="sliding-menu-button lines-button x2" role="button" aria-label="Toggle Navigation">
+  <span class="nav-lines"></span>
+</button>
+
+<div id="js-menu-screen" class="menu-screen"></div>
+
+
+    <div id="page-wrapper">
+      <div id="main" role="main">
+	<article class="wrap" itemscope itemtype="http://schema.org/Article">
+		
+		
+		<div class="page-title">
+			
+		</div>
+		<div class="inner-wrap">
+			<div id="content" class="page-content" itemprop="articleBody">
+				
+				<h6><em>The International Journal of Robotics Research</em></h6>
+				
+				
+				<h3>TSLAM: Tethered simultaneous localization and mapping for mobile robots
+				</h3>
+				<p>by McGarey, Patrick and MacTavish, Kirk and Pomerleau, François and Barfoot, Timothy D</p>
+				<p> Tethered mobile robots are useful for exploration in steep, rugged, and dangerous terrain. A tether can provide a robot with robust communications, power, and mechanical support, but also constrains motion. In cluttered environments, the tether will wrap around a number of intermediate ‘anchor points’, complicating navigation. We show that by measuring the length of tether deployed and the bearing to the most recent anchor point, we can formulate a tethered simultaneous localization and mapping (TSLAM) problem that allows us to estimate the pose of the robot and the positions of the anchor points, using only low-cost, nonvisual sensors. This information is used by the robot to safely return along an outgoing trajectory while avoiding tether entanglement. We are motivated by TSLAM as a building block to aid conventional, camera, and laser-based approaches to simultaneous localization and mapping (SLAM), which tend to fail in dark and or dusty environments. Unlike conventional range-bearing SLAM, the TSLAM problem must account for the fact that the tether-length measurements are a function of the robot’s pose and all the intermediate anchor-point positions. While this fact has implications on the sparsity that can be exploited in our method, we show that a solution to the TSLAM problem can still be found and formulate two approaches: (i) an online particle filter based on FastSLAM and (ii) an efficient, offline batch solution. We demonstrate that either method outperforms odometry alone, both in simulation and in experiments using our TReX (Tethered Robotic eXplorer) mobile robot operating in flat-indoor and steep-outdoor environments. For the indoor experiment, we compare each method using the same dataset with ground truth, showing that batch TSLAM outperforms particle-filter TSLAM in localization and mapping accuracy, owing to superior anchor-point detection, data association, and outlier rejection. </p>
+
+				<p> 
+<figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex">	
+@article{McGarey2017,
+  author = {McGarey, Patrick and MacTavish, Kirk and Pomerleau, François and Barfoot, Timothy D},
+  title = {TSLAM: Tethered simultaneous localization and mapping for mobile robots},
+  journal = {The International Journal of Robotics Research},
+  volume = {36},
+  number = {12},
+  pages = {1363-1386},
+  year = {2017},
+  doi = {10.1177/0278364917732639},
+  url = {https://doi.org/10.1177/0278364917732639},
+  eprint = {https://doi.org/10.1177/0278364917732639}
+}
+</code></pre></figure>
+				</p>
+<hr>
+			
+			</div><!-- /.content -->
+		</div><!-- /.inner-wrap -->
+		
+	</article><!-- ./wrap -->
+</div><!-- /#main -->
+
+      <footer role="contentinfo" id="site-footer">
+	<nav role="navigation" class="menu bottom-menu">
+		<ul class="menu-item">
+		
+      
+			<li><a href="https://www.ulaval.ca" target="_blank">Université Laval</a></li>
+		
+      
+			<li><a href="https://www.ift.ulaval.ca" target="_blank">Département d'informatique et de génie logiciel</a></li>
+		
+		</ul>
+	</nav><!-- /.bottom-menu -->
+	<p class="copyright">&#169; 2019 <a href="https://norlab.ulaval.ca">Northern Robotics Laboratory</a> powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> + <a href="http://mmistakes.github.io/skinny-bones-jekyll/" rel="nofollow">Skinny Bones</a>.</p>
+</footer>
+    </div>
+
+    <script src="https://norlab.ulaval.ca/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="https://norlab.ulaval.ca/js/main.js"></script>
+
+		
+			<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117436826-1"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-117436826-1');
+</script>
+
+
+		
+
+  </body>
+
+</html>
