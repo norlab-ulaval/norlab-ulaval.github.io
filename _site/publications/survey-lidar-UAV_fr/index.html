@@ -1,0 +1,1441 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Enquête sur l'utilisation des lidars avec les UAV et la cartographie souterraine • Northern Robotics Laboratory</title>
+    <meta name="description" content="Cette enquête présente une vue générale des projets utilisant des lidars (Technologie de mesure de distance et détection par laser) sur des UAV (Véhicule Aérien Autonome).
+
+">
+    <meta name="keywords" content="publications, ICP, registration, mapping, robot, localization">
+    
+    	<!-- Twitter Cards -->
+	<meta name="twitter:title" content="Enquête sur l'utilisation des lidars avec les UAV et la cartographie souterraine">
+	<meta name="twitter:description" content="Cette enquête présente une vue générale des projets utilisant des lidars (Technologie de mesure de distance et détection par laser) sur des UAV (Véhicule Aérien Autonome).
+
+">
+	
+	
+	
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="https://norlab.ulaval.ca/images/publications/survey-lidar-UAV_feature.jpg">
+	
+	<!-- Open Graph -->
+	<meta property="og:locale" content="en">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Enquête sur l'utilisation des lidars avec les UAV et la cartographie souterraine">
+	<meta property="og:description" content="Cette enquête présente une vue générale des projets utilisant des lidars (Technologie de mesure de distance et détection par laser) sur des UAV (Véhicule Aérien Autonome).
+
+">
+	<meta property="og:image" content="https://norlab.ulaval.ca/images/publications/survey-lidar-UAV_teaser.jpg">
+	<meta property="og:url" content="https://norlab.ulaval.ca/publications/survey-lidar-UAV_fr/">
+	<meta property="og:site_name" content="Northern Robotics Laboratory">
+
+
+    <link rel="canonical" href="https://norlab.ulaval.ca/publications/survey-lidar-UAV_fr/">
+
+    <link href="https://norlab.ulaval.ca/atom.xml" type="application/atom+xml" rel="alternate" title="Northern Robotics Laboratory Atom Feed">
+    <link href="https://norlab.ulaval.ca/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cleartype" content="on">
+
+    <link rel="stylesheet" href="https://norlab.ulaval.ca/css/main.css">
+    <!-- HTML5 Shiv and Media Query Support for IE -->
+    <!--[if lt IE 9]>
+      <script src="https://norlab.ulaval.ca/js/vendor/html5shiv.min.js"></script>
+      <script src="https://norlab.ulaval.ca/js/vendor/respond.min.js"></script>
+    <![endif]-->
+
+		<!-- Load MathJax if required -->
+		
+
+		<!-- Load extra fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Rokkitt:200" rel="stylesheet">
+
+  </head>
+
+  <body id="js-body">
+    <!--[if lt IE 9]><div class="upgrade notice-warning"><strong>Your browser is quite old!</strong> Why not <a href="http://whatbrowser.org/">upgrade to a newer one</a> to better enjoy this site?</div><![endif]-->
+
+    <header id="masthead">
+  <div class="inner-wrap">
+    <a href="https://norlab.ulaval.ca/accueil/" class="site-title">Laboratoire de robotique boréale </a>
+    <nav role="navigation" class="menu top-menu">
+        <ul class="menu-item">
+	<!--li class="home"><a href="/">Northern Robotics Laboratory</a></li-->
+	
+    
+    <li>
+		<a href="https://norlab.ulaval.ca/recherche/" 
+		>Recherche</a></li>
+  
+    
+    <li>
+		<a href="https://norlab.ulaval.ca/publications_fr/" 
+		>Publications</a></li>
+  
+    
+    <li>
+		<a href="https://norlab.ulaval.ca/equipe/" 
+		>Équipe</a></li>
+  
+    
+    <li>
+		<a href="https://norlab.ulaval.ca/contact_fr/" 
+		>Nous joindre</a></li>
+  
+
+	<!-- Search for url -->
+	
+
+	
+
+	
+
+	
+		
+			<li class="language-box"> <a href="/publications/survey-lidar-UAV/">EN</a> </li>
+		
+		<li class="language-box"><span class="current-lang"> FR</span> </li>
+	
+
+</ul>
+
+    </nav>
+  </div><!-- /.inner-wrap -->
+</header><!-- /.masthead -->
+
+    <nav role="navigation" id="js-menu" class="sliding-menu-content">
+  <h5>Laboratoire de robotique boréale <span>Table des matières</span></h5>
+
+  <ul class="menu-item">
+    
+			
+			<li>
+      	<a href="https://norlab.ulaval.ca/recherche/">
+        
+        <div class="title">Recherche</div>
+        
+      </a>
+    	</li>
+		
+			
+			<li>
+      	<a href="https://norlab.ulaval.ca/publications_fr/">
+        
+        <div class="title">Publications</div>
+        
+      </a>
+    	</li>
+		
+			
+			<li>
+      	<a href="https://norlab.ulaval.ca/equipe/">
+        
+        <div class="title">Équipe</div>
+        
+      </a>
+    	</li>
+		
+			
+			<li>
+      	<a href="https://norlab.ulaval.ca/contact_fr/">
+        
+        <div class="title">Nous joindre</div>
+        
+      </a>
+    	</li>
+		
+  </ul>
+</nav>
+<button type="button" id="js-menu-trigger" class="sliding-menu-button lines-button x2" role="button" aria-label="Toggle Navigation">
+  <span class="nav-lines"></span>
+</button>
+
+<div id="js-menu-screen" class="menu-screen"></div>
+
+
+    <div id="page-wrapper">
+      <div id="main" role="main">
+	<article class="wrap" itemscope itemtype="http://schema.org/Article">
+		
+		<div class="page-feature">
+			<div class="page-image">
+				<img src="https://norlab.ulaval.ca/images/publications/survey-lidar-UAV_feature.jpg" class="page-feature-image" alt="Enquête sur l'utilisation des lidars avec les UAV et la cartographie souterraine" itemprop="image">
+				<div class="image-credit">Image source: <a href="" itemprop="citation">H2H Associates, DroneZon</a></div><!-- /.image-credit -->
+			</div><!-- /.page-image -->
+		</div><!-- /.page-feature -->
+		
+		
+  <nav class="breadcrumbs">
+    <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+      <a href="https://norlab.ulaval.ca" itemprop="url">
+        <span itemprop="title">Home</span>
+      </a> › 
+    <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+      <a href="https://norlab.ulaval.ca/publications/" itemprop="url">
+        <span itemprop="title">Publications</span>
+      </a>
+    </span>
+  </nav><!-- /.breadcrumbs -->
+
+		<div class="page-title">
+			<h1>Enquête sur l'utilisation des lidars avec les UAV et la cartographie souterraine
+			<p></p>
+			</h1>
+		</div>
+		<div class="inner-wrap">
+			<div id="content" class="page-content" itemprop="articleBody">
+				<p>Cette enquête présente une vue générale des projets utilisant des lidars (Technologie de mesure de distance et détection par laser) sur des UAV (Véhicule Aérien Autonome).</p>
+
+<p>De nos jours le nombre de projets utilisant des UAV avec des lidars est en forte augmentation. 
+Du fait de leurs capacités à accéder à des endroits inaccessibles pour l’homme et de leur facilité de déploiement et d’utilisation, les UAV sont plus à même de donner des points de vue différents intéressant que les UGV (Véhicule Terrestre Autonome). 
+Cependant, l’utilisation de lidar sur les UAV reste encore un défi en soi et beaucoup de problèmes restent encore à surmonter. 
+L’estimation de la position de l’UAV, sa vitesse et son altitude, les caractéristiques de ses équipements et les algorithmes utilisés influencent significativement la précision des mesures de cartographie. 
+Dans cette enquête, nous présentons une liste des articles utilisant les lidars sur les UAV et donnons quelques détails à propos des équipements et algorithmes utilisés pour leur projet. 
+L’objectif est de fournir des éléments de comparaison sur les équipements utilisés dans les différents projets afin de faciliter le choix d’un lidar pour la cartographie avec des UAV. 
+Étant donné le nombre important d’articles sur le sujet, nous divisons cette enquête en sept catégories:</p>
+<ol>
+  <li><a href="#cartographie-souterraine">cartographie souterraine</a>,</li>
+  <li><a href="#mesure-avec-dirigeable">mesure avec dirigeable</a>,</li>
+  <li><a href="#estimation-de-la-pose-et-trajectoire">estimation de la position et trajectoire avec lidar</a>,</li>
+  <li><a href="#mesure-quelques-caractéristiques-du-paysage">mesure de quelques caractéristiques du paysage</a>,</li>
+  <li><a href="#mesure-objets">mesure d’objets</a>,</li>
+  <li><a href="#lidar-sur-UAV">test de lidar sur UAV</a>, et finallement</li>
+  <li><a href="#algorithmes-pour-odometry-et-comparaison-entre-lidar-sur-uav-et-ugv">algorithmes pour l’odométrie et comparaison entre lidar sur UAV et lidar sur robot terrestre</a>.</li>
+</ol>
+
+<p>Cette enquête est en cours de rédaction. Elle sera régulièrement mise à jour.
+Nous espérons que ces informations serons utiles à la communauté scientifique.
+Si vous remarquer l’absence de l’un de vos articles ou une erreur, n’hésitez pas à nous contacter.</p>
+
+<p>Légende: “O” signifie présent et “-“ signifie absent de l’article.</p>
+
+<h3 id="cartographie-souterraine">Cartographie souterraine</h3>
+<div style="overflow-x: visible;">
+<table class="large">
+	<thead>
+		<tr>
+			<th style="text-align: center;">Article</th>
+			<th style="text-align: center;">Sujet</th>
+			<th style="text-align: center;">UAV</th>
+			<th style="text-align: center;">lidar</th>
+			<th style="text-align: center;">Caméra</th>
+			<th style="text-align: center;">GPS</th>
+			<th style="text-align: center;">IMU</th>
+			<th style="text-align: center;">GNSS</th>
+			<th style="text-align: center;">INS</th>
+			<th style="text-align: center;">Test</th>
+			<th style="text-align: center;">Notes</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><a href="#Michael2012">(Michael et al., 2012)</a></td>
+			<td>Cartographie 3D d'un bâtiments endommagé par un tremblement de terre en utilisant une collaboration entre un robot terrestre et aérien</td>
+			<td>Pelican quadrotor</td>
+			<td>Hokuyo TM-30LX</td>
+			<td>Microsoft Kinect</td>
+			<td>-</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Intérieur</td>
+			<td>UAV peut se déployer à partir de l'UGV, ICP pour cartographie, SLAM pour navigation</td>
+		</tr>
+		<tr>
+			<td><a href="#Liu2015">(Liu, Mohta, Shen, &amp; Kumar, 2015)</a></td>
+			<td>Multiple UAV pour cartographie 3D</td>
+			<td>Pelican quadrotor</td>
+			<td>Hokuyo UTM-30LX</td>
+			<td>-</td>
+			<td>-</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Simulation et test intérieur</td>
+			<td>SLAM pour navigation et plannification de trajectoire</td>
+		</tr>
+		<tr>
+			<td><a href="#AjayKumar2017">(Ajay Kumar, Patil, Patil, Park, &amp; Chai, 2017)</a></td>
+			<td>Reconstruction d'intérieur de bâtiment et classification de tuyaux</td>
+			<td>Phantom 3 quadcopter avancé</td>
+			<td>Hokuyo UTM-30LX, Hokuyo URG-04LX-UG01</td>
+			<td>-</td>
+			<td>-</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Intérieur</td>
+			<td>ICP pour fusionner les données, utilisation d'un filtre de Kalman pour avoir la position, classification des tuyaux en calculant leur courbature</td>
+		</tr>
+		<tr>
+			<td><a href="#Edwards2017">(Edwards, 2017)</a></td>
+			<td>Scan d'un tunnel de mine</td>
+			<td>Asctec Hummingbird</td>
+			<td>Z+F Imager S010 3D (terrestrial)</td>
+			<td>Xtion Pro live </td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Intérieur</td>
+			<td>Comparaison entre l'algorithme Microsoft Kinect Fusion et un lidar terrestre</td>
+		</tr>
+		<tr>
+			<td><a href="#Vempati2017">(Vempati, Gilitschenski, Nieto, Beardsley, &amp; Siegwart, 2017)</a></td>
+			<td>Cartographie 3D intérieur en temps-réel avec UAV</td>
+			<td>DJI M100</td>
+			<td>Leica Multistation MS50 (sert de référence)</td>
+			<td>Intel RealSense R200</td>
+			<td>-</td>
+			<td>capteur DUO-MLX visual-inertial</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Simulation and test intérieur</td>
+			<td>SLAM avec GPU parallélisé pour gérer ses ressources mémoire, 5mm de résolution à 60Hz, filtre de Kalman étendu, ICP pour cartographie</td>
+		</tr>
+		<tr>
+			<td><a href="#Ozaslan2017">(Ozaslan et al., 2017)</a></td>
+			<td>Inspection de tunnel et pipeline avec UAV</td>
+			<td>DJI F550</td>
+			<td>Velodyne Puck Lite</td>
+			<td>MChameleon 3 caméra</td>
+			<td>-</td>
+			<td>PickHawk</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Intérieur</td>
+			<td>Cartographie local pour l'estimation de la pose</td>
+		</tr>
+		<tr>
+			<td><a href="#Mascarich2018">(Mascarich et al., 2018)</a></td>
+			<td>Inspection de site nucléaire et tunnel avec UAV</td>
+			<td>O</td>
+			<td>Capteur de profondeur de type Time of flight</td>
+			<td>Chameleon 3 caméra</td>
+			<td>-</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Intérieur</td>
+			<td>Détection des radiations et de leur localisation</td>
+		</tr>
+		<tr>
+			<td><a href="#Papachristos2019">(Papachristos, Khattak, Mascarich, &amp; Alexis, 2019)</a></td>
+			<td>Exploration autonome et cartographie de mines souterraines</td>
+			<td>Quadrotor</td>
+			<td>O</td>
+			<td>O</td>
+			<td>-</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Intérieur</td>
+			<td>-</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<h3 id="mesure-avec-dirigeable">Mesure avec dirigeable</h3>
+<div style="overflow-x: visible;">
+<table class="large">
+	<thead>
+		<tr>
+			<th style="text-align: center;">Article</th>
+			<th style="text-align: center;">Subject</th>
+			<th style="text-align: center;">UAV</th>
+			<th style="text-align: center;">lidar</th>
+			<th style="text-align: center;">Camera</th>
+			<th style="text-align: center;">GPS</th>
+			<th style="text-align: center;">IMU</th>
+			<th style="text-align: center;">GNSS</th>
+			<th style="text-align: center;">INS</th>
+			<th style="text-align: center;">Test</th>
+			<th style="text-align: center;">Note</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><a href="#Pan2015">(Pan et al., 2015)</a></td>
+			<td>Système pour suivre les lignes éléctriques afin de détecter des problèmes</td>
+			<td>Petit dirigeable à l'hélium</td>
+			<td>O</td>
+			<td>-</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td><a href="#Koska2017">(Koska et al., 2017)</a></td>
+			<td>Comparaison entre Lidar sur dirigeable et caméra sur UAV</td>
+			<td>Dirigeable ACC15X, 12m de long, 2.8m de diamètre (57m^3), 15kg de charge</td>
+			<td>Sick LD-LRS1000 (2D avec rotation)</td>
+			<td>Canon EOS 100D, FLIR SC645</td>
+			<td>IMAR iTracer-F200</td>
+			<td>-</td>
+			<td>-</td>
+			<td>O</td>
+			<td>Extérieur</td>
+			<td>Dirigeable crée par AirshipClub.com, problème de précision, problème avec la structure mais plus précis avec le dirigeable sur de larges zones qu'avec l'UAV</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<h3 id="estimation-de-la-position-et-trajectoire-avec-lidar">Estimation de la position et trajectoire avec lidar</h3>
+<div style="overflow-x: visible;">
+<table class="large">
+	<thead>
+		<tr class="header">
+			<th style="text-align: center;">Article</th>
+			<th style="text-align: center;">Sujet</th>
+			<th style="text-align: center;">UAV</th>
+			<th style="text-align: center;">lidar</th>
+			<th style="text-align: center;">Caméra</th>
+			<th style="text-align: center;">GPS</th>
+			<th style="text-align: center;">IMU</th>
+			<th style="text-align: center;">GNSS</th>
+			<th style="text-align: center;">INS</th>
+			<th style="text-align: center;">Test</th>
+			<th style="text-align: center;">Notes</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><a href="#Downs2004">(Downs, Madhavan, &amp; Hong, 2004)</a></td>
+			<td>Meilleure estimation de la position de l'UAV avec un lidar que par GPS</td>
+			<td>Flying Eye</td>
+			<td>LADAR system (UAV)/LMS-Z420i au sol</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>ICP pour traiter 2 séries de mesure, comparaison des données de UAV à celles au sol pour mesurer la précision</td>
+		</tr>
+		<tr>
+			<td><a href="#Hwang2012">(Hwang &amp; Tahk, 2012)</a></td>
+			<td>Mesure de la position d'un UAV avec lidar</td>
+			<td>Simualation d'un avion</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Simulation afin de comparer 2 algorithmiques pour localisation</td>
+			<td>Le lidar mesure le relief, comparaison entre le filtre de Kalman et la Cross Correlation</td>
+		</tr>
+		<tr>
+			<td><a href="#Han2012">(Han et al., 2012)</a></td>
+			<td>Problème de la mesure de la position d'une cible par apport à un drone</td>
+			<td>Petit avion</td>
+			<td>O</td>
+			<td>-</td>
+			<td>O</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>Images extraites d'une base de données pour tester l'algorithme de détection de contours, GPS+IMU pour estimer la position de l'UAV, ICP pour traiter les données, discussion sur le nombre de cycle d'ICP et leur influence sur les résultats</td>
+		</tr>
+		<tr>
+			<td><a href="#Gee2017">(Gee, James, Van Der Mark, Delmas, &amp; Gimel’Farb, 2017)</a></td>
+			<td>Fusion de plusieurs nuages de points issus d'un lidar en vue d'utiliser l'algorithme SLAM</td>
+			<td>DJI Phantom Quadcopter</td>
+			<td>Velodyne puck VLP-16</td>
+			<td>GoPro Hero 3+</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>Reconstruction des données, lidar statique au sol (caméra sur UAV), approximation de trajectoires avec les points puis ICP et SLAM</td>
+		</tr>
+		<tr>
+			<td><a href="#Shetty2017">(Shetty &amp; Gao, 2017)</a></td>
+			<td>Fusion des données GPS et lidar pour corriger l'erreur du GPS dans un environnement urbain</td>
+			<td>Quadrotor</td>
+			<td>Velodyne VLP-16 puck lite</td>
+			<td>-</td>
+			<td>LEA-6T GPS</td>
+			<td>Xsens-Mti-30 IMU</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>Modélisation de l'erreur de covariance du nuage de point, pose de l'UAV par Unscented Kalaman filter, matching des données lidar avec modèle 3D d'une ville, ICP pour faire correspondre les nuages de points</td>
+		</tr>
+		<tr>
+			<td><a href="#Zhen">(Zhen &amp; Scherer, n.d.)</a></td>
+			<td>Test une méthode multi-plateforme avec lidar et l'algorithme SLAM pour UAV (2D-3D)</td>
+			<td>DJI M100 DJI M600</td>
+			<td>Rotating Hokuyo Rotating Velodyne VLP-16</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Simulation et en extérieur</td>
+			<td>Kalman filter (ESKF), Gaussian Particle Filter (GPF), vitesse faible pour éviter erreur de position</td>
+		</tr>
+		<tr>
+			<td><a href="#Youn2018">(Youn, Kim, Kim, Yoo, &amp; Lee, 2018)</a></td>
+			<td>Détection de l'environnement 3D pour plannifier, se déplacer et surveiller le traffic dans le ciel</td>
+			<td>Cessma 208B</td>
+			<td>ALS50-III</td>
+			<td>-</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>O</td>
+			<td>Extérieur</td>
+			<td>Découpage du monde en cube de certaines tailles (différents niveaux de découpage suivant 20 degré de lattitude), 20 niveaux au total</td>
+		</tr>
+		<tr>
+			<td><a href="#Gomes2018">(Gomes, Guerreiro, Cunha, Silvestre, &amp; Oliveira, 2018)</a></td>
+			<td>Mesure de la déviation de trajectoire avec des données issues d'un lidar sur UAV</td>
+			<td>Mikrokopter Quadro XL</td>
+			<td>Hokuyo UTM30LX</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Microstrain IMU</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Intérieur</td>
+			<td>Méthode de detection de contours avec nuage de points, estimation de la position</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<center><h3>Mesure de quelques caractéristiques du paysage</h3></center>
+<div style="overflow-x: visible;">
+<table class="large">
+	<thead>
+		<tr class="header">
+			<th style="text-align: center;">Article</th>
+			<th style="text-align: center;">Sujet</th>
+			<th style="text-align: center;">UAV</th>
+			<th style="text-align: center;">lidar</th>
+			<th style="text-align: center;">Caméra</th>
+			<th style="text-align: center;">GPS</th>
+			<th style="text-align: center;">IMU</th>
+			<th style="text-align: center;">GNSS</th>
+			<th style="text-align: center;">INS</th>
+			<th style="text-align: center;">Test</th>
+			<th style="text-align: center;">Notes</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><a href="#Liu2011">(Liu, Li, Lei, Liu, &amp; Wu, 2011)</a></td>
+			<td>Analyse du sol avec UAV et lidar pour détecter et anticiper des glissements de terrain</td>
+			<td>Helicoptère</td>
+			<td>lidar sur helicoptère</td>
+			<td>O</td>
+			<td>DGPS</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>Traitement sur point cloud et images</td>
+		</tr>
+		<tr>
+			<td><a href="#Durst2011">(Durst, Baylot, &amp; McKinley, 2011)</a></td>
+			<td>Utilisation d'un drone et lidar pour l'étude des propiétés des routes (type de véhicule, courbature, taille,...)</td>
+			<td>Buckeye drone</td>
+			<td>O</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>Le lidar fait la mesure de l’élévation, le chemin est repéré par un traitement sur image</td>
+		</tr>
+		<tr>
+			<td><a href="#Wallace2012">(Wallace, Lucieer, Watson, &amp; Turner, 2012)</a></td>
+			<td>Recherches pour détecter des arbres dans une forêt (taille, position, diamètre)</td>
+			<td>Oktokopter Droidworsc/Micropter AD-8 (terraLuma)</td>
+			<td>Ibeo LUX laser scanner</td>
+			<td>O</td>
+			<td>O</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>Filtre de Kalman pour donner la position</td>
+		</tr>
+		<tr>
+			<td><a href="#Wallace2012a">(Wallace, Lucieer, &amp; Watson, 2012)</a></td>
+			<td>Mesure des effets de l'environnement au sol et des paramètres de mesures pour la prise de données sur des arbres</td>
+			<td>Drone TerraLuma</td>
+			<td>Ibeo LUX laser scanner</td>
+			<td>O</td>
+			<td>O</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td><a href="#Candigliota2012">(Candigliota, Immordino, Moretti, &amp; Indirli, 2012)</a></td>
+			<td>Analyse de la structure d'une ville après un tremblement de terre pour éviter de futures dégâts</td>
+			<td>Quadrotor</td>
+			<td>Leica Geosystems HDS 3000</td>
+			<td>-</td>
+			<td>DGPS</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>ICP pour traiter les données</td>
+		</tr>
+		<tr>
+			<td><a href="#Zhou2013">(Zhou et al., 2013)</a></td>
+			<td>Utilisation de différentes altitude et vitesse pour prendre des données sur un paysage</td>
+			<td>O</td>
+			<td>O</td>
+			<td>-</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>O</td>
+			<td>Extérieur</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td><a href="#Wallace2013">(Wallace, 2013)</a></td>
+			<td>Test de nouvelles caractéristiques pour l'analyse de la structure d'une forêt de manière probabilistique</td>
+			<td>Drone TerraLuma</td>
+			<td>Ibeo LUX laser scanner</td>
+			<td>O</td>
+			<td>O</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td><a href="#Roca2014">(Roca, Armesto, Lagüela, &amp; Díaz-Vilariño, 2014)</a></td>
+			<td>Test d'un UAV avec lidar pour la mesure du sol</td>
+			<td>Hisystems GmbH</td>
+			<td>Hokuyo UTM-30LX</td>
+			<td>-</td>
+			<td>O</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>Filtre de Kalman pour la position, test effectué sur une maison</td>
+		</tr>
+		<tr>
+			<td><a href="#Esposito2014">(Esposito et al., 2014)</a></td>
+			<td>Mesure des caractéristiques des arbres (taille, forme,...) pour valider le fonctionnement d'un lidar sur un UAV</td>
+			<td>Ultralight helicoptère</td>
+			<td>YellowScan lidar</td>
+			<td>-</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>O</td>
+			<td>Extérieur</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td><a href="#Wallace2014">(Wallace, Lucieer, &amp; Watson, 2014)</a></td>
+			<td>Mesure l'influence des algorithmes de détection et de la densité de points sur la précision de la détection des arbres et de leurs caractéristiques</td>
+			<td>Drone TerraLuma</td>
+			<td>Ibeo LUX laser scanner</td>
+			<td>O</td>
+			<td>O</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td><a href="#Ni2015">(Ni, Liu, Zhang, Sun, &amp; Yang, 2015)</a></td>
+			<td>Fait l'inventaire d'une forêt avec UAV et lidar</td>
+			<td>Yun-5 aircraft</td>
+			<td>Leica ALS 60</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td><a href="#Mandlburger2015">(Mandlburger et al., 2015)</a></td>
+			<td>Analyse les caractéristiques d'un cours d'eau avec UAV et lidar (dynamique, délimitation,...)</td>
+			<td>Ricopter UAV</td>
+			<td>Riegl VUX-Sys, VUX-1, VQ-880-G</td>
+			<td>Sony Alpha 6000 RGB</td>
+			<td>-</td>
+			<td>O</td>
+			<td>O</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td><a href="#Reiss2016">(Reiss et al., 2016)</a></td>
+			<td>Cartographie et enregistrement de ruines avec lidar sur UAV</td>
+			<td>Asctec Falcon 8, Sensefly e-Bee</td>
+			<td>Faro Focus 3D S-120 (UAV), Optec 3D-HD ILRIS (terrestre)</td>
+			<td>Sony Alpha 6000 RGB</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>Fusion des données terrestre et aérienne par photogramétrie</td>
+		</tr>
+		<tr>
+			<td><a href="#Guo2017">(Guo et al., 2017)</a></td>
+			<td>Cartographie de forêt avec UAV et lidar</td>
+			<td>8 rotor UAV</td>
+			<td>Velodyne puck VLP-16</td>
+			<td>-</td>
+			<td>O</td>
+			<td>Novatel IMU</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>Calibration des équipements, obtention des différentes caractéristiques sur la forêt</td>
+		</tr>
+		<tr>
+			<td><a href="#Wei2017">(Wei, Yang, Jiang, Cao, &amp; Wu, 2017)</a></td>
+			<td>Filtrer les effets de la végétation sur les mesures de paysage</td>
+			<td>8 rotor UAV</td>
+			<td>Riegl VUX-1</td>
+			<td>-</td>
+			<td>O</td>
+			<td>Trimble Applanix AP20-IMU</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td><a href="#Chiang2017">(Chiang, Tsai, Li, &amp; El-Sheimy, 2017)</a></td>
+			<td>Reconstruction d'un bâtiment avec UAV et lidar</td>
+			<td>Petit hélicoptère</td>
+			<td>Velodyne lidar VLP-16</td>
+			<td>-</td>
+			<td>C-Migits III</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>Nouvelle stratégie ICP afin de traiter la déformation des points, Filtre de Kalman pour données, comparaison avec lidar terrestre</td>
+		</tr>
+		<tr>
+			<td><a href="#Chen2017">(Chen, McDermid, Castilla, &amp; Linke, 2017)</a></td>
+			<td>Mesure de la végétation boréale avec UAV et lidar</td>
+			<td>Quadcoptère</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>O</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>Hauteur de la végétation mesurée, RTK GNSS pour la position, utilisation de données lidar dans base de données, croisements des données pour générer une carte des mesures</td>
+		</tr>
+		<tr>
+			<td><a href="#Sankey2017">(Sankey, Donager, McVay, &amp; Sankey, 2017)</a></td>
+			<td>Cartographie d'une forêt avec lidar sur UAV</td>
+			<td>Octocoptère</td>
+			<td>Velodyne HDL-32E (UAV), Riegl VZ-1000(terrestre)</td>
+			<td>-</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>O</td>
+			<td>Extérieur</td>
+			<td>Comparaison via le lidar terrestre, détermination des espéces d'arbres présent grâce à la réflexance du laser, limiter par la densité de peuplement des arbres</td>
+		</tr>
+		<tr>
+			<td><a href="#Christiansen2017">(Christiansen, Laursen, Jørgensen, Skovsen, &amp; Gislum, 2017)</a></td>
+			<td>Cartographie et mesure de la taille de culture avec UAV et lidar</td>
+			<td>DJI Matrice-100 quadcoptère</td>
+			<td>Velodyne VLP-16</td>
+			<td>-</td>
+			<td>-</td>
+			<td>VN-200 IMU</td>
+			<td>Trimble BD920 GNSS</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>Traitement des données pour isoler le champ puis mesurer sa hauteur, dépend grandement des valeurs du GPS</td>
+		</tr>
+		<tr>
+			<td><a href="#Gawel2017">(Gawel et al., 2017)</a></td>
+			<td>Fait la cartographie d'une zone sinistré avec UAV et lidar, puis envoi ensuite les données à des robots terrestres pour utiliser l'algorithme SLAM</td>
+			<td>O</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>Filtre de étendu Kalman, ICP pour fusionner les données, robot mobile avec lidar, fusion des données UAV et UGV</td>
+		</tr>
+		<tr>
+			<td><a href="#Elaksher2017">(Elaksher, Bhandari, Carreon Limones, &amp; Lauf, 2017)</a></td>
+			<td>Cartographie de champs avec UAV et lidar</td>
+			<td>DJI S900 hexacoptère</td>
+			<td>Velodyne VLP-16</td>
+			<td>-</td>
+			<td>O</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>Classification des points (sol ou végétation)</td>
+		</tr>
+		<tr>
+			<td><a href="#PututAshShidiq2017">(Putut Ash Shidiq et al., 2017)</a></td>
+			<td>Topographie de forêt avec UAV et lidar afin de différencier le sol des arbres</td>
+			<td>DJI Matrice-600</td>
+			<td>YellowScan lidar</td>
+			<td>-</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td><a href="#Morsdorf2017">(Morsdorf et al., 2017)</a></td>
+			<td>Topographie de forêt avec lidar sur UAV et comparaison avec lidar terrestre</td>
+			<td>Scout B1-100 helicoptère</td>
+			<td>Riegl VUX-1UAV (drone), Riegl VZ1000 (terrestre)</td>
+			<td>-</td>
+			<td>xTS xNAV550 GPS</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>4 m/s de vitesse, erreur de 1m sur la hauteur des arbres</td>
+		</tr>
+		<tr>
+			<td><a href="#Thiel2017">(Thiel &amp; Schmullius, 2017)</a></td>
+			<td>Comparaison entre les nuages de points obtenus par camera sur UAV et lidar sur UGV, pour trouver des caractéristiques sur les forêts</td>
+			<td>Geocopter X8000</td>
+			<td>Riegl VZ 1000 TLS (terrestre)</td>
+			<td>Sony NEX-7 RGB</td>
+			<td>DGPS</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>Trame des maxima, taille canopé et niveau de détection, 8 m/s pour UAV, comparaison avec lidar terrestre, traitement des données pour avoir des caractéristiques sur les forêts</td>
+		</tr>
+		<tr>
+			<td><a href="#Huang2018">(Huang, Yeh, Tseng, &amp; Hsu, 2018)</a></td>
+			<td>Mesure les propriétés des vagues de la mer, du changement du littoral et des marées avec UAV et lidar</td>
+			<td>DJI S1000</td>
+			<td>Hokuyo UTM-30LX</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Xsens-Mti-30 IMU</td>
+			<td>O</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>RTK GNSS, calibration et mesure des données, comparaison des données lidar avec capteur de pression Doppler Velocimetry (Son Tek ADV-Oceans)</td>
+		</tr>
+		<tr>
+			<td><a href="#Cramer2018">(Cramer, Haala, Laupheimer, Mandlburger, &amp; Havel, 2018)</a></td>
+			<td>Mesure du sol et paysage avec un lidar haute précision sur UAV(3-5mm)</td>
+			<td>Ricopter multi-copter pateforme</td>
+			<td>Riegl VUX-1LR</td>
+			<td>Sony Alpha 6000 RGB</td>
+			<td>-</td>
+			<td>O</td>
+			<td>O</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>8 m/s de vitesse, 50m de hauteur, comparaison avec mesure au sol (tacheometrie)</td>
+		</tr>
+		<tr>
+			<td><a href="#Govedarica2018">(Govedarica, Jakovljevic, &amp; Álvarez Taboada, 2018)</a></td>
+			<td>Étude du risque d'inondation avec UAV et lidar</td>
+			<td>WingtraOno drone</td>
+			<td>LMS-Q680i-Full (avion)</td>
+			<td>42 MP Sony RX1RII</td>
+			<td>O</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>Technique DEM (digital elevation models), lidar comme référence pour caméra</td>
+		</tr>
+		<tr>
+			<td><a href="#Hinterhofer2018">(Hinterhofer et al., 2018)</a></td>
+			<td>Utilisation d'un UAV et lidar sur un site nucléaire sinistré</td>
+			<td>Ricopter-M</td>
+			<td>Riegl VUX-1UAV </td>
+			<td>-</td>
+			<td>-</td>
+			<td>O</td>
+			<td>O</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>Cartographier le terrain et mesurer le taux gamma de radiation</td>
+		</tr>
+		<tr>
+			<td><a href="#Yan2018">(Yan et al., 2018)</a></td>
+			<td>Mesure de la prodution forestière par UAV et lidar</td>
+			<td>GV 1300 multirotor </td>
+			<td>Velodyne VLP-16E</td>
+			<td>-</td>
+			<td>O</td>
+			<td>IMU-IGM-S1</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>Segmentation des arbres par algorithme</td>
+		</tr>
+		<tr>
+			<td><a href="#Liu2018">(Liu, Shen, Cao, Wang, &amp; Cao, 2018)</a></td>
+			<td>Mesure de la strutcure d'une forêt avec UAV et lidar</td>
+			<td>GV 1900 multi-rotor UAV</td>
+			<td>Velodyne puck VLP-16</td>
+			<td>-</td>
+			<td>O</td>
+			<td>IMU-IGM-S1</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td><a href="#Polewski2019">(Polewski, Yao, Cao, &amp; Gao, 2019)</a></td>
+			<td>Méthode pour obtenir la position des arbres en utilisant un nuage de points obtenu avec UAV et lidar</td>
+			<td>Quadrotor</td>
+			<td>Velodyne puck VLP-16 (UAV), velodyne puck VLP-16 (UGV)</td>
+			<td>-</td>
+			<td>GPS Novatel (UAV)</td>
+			<td>IMU Novatel SPAN-MEMS (UAV)</td>
+			<td>-</td>
+			<td>POS (UGV)</td>
+			<td>Extérieur</td>
+			<td>lidar terrestre porté par une personne sur sac à dos pendant les tests</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<center><h3>Mesure d'objets</h3></center>
+<div style="overflow-x: visible;">
+<table class="large">
+	<thead>
+		<tr class="header">
+			<th style="text-align: center;">Article</th>
+			<th style="text-align: center;">Sujet</th>
+			<th style="text-align: center;">UAV</th>
+			<th style="text-align: center;">lidar</th>
+			<th style="text-align: center;">Caméra</th>
+			<th style="text-align: center;">GPS</th>
+			<th style="text-align: center;">IMU</th>
+			<th style="text-align: center;">GNSS</th>
+			<th style="text-align: center;">INS</th>
+			<th style="text-align: center;">Test</th>
+			<th style="text-align: center;">Notes</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><a href="#Lin2014">(Lin &amp; West, 2014)</a></td>
+			<td>Mesure et cartographie d'objets avec une géométrie oblique</td>
+			<td>Microdrone md4-200</td>
+			<td>Sensei MLS system (UAV), Ibeo Lux Laser (véhicule terrestre)</td>
+			<td>O</td>
+			<td>O</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>Fusion des données entre UAV et UGV</td>
+		</tr>
+		<tr>
+			<td><a href="#Gu2015">(Gu &amp; Zhang, 2015)</a></td>
+			<td>Localisation d'objets avec une plateforme UAV rapide</td>
+			<td>O</td>
+			<td>O</td>
+			<td>-</td>
+			<td>O</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>Augmente la rapidité avec des algorithmes (K-d tree, AK-d tree), altitude trop élevée implique de moins bonne performance</td>
+		</tr>
+		<tr>
+			<td><a href="#Moore2017">(Moore et al., 2017)</a></td>
+			<td>Inspection de lignes éléctriques avec UAV</td>
+			<td>Octorotor</td>
+			<td>O</td>
+			<td>-</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>Ajout d'un lidar pour éviter une collision et plannifier un chemin, utilisation de plusieurs drones pour parcourir la ligne, transformation des données lidar en forme polygominale, évitement de collision des drones en temps réel</td>
+		</tr>
+		<tr>
+			<td><a href="#Teng2017">(Teng et al., 2017)</a></td>
+			<td>Inspection de lignes éléctriques avec UAV</td>
+			<td>Hexarotor</td>
+			<td>O</td>
+			<td>-</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>Isole les vibrations de l'UAV du lidar, détection des lignes hautes tensions affaisées</td>
+		</tr>
+		<tr>
+			<td><a href="#Nikolov2017">(Nikolov &amp; Madsen, 2017)</a></td>
+			<td>Inspection de pâles d'éoliennes avec UAV et lidar</td>
+			<td>O</td>
+			<td>RPlidar</td>
+			<td>-</td>
+			<td>-</td>
+			<td>BNO055g-DOF IMU</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>Simplification en 2D de la forme des pâles, analyse de celles-ci</td>
+		</tr>
+		<tr>
+			<td><a href="#Chen2018">(Chen, Yang, Song, Peng, &amp; Huang, 2018)</a></td>
+			<td>Mesure de la distance entre les lignes éléctriques et le sol en vue de détecter des problèmes</td>
+			<td>Drone mini helicoptère</td>
+			<td>Riegl VZ400</td>
+			<td>-</td>
+			<td>O</td>
+			<td>O</td>
+			<td>-</td>
+			<td>POS</td>
+			<td>Extérieur</td>
+			<td>Algorithme de différentiation sol et câble, mesure courbure des câbles</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<center><h3>Test de lidar sur UAV</h3></center>
+<div style="overflow-x: visible;">
+<table class="large">
+	<thead>
+		<tr class="header">
+			<th style="text-align: center;">Article</th>
+			<th style="text-align: center;">Sujet</th>
+			<th style="text-align: center;">UAV</th>
+			<th style="text-align: center;">lidar</th>
+			<th style="text-align: center;">Caméra</th>
+			<th style="text-align: center;">GPS</th>
+			<th style="text-align: center;">IMU</th>
+			<th style="text-align: center;">GNSS</th>
+			<th style="text-align: center;">INS</th>
+			<th style="text-align: center;">Test</th>
+			<th style="text-align: center;">Notes</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><a href="#Li2015">(Li, Yan, Jing, &amp; Zhao, 2015)</a></td>
+			<td>Analyse des vibrations de différents UAV pour l'utilisation d'un lidar sur ceux-ci</td>
+			<td>Gasoline helicoptère</td>
+			<td>HDL-32 lidar</td>
+			<td>-</td>
+			<td>-</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>Sélection d'un rotor adapté, mesure et tentative d'atténuation des vibrations avec IMU</td>
+		</tr>
+		<tr>
+			<td><a href="#Tulldahl2015">(Tulldahl, Bissmarck, Larsson, Grönwall, &amp; Tolt, 2015)</a></td>
+			<td>Évaluation de la précision d'un lidar sur UAV</td>
+			<td>Tarot-810 hexacoptère</td>
+			<td>Velodyne HDL-32E</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>O</td>
+			<td>Extérieur</td>
+			<td>Traitement des données (calibration dynamique)</td>
+		</tr>
+		<tr>
+			<td><a href="#Yang2015">(Yang &amp; Chen, 2015)</a></td>
+			<td>Utilisation d'un lidar sur un mini-UAV</td>
+			<td>Rotor wing mini UAV</td>
+			<td>Riegl LMS-Q160</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>Traitement des données pour avoir la forme des objets repérés par le lidar (ICP), fusion de la forme, des points et images obtenu par la pose de l'UAV et lidar</td>
+		</tr>
+		<tr>
+			<td><a href="#Kasturi2016">(Kasturi, Milanovic, Atwood, &amp; Yang, 2016)</a></td>
+			<td>Développement d'un mini scanner pour drone avec MEMS (composants optique et miroirs)</td>
+			<td>DJI Phantom II</td>
+			<td>Playzer</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Intérieur</td>
+			<td>Test du prototype, différents mode de scan par laser, différents mode de prise de mesure, tracking d'objets par laser, contrôle android du Playzer via Bluetooth</td>
+		</tr>
+		<tr>
+			<td><a href="#Mastrangelo2018">(Mastrangelo, von Niederhausern, Nelson, &amp; Fuller, 2018)</a></td>
+			<td>Obtention et accès à des images 3D en temps réel depuis UAV</td>
+			<td>LASE drone</td>
+			<td>ASC TigerCub camera, Arete AirTrac laser, Sentech color camera, Hood Tech gimbal</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>Acquisition des données avec correction de la pose</td>
+		</tr>
+		<tr>
+			<td><a href="#Torresan2018">(Torresan et al., 2018)</a></td>
+			<td>Intégration d'un lidar sur UAV pour mesurer ses performances</td>
+			<td>Hexarotor</td>
+			<td>LUX 4L</td>
+			<td>-</td>
+			<td>O</td>
+			<td>-</td>
+			<td>VN-300 GNSS</td>
+			<td>O</td>
+			<td>Extérieur</td>
+			<td>Filtre de Kalman étendu, calibration des mesures, étude accès sur la précision et l'efficacité du GNSS</td>
+		</tr>
+		<tr>
+			<td><a href="#Nasrollahi2018">(Nasrollahi, Bolourian, Zhu, &amp; Hammad, 2018)</a></td>
+			<td>Construction d'UAV équippé d'un lidar pour l'inspection de structure</td>
+			<td>DJI Matrice 100</td>
+			<td>Hokuyo UTM-30LX</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Intérieur</td>
+			<td>Mode stationnaire pour tester la cartographie 3D</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<center><h3>Algorithmes pour l'odométrie et comparaison entre lidar sur UAV et lidar sur robot terrestre</h3></center>
+<div style="overflow-x: visible;">
+<table class="large">
+	<thead>
+		<tr class="header">
+			<th style="text-align: center;">Article</th>
+			<th style="text-align: center;">Sujet</th>
+			<th style="text-align: center;">UAV</th>
+			<th style="text-align: center;">lidar</th>
+			<th style="text-align: center;">Caméra</th>
+			<th style="text-align: center;">GPS</th>
+			<th style="text-align: center;">IMU</th>
+			<th style="text-align: center;">GNSS</th>
+			<th style="text-align: center;">INS</th>
+			<th style="text-align: center;">Test</th>
+			<th style="text-align: center;">Notes</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><a href="#Tulldahl2014">(Tulldahl &amp; Larsson, 2014)</a></td>
+			<td>Comparaison de données de lidar sur UAV avec lidar terrestre</td>
+			<td>Tarot-810 hexacoptère</td>
+			<td>Velodyne HDL-32E</td>
+			<td>-</td>
+			<td>O</td>
+			<td>MEMS-IMU</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>Comparaison de données via lidar terrestre sur véhicule et statique</td>
+		</tr>
+		<tr>
+			<td><a href="#Yousif2015">(Yousif, Bab-Hadiashar, &amp; Hoseinnezhad, 2015)</a></td>
+			<td>Description des algorithmes et stratégies utilisés pour l'odométrie</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Enquête</td>
+		</tr>
+		<tr>
+			<td><a href="#Lawson2015">(Lawson, 2015)</a></td>
+			<td>Fusion de nuages de points obtenus par de multiple UAV</td>
+			<td>Quadrocoptère construit</td>
+			<td>-</td>
+			<td>Kinect RGB</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Intérieur avec 2 drones</td>
+			<td>Génération d'un nuage de points donné à un algorithme de fusion de données utilisant ICP, besoin de plusieurs superpositions pour avoir de meilleurs résultats</td>
+		</tr>
+		<tr>
+			<td><a href="#Petras2016">(Petras, Petrasova, Jeziorska, &amp; Mitasova, 2016)</a></td>
+			<td>Utilisation de données obtenues par UAV et lidar via un logiciel appelé Grass GIS</td>
+			<td>Avion</td>
+			<td>O</td>
+			<td>Microsoft Kinect</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>Plus accès sur le traitement de données, densité des points testés pour réduire les points redondants</td>
+		</tr>
+		<tr>
+			<td><a href="#Gasparovic2017">(Gašparović, Seletković, Berta, &amp; Balenović, 2017)</a></td>
+			<td>Évaluation de données prises par UAV et lidar durant des conditions non-optimales (vent, nuages, densité de points, ...)</td>
+			<td>DJI Phantom 4 Pro, avion Pilatus P6</td>
+			<td>Optech ALTM Gemini 167 (airplane)</td>
+			<td>FC6310 caméra (drone)</td>
+			<td>-</td>
+			<td>-</td>
+			<td>O</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>Corrélation photo et lidar, comparaison données lidar avec nuages de points issus de photo</td>
+		</tr>
+		<tr>
+			<td><a href="#Persad2017">(Persad &amp; Armenakis, 2017)</a></td>
+			<td>Comparaison d'approche de fusion de données collectées par différents systèmes (lidar sur UAV et lidar terrestre)</td>
+			<td>Geo-X8000</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>Les résultats dépendent beaucoup de la configuration et des paramètres des nuages de points</td>
+		</tr>
+		<tr>
+			<td><a href="#Kwon2017">(Kwon, Park, Moon, Jung, &amp; Park, 2017)</a></td>
+			<td>Fusion rapide de données 3D atypiques dans différentes situations sur des chantiers de constructions (lidar sur UAV and lidar terrestre)</td>
+			<td>DJI Phantom 3 avanced</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>RTK pour estimation de position</td>
+		</tr>
+		<tr>
+			<td><a href="#Fuad2018">(Fuad et al., 2018)</a></td>
+			<td>Influence de l'altitude sur la précision des mesures</td>
+			<td>AL3 S1000</td>
+			<td>AL3-32</td>
+			<td>-</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>Plus l'altitude augmente (20m, 40m, 60m), plus la précision diminue (RMS 0.323m, 0.450m, 0.616m)</td>
+		</tr>
+		<tr>
+			<td><a href="#Park2019">(Park, Kim, Cho, &amp; Kang, 2019)</a></td>
+			<td>Fusion de données obtenues par différentes plateformes et différents capteurs (UAV et UGV)</td>
+			<td>Quadrotor et UGV</td>
+			<td>lidar (UGV)</td>
+			<td>Caméra (UAV)</td>
+			<td>O</td>
+			<td>O</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Extérieur</td>
+			<td>ICP pour traiter les données, SLAM pour UGV, élimination des points redondants puis ICP, le drone doit prendre des images entre 30 degré et 90 degré pour optimiser les résultats</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<h1 id="références">Références</h1>
+
+<ol class="bibliography" reversed="reversed"><li><span id="Polewski2019">Polewski, P., Yao, W., Cao, L., &amp; Gao, S. (2019). Marker-free coregistration of UAV and backpack LiDAR point clouds in forested areas. <i>ISPRS Journal of Photogrammetry and Remote Sensing</i>, <i>147</i>(July 2018), 307–318. https://doi.org/10.1016/j.isprsjprs.2018.11.020</span><a class="details" href="/bibliography/Polewski2019/"> Bibtex source</a></li>
+<li><span id="Park2019">Park, J., Kim, P., Cho, Y. K., &amp; Kang, J. (2019). Framework for automated registration of UAV and UGV point clouds using local features in images. <i>Automation in Construction</i>, <i>98</i>(November 2018), 175–182. https://doi.org/10.1016/j.autcon.2018.11.024</span><a class="details" href="/bibliography/Park2019/"> Bibtex source</a></li>
+<li><span id="Papachristos2019">Papachristos, C., Khattak, S., Mascarich, F., &amp; Alexis, K. (2019). <i>Autonomous Navigation and Mapping in Underground Mines Using Aerial Robots</i>.</span><a class="details" href="/bibliography/Papachristos2019/"> Bibtex source</a></li>
+<li><span id="Govedarica2018">Govedarica, M., Jakovljevic, G., &amp; Álvarez Taboada, F. (2018). Flood risk assessment based on LiDAR and UAV points clouds and DEM. <i>Remote Sensing for Agriculture, Ecosystems, and Hydrology XX</i>, (October 2018), 102. https://doi.org/10.1117/12.2513278</span><a class="details" href="/bibliography/Govedarica2018/"> Bibtex source</a></li>
+<li><span id="Torresan2018">Torresan, C., Berton, A., Carotenuto, F., Chiavetta, U., Miglietta, F., Zaldei, A., &amp; Gioli, B. (2018). Development and performance assessment of a low-cost UAV laser scanner system (LasUAV). <i>Remote Sensing</i>, <i>10</i>(7), 1–17. https://doi.org/10.3390/rs10071094</span><a class="details" href="/bibliography/Torresan2018/"> Bibtex source</a></li>
+<li><span id="Chen2018">Chen, C., Yang, B., Song, S., Peng, X., &amp; Huang, R. (2018). Automatic clearance anomaly detection for transmission line corridors utilizing UAV-Borne LIDAR data. <i>Remote Sensing</i>, <i>10</i>(4). https://doi.org/10.3390/rs10040613</span><a class="details" href="/bibliography/Chen2018/"> Bibtex source</a></li>
+<li><span id="Yan2018">Yan, W., Guan, H., Cao, L., Yu, Y., Gao, S., Lu, J. Y., … Lu, J. Y. (2018). An Automated Hierarchical Approach for Three-Dimensional Segmentation of Single Trees Using UAV LiDAR Data. <i>Remote Sensing</i>, <i>10</i>(12), 1999. https://doi.org/10.3390/rs10121999</span><a class="details" href="/bibliography/Yan2018/"> Bibtex source</a></li>
+<li><span id="Huang2018">Huang, Z. C., Yeh, C. Y., Tseng, K. H., &amp; Hsu, W. Y. (2018). A UAV-RTK lidar system for wave and tide measurements in coastal zones. <i>Journal of Atmospheric and Oceanic Technology</i>, <i>35</i>(8), 1557–1570. https://doi.org/10.1175/JTECH-D-17-0199.1</span><a class="details" href="/bibliography/Huang2018/"> Bibtex source</a></li>
+<li><span id="Liu2018">Liu, K., Shen, X., Cao, L., Wang, G., &amp; Cao, F. (2018). Estimating forest structural attributes using UAV-LiDAR data in Ginkgo plantations. <i>ISPRS Journal of Photogrammetry and Remote Sensing</i>, <i>146</i>(November), 465–482. https://doi.org/10.1016/j.isprsjprs.2018.11.001</span><a class="details" href="/bibliography/Liu2018/"> Bibtex source</a></li>
+<li><span id="Youn2018">Youn, J., Kim, D., Kim, T., Yoo, J. H., &amp; Lee, B. J. (2018). Development of Uav Air Roads By Using 3D Grid System. <i>ISPRS - International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences</i>, <i>XLII-4</i>(October), 731–735. https://doi.org/10.5194/isprs-archives-XLII-4-731-2018</span><a class="details" href="/bibliography/Youn2018/"> Bibtex source</a></li>
+<li><span id="Fuad2018">Fuad, N. A., Ismail, Z., Majid, Z., Darwin, N., Ariff, M. F. M., Idris, K. M., &amp; Yusoff, A. R. (2018). Accuracy evaluation of digital terrain model based on different flying altitudes and conditional of terrain using UAV LiDAR technology. <i>IOP Conference Series: Earth and Environmental Science</i>, <i>169</i>(1). https://doi.org/10.1088/1755-1315/169/1/012100</span><a class="details" href="/bibliography/Fuad2018/"> Bibtex source</a></li>
+<li><span id="Mastrangelo2018">Mastrangelo, J., von Niederhausern, K., Nelson, R. D., &amp; Fuller, D. (2018). Real-time LIDAR from ScanEagle UAV. <i>Ground/Air Multisensor Interoperability, Integration, and Networking for Persistent ISR IX</i>, (May 2018), 33. https://doi.org/10.1117/12.2304393</span><a class="details" href="/bibliography/Mastrangelo2018/"> Bibtex source</a></li>
+<li><span id="Hinterhofer2018">Hinterhofer, T., Ullrich, A., Hofstätter, M., Pfennigbauer, M., Schraml, S., &amp; Rothbacher, D. (2018). UAV-based LiDAR and gamma probe with real-time data processing and downlink for survey of nuclear disaster locations. <i>Chemical, Biological, Radiological, Nuclear, and Explosives (CBRNE) Sensing XIX</i>, (May 2018), 11. https://doi.org/10.1117/12.2304353</span><a class="details" href="/bibliography/Hinterhofer2018/"> Bibtex source</a></li>
+<li><span id="Gomes2018">Gomes, A., Guerreiro, B. J., Cunha, R., Silvestre, C., &amp; Oliveira, P. (2018). Sensor-based 3-D pose estimation and control of rotary-wing UAVs using a 2-D LiDAR. <i>Advances in Intelligent Systems and Computing</i>, <i>693</i>, 718–729. https://doi.org/10.1007/978-3-319-70833-1_58</span><a class="details" href="/bibliography/Gomes2018/"> Bibtex source</a></li>
+<li><span id="Cramer2018">Cramer, M., Haala, N., Laupheimer, D., Mandlburger, G., &amp; Havel, P. (2018). Ultra-High Precision Uav-Based Lidar and Dense Image Matching, <i>XLII</i>(October), 10–12.</span><a class="details" href="/bibliography/Cramer2018/"> Bibtex source</a></li>
+<li><span id="Nasrollahi2018">Nasrollahi, M., Bolourian, N., Zhu, Z., &amp; Hammad, A. (2018). Designing LiDAR-equipped UAV Platform for Structural Inspection. <i>Proceedings of the 35th International Symposium on Automation and Robotics in Construction (ISARC)</i>, (July). https://doi.org/10.22260/isarc2018/0152</span><a class="details" href="/bibliography/Nasrollahi2018/"> Bibtex source</a></li>
+<li><span id="Mascarich2018">Mascarich, F., Wilson, T., Khattak, S., Dang, T., Papachristos, C., &amp; Alexis, K. (2018). WM2018 Conference, March 18 – 22, 2018, Phoenix, Arizona, USA Autonomous 3D and Radiation Mapping in Tunnel Environments Using Aerial Robots – 18156 Frank Mascarich, Taylor Wilson, Shehryar Khattak, Tung Dang, Christos Papachristos, Kostas Alexis Universi, 1–12.</span><a class="details" href="/bibliography/Mascarich2018/"> Bibtex source</a></li>
+<li><span id="Morsdorf2017">Morsdorf, F., Eck, C., Zgraggen, C., Imbach, B., Schneider, F. D., &amp; Kükenbrink, D. (2017). UAV-based LiDAR acquisition for the derivation of high-resolution forest and ground information. <i>The Leading Edge</i>, <i>36</i>(7), 566–570. https://doi.org/10.1190/tle36070566.1</span><a class="details" href="/bibliography/Morsdorf2017/"> Bibtex source</a></li>
+<li><span id="Gawel2017">Gawel, A., Dube, R., Surmann, H., Nieto, J., Siegwart, R., &amp; Cadena, C. (2017). 3D registration of aerial and ground robots for disaster response: An evaluation of features, descriptors, and transformation estimation. <i>SSRR 2017 - 15th IEEE International Symposium on Safety, Security and Rescue Robotics, Conference</i>, 27–34. https://doi.org/10.1109/SSRR.2017.8088136</span><a class="details" href="/bibliography/Gawel2017/"> Bibtex source</a></li>
+<li><span id="Gasparovic2017">Gašparović, M., Seletković, A., Berta, A., &amp; Balenović, I. (2017). The Evaluation of Photogrammetry-Based DSM from Low-Cost UAV by LiDAR-Based DSM. <i>South-East European Forestry</i>, <i>8</i>(2). https://doi.org/10.15177/seefor.17-16</span><a class="details" href="/bibliography/Gasparovic2017/"> Bibtex source</a></li>
+<li><span id="Christiansen2017">Christiansen, M. P., Laursen, M. S., Jørgensen, R. N., Skovsen, S., &amp; Gislum, R. (2017). Designing and testing a UAV mapping system for agricultural field surveying. <i>Sensors (Switzerland)</i>, <i>17</i>(12), 1–19. https://doi.org/10.3390/s17122703</span><a class="details" href="/bibliography/Christiansen2017/"> Bibtex source</a></li>
+<li><span id="AjayKumar2017">Ajay Kumar, G., Patil, A. K., Patil, R., Park, S. S., &amp; Chai, Y. H. (2017). A LiDAR and IMU integrated indoor navigation system for UAVs and its application in real-time pipeline classification. <i>Sensors (Switzerland)</i>, <i>17</i>(6). https://doi.org/10.3390/s17061268</span><a class="details" href="/bibliography/AjayKumar2017/"> Bibtex source</a></li>
+<li><span id="Sankey2017">Sankey, T., Donager, J., McVay, J., &amp; Sankey, J. B. (2017). UAV lidar and hyperspectral fusion for forest monitoring in the southwestern USA. <i>Remote Sensing of Environment</i>, <i>195</i>, 30–43. https://doi.org/10.1016/j.rse.2017.04.007</span><a class="details" href="/bibliography/Sankey2017/"> Bibtex source</a></li>
+<li><span id="Chen2017">Chen, S., McDermid, G. J., Castilla, G., &amp; Linke, J. (2017). Measuring vegetation height in linear disturbances in the boreal forest with UAV photogrammetry. <i>Remote Sensing</i>, <i>9</i>(12). https://doi.org/10.3390/rs9121257</span><a class="details" href="/bibliography/Chen2017/"> Bibtex source</a></li>
+<li><span id="Nikolov2017">Nikolov, I., &amp; Madsen, C. (2017). LiDAR-based 2D Localization and Mapping System using Elliptical Distance Correction Models for UAV Wind Turbine Blade Inspection. <i>Proceedings of the 12th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications</i>, (Visigrapp), 418–425. https://doi.org/10.5220/0006124304180425</span><a class="details" href="/bibliography/Nikolov2017/"> Bibtex source</a></li>
+<li><span id="Kwon2017">Kwon, S., Park, J. W., Moon, D., Jung, S., &amp; Park, H. (2017). Smart Merging Method for Hybrid Point Cloud Data using UAV and LIDAR in Earthwork Construction. <i>Procedia Engineering</i>, <i>196</i>(June), 21–28. https://doi.org/10.1016/j.proeng.2017.07.168</span><a class="details" href="/bibliography/Kwon2017/"> Bibtex source</a></li>
+<li><span id="Elaksher2017">Elaksher, A., Bhandari, S., Carreon Limones, C. A., &amp; Lauf, R. (2017). Potential of UAV lidar systems for geospatial mapping. <i>Lidar Remote Sensing for Environmental Monitoring 2017</i>, (August 2017), 20. https://doi.org/10.1117/12.2275482</span><a class="details" href="/bibliography/Elaksher2017/"> Bibtex source</a></li>
+<li><span id="PututAshShidiq2017">Putut Ash Shidiq, I., Wibowo, A., Kusratmoko, E., Indratmoko, S., Ardhianto, R., &amp; Prasetyo Nugroho, B. (2017). Urban forest topographical mapping using UAV LIDAR. <i>IOP Conference Series: Earth and Environmental Science</i>, <i>98</i>(1). https://doi.org/10.1088/1755-1315/98/1/012034</span><a class="details" href="/bibliography/PututAshShidiq2017/"> Bibtex source</a></li>
+<li><span id="Guo2017">Guo, Q., Su, Y., Hu, T., Zhao, X., Wu, F., Li, Y., … Wang, X. (2017). An integrated UAV-borne lidar system for 3D habitat mapping in three forest ecosystems across China. <i>International Journal of Remote Sensing</i>, <i>38</i>(8-10), 2954–2972. https://doi.org/10.1080/01431161.2017.1285083</span><a class="details" href="/bibliography/Guo2017/"> Bibtex source</a></li>
+<li><span id="Wei2017">Wei, L., Yang, B., Jiang, J., Cao, G., &amp; Wu, M. (2017). Vegetation filtering algorithm for UAV-borne lidar point clouds: a case study in the middle-lower Yangtze River riparian zone. <i>International Journal of Remote Sensing</i>, <i>38</i>(8-10), 2991–3002. https://doi.org/10.1080/01431161.2016.1252476</span><a class="details" href="/bibliography/Wei2017/"> Bibtex source</a></li>
+<li><span id="Thiel2017">Thiel, C., &amp; Schmullius, C. (2017). Comparison of UAV photograph-based and airborne lidar-based point clouds over forest from a forestry application perspective. <i>International Journal of Remote Sensing</i>, <i>38</i>(8-10), 2411–2426. https://doi.org/10.1080/01431161.2016.1225181</span><a class="details" href="/bibliography/Thiel2017/"> Bibtex source</a></li>
+<li><span id="Gee2017">Gee, T., James, J., Van Der Mark, W., Delmas, P., &amp; Gimel’Farb, G. (2017). Lidar guided stereo simultaneous localization and mapping (SLAM) for UAV outdoor 3-D scene reconstruction. <i>International Conference Image and Vision Computing New Zealand</i>, 1–6. https://doi.org/10.1109/IVCNZ.2016.7804433</span><a class="details" href="/bibliography/Gee2017/"> Bibtex source</a></li>
+<li><span id="Teng2017">Teng, G. E., Zhou, M., Li, C. R., Wu, H. H., Li, W., Meng, F. R., … Ma, L. (2017). Mini-UAV LIDAR for power line inspection. <i>International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences - ISPRS Archives</i>, <i>42</i>(2W7), 297–300. https://doi.org/10.5194/isprs-archives-XLII-2-W7-297-2017</span><a class="details" href="/bibliography/Teng2017/"> Bibtex source</a></li>
+<li><span id="Persad2017">Persad, R. A., &amp; Armenakis, C. (2017). Comparison of 2d and 3D approaches for the alignment of UAV and lidar point clouds. <i>International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences - ISPRS Archives</i>, <i>42</i>(2W6), 275–279. https://doi.org/10.5194/isprs-archives-XLII-2-W6-275-2017</span><a class="details" href="/bibliography/Persad2017/"> Bibtex source</a></li>
+<li><span id="Chiang2017">Chiang, K. W., Tsai, G. J., Li, Y. H., &amp; El-Sheimy, N. (2017). Development of LiDAR-Based UAV System for Environment Reconstruction. <i>IEEE Geoscience and Remote Sensing Letters</i>, <i>14</i>(10), 1790–1794. https://doi.org/10.1109/LGRS.2017.2736013</span><a class="details" href="/bibliography/Chiang2017/"> Bibtex source</a></li>
+<li><span id="Moore2017">Moore, A. J., Schubert, M., Rymer, N., Balachandran, S., Consiglio, M., Munoz, C., … Schneider Georgia Power, P. (2017). UAV Inspection of Electrical Transmission Infrastructure with Path Conformance Autonomy and Lidar-based Geofences NASA Report on UTM Reference Mission Flights at Southern Company Flights November 2016 NASA STI Program . . . in Profile.</span><a class="details" href="/bibliography/Moore2017/"> Bibtex source</a></li>
+<li><span id="Edwards2017">Edwards, A. S. (2017). Autonomous 3D Mapping and Surveillance of Mines with MAVs, (March).</span><a class="details" href="/bibliography/Edwards2017/"> Bibtex source</a></li>
+<li><span id="Shetty2017">Shetty, A., &amp; Gao, G. X. (2017). Covariance Estimation for GPS-LiDAR Sensor Fusion for UAVs, 1–5.</span><a class="details" href="/bibliography/Shetty2017/"> Bibtex source</a></li>
+<li><span id="Koska2017">Koska, B., Jirka, V., Urban, R., Křemen, T., Hesslerová, P., Jon, J., … Fogl, M. (2017). Suitability, characteristics, and comparison of an airship UAV with lidar for middle size area mapping. <i>International Journal of Remote Sensing</i>, <i>38</i>(8-10), 2973–2990. https://doi.org/10.1080/01431161.2017.1285086</span><a class="details" href="/bibliography/Koska2017/"> Bibtex source</a></li>
+<li><span id="Vempati2017">Vempati, A. S., Gilitschenski, I., Nieto, J., Beardsley, P., &amp; Siegwart, R. (2017). Onboard real-time dense reconstruction of large-scale environments for UAV. <i>IEEE International Conference on Intelligent Robots and Systems</i>, <i>2017-September</i>, 3479–3486. https://doi.org/10.1109/IROS.2017.8206189</span><a class="details" href="/bibliography/Vempati2017/"> Bibtex source</a></li>
+<li><span id="Ozaslan2017">Ozaslan, T., Taylor, C. J., Kumar, V., Keller, J., Wozencraft, J. M., Loianno, G., &amp; Hood, T. (2017). Autonomous Navigation and Mapping for Inspection of Penstocks and Tunnels With MAVs. <i>IEEE Robotics and Automation Letters</i>, <i>2</i>(3), 1740–1747. https://doi.org/10.1109/lra.2017.2699790</span><a class="details" href="/bibliography/Ozaslan2017/"> Bibtex source</a></li>
+<li><span id="Petras2016">Petras, V., Petrasova, A., Jeziorska, J., &amp; Mitasova, H. (2016). Processing UAV and LiDAR point clouds in grass GIS. <i>International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences - ISPRS Archives</i>, <i>41</i>(July), 945–952. https://doi.org/10.5194/isprsarchives-XLI-B7-945-2016</span><a class="details" href="/bibliography/Petras2016/"> Bibtex source</a></li>
+<li><span id="Reiss2016">Reiss, M. L. L., Da Rocha, R. S., Ferraz, R. S., Cruz, V. C., Morador, L. Q., Yamawaki, M. K., … Mezzomo, W. (2016). Data integration acquired from micro-UAV and terrestrial laser scanner for the 3D mapping of jesuit ruins of são miguel das missões. <i>International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences - ISPRS Archives</i>, <i>41</i>(July), 315–321. https://doi.org/10.5194/isprsarchives-XLI-B5-315-2016</span><a class="details" href="/bibliography/Reiss2016/"> Bibtex source</a></li>
+<li><span id="Kasturi2016">Kasturi, A., Milanovic, V., Atwood, B. H., &amp; Yang, J. (2016). UAV-borne lidar with MEMS mirror-based scanning capability, (May 2016), 98320M. https://doi.org/10.1117/12.2224285</span><a class="details" href="/bibliography/Kasturi2016/"> Bibtex source</a></li>
+<li><span id="Lawson2015">Lawson, A. (2015). Cooperative 3-D Map Generation Using Multiple UAVs. <i>University Scholar Projects</i>.</span><a class="details" href="/bibliography/Lawson2015/"> Bibtex source</a></li>
+<li><span id="Yang2015">Yang, B., &amp; Chen, C. (2015). Automatic registration of UAV-borne sequent images and LiDAR data. <i>ISPRS Journal of Photogrammetry and Remote Sensing</i>, <i>101</i>, 262–274. https://doi.org/10.1016/j.isprsjprs.2014.12.025</span><a class="details" href="/bibliography/Yang2015/"> Bibtex source</a></li>
+<li><span id="Ni2015">Ni, W., Liu, J., Zhang, Z., Sun, G., &amp; Yang, A. (2015). Evaluation of UAV-based forest inventory system compared with LiDAR data. <i>International Geoscience and Remote Sensing Symposium (IGARSS)</i>, <i>2015-Novem</i>, 3874–3877. https://doi.org/10.1109/IGARSS.2015.7326670</span><a class="details" href="/bibliography/Ni2015/"> Bibtex source</a></li>
+<li><span id="Pan2015">Pan, W. W., Dou, Y. J., Wang, G. L., Wu, M. X., Ren, R. G., &amp; Xu, X. (2015). Development and test of blimp-based compact LIDAR powewr-line inspection system. <i>International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences - ISPRS Archives</i>, <i>40</i>(3W2), 155–159. https://doi.org/10.5194/isprsarchives-XL-3-W2-155-2015</span><a class="details" href="/bibliography/Pan2015/"> Bibtex source</a></li>
+<li><span id="Li2015">Li, Z., Yan, Y., Jing, Y., &amp; Zhao, S. G. (2015). The design and testing of a LiDAR platform for a UAV for heritage mapping. <i>International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences - ISPRS Archives</i>, <i>40</i>(1W4), 17–24. https://doi.org/10.5194/isprsarchives-XL-1-W4-17-2015</span><a class="details" href="/bibliography/Li2015/"> Bibtex source</a></li>
+<li><span id="Yousif2015">Yousif, K., Bab-Hadiashar, A., &amp; Hoseinnezhad, R. (2015). An Overview to Visual Odometry and Visual SLAM: Applications to Mobile Robotics. <i>Intelligent Industrial Systems</i>, <i>1</i>(4), 289–311. https://doi.org/10.1007/s40903-015-0032-7</span><a class="details" href="/bibliography/Yousif2015/"> Bibtex source</a></li>
+<li><span id="Gu2015">Gu, T., &amp; Zhang, N. (2015). Application of iterative closest point algorithm in automatic flight of speedy UAV. <i>2014 IEEE Chinese Guidance, Navigation and Control Conference, CGNCC 2014</i>, 1456–1459. https://doi.org/10.1109/CGNCC.2014.7007407</span><a class="details" href="/bibliography/Gu2015/"> Bibtex source</a></li>
+<li><span id="Mandlburger2015">Mandlburger, G., Pfennigbauer, M., Riegl, U., Haring, A., Wieser, M., Glira, P., &amp; Winiwarter, L. (2015). Complementing airborne laser bathymetry with UAV-based lidar for capturing alluvial landscapes, (October 2015), 96370A. https://doi.org/10.1117/12.2194779</span><a class="details" href="/bibliography/Mandlburger2015/"> Bibtex source</a></li>
+<li><span id="Tulldahl2015">Tulldahl, H. M., Bissmarck, F., Larsson, H., Grönwall, C., &amp; Tolt, G. (2015). Accuracy evaluation of 3D lidar data from small UAV, <i>964903</i>(October 2015), 964903. https://doi.org/10.1117/12.2194508</span><a class="details" href="/bibliography/Tulldahl2015/"> Bibtex source</a></li>
+<li><span id="Liu2015">Liu, S., Mohta, K., Shen, S., &amp; Kumar, V. (2015). Towards Collaborative Mapping and Exploration Using Multiple Micro Aerial Robots BT - Experimental Robotics: The 14th International Symposium on Experimental Robotics. <i>Experimental Robotics III</i>. https://doi.org/10.1007/bfb0027579</span><a class="details" href="/bibliography/Liu2015/"> Bibtex source</a></li>
+<li><span id="Esposito2014">Esposito, S., Mura, M., Fallavollita, P., Balsi, M., Chirici, G., Oradini, A., &amp; Marchetti, M. (2014). Performance evaluation of lightweight LiDAR for UAV applications. <i>International Geoscience and Remote Sensing Symposium (IGARSS)</i>, 792–795. https://doi.org/10.1109/IGARSS.2014.6946543</span><a class="details" href="/bibliography/Esposito2014/"> Bibtex source</a></li>
+<li><span id="Roca2014">Roca, D., Armesto, J., Lagüela, S., &amp; Díaz-Vilariño, L. (2014). LIDAR-equipped UAV for building information modelling. <i>International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences - ISPRS Archives</i>, <i>40</i>(5), 523–527. https://doi.org/10.5194/isprsarchives-XL-5-523-2014</span><a class="details" href="/bibliography/Roca2014/"> Bibtex source</a></li>
+<li><span id="Wallace2014">Wallace, L., Lucieer, A., &amp; Watson, C. S. (2014). Evaluating tree detection and segmentation routines on very high resolution UAV LiDAR ata. <i>IEEE Transactions on Geoscience and Remote Sensing</i>, <i>52</i>(12), 7619–7628. https://doi.org/10.1109/TGRS.2014.2315649</span><a class="details" href="/bibliography/Wallace2014/"> Bibtex source</a></li>
+<li><span id="Lin2014">Lin, Y., &amp; West, G. (2014). Attempt of UAV oblique images and MLS point clouds for 4D modelling of roadside pole-like objects, <i>9262</i>(November 2014), 92620Q. https://doi.org/10.1117/12.2068287</span><a class="details" href="/bibliography/Lin2014/"> Bibtex source</a></li>
+<li><span id="Tulldahl2014">Tulldahl, H. M., &amp; Larsson, H. (2014). Lidar on small UAV for 3D mapping, <i>925009</i>(October 2014), 925009. https://doi.org/10.1117/12.2068448</span><a class="details" href="/bibliography/Tulldahl2014/"> Bibtex source</a></li>
+<li><span id="Zhou2013">Zhou, G., Yang, B., Zhang, W., Tao, X., Zhao, W., Yue, T., … Yang, C. (2013). Simulation study of new generation of airborne scannerless LiDAR system. <i>International Geoscience and Remote Sensing Symposium (IGARSS)</i>, (February 2015), 524–527. https://doi.org/10.1109/IGARSS.2013.6721208</span><a class="details" href="/bibliography/Zhou2013/"> Bibtex source</a></li>
+<li><span id="Wallace2013">Wallace, L. (2013). Assessing the stability of canopy maps produced from UAV-LiDAR data. <i>International Geoscience and Remote Sensing Symposium (IGARSS)</i>, (Figure 1), 3879–3882. https://doi.org/10.1109/IGARSS.2013.6723679</span><a class="details" href="/bibliography/Wallace2013/"> Bibtex source</a></li>
+<li><span id="Wallace2012">Wallace, L., Lucieer, A., Watson, C., &amp; Turner, D. (2012). Development of a UAV-LiDAR system with application to forest inventory. <i>Remote Sensing</i>, <i>4</i>(6), 1519–1543. https://doi.org/10.3390/rs4061519</span><a class="details" href="/bibliography/Wallace2012/"> Bibtex source</a></li>
+<li><span id="Han2012">Han, K., Aeschliman, C., Park, J., Kak, A. C., Kwon, H., &amp; Pack, D. J. (2012). UAV vision: Feature based accurate ground target localization through propagated initializations and interframe homographies. <i>Proceedings - IEEE International Conference on Robotics and Automation</i>, 944–950. https://doi.org/10.1109/ICRA.2012.6225073</span><a class="details" href="/bibliography/Han2012/"> Bibtex source</a></li>
+<li><span id="Wallace2012a">Wallace, L. O., Lucieer, A., &amp; Watson, C. S. (2012). Assessing the Feasibility of Uav-Based Lidar for High Resolution Forest Change Detection. <i>ISPRS - International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences</i>, <i>XXXIX-B7</i>(September), 499–504. https://doi.org/10.5194/isprsarchives-XXXIX-B7-499-2012</span><a class="details" href="/bibliography/Wallace2012a/"> Bibtex source</a></li>
+<li><span id="Candigliota2012">Candigliota, E., Immordino, F., Moretti, L., &amp; Indirli, M. (2012). Remote sensing, laser scanner survey and GIS integrated method for assessment and preservation of historic centers: the example of Arsita. <i>In Proceedings of the 15th World Conference on Earthquake Engineering - WCEE</i>, 1–9.</span><a class="details" href="/bibliography/Candigliota2012/"> Bibtex source</a></li>
+<li><span id="Hwang2012">Hwang, Y., &amp; Tahk, M.-jea. (2012). Terrain Referenced UAV Navigation with Lidar – a Comparison of Sequential Processing and Batch Processing Algorithms. <i>28th INTERNATIONAL CONGRESS OF THE AERONAUTICAL SCIENCES</i>, 1–7.</span><a class="details" href="/bibliography/Hwang2012/"> Bibtex source</a></li>
+<li><span id="Michael2012">Michael, N., Shen, S., Motha, K., Mulgaonkar, Y., Kumar, V., Nagatani, K., … Tadokoro, S. (2012). Collaborative mapping of an earthquake‐damaged building via ground and aerial robots. <i>\Ldots of Field Robotics</i>, <i>29</i>(5), 832–841. https://doi.org/10.1002/rob</span><a class="details" href="/bibliography/Michael2012/"> Bibtex source</a></li>
+<li><span id="Durst2011">Durst, P. J., Baylot, A., &amp; McKinley, B. (2011). Techniques for inferring terrain parameters related to ground vehicle mobility using UAV born IFSAR and LIDAR data. <i>Proceedings of SPIE - The International Society for Optical Engineering</i>, <i>8020</i>(May 2011). https://doi.org/10.1117/12.883510</span><a class="details" href="/bibliography/Durst2011/"> Bibtex source</a></li>
+<li><span id="Liu2011">Liu, C., Li, W., Lei, W., Liu, L., &amp; Wu, H. (2011). Architecture planning and geo-disasters assessment mapping of landslide by using airborne lidar data and UAV images, (October 2011), 82861Q. https://doi.org/10.1117/12.912525</span><a class="details" href="/bibliography/Liu2011/"> Bibtex source</a></li>
+<li><span id="Downs2004">Downs, A., Madhavan, R., &amp; Hong, T. (2004). Registration of range data from unmanned aerial and ground vehicles. <i>Proceedings - Applied Imagery Pattern Recognition Workshop</i>, <i>2003-Janua</i>, 45–50. https://doi.org/10.1109/AIPR.2003.1284247</span><a class="details" href="/bibliography/Downs2004/"> Bibtex source</a></li>
+<li><span id="Zhen">Zhen, W., &amp; Scherer, S. A Unified 3D Mapping Framework using a 3D or 2D LiDAR. <i>Robotics</i>, 1–10.</span><a class="details" href="/bibliography/Zhen/"> Bibtex source</a></li></ol>
+
+
+				<hr />
+				<footer class="page-footer">
+					
+
+<div class="author-image">
+	<img src="https://norlab.ulaval.ca/images/people/m_vaidis_avatar.jpg" alt="Maxime Vaidis">
+</div><!-- ./author-image -->
+<div class="author-content">
+	<h3 class="author-name" >Écrit par <a href="/people/m_vaidis_fr" itemprop="author">Maxime Vaidis</a></h3>
+	<p class="author-bio"></p>
+</div><!-- ./author-content -->
+
+					<div class="inline-btn">
+	<a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Enquête%20sur%20l&#39;utilisation%20des%20lidars%20avec%20les%20UAV%20et%20la%20cartographie%20souterraine&amp;url=https://norlab.ulaval.ca/publications/survey-lidar-UAV_fr/&amp;via=" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Share on Twitter</a>
+	<a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://norlab.ulaval.ca/publications/survey-lidar-UAV_fr/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Share on Facebook</a>
+	<a class="btn-social google-plus"  href="https://plus.google.com/share?url=https://norlab.ulaval.ca/publications/survey-lidar-UAV_fr/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i> Share on Google+</a>
+</div><!-- /.share-this -->
+
+					<div class="page-meta">
+	<p>Updated <time datetime="2019-02-14T00:00:00Z" itemprop="datePublished">February 14, 2019</time></p>
+</div><!-- /.page-meta -->
+				</footer><!-- /.footer -->
+				<aside>
+					
+				</aside>
+			</div><!-- /.content -->
+		</div><!-- /.inner-wrap -->
+		
+	</article><!-- ./wrap -->
+</div><!-- /#main -->
+
+      <footer role="contentinfo" id="site-footer">
+	<nav role="navigation" class="menu bottom-menu">
+		<ul class="menu-item">
+		
+      
+			<li><a href="https://www.ulaval.ca" target="_blank">Université Laval</a></li>
+		
+      
+			<li><a href="https://www.ift.ulaval.ca" target="_blank">Département d'informatique et de génie logiciel</a></li>
+		
+		</ul>
+	</nav><!-- /.bottom-menu -->
+	<p class="copyright">&#169; 2019 <a href="https://norlab.ulaval.ca">Northern Robotics Laboratory</a> powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> + <a href="http://mmistakes.github.io/skinny-bones-jekyll/" rel="nofollow">Skinny Bones</a>.</p>
+</footer>
+    </div>
+
+    <script src="https://norlab.ulaval.ca/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="https://norlab.ulaval.ca/js/main.js"></script>
+
+		
+			<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117436826-1"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-117436826-1');
+</script>
+
+
+		
+
+  </body>
+
+</html>

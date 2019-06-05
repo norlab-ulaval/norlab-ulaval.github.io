@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Introduction to LaTeX with  MathJax • Northern Robotics Laboratory</title>
+    <meta name="description" content="Here are some basics to get you started with $\LaTeX$ equations in this Jekyll installation.
+This post assumes that you already know how to write an equation in LaTeX and how to add a post on this website using markdown syntax.
+
+">
+    <meta name="keywords" content="howto, latex, jekyll, mathjax, website">
+    
+    	<!-- Twitter Cards -->
+	<meta name="twitter:title" content="Introduction to LaTeX with  MathJax">
+	<meta name="twitter:description" content="Here are some basics to get you started with $\LaTeX$ equations in this Jekyll installation.
+This post assumes that you already know how to write an equation in LaTeX and how to add a post on this website using markdown syntax.
+
+">
+	
+	
+	
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="https://norlab.ulaval.ca/images//logos/mathjax_logo-1600x330.png">
+	
+	<!-- Open Graph -->
+	<meta property="og:locale" content="en">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Introduction to LaTeX with  MathJax">
+	<meta property="og:description" content="Here are some basics to get you started with $\LaTeX$ equations in this Jekyll installation.
+This post assumes that you already know how to write an equation in LaTeX and how to add a post on this website using markdown syntax.
+
+">
+	<meta property="og:image" content="https://norlab.ulaval.ca/images//logos/mathjax_logo-400x200.png">
+	<meta property="og:url" content="https://norlab.ulaval.ca/research/mathjax/">
+	<meta property="og:site_name" content="Northern Robotics Laboratory">
+
+
+    <link rel="canonical" href="https://norlab.ulaval.ca/research/mathjax/">
+
+    <link href="https://norlab.ulaval.ca/atom.xml" type="application/atom+xml" rel="alternate" title="Northern Robotics Laboratory Atom Feed">
+    <link href="https://norlab.ulaval.ca/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cleartype" content="on">
+
+    <link rel="stylesheet" href="https://norlab.ulaval.ca/css/main.css">
+    <!-- HTML5 Shiv and Media Query Support for IE -->
+    <!--[if lt IE 9]>
+      <script src="https://norlab.ulaval.ca/js/vendor/html5shiv.min.js"></script>
+      <script src="https://norlab.ulaval.ca/js/vendor/respond.min.js"></script>
+    <![endif]-->
+
+		<!-- Load MathJax if required -->
+		
+			
+<!-- MathJax options -->
+<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({
+		TeX: {
+			equationNumbers: {
+			autoNumber: "AMS"
+			}
+		},
+		tex2jax: {
+			inlineMath: [ ['$','$'] ],
+			displayMath: [ ['$$','$$'] ],
+			processEscapes: true,
+		}
+	});
+</script>
+
+<!-- add MathJax / Latext services-->
+<script type="text/javascript"
+	src="https://cdn.rawgit.com/mathjax/MathJax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+		
+
+		<!-- Load extra fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Rokkitt:200" rel="stylesheet">
+
+  </head>
+
+  <body id="js-body">
+    <!--[if lt IE 9]><div class="upgrade notice-warning"><strong>Your browser is quite old!</strong> Why not <a href="http://whatbrowser.org/">upgrade to a newer one</a> to better enjoy this site?</div><![endif]-->
+
+    <header id="masthead">
+  <div class="inner-wrap">
+    <a href="https://norlab.ulaval.ca/" class="site-title">Northern Robotics Laboratory </a>
+    <nav role="navigation" class="menu top-menu">
+        <ul class="menu-item">
+	<!--li class="home"><a href="/">Northern Robotics Laboratory</a></li-->
+	
+    
+    <li>
+		<a href="https://norlab.ulaval.ca/research/" 
+		>Research</a></li>
+  
+    
+    <li>
+		<a href="https://norlab.ulaval.ca/publications/" 
+		>Publications</a></li>
+  
+    
+    <li>
+		<a href="https://norlab.ulaval.ca/people/" 
+		>People</a></li>
+  
+    
+    <li>
+		<a href="https://norlab.ulaval.ca/contact/" 
+		>Contact Us</a></li>
+  
+
+	<!-- Search for url -->
+	
+
+	
+
+	
+
+	
+		<li class="language-box"><span class="current-lang"> EN</span> </li>
+		
+			<li class="language-box"> <a  style="color:#e4e4e4;" href="/error/traduction-manquante/">FR</a> </li>
+		
+	
+
+</ul>
+
+    </nav>
+  </div><!-- /.inner-wrap -->
+</header><!-- /.masthead -->
+
+    <nav role="navigation" id="js-menu" class="sliding-menu-content">
+  <h5>Northern Robotics Laboratory <span>Table of Contents</span></h5>
+
+  <ul class="menu-item">
+    
+			
+			<li>
+      	<a href="https://norlab.ulaval.ca/research/">
+        
+        <div class="title">Research</div>
+        
+      </a>
+    	</li>
+		
+			
+			<li>
+      	<a href="https://norlab.ulaval.ca/publications/">
+        
+        <div class="title">Publications</div>
+        
+      </a>
+    	</li>
+		
+			
+			<li>
+      	<a href="https://norlab.ulaval.ca/people/">
+        
+        <div class="title">People</div>
+        
+      </a>
+    	</li>
+		
+			
+			<li>
+      	<a href="https://norlab.ulaval.ca/contact/">
+        
+        <div class="title">Contact Us</div>
+        
+      </a>
+    	</li>
+		
+  </ul>
+</nav>
+<button type="button" id="js-menu-trigger" class="sliding-menu-button lines-button x2" role="button" aria-label="Toggle Navigation">
+  <span class="nav-lines"></span>
+</button>
+
+<div id="js-menu-screen" class="menu-screen"></div>
+
+
+    <div id="page-wrapper">
+      <div id="main" role="main">
+	<article class="wrap" itemscope itemtype="http://schema.org/Article">
+		
+		<div class="page-feature">
+			<div class="page-image">
+				<img src="https://norlab.ulaval.ca/images//logos/mathjax_logo-1600x330.png" class="page-feature-image" alt="Introduction to LaTeX with  MathJax" itemprop="image">
+				
+			</div><!-- /.page-image -->
+		</div><!-- /.page-feature -->
+		
+		
+  <nav class="breadcrumbs">
+    <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+      <a href="https://norlab.ulaval.ca" itemprop="url">
+        <span itemprop="title">Home</span>
+      </a> › 
+    <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+      <a href="https://norlab.ulaval.ca/research/" itemprop="url">
+        <span itemprop="title">Research</span>
+      </a>
+    </span>
+  </nav><!-- /.breadcrumbs -->
+
+		<div class="page-title">
+			<h1>Introduction to LaTeX with  MathJax
+			<p></p>
+			</h1>
+		</div>
+		<div class="inner-wrap">
+			<div id="content" class="page-content" itemprop="articleBody">
+				<p>Here are some basics to get you started with $\LaTeX$ equations in this Jekyll installation.
+This post assumes that you already know how to write an equation in LaTeX and how to add a post on this website using markdown syntax.</p>
+
+<h2 id="starting-a-new-markdown-file">Starting a new markdown file</h2>
+
+<p>You will need to set the variable <code class="highlighter-rouge">use_math</code> to <code class="highlighter-rouge">true</code> in the front matter of the file (header of the markdown).
+In this case, the front matter looks like that:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">article</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Introduction</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">LaTeX</span><span class="nv"> </span><span class="s">with</span><span class="nv">  </span><span class="s">MathJax"</span>
+<span class="na">categories</span><span class="pi">:</span> <span class="s">articles</span>
+<span class="na">tags</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">howto</span><span class="pi">,</span> <span class="nv">latex</span><span class="pi">,</span> <span class="nv">jekyll</span><span class="pi">]</span>
+<span class="na">use_math</span><span class="pi">:</span> <span class="no">true</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+
+<h2 id="writing-equations">Writing equations</h2>
+
+<p>In-line equation:</p>
+
+<div class="language-tex highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This is a test with <span class="p">$</span><span class="nb"> A </span><span class="o">=</span><span class="nb"> B</span><span class="p">_</span><span class="nb">x </span><span class="p">$</span> as an inline equation.
+</code></pre></div></div>
+
+<p>Result:</p>
+
+<p>This is a test with $ A = B_x $ as an inline equation.</p>
+
+<hr />
+
+<p>Equation without numbers:</p>
+
+<div class="language-tex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">$$</span><span class="nb">
+ A</span><span class="p">_</span><span class="m">1</span><span class="nb"> </span><span class="o">=</span><span class="nb"> B</span><span class="p">_</span><span class="nb">x 
+</span><span class="p">$$</span>
+</code></pre></div></div>
+
+<p>Result:</p>
+
+<script type="math/tex; mode=display">A_1 = B_x</script>
+
+<hr />
+
+<p>Equations with numbers</p>
+
+<div class="language-tex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">$$</span><span class="nb">
+</span><span class="nv">\begin</span><span class="p">{</span><span class="nb">equation</span><span class="p">}</span><span class="nb">  
+ A </span><span class="o">=</span><span class="nb"> </span><span class="nv">\frac</span><span class="p">{</span><span class="m">1</span><span class="p">}{</span><span class="nb">n</span><span class="p">}</span><span class="nb"> </span><span class="nv">\sum</span><span class="p">_</span><span class="nb">i</span><span class="p">^</span><span class="nb">n B</span><span class="p">_</span><span class="nb">i 
+</span><span class="nv">\end</span><span class="p">{</span><span class="nb">equation</span><span class="p">}</span><span class="nb">
+</span><span class="p">$$</span>
+</code></pre></div></div>
+
+<p>Result:</p>
+
+<script type="math/tex; mode=display">\begin{equation}  
+ A = \frac{1}{n} \sum_i^n B_i 
+\end{equation}</script>
+
+<h2 id="how-to-change-the-configuration-of-mathjax">How to change the configuration of MathJax</h2>
+
+<p>We store the configuration of MathJax in <code class="highlighter-rouge">/includes/mathjax_support.html</code>.</p>
+
+
+				<hr />
+				<footer class="page-footer">
+					
+
+<div class="author-image">
+	<img src="https://norlab.ulaval.ca/images/people/f_pomerleau_avatar.jpg" alt="François Pomerleau">
+</div><!-- ./author-image -->
+<div class="author-content">
+	<h3 class="author-name" >Written by <a href="/people/f_pomerleau" itemprop="author">François Pomerleau</a></h3>
+	<p class="author-bio"></p>
+</div><!-- ./author-content -->
+
+					<div class="inline-btn">
+	<a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Introduction%20to%20LaTeX%20with%20%20MathJax&amp;url=https://norlab.ulaval.ca/research/mathjax/&amp;via=" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Share on Twitter</a>
+	<a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://norlab.ulaval.ca/research/mathjax/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Share on Facebook</a>
+	<a class="btn-social google-plus"  href="https://plus.google.com/share?url=https://norlab.ulaval.ca/research/mathjax/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i> Share on Google+</a>
+</div><!-- /.share-this -->
+
+					<div class="page-meta">
+	<p>Updated <time datetime="2017-07-18T00:00:00Z" itemprop="datePublished">July 18, 2017</time></p>
+</div><!-- /.page-meta -->
+				</footer><!-- /.footer -->
+				<aside>
+					
+				</aside>
+			</div><!-- /.content -->
+		</div><!-- /.inner-wrap -->
+		
+	</article><!-- ./wrap -->
+</div><!-- /#main -->
+
+      <footer role="contentinfo" id="site-footer">
+	<nav role="navigation" class="menu bottom-menu">
+		<ul class="menu-item">
+		
+      
+			<li><a href="https://www.ulaval.ca" target="_blank">Université Laval</a></li>
+		
+      
+			<li><a href="https://www.ift.ulaval.ca" target="_blank">Département d'informatique et de génie logiciel</a></li>
+		
+		</ul>
+	</nav><!-- /.bottom-menu -->
+	<p class="copyright">&#169; 2019 <a href="https://norlab.ulaval.ca">Northern Robotics Laboratory</a> powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> + <a href="http://mmistakes.github.io/skinny-bones-jekyll/" rel="nofollow">Skinny Bones</a>.</p>
+</footer>
+    </div>
+
+    <script src="https://norlab.ulaval.ca/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="https://norlab.ulaval.ca/js/main.js"></script>
+
+		
+			<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117436826-1"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-117436826-1');
+</script>
+
+
+		
+
+  </body>
+
+</html>
