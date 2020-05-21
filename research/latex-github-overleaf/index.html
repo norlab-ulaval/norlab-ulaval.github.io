@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>How to synchronize an Overleaf Project with a GitHub repository • Northern Robotics Laboratory</title>
+    <meta name="description" content="Writing papers with a large number of co-authors can be complicated endeavour. This why Overleaf is an interesting choice, as it allows for multiple people to edit a same LaTeX document simultaneously. However, online compiling on Overleaf requires time and you will also want to have access to your files on your laptop and use your favorite LaTeX editor. This is why synchronizing your paper in an Overleaf project as well as in a GitHub repository GitHub. This will also grant you access to the laboratory’s LaTeX good practices repository.
+
+">
+    <meta name="keywords" content="howto, Overleaf, GitHub, LaTeX, writing">
+    
+    	<!-- Twitter Cards -->
+	<meta name="twitter:title" content="How to synchronize an Overleaf Project with a GitHub repository">
+	<meta name="twitter:description" content="Writing papers with a large number of co-authors can be complicated endeavour. This why Overleaf is an interesting choice, as it allows for multiple people to edit a same LaTeX document simultaneously. However, online compiling on Overleaf requires time and you will also want to have access to your files on your laptop and use your favorite LaTeX editor. This is why synchronizing your paper in an Overleaf project as well as in a GitHub repository GitHub. This will also grant you access to the laboratory’s LaTeX good practices repository.
+
+">
+	
+	
+	
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:image" content="http://localhost:4000/images/norlab_logo_dark_120px.png">
+	
+	<!-- Open Graph -->
+	<meta property="og:locale" content="en">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="How to synchronize an Overleaf Project with a GitHub repository">
+	<meta property="og:description" content="Writing papers with a large number of co-authors can be complicated endeavour. This why Overleaf is an interesting choice, as it allows for multiple people to edit a same LaTeX document simultaneously. However, online compiling on Overleaf requires time and you will also want to have access to your files on your laptop and use your favorite LaTeX editor. This is why synchronizing your paper in an Overleaf project as well as in a GitHub repository GitHub. This will also grant you access to the laboratory’s LaTeX good practices repository.
+
+">
+	<meta property="og:image" content="http://localhost:4000/images//logos/github_overleaf.png">
+	<meta property="og:url" content="http://localhost:4000/research/latex-github-overleaf/">
+	<meta property="og:site_name" content="Northern Robotics Laboratory">
+
+
+    <link rel="canonical" href="http://localhost:4000/research/latex-github-overleaf/">
+
+    <link href="http://localhost:4000/atom.xml" type="application/atom+xml" rel="alternate" title="Northern Robotics Laboratory Atom Feed">
+    <link href="http://localhost:4000/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cleartype" content="on">
+
+    <link rel="stylesheet" href="http://localhost:4000/css/main.css">
+    <!-- HTML5 Shiv and Media Query Support for IE -->
+    <!--[if lt IE 9]>
+      <script src="http://localhost:4000/js/vendor/html5shiv.min.js"></script>
+      <script src="http://localhost:4000/js/vendor/respond.min.js"></script>
+    <![endif]-->
+
+		<!-- Load MathJax if required -->
+		
+
+		<!-- Load extra fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Rokkitt:200" rel="stylesheet">
+
+  </head>
+
+  <body id="js-body">
+    <!--[if lt IE 9]><div class="upgrade notice-warning"><strong>Your browser is quite old!</strong> Why not <a href="http://whatbrowser.org/">upgrade to a newer one</a> to better enjoy this site?</div><![endif]-->
+
+    <header id="masthead">
+  <div class="inner-wrap">
+    <a href="http://localhost:4000/" class="site-title">Northern Robotics Laboratory </a>
+    <nav role="navigation" class="menu top-menu">
+        <ul class="menu-item">
+	<!--li class="home"><a href="/">Northern Robotics Laboratory</a></li-->
+	
+    
+    <li>
+		<a href="http://localhost:4000/research/" 
+		>Research</a></li>
+  
+    
+    <li>
+		<a href="http://localhost:4000/publications/" 
+		>Publications</a></li>
+  
+    
+    <li>
+		<a href="http://localhost:4000/people/" 
+		>People</a></li>
+  
+    
+    <li>
+		<a href="http://localhost:4000/contact/" 
+		>Contact Us</a></li>
+  
+
+	<!-- Search for url -->
+	
+
+	
+
+	
+
+	
+		<li class="language-box"><span class="current-lang"> EN</span> </li>
+		
+			<li class="language-box"> <a  style="color:#e4e4e4;" href="/error/traduction-manquante/">FR</a> </li>
+		
+	
+
+</ul>
+
+    </nav>
+  </div><!-- /.inner-wrap -->
+</header><!-- /.masthead -->
+
+    <nav role="navigation" id="js-menu" class="sliding-menu-content">
+  <h5>Northern Robotics Laboratory <span>Table of Contents</span></h5>
+
+  <ul class="menu-item">
+    
+			
+			<li>
+      	<a href="http://localhost:4000/research/">
+        
+        <div class="title">Research</div>
+        
+      </a>
+    	</li>
+		
+			
+			<li>
+      	<a href="http://localhost:4000/publications/">
+        
+        <div class="title">Publications</div>
+        
+      </a>
+    	</li>
+		
+			
+			<li>
+      	<a href="http://localhost:4000/people/">
+        
+        <div class="title">People</div>
+        
+      </a>
+    	</li>
+		
+			
+			<li>
+      	<a href="http://localhost:4000/contact/">
+        
+        <div class="title">Contact Us</div>
+        
+      </a>
+    	</li>
+		
+  </ul>
+</nav>
+<button type="button" id="js-menu-trigger" class="sliding-menu-button lines-button x2" role="button" aria-label="Toggle Navigation">
+  <span class="nav-lines"></span>
+</button>
+
+<div id="js-menu-screen" class="menu-screen"></div>
+
+
+    <div id="page-wrapper">
+      <div id="main" role="main">
+	<article class="wrap" itemscope itemtype="http://schema.org/Article">
+		
+		
+  <nav class="breadcrumbs">
+    <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+      <a href="http://localhost:4000" itemprop="url">
+        <span itemprop="title">Home</span>
+      </a> › 
+    <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+      <a href="http://localhost:4000/research/" itemprop="url">
+        <span itemprop="title">Research</span>
+      </a>
+    </span>
+  </nav><!-- /.breadcrumbs -->
+
+		<div class="page-title">
+			<h1>How to synchronize an Overleaf Project with a GitHub repository
+			<p></p>
+			</h1>
+		</div>
+		<div class="inner-wrap">
+			<div id="content" class="page-content" itemprop="articleBody">
+				<p>Writing papers with a large number of co-authors can be complicated endeavour. This why <a href="https://www.overleaf.com/">Overleaf</a> is an interesting choice, as it allows for multiple people to edit a same LaTeX document simultaneously. However, online compiling on Overleaf requires time and you will also want to have access to your files on your laptop and use your favorite LaTeX editor. This is why synchronizing your paper in an Overleaf project as well as in a GitHub repository <a href="https://github.com/">GitHub</a>. This will also grant you access to the laboratory’s <a href="https://github.com/norlab-ulaval/latexGoodPractices">LaTeX good practices repository</a>.</p>
+
+<h1 id="main-reasons-why-you-will-want-to-synchronize-your-paper-on-github-and-overleaf">Main reasons why you will want to synchronize your paper on Github and Overleaf</h1>
+
+<ul>
+  <li>Allows for multiple contributors to work on a project simultaneously</li>
+  <li>Allows to backup and archive your paper in the common laboratory repository</li>
+  <li>Allows to easily export your paper in <a href="https://arxiv.org/">arXiv</a> friendly format</li>
+</ul>
+
+<h1 id="procedure">Procedure</h1>
+
+<ul>
+  <li>In your Overleaf dashboard, create a new blank project using <img src="/images/github_overleaf_sync/overleaf_new_project.png" style="width: 20%" /> and give it a relevant name (e.g., publication_conference/journal_name_firstnameLastname)</li>
+  <li>In the project page on Overleaf, select <img src="/images/github_overleaf_sync/overleaf_menu.png" style="width: 12%" /> and <img src="/images/github_overleaf_sync/overleaf_github.png" style="width: 30%" /></li>
+  <li>Select “Create a Github repository”</li>
+  <li>Select “norlab-ulaval” as Owner and select the “Private” option so you can choose who can commit to the repository</li>
+</ul>
+
+<p>The repository should now be visible on the laboratory’s GitHub page :</p>
+
+<p style="text-align: center;">
+<a href="https://github.com/norlab-ulaval" target="_blank" class="btn">
+<img src="/images/logos/github.svg" style="padding-right: 1em; width: 4em; -webkit-filter: invert(100%); filter: invert(100%);" />
+norlab-ulaval
+</a>
+</p>
+
+<ul>
+  <li>Clone the repository on you computer</li>
+</ul>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone &lt;github_repo_url&gt;
+</code></pre></div></div>
+
+<ul>
+  <li>Add the <a href="https://github.com/norlab-ulaval/latexGoodPractices">LaTeX good practices repository</a> as a <a href="https://git-scm.com/book/en/v2/Git-Tools-Submodules">Git submodule</a>, as shown below :</li>
+</ul>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git submodule add https://github.com/norlab-ulaval/latexGoodPractices.git
+</code></pre></div></div>
+
+<ul>
+  <li>Push the changes from your local repository to the remote GitHub repository</li>
+  <li>Pull the changes from the Overleaf project page by selecting <img src="/images/github_overleaf_sync/overleaf_menu.png" style="width: 12%" /> , <img src="/images/github_overleaf_sync/overleaf_github.png" style="width: 30%" /> and <img src="/images/github_overleaf_sync/pull_overleaf.png" style="width: 35%" /></li>
+</ul>
+
+<p>Your project is now synchronized between the two platforms and you can now push or pull changes directly from the Overleaf project page. Be careful when editing the document on your laptop at the same time as it is being changed on Overleaf as this may cause merging conflicts.</p>
+
+<h1 id="exporting-an-article-using-overleaf">Exporting an article using Overleaf</h1>
+
+<p>One of the main advantages of using this method for your projects is that Overleaf offers a tool to export your project for numerous publishing platforms, notably <a href="https://arxiv.org/">arXiv</a>. Simply compile your project once it is completed and select <img src="/images/github_overleaf_sync/overleaf_submit.png" style="width: 12%" /> tab on the top left of the project page. Then select the platform where you wish to publish and Overleaf will create the necessary files.</p>
+
+<p>It should be noted that an issue related to the biblatex file format is likely to happen when compiling the project on arXiv. This issue can be resolved by cloning <a href="https://github.com/djsutherland/arxiv-collector">this Python script</a> in your local repository and following the instructions to create a biblatex file that is compatible with arXiv. More details on this issue can be found <a href="https://github.com/plk/biblatex/wiki/biblatex-and-the-arXiv#uploading-the-relevant-parts-of-biblatex">here</a>.</p>
+
+
+				<hr />
+				<footer class="page-footer">
+					
+
+<div class="author-image">
+	<img src="http://localhost:4000/images/people/d_baril_avatar.jpg" alt="Dominic Baril">
+</div><!-- ./author-image -->
+<div class="author-content">
+	<h3 class="author-name" >Written by <a href="/people/d_baril" itemprop="author">Dominic Baril</a> </h3>
+	<p class="author-bio"></p>
+</div><!-- ./author-content -->
+
+					<div class="inline-btn">
+	<a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=How%20to%20synchronize%20an%20Overleaf%20Project%20with%20a%20GitHub%20repository&amp;url=http://localhost:4000/research/latex-github-overleaf/&amp;via=" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i> Share on Twitter</a>
+	<a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/research/latex-github-overleaf/" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i> Share on Facebook</a>
+</div><!-- /.share-this -->
+
+					<div class="page-meta">
+	<p>Updated <time datetime="2020-05-20T00:00:00Z" itemprop="datePublished">May 20, 2020</time></p>
+</div><!-- /.page-meta -->
+				</footer><!-- /.footer -->
+				<aside>
+					
+				</aside>
+			</div><!-- /.content -->
+		</div><!-- /.inner-wrap -->
+		
+	</article><!-- ./wrap -->
+</div><!-- /#main -->
+
+      <footer role="contentinfo" id="site-footer">
+	<nav role="navigation" class="menu bottom-menu">
+		<ul class="menu-item">
+		
+      
+			<li><a href="https://www.ulaval.ca" target="_blank">Université Laval</a></li>
+		
+      
+			<li><a href="https://www.ift.ulaval.ca" target="_blank">Département d'informatique et de génie logiciel</a></li>
+		
+		</ul>
+	</nav><!-- /.bottom-menu -->
+	<p class="copyright">&#169; 2020 <a href="http://localhost:4000">Northern Robotics Laboratory</a> powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> + <a href="http://mmistakes.github.io/skinny-bones-jekyll/" rel="nofollow">Skinny Bones</a>.</p>
+</footer>
+    </div>
+
+    <script src="http://localhost:4000/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="http://localhost:4000/js/main.js"></script>
+
+		
+
+  </body>
+
+</html>
