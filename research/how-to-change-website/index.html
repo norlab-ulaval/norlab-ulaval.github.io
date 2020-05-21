@@ -189,27 +189,23 @@
   </li>
   <li>
     <p>Clone local copies:</p>
+
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/norlab-ulaval/website.git
+</code></pre></div>    </div>
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/norlab-ulaval/norlab-ulaval.github.io.git
+</code></pre></div>    </div>
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>website
+</code></pre></div>    </div>
   </li>
-</ol>
-
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/norlab-ulaval/website.git
-git clone https://github.com/norlab-ulaval/norlab-ulaval.github.io.git
-<span class="nb">cd </span>website
-</code></pre></div></div>
-
-<ol>
   <li>
     <p>Do some modifications</p>
   </li>
   <li>
     <p>Open a local server:</p>
+
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle <span class="nb">exec </span>jekyll serve
+</code></pre></div>    </div>
   </li>
-</ol>
-
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle <span class="nb">exec </span>jekyll serve
-</code></pre></div></div>
-
-<ol>
   <li>
     <p>Validate your modifications on [http://localhost:4000/]</p>
   </li>
@@ -218,25 +214,27 @@ git clone https://github.com/norlab-ulaval/norlab-ulaval.github.io.git
   </li>
   <li>
     <p>Compile in production mode:</p>
+
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">JEKYLL_ENV</span><span class="o">=</span>production jekyll build
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Publish the compiled website:</p>
+
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> ../norlab-ulaval.github.io
+</code></pre></div>    </div>
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git pull <span class="c"># just in case</span>
+</code></pre></div>    </div>
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rsync <span class="nt">-a</span> ../website/_site/ <span class="nb">.</span>
+</code></pre></div>    </div>
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add <span class="nt">--all</span>
+</code></pre></div>    </div>
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git commit <span class="nt">-a</span> <span class="nt">-m</span> <span class="s2">"Your comment"</span>
+</code></pre></div>    </div>
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git push
+</code></pre></div>    </div>
   </li>
 </ol>
-
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">JEKYLL_ENV</span><span class="o">=</span>production jekyll build
-</code></pre></div></div>
-
-<ol>
-  <li>Publish the compiled website:</li>
-</ol>
-
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> ../norlab-ulaval-github.io
-git pull <span class="c"># just in case</span>
-rsync <span class="nt">-a</span> ../website/_site/ <span class="nb">.</span>
-git add <span class="nt">--all</span>
-git commit <span class="nt">-a</span> <span class="nt">-m</span> <span class="s2">"Your comment"</span>
-git push
-</code></pre></div></div>
-
-<p><strong>FIXME</strong>: If you know how to insert block code without breaking a list, please change this post.</p>
 
 
 				<hr />

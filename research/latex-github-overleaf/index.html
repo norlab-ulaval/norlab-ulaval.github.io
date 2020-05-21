@@ -193,40 +193,38 @@
 
 <h1 id="procedure">Procedure</h1>
 
-<ul>
+<ol>
   <li>In your Overleaf dashboard, create a new blank project using <img src="/images/github_overleaf_sync/overleaf_new_project.png" style="width: 20%" /> and give it a relevant name (e.g., publication_conference/journal_name_firstnameLastname)</li>
   <li>In the project page on Overleaf, select <img src="/images/github_overleaf_sync/overleaf_menu.png" style="width: 12%" /> and <img src="/images/github_overleaf_sync/overleaf_github.png" style="width: 30%" /></li>
   <li>Select “Create a Github repository”</li>
-  <li>Select “norlab-ulaval” as Owner and select the “Private” option so you can choose who can commit to the repository</li>
-</ul>
+  <li>
+    <p>Select “norlab-ulaval” as Owner and select the “Private” option so you can choose who can commit to the repository</p>
+  </li>
+  <li>
+    <p>The repository should now be visible on the laboratory’s GitHub page :</p>
 
-<p>The repository should now be visible on the laboratory’s GitHub page :</p>
-
-<p style="text-align: center;">
+    <p style="text-align: center;">
 <a href="https://github.com/norlab-ulaval" target="_blank" class="btn">
 <img src="/images/logos/github.svg" style="padding-right: 1em; width: 4em; -webkit-filter: invert(100%); filter: invert(100%);" />
 norlab-ulaval
 </a>
 </p>
+  </li>
+  <li>
+    <p>Clone the repository on you computer</p>
 
-<ul>
-  <li>Clone the repository on you computer</li>
-</ul>
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone &lt;github_repo_url&gt;
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Add the <a href="https://github.com/norlab-ulaval/latexGoodPractices">LaTeX good practices repository</a> as a <a href="https://git-scm.com/book/en/v2/Git-Tools-Submodules">Git submodule</a>, as shown below :</p>
 
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone &lt;github_repo_url&gt;
-</code></pre></div></div>
-
-<ul>
-  <li>Add the <a href="https://github.com/norlab-ulaval/latexGoodPractices">LaTeX good practices repository</a> as a <a href="https://git-scm.com/book/en/v2/Git-Tools-Submodules">Git submodule</a>, as shown below :</li>
-</ul>
-
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git submodule add https://github.com/norlab-ulaval/latexGoodPractices.git
-</code></pre></div></div>
-
-<ul>
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git submodule add https://github.com/norlab-ulaval/latexGoodPractices.git
+</code></pre></div>    </div>
+  </li>
   <li>Push the changes from your local repository to the remote GitHub repository</li>
   <li>Pull the changes from the Overleaf project page by selecting <img src="/images/github_overleaf_sync/overleaf_menu.png" style="width: 12%" /> , <img src="/images/github_overleaf_sync/overleaf_github.png" style="width: 30%" /> and <img src="/images/github_overleaf_sync/pull_overleaf.png" style="width: 35%" /></li>
-</ul>
+</ol>
 
 <p>Your project is now synchronized between the two platforms and you can now push or pull changes directly from the Overleaf project page. Be careful when editing the document on your laptop at the same time as it is being changed on Overleaf as this may cause merging conflicts.</p>
 
