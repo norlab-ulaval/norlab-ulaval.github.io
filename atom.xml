@@ -1,4 +1,78 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://norlab.ulaval.ca/atom.xml" rel="self" type="application/atom+xml" /><link href="https://norlab.ulaval.ca/" rel="alternate" type="text/html" /><updated>2020-05-21T12:07:31-04:00</updated><id>https://norlab.ulaval.ca/atom.xml</id><title type="html">Northern Robotics Laboratory</title><subtitle>Website showcasing research and news from the Northern Robotics Laboratory, Laval University</subtitle><entry><title type="html">Norlab goes to CRV!</title><link href="https://norlab.ulaval.ca/news/crv20/" rel="alternate" type="text/html" title="Norlab goes to CRV!" /><published>2020-05-21T00:00:00-04:00</published><updated>2020-05-21T00:00:00-04:00</updated><id>https://norlab.ulaval.ca/news/crv20</id><content type="html" xml:base="https://norlab.ulaval.ca/news/crv20/">&lt;p&gt;This month, the lab attended the &lt;a href=&quot;https://www.computerrobotvision.org/&quot;&gt;17th conference on Computer and Robot Vision&lt;/a&gt;, which was held virtually due to the COVID-19 situation.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://norlab.ulaval.ca/atom.xml" rel="self" type="application/atom+xml" /><link href="https://norlab.ulaval.ca/" rel="alternate" type="text/html" /><updated>2020-06-02T20:31:56-04:00</updated><id>https://norlab.ulaval.ca/atom.xml</id><title type="html">Northern Robotics Laboratory</title><subtitle>Website showcasing research and news from the Northern Robotics Laboratory, Laval University</subtitle><entry><title type="html">Simon-Pierre Deschênes</title><link href="https://norlab.ulaval.ca/people/sp_deschenes/" rel="alternate" type="text/html" title="Simon-Pierre Deschênes" /><published>2020-06-02T00:00:00-04:00</published><updated>2020-06-02T00:00:00-04:00</updated><id>https://norlab.ulaval.ca/people/sp_deschenes</id><content type="html" xml:base="https://norlab.ulaval.ca/people/sp_deschenes/">&lt;p&gt;Simon-Pierre Deschênes is a PhD student at Norlab, under the supervision of Pr. &lt;a href=&quot;../../people/f_pomerleau&quot;&gt;François Pomerleau&lt;/a&gt;.
+After his internship in the laboratory in summer 2018 as part of his bachelor’s degree, Simon-Pierre was captivated by 3D mapping and decided to continue his graduate studies in this field.
+His research project is part of the &lt;a href=&quot;../../research/snow&quot;&gt;SNOW project&lt;/a&gt; and focuses on 3D localization and mapping in harsh winter conditions using the ICP algorithm.
+The participation of the different project members allowed them to meet and even go beyond the first milestone objectives. 
+Here is a demonstration of the system that has been implemented in the scope of the project:&lt;/p&gt;
+&lt;iframe src=&quot;https://www.youtube.com/embed/LILvVsYoaAg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;At last, Simon-Pierre has participated in several other projects since his arrival in the laboratory, including the 2019 christmas video of Norlab, which he directed:&lt;/p&gt;
+&lt;iframe src=&quot;https://www.youtube.com/embed/uNiGKETYOjQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h1 id=&quot;education&quot;&gt;Education&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Master’s degree in computer science (fast-track to PhD), 2020&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Bachelor’s degree in software engineering at Laval University, 2019&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;publications&quot;&gt;Publications&lt;/h1&gt;
+
+&lt;h2 class=&quot;bibliography&quot;&gt;Conference Articles&lt;/h2&gt;
+&lt;ol class=&quot;bibliography&quot; reversed=&quot;reversed&quot;&gt;&lt;li&gt;&lt;span id=&quot;Baril2020&quot;&gt;Baril, D., Grondin, V., Deschênes, S., Laconte, J., M., V., Kubelka, V., Gallant, A., Giguère, P., &amp;amp; Pomerleau, F. (2020). Evaluation of Skid-Steering Kinematic Models for Subarctic Environments. &lt;i&gt;Proceeding of the 2020 17th Conference on Computer and Robot Vision (CRV)&lt;/i&gt;.&lt;/span&gt;
+
+
+&lt;a href=&quot;/pdf/Baril2020.pdf&quot;&gt;&lt;i class=&quot;fas fa-file-pdf&quot;&gt;&lt;/i&gt; PDF&lt;/a&gt;
+
+
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/Baril2020/&quot;&gt; &lt;i class=&quot;fas fa-file-code&quot;&gt;&lt;/i&gt; Bibtex source&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Laconte2019&quot;&gt;Laconte, J., Deschênes, S.-P., Labussière, M., &amp;amp; Pomerleau, F. (2019). Lidar Measurement Bias Estimation via Return Waveform Modelling in a Context of 3D Mapping. &lt;i&gt;Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)&lt;/i&gt;.&lt;/span&gt;
+
+
+&lt;a href=&quot;/pdf/Laconte2019.pdf&quot;&gt;&lt;i class=&quot;fas fa-file-pdf&quot;&gt;&lt;/i&gt; PDF&lt;/a&gt;
+
+
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/Laconte2019/&quot;&gt; &lt;i class=&quot;fas fa-file-code&quot;&gt;&lt;/i&gt; Bibtex source&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</content><author><name>Simon-Pierre Deschênes</name><email>simon-pierre.deschenes.1@ulaval.ca</email></author><summary type="html">Simon-Pierre Deschênes is a PhD student at Norlab, under the supervision of Pr. François Pomerleau. After his internship in the laboratory in summer 2018 as part of his bachelor’s degree, Simon-Pierre was captivated by 3D mapping and decided to continue his graduate studies in this field. His research project is part of the SNOW project and focuses on 3D localization and mapping in harsh winter conditions using the ICP algorithm. The participation of the different project members allowed them to meet and even go beyond the first milestone objectives. Here is a demonstration of the system that has been implemented in the scope of the project:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22/people/sp_deschenes.jpg%22,%20%22teaser%22=%3E%22/people/sp_deschenes_avatar.jpg%22%7D" /><media:content medium="image" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22/people/sp_deschenes.jpg%22,%20%22teaser%22=%3E%22/people/sp_deschenes_avatar.jpg%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Simon-Pierre Deschênes</title><link href="https://norlab.ulaval.ca/people/sp_deschenes_fr/" rel="alternate" type="text/html" title="Simon-Pierre Deschênes" /><published>2020-06-02T00:00:00-04:00</published><updated>2020-06-02T00:00:00-04:00</updated><id>https://norlab.ulaval.ca/people/sp_deschenes_fr</id><content type="html" xml:base="https://norlab.ulaval.ca/people/sp_deschenes_fr/">&lt;p&gt;Simon-Pierre Deschênes est un étudiant au doctorat au sein du Norlab sous la supervision du Pr. &lt;a href=&quot;../../people/f_pomerleau&quot;&gt;François Pomerleau&lt;/a&gt;.
+Ayant effectué un stage au sein du laboratoire à l’été 2018 dans le cadre de son baccalauréat, Simon-Pierre a été captivé par la cartographie 3D et a décidé de poursuivre ses études supérieures dans ce domaine.
+Son projet de recherche s’insère dans le &lt;a href=&quot;../../research/snow&quot;&gt;projet SNOW&lt;/a&gt; et porte sur la cartographie et la localisation 3D en conditions hivernales diffiles à l’aide de l’algorithme ICP.
+La participation des différents membres du projet leur a permis d’atteindre et même de surpasser les objectifs du premier jalon.
+Voici une démonstration du système mis en place dans le cadre de ce projet :&lt;/p&gt;
+&lt;iframe src=&quot;https://www.youtube.com/embed/LILvVsYoaAg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Enfin, Simon-Pierre a participé à plusieurs autres projets depuis son arrivée au laboratoire, dont le vidéo de Noël 2019 du Norlab dont il a dirigé la réalisation :&lt;/p&gt;
+&lt;iframe src=&quot;https://www.youtube.com/embed/uNiGKETYOjQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h1 id=&quot;education&quot;&gt;Education&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Maîtrise en informatique à l’Université Laval (passage accéléré au doctorat), 2020&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Baccalauréat en génie logiciel à l’Université Laval, 2019&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;publications&quot;&gt;Publications&lt;/h1&gt;
+
+&lt;h2 class=&quot;bibliography&quot;&gt;Conference Articles&lt;/h2&gt;
+&lt;ol class=&quot;bibliography&quot; reversed=&quot;reversed&quot;&gt;&lt;li&gt;&lt;span id=&quot;Baril2020&quot;&gt;Baril, D., Grondin, V., Deschênes, S., Laconte, J., M., V., Kubelka, V., Gallant, A., Giguère, P., &amp;amp; Pomerleau, F. (2020). Evaluation of Skid-Steering Kinematic Models for Subarctic Environments. &lt;i&gt;Proceeding of the 2020 17th Conference on Computer and Robot Vision (CRV)&lt;/i&gt;.&lt;/span&gt;
+
+
+&lt;a href=&quot;/pdf/Baril2020.pdf&quot;&gt;&lt;i class=&quot;fas fa-file-pdf&quot;&gt;&lt;/i&gt; PDF&lt;/a&gt;
+
+
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/Baril2020/&quot;&gt; &lt;i class=&quot;fas fa-file-code&quot;&gt;&lt;/i&gt; Bibtex source&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Laconte2019&quot;&gt;Laconte, J., Deschênes, S.-P., Labussière, M., &amp;amp; Pomerleau, F. (2019). Lidar Measurement Bias Estimation via Return Waveform Modelling in a Context of 3D Mapping. &lt;i&gt;Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)&lt;/i&gt;.&lt;/span&gt;
+
+
+&lt;a href=&quot;/pdf/Laconte2019.pdf&quot;&gt;&lt;i class=&quot;fas fa-file-pdf&quot;&gt;&lt;/i&gt; PDF&lt;/a&gt;
+
+
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/Laconte2019/&quot;&gt; &lt;i class=&quot;fas fa-file-code&quot;&gt;&lt;/i&gt; Bibtex source&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</content><author><name>Simon-Pierre Deschênes</name><email>simon-pierre.deschenes.1@ulaval.ca</email></author><summary type="html">Simon-Pierre Deschênes est un étudiant au doctorat au sein du Norlab sous la supervision du Pr. François Pomerleau. Ayant effectué un stage au sein du laboratoire à l’été 2018 dans le cadre de son baccalauréat, Simon-Pierre a été captivé par la cartographie 3D et a décidé de poursuivre ses études supérieures dans ce domaine. Son projet de recherche s’insère dans le projet SNOW et porte sur la cartographie et la localisation 3D en conditions hivernales diffiles à l’aide de l’algorithme ICP. La participation des différents membres du projet leur a permis d’atteindre et même de surpasser les objectifs du premier jalon. Voici une démonstration du système mis en place dans le cadre de ce projet :</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22/people/sp_deschenes.jpg%22,%20%22teaser%22=%3E%22/people/sp_deschenes_avatar.jpg%22%7D" /><media:content medium="image" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22/people/sp_deschenes.jpg%22,%20%22teaser%22=%3E%22/people/sp_deschenes_avatar.jpg%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Norlab goes to CRV!</title><link href="https://norlab.ulaval.ca/news/crv20/" rel="alternate" type="text/html" title="Norlab goes to CRV!" /><published>2020-05-21T00:00:00-04:00</published><updated>2020-05-21T00:00:00-04:00</updated><id>https://norlab.ulaval.ca/news/crv20</id><content type="html" xml:base="https://norlab.ulaval.ca/news/crv20/">&lt;p&gt;This month, the lab attended the &lt;a href=&quot;https://www.computerrobotvision.org/&quot;&gt;17th conference on Computer and Robot Vision&lt;/a&gt;, which was held virtually due to the COVID-19 situation.&lt;/p&gt;
 
 &lt;p&gt;We presented our article on kinematic motion modelling for skid-steering mobile robots in subartic environments &lt;a class=&quot;citation&quot; href=&quot;#Baril2020&quot;&gt;(Baril et al., 2020)&lt;/a&gt;. More details on our article can be found &lt;a href=&quot;../../publications/subartic_kinematic_modelling&quot;&gt;here&lt;/a&gt;. The paper was awarded with the “Best robotics paper” award for the conference. The laboratory director, &lt;a href=&quot;../../people/f_pomerleau&quot;&gt;François Pomerleau&lt;/a&gt; also gave a symposium presentation on subterranean and subartic autonomous exploration.&lt;/p&gt;
 
@@ -295,69 +369,4 @@ He then worked on the development of LIDAR SLAM algorithm for a forest mapping a
 
 
 
-&lt;a class=&quot;details&quot; href=&quot;/bibliography/Babin2018/&quot;&gt; &lt;i class=&quot;fas fa-file-code&quot;&gt;&lt;/i&gt; Bibtex source&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</content><author><name>Philippe Babin</name></author><summary type="html">Philippe Babin is currently employed at Argo AI a self-driving car startup. He got a Bachelor’s Degree in Computer Science Engineering at Université Laval in 2017. Throught his master, he works on improving the robustness of Iterative Closest Point (ICP). His first project explored the effects of outlier filters (such as M-estimator) on ICP. He then worked on the development of LIDAR SLAM algorithm for a forest mapping application.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22/people/p_babin.jpg%22,%20%22teaser%22=%3E%22/people/p_babin_avatar.jpg%22%7D" /><media:content medium="image" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22/people/p_babin.jpg%22,%20%22teaser%22=%3E%22/people/p_babin_avatar.jpg%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Large-scale 3D Mapping of Subarctic Forests</title><link href="https://norlab.ulaval.ca/publications/penality-icp/" rel="alternate" type="text/html" title="Large-scale 3D Mapping of Subarctic Forests" /><published>2019-09-13T00:00:00-04:00</published><updated>2019-09-13T00:00:00-04:00</updated><id>https://norlab.ulaval.ca/publications/penality-icp</id><content type="html" xml:base="https://norlab.ulaval.ca/publications/penality-icp/">&lt;p&gt;The ability to map challenging subarctic environments opens new horizons for robotic deployments in industries such as forestry, surveillance, and open-pit mining. In this paper, we explore possibilities of large-scale lidar mapping in a boreal forest. Computational and sensory requirements with regards to contemporary hardware are considered as well. The lidar mapping is often based on the SLAM technique relying on pose graph optimization, which fuses the Iterative Closest Point (ICP) algorithm, Global Navigation Satellite System (GNSS) positioning, and Inertial Measurement Unit (IMU) measurements.  To handle those sensors directly within the ICP minimization process, we propose an alternative approach of embedding external constraints. Furthermore, a novel formulation of a cost function is presented and cast into the problem of handling uncertainties from GNSS and lidar points. To test our approach, we acquired a large-scale dataset in the Foret Montmorency research forest. We report on the technical problems faced during our winter deployments aiming at building 3D maps using our new cost function. Those maps demonstrate both global and local consistency over 4.1km.&lt;/p&gt;
-
-&lt;h1 id=&quot;quick-facts&quot;&gt;Quick facts:&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;4.1 km of untapped forest trail and snowmobile was mapped using a custom acquisition platform&lt;/li&gt;
-  &lt;li&gt;The acquisition platform has a Xsens MTI-30 IMU, a &lt;a href=&quot;https://www.robosense.ai/rslidar/rs-lidar-16&quot;&gt;RoboSense RS-lidar-16&lt;/a&gt; and a REACH RS+ GNSS station&lt;/li&gt;
-  &lt;li&gt;All of field test were done at &lt;a href=&quot;https://www.foretmontmorency.ca/en/&quot;&gt;Forêt Montmorency&lt;/a&gt;, a research forest owns by Université Laval.&lt;/li&gt;
-  &lt;li&gt;Our paper is available &lt;a href=&quot;https://arxiv.org/abs/1904.07814&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;It was presented at the 12th Conference on Field and Service Robotic, the slides are available &lt;a href=&quot;../../pdf/Babin2019a.slides.pdf&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;video&quot;&gt;Video&lt;/h1&gt;
-&lt;!-- blank line --&gt;
-&lt;figure class=&quot;video_container&quot;&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/t_cBdiPQ1R8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/figure&gt;
-&lt;!-- blank line --&gt;
-
-&lt;h1 id=&quot;publications&quot;&gt;Publications&lt;/h1&gt;
-
-&lt;ol class=&quot;bibliography&quot; reversed=&quot;reversed&quot;&gt;&lt;li&gt;&lt;span id=&quot;Babin2019a&quot;&gt;Babin, P., Dandurand, P., Kubelka, V., Giguère, P., &amp;amp; Pomerleau, F. (2019). Large-scale 3D Mapping of Subarctic Forests. &lt;i&gt;Proceedings of the Conference on Field and Service Robotics (FSR). Springer Tracts in Advanced Robotics&lt;/i&gt;.&lt;/span&gt;
-
-
-&lt;a href=&quot;/pdf/Babin2019a.pdf&quot;&gt;&lt;i class=&quot;fas fa-file-pdf&quot;&gt;&lt;/i&gt; PDF&lt;/a&gt;
-
-
-&lt;a href=&quot;/pdf/Babin2019a.slides.pdf&quot;&gt;&lt;i class=&quot;fas fa-file-powerpoint&quot;&gt;&lt;/i&gt; Slides&lt;/a&gt;
-
-&lt;a class=&quot;details&quot; href=&quot;/bibliography/Babin2019a/&quot;&gt; &lt;i class=&quot;fas fa-file-code&quot;&gt;&lt;/i&gt; Bibtex source&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</content><author><name>Philippe Babin</name></author><category term="project" /><category term="icp" /><category term="mapping" /><category term="subarctic" /><category term="snowmobile" /><category term="forestry" /><category term="lidar" /><summary type="html">The ability to map challenging subarctic environments opens new horizons for robotic deployments in industries such as forestry, surveillance, and open-pit mining. In this paper, we explore possibilities of large-scale lidar mapping in a boreal forest. Computational and sensory requirements with regards to contemporary hardware are considered as well. The lidar mapping is often based on the SLAM technique relying on pose graph optimization, which fuses the Iterative Closest Point (ICP) algorithm, Global Navigation Satellite System (GNSS) positioning, and Inertial Measurement Unit (IMU) measurements. To handle those sensors directly within the ICP minimization process, we propose an alternative approach of embedding external constraints. Furthermore, a novel formulation of a cost function is presented and cast into the problem of handling uncertainties from GNSS and lidar points. To test our approach, we acquired a large-scale dataset in the Foret Montmorency research forest. We report on the technical problems faced during our winter deployments aiming at building 3D maps using our new cost function. Those maps demonstrate both global and local consistency over 4.1km.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22projects/penalty_icp_feature.jpg%22,%20%22teaser%22=%3E%22projects/penalty_icp_teaser.jpg%22,%20%22thumb%22=%3Enil%7D" /><media:content medium="image" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22projects/penalty_icp_feature.jpg%22,%20%22teaser%22=%3E%22projects/penalty_icp_teaser.jpg%22,%20%22thumb%22=%3Enil%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Lambda-Field: A Continuous Counterpart of the Bayesian Occupancy Grid for Risk Assessment</title><link href="https://norlab.ulaval.ca/publications/lambda-field/" rel="alternate" type="text/html" title="Lambda-Field: A Continuous Counterpart of the Bayesian Occupancy Grid for Risk Assessment" /><published>2019-09-02T00:00:00-04:00</published><updated>2019-09-02T00:00:00-04:00</updated><id>https://norlab.ulaval.ca/publications/lambda-field</id><content type="html" xml:base="https://norlab.ulaval.ca/publications/lambda-field/">&lt;p&gt;In a context of autonomous robots, one of the most important tasks is to ensure the safety of the robot and its surrounding.
-The risk of navigation is usually said to be the probability of collision.
-This notion of risk is not well defined in the literature, especially when dealing with occupancy grids.
-The Bayesian occupancy grid is the most used method to deal with complex environments.
-However, this is not fitted to compute the risk along a path by its discrete nature.
-In this article, we present a new way to store the occupancy of the environment that allows the computation of risk along a given path.
-We then define the risk as the force of collision that would occur for a given obstacle.
-Using this framework, we are able to generate navigation paths ensuring the safety of the robot.&lt;/p&gt;
-
-&lt;h1 id=&quot;contributions&quot;&gt;Contributions&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A novel type of map, called Lambda-Field, specially conceived to allow path integrals and thus probabilities of collision;&lt;/li&gt;
-  &lt;li&gt;A definition of the risk encountered over a path, specified as the expected force of collision along a path.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;results-in-images&quot;&gt;Results in Images&lt;/h1&gt;
-
-&lt;p&gt;Using the lambda-field, we are able to construct maps where the probability of collision along a path logically arises from the theory.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/publications/lambda-field/maps.png&quot; style=&quot;width: 100%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The robot (trajectory in blue) maps an urban-like environment and creates a Bayesian Grid as well as a Lambda-Field.
-Although the maps are almost the same, the Lambda-Field tends to better store the unstructured obstacles (bushes in this example).&lt;/p&gt;
-
-&lt;h1 id=&quot;in-video&quot;&gt;In Video&lt;/h1&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ybj8NWWbzAo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;h1 id=&quot;reference&quot;&gt;Reference&lt;/h1&gt;
-
-&lt;p&gt;&lt;span id=&quot;Laconte2019a&quot;&gt;Laconte, J., Debain, C., Chapuis, R., Pomerleau, F., &amp;amp; Aufrere, R. (2019). Lambda-Field: A Continuous Counterpart of the Bayesian Occupancy Grid for Risk Assessment. &lt;i&gt;Proceedings of the IEEE International Conference on Intelligent Robots and Systems (IROS)&lt;/i&gt;.&lt;/span&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;links&quot;&gt;Links&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.researchgate.net/publication/331565267_Lambda-Field_A_Continuous_Counterpart_of_the_Bayesian_Occupancy_Grid_for_Risk_Assessment&quot;&gt;Download link&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Johann Laconte</name></author><category term="publications" /><category term="traversability" /><category term="lidar" /><category term="mapping" /><summary type="html">In a context of autonomous robots, one of the most important tasks is to ensure the safety of the robot and its surrounding. The risk of navigation is usually said to be the probability of collision. This notion of risk is not well defined in the literature, especially when dealing with occupancy grids. The Bayesian occupancy grid is the most used method to deal with complex environments. However, this is not fitted to compute the risk along a path by its discrete nature. In this article, we present a new way to store the occupancy of the environment that allows the computation of risk along a given path. We then define the risk as the force of collision that would occur for a given obstacle. Using this framework, we are able to generate navigation paths ensuring the safety of the robot.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22teaser%22=%3E%22publications/lambda-field_teaser.png%22,%20%22feature%22=%3E%22publications/lambda-field_feature.png%22,%20%22thumb%22=%3Enil%7D" /><media:content medium="image" url="https://norlab.ulaval.ca/%7B%22teaser%22=%3E%22publications/lambda-field_teaser.png%22,%20%22feature%22=%3E%22publications/lambda-field_feature.png%22,%20%22thumb%22=%3Enil%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/Babin2018/&quot;&gt; &lt;i class=&quot;fas fa-file-code&quot;&gt;&lt;/i&gt; Bibtex source&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</content><author><name>Philippe Babin</name></author><summary type="html">Philippe Babin is currently employed at Argo AI a self-driving car startup. He got a Bachelor’s Degree in Computer Science Engineering at Université Laval in 2017. Throught his master, he works on improving the robustness of Iterative Closest Point (ICP). His first project explored the effects of outlier filters (such as M-estimator) on ICP. He then worked on the development of LIDAR SLAM algorithm for a forest mapping application.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22/people/p_babin.jpg%22,%20%22teaser%22=%3E%22/people/p_babin_avatar.jpg%22%7D" /><media:content medium="image" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22/people/p_babin.jpg%22,%20%22teaser%22=%3E%22/people/p_babin_avatar.jpg%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
