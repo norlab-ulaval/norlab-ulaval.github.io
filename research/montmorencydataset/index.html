@@ -3,14 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title>The Montmorency dataset • Northern Robotics Laboratory</title>
-    <meta name="description" content="Under construction
+    <meta name="description" content="This large scale forest mapping dataset in now available for download on Academic Torrents.
+The dataset contains the ground truth species, diameter at breast height (DBH) and position of more than 1000 trees across four forests, as well as 11 trajectories of a lidar-equipped robot going through these forests.
+It has been the subject of a publication at the 12th Conference on Field and Service Robotics, as well as the Journal of Field Robotics.
 
 ">
     <meta name="keywords" content="project, mapping, forestry, lidar">
     
     	<!-- Twitter Cards -->
 	<meta name="twitter:title" content="The Montmorency dataset">
-	<meta name="twitter:description" content="Under construction
+	<meta name="twitter:description" content="This large scale forest mapping dataset in now available for download on Academic Torrents.
+The dataset contains the ground truth species, diameter at breast height (DBH) and position of more than 1000 trees across four forests, as well as 11 trajectories of a lidar-equipped robot going through these forests.
+It has been the subject of a publication at the 12th Conference on Field and Service Robotics, as well as the Journal of Field Robotics.
 
 ">
 	
@@ -23,7 +27,9 @@
 	<meta property="og:locale" content="en">
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="The Montmorency dataset">
-	<meta property="og:description" content="Under construction
+	<meta property="og:description" content="This large scale forest mapping dataset in now available for download on Academic Torrents.
+The dataset contains the ground truth species, diameter at breast height (DBH) and position of more than 1000 trees across four forests, as well as 11 trajectories of a lidar-equipped robot going through these forests.
+It has been the subject of a publication at the 12th Conference on Field and Service Robotics, as well as the Journal of Field Robotics.
 
 ">
 	<meta property="og:image" content="https://norlab.ulaval.ca/images/projects/forest_mapping_teaser.jpg">
@@ -183,22 +189,145 @@
 
 		<div class="page-title">
 			<h1>The Montmorency dataset
-			<p>3D Mapping for forest inventory</p>
+			<p>3D Mapping for robotic forest inventory</p>
 			</h1>
 		</div>
 		<div class="inner-wrap">
 			<div id="content" class="page-content" itemprop="articleBody">
-				<p>Under construction</p>
+				<p>This large scale forest mapping dataset in now available for download on <a href="https://academictorrents.com/details/cf39b5c4285f20c3539cbe9f37f6e04cfde10afa">Academic Torrents</a>.
+The dataset contains the ground truth species, diameter at breast height (DBH) and position of more than 1000 trees across four forests, as well as 11 trajectories of a lidar-equipped robot going through these forests.
+It has been the subject of a publication at the 12th Conference on Field and Service Robotics, as well as the Journal of Field Robotics.</p>
 
-<p>The dataset in now available for download on <a href="https://academictorrents.com/details/cf39b5c4285f20c3539cbe9f37f6e04cfde10afa">Academic Torrents</a>.
-This dataset contains the ground truth species, diameter at breast height and position of more than 1000 trees across four forests, as well as 11 trajectories of a lidar-equipped robot going through these forests.
-It has been the subject of a publication at the 12th Conference on Field and Service Robotics.</p>
+<h1 id="dataset-structure">Dataset structure</h1>
+<p>In the file paths, the textual site names (MATURE, etc.), are not used like in the research articles.
+Rather, we use a shorter numerical ID: YOUNG is 1, MIXED is 2, MATURE is 3 and MAPLE is 4. <br />
+The dataset is split into three categories. The first, the ground truth data, is located in the folder <span style="font-family:consolas;">groundTruthSite{SITE_ID}/</span>. The robot sensor data and mapping results are in <span style="font-family:consolas;">data{SITE_ID}_{DATE}</span>.</p>
 
-<p>More details will appear later as this work is still undergoing peer-review.</p>
+<!---
+\begin{table}[htbp]
+  \centering
+  \caption{Contents of the raw data bags and the mapping bags. For convenience, the content of the raw data bags are also present in the mapping bag. The localization map rate is variable, mainly because is was heavily filtered out of the mapping bags due to disk space constraints.}
+  \begin{tabu}{ X[1.25] X[1] X[1] }
+    \toprule
+    \rowfont{\centering\sc}
+    Topic name & Description & Rate (Hz) \\
+    \midrule
+    \rowfont{\centering}
+    & \textbf{Raw data bag} & \\
+    \midrule
+    \texttt{/mti/sensor/imu} & IMU data & 100 \\
+    \texttt{/axis/camera/image\_compressed} & RGB camera feed & 30 \\
+    \texttt{/husky\_velocity\_controller/odom} & Wheel odometry & 30 \\
+    \texttt{/husky\_velocity\_controller/cmd\_vel} & Commands & Variable \\
+    \texttt{/velodyne\_packet} & Lidar raw data & 10 \\
+    \midrule
+    \rowfont{\centering}
+    & \textbf{Mapping bags} & \\
+    \midrule
+    \texttt{/icp\_odom} & ICP trajectory & 10 \\
+    \texttt{/odom/filtered} & EKF trajectory & 100 \\
+    \texttt{/point\_map} & Localization map ($\mathbf{M}'_i$) & Variable \\
+    \bottomrule
+  \end{tabu}
+  \label{tab:data_bag}
+\end{table}
+-->
+
+<p><em>Table 1: Contents of the raw data bags and the mapping bags.</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Topic name</th>
+      <th>Description</th>
+      <th style="text-align: right">Rate (Hz)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td><strong>Raw data bag</strong></td>
+      <td style="text-align: right"> </td>
+    </tr>
+    <tr>
+      <td><span style="font-family:consolas;">/mti/sensor/imu</span></td>
+      <td>IMU data</td>
+      <td style="text-align: right">100</td>
+    </tr>
+    <tr>
+      <td><span style="font-family:consolas;">/axis/camera/image_compressed</span></td>
+      <td>RGB camera feed</td>
+      <td style="text-align: right">30</td>
+    </tr>
+    <tr>
+      <td><span style="font-family:consolas;">/husky_velocity_controller/odom</span></td>
+      <td>Wheel odometry</td>
+      <td style="text-align: right">30</td>
+    </tr>
+    <tr>
+      <td><span style="font-family:consolas;">/husky_velocity_controller/cmd_vel</span></td>
+      <td>Controls</td>
+      <td style="text-align: right">Variable</td>
+    </tr>
+    <tr>
+      <td><span style="font-family:consolas;">/velodyne_packet</span></td>
+      <td>Lidar raw data</td>
+      <td style="text-align: right">10</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>Mapping bags</strong></td>
+      <td style="text-align: right"> </td>
+    </tr>
+    <tr>
+      <td><span style="font-family:consolas;">/icp_odom</span></td>
+      <td>ICP trajectory</td>
+      <td style="text-align: right">10</td>
+    </tr>
+    <tr>
+      <td><span style="font-family:consolas;">/odom/filtered</span></td>
+      <td>EKF trajectory</td>
+      <td style="text-align: right">100</td>
+    </tr>
+    <tr>
+      <td><span style="font-family:consolas;">/point_map</span></td>
+      <td>Localization map</td>
+      <td style="text-align: right">Variable</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="ground-truth-data">Ground truth data</h2>
+<p>The ground truth data consists of the bounding boxes for individual trees as well as the DBH and picture of each trees.
+Under the directory <span style="font-family:consolas;">Trees/</span>, every tree that was manually segmented from the reference trajectory is present in the file <span style="font-family:consolas;">{TREE_ID}.pcd</span>.</p>
+
+<p>Under the directory <span style="font-family:consolas;">photos/</span>, ground-truth data for each tree is present.
+The pictures themselves contain no information necessary for DBH estimation, but provide useful clues pertaining to the shape of the trees and the presence of branches at breast height.
+These two factors are important for measuring DBH.
+The file name of each tree picture gives the ground-truth DBH and species of this tree and has this format: <span style="font-family:consolas;">{TREE_ID}_{SPECIES}_{DBH}.jpg</span>, the DBH being in millimeters.</p>
+
+<h2 id="robot-sensor-data">Robot sensor data</h2>
+<p>The robot raw sensor data (in the <span style="font-family:consolas;">rosbag</span> file format) consists of the recording of the robot’s sensor reading while it was performing the trajectories.
+There is one bag per trajectory.
+The contents of the bags are shown in Table 1.
+Sometimes the bag name is followed by <span style="font-family:consolas;">_time</span>, meaning that the beginning and end of the bag was truncated to remove periods where the robot did not move.
+Only the raw Velodyne data is present in the bags due to disk space constraints, meaning one has to run Velodyne’s ROS node (<a href="http://wiki.ros.org/velodyne">http://wiki.ros.org/velodyne</a>) along with the bag to get standard point cloud messages.</p>
+
+<h2 id="mapping-results">Mapping results</h2>
+<p>For each trajectory, there is a directory that contains the results of our mapping algorithm, with various point densities.
+The final dense 3D maps, (in the <span style="font-family:consolas;">pcd</span> file format) are in the <span style="font-family:consolas;">tmp/</span> sub-folder of each mapping directory.
+<span style="font-family:consolas;">output.pcd</span> contains all of the lidar points which means it is very large and unsuitable for visualization.
+<span style="font-family:consolas;">outputsmall.pcd</span> is a smaller filtered point cloud where only the 40 millions points with the strongest return intensity were kept.
+<span style="font-family:consolas;">tf_to_ref.txt</span> contains the rotation matrix from the mapping results to the reference coordinate system of the bounding boxes, computed from the approach described in <a class="citation" href="#Tremblay2020">(Tremblay et al., 2020)</a>.
+<span style="font-family:consolas;">outputrot.pcd</span> and <span style="font-family:consolas;">outputsmallrot.pcd</span> contain both previously described point clouds, now in the reference coordinate system. 
+The mapping results also include a bag file <span style="font-family:consolas;">vizBag.bag</span> which contains the ICP trajectory and other information detailed in Table 1.
+Furthermore, the <span style="font-family:consolas;">ethz_icp_mapper</span> and EKF settings are preserved in <span style="font-family:consolas;">params/</span> in each mapping result directory.</p>
+
+<p>If you have any questions or requests, contact Jean-François Tremblay at <a href="mailto:jft@cim.mcgill.ca">jft@cim.mcgill.ca</a>.</p>
 
 <h1 id="references">References</h1>
 
-<ol class="bibliography" reversed="reversed"><li><span id="Tremblay2020">Tremblay, J.-F., Béland, M., Pomerleau, F., Gagnon, R., &amp; Giguère, P. (2020). Automatic 3D Mapping for Tree Diameter Measurements in Inventory Operations. <i>Journal of Field Robotics</i>.</span>
+<ol class="bibliography" reversed="reversed"><li><span id="Tremblay2020">Tremblay, J.-F., Béland, M., Pomerleau, F., Gagnon, R., &amp; Giguère, P. (2020). Automatic 3D Mapping for Tree Diameter Measurements in Inventory Operations. <i>Journal of Field Robotics</i>. https://doi.org/10.1002/rob.21980</span>
 
 
 
