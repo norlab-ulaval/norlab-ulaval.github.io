@@ -45,14 +45,30 @@
 	abstract = {Forestry is a major industry in many parts of the world, yet this potential domain of application area has been overlooked by the robotics community. For instance, forest inventory, a cornerstone of efficient and sustainable forestry, is still traditionally performed manually by qualified professionals. The lack of automation in this particular task, consisting chiefly of measuring tree attributes, limits its speed, and, therefore, the area that can be economically covered. To this effect, we propose to use recent advancements in three-dimensional mapping approaches in forests to automatically measure tree diameters from mobile robot observations. While previous studies showed the potential for such technology, they lacked a rigorous analysis of diameter estimation methods in challenging and large-scale forest environments. Here, we validated multiple diameter estimation methods, including two novel ones, in a new publicly-available dataset which includes four different forest sites, 11 trajectories, totaling 1458 tree observations, and 14,000 m2. From our extensive validation, we concluded that our mapping method is usable in the context of automated forest inventory, with our best diameter estimation method yielding a root mean square error of 3.45 cm for our whole dataset and 2.04 cm in ideal conditions consisting of mature forest with well-spaced trees. Furthermore, we release this dataset to the public (https://norlab.ulaval.ca/research/montmorencydataset), to spur further research in robotic forest inventories. Finally, stemming from this large-scale experiment, we provide recommendations for future deployments of mobile robots in a forestry context.}
 }
 
-@article{Labussiere2019,
-	title = {Geometry Preserving Sampling Method based on Spectral Decomposition for 3{D} Registration},
-	journal = { Frontiers in Robotics and AI -- Multi-Robot Systems},
+@article{Labussiere2020,
+	title = {Geometry Preserving Sampling Method based on Spectral Decomposition for Large-scale Environments},
+	journal = {Frontiers in Robotics and AI -- Multi-Robot Systems},
 	year = {2020},
 	author+an = {1=student; 2=student; 1=pomerleau; 2=pomerleau},
 	author = {Labussi\`{e}re, M. and Laconte, J. and Pomerleau, F.},
 	project = {libpointmatcher},
-	note = {submitted June 15, Manuscript ID: 572054}
+	volume={7},
+	pages={134},
+	year={2020},
+	url={https://www.frontiersin.org/article/10.3389/frobt.2020.572054},
+	doi={10.3389/frobt.2020.572054},
+	issn={2296-9144},
+	abstract={In the context of 3D mapping, larger and larger point clouds are acquired with lidar sensors. Although pleasing to the eye, dense maps are not necessarily tailored for practical applications. For instance, in a surface inspection scenario, keeping geometric information such as the edges of objects is essential to detect cracks, whereas very dense areas of very little information such as the ground could hinder the main goal of the application. Several strategies exist to address this problem by reducing the number of points. However, they tend to underperform with non-uniform density, large sensor noise, spurious measurements, and large-scale point clouds, which is the case in mobile robotics. This paper presents a novel sampling algorithm based on spectral decomposition analysis to derive local density measures for each geometric primitive. The proposed method, called Spectral Decomposition Filter (SpDF), identifies and preserves geometric information along the topology of point clouds and is able to scale to large environments with a non-uniform density. Finally, qualitative and quantitative experiments verify the feasibility of our method and present a large-scale evaluation of SpDF with other seven point cloud sampling algorithms, in the context of the 3D registration problem using the Iterative Closest Point (ICP) algorithm on real-world datasets. Results show that a compression ratio up to 97 % can be achieved when accepting a registration error within the range accuracy of the sensor, here for large scale environments of less than 2 cm.}
+	}
+}
+@article{Labussiere2019,
+	title = {Geometry Preserving Sampling Method based on Spectral Decomposition for 3{D} Registration},
+	journal = {Arxiv},
+	journal={arXiv preprint arXiv:1810.01666},
+  	year={2018},
+	author+an = {1=student; 2=student; 1=pomerleau; 2=pomerleau},
+	author = {Labussi\`{e}re, M. and Laconte, J. and Pomerleau, F.},
+	project = {libpointmatcher},
 }
 
 @inproceedings{Baril2020,
