@@ -198,7 +198,7 @@ To avoid manually searching for translation and rotation parameters, we have wri
 
 <p>The physical configuration of a robot can change or a new sensor is added.
 Since this configuration is reflected by the ROS TF system, the corresponding static transform needs to be updated.
-The classical approach would be trial-and-error with the comand line <code class="highlighter-rouge">rosrun tf static_transform_publisher [params]</code>, looking for the right numbers.
+The classical approach would be trial-and-error with the comand line <code class="language-plaintext highlighter-rouge">rosrun tf static_transform_publisher [params]</code>, looking for the right numbers.
 It is tedious, unnecessary and there is a better way to do this.</p>
 
 <h1 id="solution---interactive-static-transform-tool">Solution - Interactive Static Transform tool</h1>
@@ -214,7 +214,7 @@ Its usage is straightforward:</p>
   <li>The initial transformation is an identity, but you can modify it by displaying
 the interactive marker and moving it around.</li>
   <li>The marker also offers a context menu, the only command which is there
-prints the current transform value in the form of the <code class="highlighter-rouge">static_transform_publisher</code>
+prints the current transform value in the form of the <code class="language-plaintext highlighter-rouge">static_transform_publisher</code>
 rosrun command.</li>
 </ol>
 
@@ -231,7 +231,7 @@ rosrun command.</li>
 
 <p>The final transform output can be copied and pasted into a terminal or just used to set a new launch file:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[INFO] [1556661102.899894]: The equivalent static transform command:
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[INFO] [1556661102.899894]: The equivalent static transform command:
 [INFO] [1556661102.902316]: rosrun tf static_transform_publisher 1.92549085617 0.0 1.12673556805 0.327530413866 -0.155546739697 -0.399795621634 0.841839015484 base_link moving_frame 100
 </code></pre></div></div>
 
@@ -278,7 +278,7 @@ rosrun command.</li>
 		
 		</ul>
 	</nav><!-- /.bottom-menu -->
-	<p class="copyright">&#169; 2020 <a href="https://norlab.ulaval.ca">Northern Robotics Laboratory</a> powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> + <a href="http://mmistakes.github.io/skinny-bones-jekyll/" rel="nofollow">Skinny Bones</a>.</p>
+	<p class="copyright">&#169; 2021 <a href="https://norlab.ulaval.ca">Northern Robotics Laboratory</a> powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> + <a href="http://mmistakes.github.io/skinny-bones-jekyll/" rel="nofollow">Skinny Bones</a>.</p>
 </footer>
     </div>
 

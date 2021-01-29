@@ -237,7 +237,7 @@ This launch file is an example for 3D registration using DSO stero reconstructio
 <span class="nt">&lt;/launch&gt;</span>
 </code></pre></div></div>
 
-<p>If I want to comment the node <code class="highlighter-rouge">&lt;node name="mapper"&gt;</code>, the typical block comment <code class="highlighter-rouge">&lt;!-- --&gt;</code> will break because of the nested comment <code class="highlighter-rouge">&lt;!--1 deg = 0.017rad--&gt;</code>.
+<p>If I want to comment the node <code class="language-plaintext highlighter-rouge">&lt;node name="mapper"&gt;</code>, the typical block comment <code class="language-plaintext highlighter-rouge">&lt;!-- --&gt;</code> will break because of the nested comment <code class="language-plaintext highlighter-rouge">&lt;!--1 deg = 0.017rad--&gt;</code>.
 So much, that even the syntax highlight used for this web site will not render it properly:</p>
 
 <div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;launch&gt;</span>
@@ -252,7 +252,7 @@ So much, that even the syntax highlight used for this web site will not render i
 
 <h1 id="solution">Solution</h1>
 
-<p>Using the non-existing processing-instruction <code class="highlighter-rouge">&lt;?ignore &lt;stuff&gt; ?&gt;</code> will solve the problem and all the tags in between won’t be parsed and only the node <code class="highlighter-rouge">&lt;tf&gt;</code> will start:</p>
+<p>Using the non-existing processing-instruction <code class="language-plaintext highlighter-rouge">&lt;?ignore &lt;stuff&gt; ?&gt;</code> will solve the problem and all the tags in between won’t be parsed and only the node <code class="language-plaintext highlighter-rouge">&lt;tf&gt;</code> will start:</p>
 
 <div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;launch&gt;</span>
 	<span class="err">&lt;</span>?ignore
@@ -308,7 +308,7 @@ So much, that even the syntax highlight used for this web site will not render i
 		
 		</ul>
 	</nav><!-- /.bottom-menu -->
-	<p class="copyright">&#169; 2020 <a href="https://norlab.ulaval.ca">Northern Robotics Laboratory</a> powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> + <a href="http://mmistakes.github.io/skinny-bones-jekyll/" rel="nofollow">Skinny Bones</a>.</p>
+	<p class="copyright">&#169; 2021 <a href="https://norlab.ulaval.ca">Northern Robotics Laboratory</a> powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> + <a href="http://mmistakes.github.io/skinny-bones-jekyll/" rel="nofollow">Skinny Bones</a>.</p>
 </footer>
     </div>
 
