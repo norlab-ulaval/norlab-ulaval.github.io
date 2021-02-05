@@ -1,4 +1,126 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://norlab.ulaval.ca/atom.xml" rel="self" type="application/atom+xml" /><link href="https://norlab.ulaval.ca/" rel="alternate" type="text/html" /><updated>2021-01-29T11:19:02-05:00</updated><id>https://norlab.ulaval.ca/atom.xml</id><title type="html">Northern Robotics Laboratory</title><subtitle>Website showcasing research and news from the Northern Robotics Laboratory, Laval University</subtitle><entry><title type="html">Project SNOW update: Better mapping for Lidar Teach &amp;amp; Repeat capability</title><link href="https://norlab.ulaval.ca/news/LTR/" rel="alternate" type="text/html" title="Project SNOW update: Better mapping for Lidar Teach &amp;amp; Repeat capability" /><published>2021-01-21T00:00:00-05:00</published><updated>2021-01-21T00:00:00-05:00</updated><id>https://norlab.ulaval.ca/news/LTR</id><content type="html" xml:base="https://norlab.ulaval.ca/news/LTR/">&lt;p&gt;In the context of the second milestone of the Snow project, we want to expand and improve our mapping system.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://norlab.ulaval.ca/atom.xml" rel="self" type="application/atom+xml" /><link href="https://norlab.ulaval.ca/" rel="alternate" type="text/html" /><updated>2021-02-04T20:52:53-05:00</updated><id>https://norlab.ulaval.ca/atom.xml</id><title type="html">Northern Robotics Laboratory</title><subtitle>Website showcasing research and news from the Northern Robotics Laboratory, Laval University</subtitle><entry><title type="html">Quatre stages en robotique pour l’été 2021 !</title><link href="https://norlab.ulaval.ca/news/internships_fr/" rel="alternate" type="text/html" title="Quatre stages en robotique pour l’été 2021 !" /><published>2021-02-04T00:00:00-05:00</published><updated>2021-02-04T00:00:00-05:00</updated><id>https://norlab.ulaval.ca/news/internships_fr</id><content type="html" xml:base="https://norlab.ulaval.ca/news/internships_fr/">&lt;p&gt;Norlab ouvre quatre stages couvrant plusieurs domaines d’étude cet été.
+Appliquez aussitôt que vous pouvez car les offres se terminent sous peu.
+Voici la liste des offres :&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;stagiaire-1&quot;&gt;Stagiaire 1&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;informatique, génie logiciel, génie informatique, génie robotique&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Ce stage s’inscrit dans le projet SNOW (Self-driving Navigation Optimized for Winter), qui vise à adapter les technologies de navigation autonome aux environnements affectés par l’hiver. Dans le cadre de son mandat, l’étudiant sera amené à développer une bibliothèque ouverte permettant de prédire les mouvements d’un robot mobile. Plusieurs prototypes d’algorithmes ont été analysés dans un Notebook Python, et doivent maintenant être codé proprement afin de permettre du calcul temps réel sur un robot en movement. L’objectif de la bibliothèque est de permettre aux chercheurs du laboratoire de faire des expériences plus rapidement. À terme, ces expériences permettrons aux robots mobiles de s’adapter aux changements de traction engendrés par le recouvrement de neige lors de la navigation autonome.&lt;/p&gt;
+
+&lt;p&gt;Le stagiaire sera encadré par un étudiant au doctorat qui se spécialise en control, ce qui permettra à l’étudiant de se concentrer sur le développement logiciel, tout en acquérant des compétences pratiques en robotique. L’étudiant sera également amené à soutenir l’effort de l’équipe pour l’intégration du robot ainsi que pour les déploiements de terrain. Le stagiaire aura accès à de l’équipement à la fine pointe et à un robot de 500 kg. La bibliothèque sera hébergée publiquement sur le GitHub du laboratoire et sera intégrée à ROS (Robot Operating System).&lt;/p&gt;
+
+&lt;p&gt;Pour de l’information contextuel, voir &lt;a href=&quot;../../research/snow/&quot;&gt;la page sur le projet SNOW&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;stagiaire-2&quot;&gt;Stagiaire 2&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;informatique, génie logiciel, génie informatique, génie robotique&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;La laboratoire développe de façon continu plusieurs solutions de cartographie 3D pour les véhicules autonomes. Une fois le robot en déplacement, il est relativement facile de le localiser dans une carte. Cependant, le laboratoire n’a pas d’outils logiciel pour relocalizer un robot si une carte est réutilisé.&lt;/p&gt;
+
+&lt;p&gt;L’objectif du stage est de développer un logiciel permettant de relocalizer un robot dans une carte 3D donnée. La première étape sera de relocalizer le robot manuellement dans un interface graphique 3D (rviz). Dans un deuxième temps, la pose du robot devra être raffinée automatiquement à l’aide d’un outils de recalage utilisé dans le laboratoire. Finalement, un algorithme cherchant la pose optimal du robot dans la carte automatiquement (Go-ICP) pourra être implémenté. L’étudiant sera encadré par des experts en cartographie 3D et en algorithme de recalage. Le code sera sera hébergée publiquement sur le GitHub du laboratoire et sera intégrée à ROS (Robot Operating System).&lt;/p&gt;
+
+&lt;p&gt;Pour de l’information contextuel, voir &lt;a href=&quot;../../research/libpointmatcher/&quot;&gt;la page sur libpointmatcher&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;stagiaire-3&quot;&gt;Stagiaire 3&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;génie électrique, génie informatique, génie robotique&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Le laboratoire se prépare pour un déploiement d’envergure aux États-Unies qui aura lieu en septembre 2021. Le but de ce déploiements est d’explorer des environnements souterrains à l’aide d’une flotte de robots autonomes. Pour se faire, le laboratoire récemment a fait l’acquisition de nouveaux robots et a commander la conception d’une carte d’alimentation sur mesure pour les capteurs.&lt;/p&gt;
+
+&lt;p&gt;L’objectif du stage est de terminer l’intégration électronique des robots et de participer aux tests de robustesse des systèmes. Les robots à chenilles devraient être en mesure de monter les escaliers et de résister à un certain niveau de chocs. L’étudiant sera encadré par des experts en robotique ayant une formation en informatique, électrique et mécanique.&lt;/p&gt;
+
+&lt;p&gt;Pour de l’information contextuel, voir &lt;a href=&quot;../../research/darpa-subt-urban/&quot;&gt;la page sur le projet SUBT&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;stagiaire-4&quot;&gt;Stagiaire 4&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;informatique, génie logiciel, génie informatique, génie robotique&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Le laboratoire se prépare pour un déploiement d’envergure aux États-Unies qui aura lieu en septembre 2021. Le but de ce déploiements est d’explorer des environnements souterrains à l’aide d’une flotte de robots autonomes. Le laboratoire développe des solutions de cartographie et de localisation 3D basé sur des lidars, mais les cartes utilisé sont souvent trop clairsemées pour permettre l’évitement d’obstacles.&lt;/p&gt;
+
+&lt;p&gt;L’objectif de ce stage est de combiner les données d’un lidar avec les algorithmes de localisation du robot afin de produire une carte dense dans un rayon rapproché du robot. Dans un premier temps, un carte dense sera produite et affichée dans un interface graphique (rviz). Par la suite, des solutions de compression seront testés afin de réduire la bande passante de ces cartes lors de la transmission sans fils. Finalement, des algorithmes d’évitement d’obstacles pourront être étudiés. L’étudiant sera encadré par des experts en cartographie 3D et en algorithme de recalage. Le code sera sera hébergée publiquement sur le GitHub du laboratoire et sera intégrée à ROS (Robot Operating System).&lt;/p&gt;
+
+&lt;p&gt;Pour de l’information contextuel, voir &lt;a href=&quot;../../research/darpa-subt-urban/&quot;&gt;la page sur le projet SUBT&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;#Environnement de travail&lt;/p&gt;
+
+&lt;p&gt;Tous les stages se tiendront dans le Norlab (Laboratoire de robotique boréale). Ce laboratoire de recherche est spécialisé en systèmes mobiles et autonomes fonctionnant en conditions nordiques ou difficiles en général. Nous visons l’étude de problèmes reliés au algorithmes de navigation dans l’optique de repousser les limites de ce qui est présentement possible de faire avec un robot mobile en conditions d’utilisations réelles. Présentement, nos efforts sont dirigés vers les algorithmes de localisation basés sur les capteurs laser (lidar) et sur la reconstruction 3D d’environnements.&lt;/p&gt;
+
+&lt;p&gt;Le laboratoire possède deux ateliers dans le bâtiment Adrien-Pouliot permettant une interaction avec l’équipement de recherche suivant les normes sanitaires en vigueur. À moins d’avis contraire, le développement logiciel pourra se faire à distance en utilisant des jeux de données existants. Une fois la base démontré, des tests pourront être fait sur place avec de vrais robots de recherche.&lt;/p&gt;
+
+&lt;p&gt;#Rémunération&lt;/p&gt;
+
+&lt;p&gt;Il y a deux option de rémunération possible. Le première options vise les étudiants visant continuer à la maîtrise. Si vous avez une cote de plus grande que 3.8/4.3, nous vous suggérons d’appliquer à la bourse de recherche CRSNG (https://www.nserc-crsng.gc.ca/students-etudiants/ug-pc/usra-brpc_fra.asp). L’obtention de cette bourse d’excellence vous permettra d’améliorer votre dossier de jeune chercheur et vient normalement avec des suppléments du FRQNT. Le laboratoire donne également un supplément de 3 000 $ en bourse pour le stage. La date limite pour faire la demande est le 18 février 2021.&lt;/p&gt;
+
+&lt;p&gt;Si votre candidature n’est pas retenue pour la bourse, les salaires sont fixés selon la convention collective pour les auxiliaires de recherche et sont d’environ 15 $/h. La semaine de travail est de 35 h/sem. La durée du stage peut varier de 12 à 15 semaines.&lt;/p&gt;
+
+&lt;p&gt;#Application&lt;/p&gt;
+
+&lt;p&gt;Envoyez votre choix de stage, votre CV et votre relevé de notes au directeur du laboratoire, François Pomerleau &lt;a href=&quot;mailto:francois.pomerleau@ift.ulaval.ca&quot;&gt;francois.pomerleau@ift.ulaval.ca&lt;/a&gt; .&lt;/p&gt;
+
+&lt;p&gt;Les postes seront alloués en début mars 2021.&lt;/p&gt;</content><author><name>François Pomerleau</name><email>francois.pomerleau@ift.ulaval.ca</email></author><category term="news" /><category term="internships" /><summary type="html">Norlab ouvre quatre stages couvrant plusieurs domaines d’étude cet été. Appliquez aussitôt que vous pouvez car les offres se terminent sous peu. Voici la liste des offres :</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22/news/intern21/intern21.jpg%22,%20%22teaser%22=%3E%22/news/intern21/intern21_teaser.jpg%22%7D" /><media:content medium="image" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22/news/intern21/intern21.jpg%22,%20%22teaser%22=%3E%22/news/intern21/intern21_teaser.jpg%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Four internships in robotics for the summer 2021!</title><link href="https://norlab.ulaval.ca/news/internships/" rel="alternate" type="text/html" title="Four internships in robotics for the summer 2021!" /><published>2021-02-04T00:00:00-05:00</published><updated>2021-02-04T00:00:00-05:00</updated><id>https://norlab.ulaval.ca/news/internships</id><content type="html" xml:base="https://norlab.ulaval.ca/news/internships/">&lt;p&gt;Norlab is opening four internships covering multiple fields of study for this summer.
+Apply as soon as you can, we are closing the openings soon.
+Here is the list of opportunities:&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;intern-1&quot;&gt;Intern 1&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;computer science, software engineering, computer engineering&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This internship is part of the SNOW (Self-driving Navigation Optimized for Winter) project, which aims at adapting autonomous navigation technologies to environments affected by winter. As part of his mandate, the student will develop an open library to predict the movements of a mobile robot. Several prototype algorithms have been analyzed in a Python Notebook, and must now be coded cleanly to allow real-time computation on a moving robot. The goal of the library is to allow researchers in the laboratory to do experiments faster. Ultimately, these experiments will allow mobile robots to adapt to changes in traction caused by snow cover during autonomous navigation.&lt;/p&gt;
+
+&lt;p&gt;The trainee will be supervised by a PhD student specializing in control, allowing the student to focus on software development while acquiring practical robotics skills. The student will also be expected to support the team’s efforts in robot integration and field deployments. The intern will have access to state-of-the-art equipment and a 500 kg robot. The library will be publicly hosted on the lab’s GitHub and will be integrated with ROS (Robot Operating System).&lt;/p&gt;
+
+&lt;p&gt;For contextual information, see &lt;a href=&quot;../../research/snow/&quot;&gt;the project page on SNOW&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;intern-2&quot;&gt;Intern 2&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;computer science, software engineering, computer engineering&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The laboratory is continuously developing several 3D mapping solutions for autonomous vehicles. Once the robot is on the move, it is relatively easy to locate it on a map. However, the laboratory has no software tools to relocate a robot if a map is reused.&lt;/p&gt;
+
+&lt;p&gt;The objective of the internship is to develop a software to relocate a robot in a given 3D map. The first step will be to relocalize the robot manually in a 3D graphical user interface (rviz). In a second step, the placement of the robot will have to be refined automatically using a recalibration tool used in the laboratory. Finally, an algorithm to find the optimal placement of the robot in the map automatically (Go-ICP) can be implemented. The student will be supervised by experts in 3D cartography and the registration algorithm. The code will be publicly hosted on the GitHub of the laboratory and will be integrated to ROS (Robot Operating System).&lt;/p&gt;
+
+&lt;p&gt;For contextual information, see &lt;a href=&quot;../../research/libpointmatcher/&quot;&gt;the project page on libpointmatcher&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;intern-3&quot;&gt;Intern 3&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Electrical Engineering, Computer Engineering&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The laboratory is preparing for a major U.S. deployment in September 2021. The goal of this deployment is to explore underground environments using a fleet of autonomous robots. To do so, the laboratory recently acquired new robots and commissioned the design of a custom power supply board for the sensors.&lt;/p&gt;
+
+&lt;p&gt;The objective of the internship is to complete the electronic integration of the robots and to participate in the robustness tests of the systems. The tracked robots should be able to climb stairs and withstand a certain level of shock. The student will be supervised by robotics experts with backgrounds in computer science, electricity and mechanics.&lt;/p&gt;
+
+&lt;p&gt;For contextual information, see &lt;a href=&quot;../../research/darpa-subt-urban/&quot;&gt;the project page on SUBT&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;intern-4&quot;&gt;Intern 4&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;computer science, software engineering, computer engineering&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The laboratory is preparing for a major U.S. deployment in September 2021. The goal of this deployment is to explore underground environments using a fleet of autonomous robots. The laboratory is developing 3D mapping and localization solutions based on lidars, but the maps used are often too sparse to allow obstacle avoidance.&lt;/p&gt;
+
+&lt;p&gt;The objective of this internship is to combine the data from a lidar with the robot’s localization algorithms to produce a dense map within a close radius of the robot. In a first step, a dense map will be produced and displayed in a graphical user interface (rviz). Then, compression solutions will be tested to reduce the bandwidth of these maps during wireless transmission. Finally, obstacle avoidance algorithms will be studied. The student will be supervised by experts in 3D mapping and resetting algorithms. The code will be publicly hosted on the laboratory’s GitHub and will be integrated to ROS (Robot Operating System).&lt;/p&gt;
+
+&lt;p&gt;For contextual information, see &lt;a href=&quot;../../research/darpa-subt-urban/&quot;&gt;the project page on SUBT&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;work-environment&quot;&gt;Work environment&lt;/h1&gt;
+
+&lt;p&gt;All internships will be held in the Norlab (Northern Robotics Laboratory). This research laboratory specializes in mobile and autonomous systems operating in northern or difficult conditions in general. We aim to study problems related to navigation algorithms in order to push the limits of what is currently possible to do with a mobile robot in real-life conditions. Currently, our efforts are directed towards localization algorithms based on laser sensors (lidar) and 3D reconstruction of environments.&lt;/p&gt;
+
+&lt;p&gt;The laboratory has two workshops in the Adrien-Pouliot building allowing interaction with research equipment according to current health standards. Unless otherwise specified, software development can be done remotely using existing data sets. Once the basis has been demonstrated, tests can be done on site with real research robots.&lt;/p&gt;
+
+&lt;h1 id=&quot;compensation&quot;&gt;Compensation&lt;/h1&gt;
+
+&lt;p&gt;There are two possible compensation options. The first option is for students aiming to continue at the Master’s level. If you have a rating greater than 3.8/4.3, we suggest that you apply for the NSERC Fellowship (https://www.nserc-crsng.gc.ca/students-etudiants/ug-pc/usra-brpc_fra.asp). Obtaining this scholarship will allow you to improve your record as a young researcher and normally comes with supplements from FRQNT. The laboratory also gives a $3,000 scholarship supplement for the internship. The application deadline is February 18, 2021.&lt;/p&gt;
+
+&lt;p&gt;If you are not selected for the award, salaries are set according to the collective agreement for research assistants and are approximately $15/hour. The work week is 35 hours/week. The duration of the internship may vary from 12 to 15 weeks.&lt;/p&gt;
+
+&lt;h1 id=&quot;application&quot;&gt;Application&lt;/h1&gt;
+
+&lt;p&gt;Send your choice of internship, your CV and your transcript to the laboratory director, François Pomerleau &lt;a href=&quot;mailto:francois.pomerleau@ift.ulaval.ca&quot;&gt;francois.pomerleau@ift.ulaval.ca&lt;/a&gt; .&lt;/p&gt;
+
+&lt;p&gt;Positions will be allocated at the beginning of March 2021.&lt;/p&gt;</content><author><name>François Pomerleau</name><email>francois.pomerleau@ift.ulaval.ca</email></author><category term="news" /><category term="internships" /><summary type="html">Norlab is opening four internships covering multiple fields of study for this summer. Apply as soon as you can, we are closing the openings soon. Here is the list of opportunities:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22/news/intern21/intern21.jpg%22,%20%22teaser%22=%3E%22/news/intern21/intern21_teaser.jpg%22%7D" /><media:content medium="image" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22/news/intern21/intern21.jpg%22,%20%22teaser%22=%3E%22/news/intern21/intern21_teaser.jpg%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">New Year 2021 brought us the ROSA project</title><link href="https://norlab.ulaval.ca/news/new-project-rosa/" rel="alternate" type="text/html" title="New Year 2021 brought us the ROSA project" /><published>2021-01-21T00:00:00-05:00</published><updated>2021-01-21T00:00:00-05:00</updated><id>https://norlab.ulaval.ca/news/new-project-rosa</id><content type="html" xml:base="https://norlab.ulaval.ca/news/new-project-rosa/">&lt;p&gt;In the beginning of this year, we have started working with the industrial partner Hydro-Quebec on the new project ROSA (Robot Optimizations for Surveillance and Automation).&lt;/p&gt;
+
+&lt;p&gt;This project will use 3D mapping tools developed by Norlab. They will be optimized according to the characteristics of the robot developed by Hydro-Quebec. Another task will be selection of trajectory tracking algorithms that will allow autonomous driving in the working area of the robot.&lt;/p&gt;</content><author><name>Jana Bartakova</name></author><category term="news" /><category term="project" /><summary type="html">In the beginning of this year, we have started working with the industrial partner Hydro-Quebec on the new project ROSA (Robot Optimizations for Surveillance and Automation).</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22teaser%22=%3E%22/news/new_project_rosa/logo-hydro-quebec-schema.jpg%22%7D" /><media:content medium="image" url="https://norlab.ulaval.ca/%7B%22teaser%22=%3E%22/news/new_project_rosa/logo-hydro-quebec-schema.jpg%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Project SNOW update: Better mapping for Lidar Teach &amp;amp; Repeat capability</title><link href="https://norlab.ulaval.ca/news/LTR/" rel="alternate" type="text/html" title="Project SNOW update: Better mapping for Lidar Teach &amp;amp; Repeat capability" /><published>2021-01-21T00:00:00-05:00</published><updated>2021-01-21T00:00:00-05:00</updated><id>https://norlab.ulaval.ca/news/LTR</id><content type="html" xml:base="https://norlab.ulaval.ca/news/LTR/">&lt;p&gt;In the context of the second milestone of the Snow project, we want to expand and improve our mapping system.&lt;/p&gt;
 
 &lt;p&gt;In our research, we focus on mappers optimized for large-scale environments. The next step is to be able to save and later reuse the 3D map while re-locating in it to match the new initial position of the robot. All these improved capabilities will allow us to pursuit longer distances travelled using the lidar-teach-and-repeat mode. We aim for several kilometers automatically navigated in deep snow through paths of the Montmorency research forest.&lt;/p&gt;
 
@@ -7,9 +129,7 @@
 &lt;!-- blank line --&gt;
 &lt;figure class=&quot;video_container&quot;&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1mKg2BFUNpM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/figure&gt;</content><author><name>Jana Bartakova</name></author><category term="news" /><category term="project" /><summary type="html">In the context of the second milestone of the Snow project, we want to expand and improve our mapping system.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22/news/LTR/ltr_b.png%22,%20%22teaser%22=%3E%22/news/LTR/ltr_a.jpg%22%7D" /><media:content medium="image" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22/news/LTR/ltr_b.png%22,%20%22teaser%22=%3E%22/news/LTR/ltr_a.jpg%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">New Year 2021 brought us the ROSA project</title><link href="https://norlab.ulaval.ca/news/new-project-rosa/" rel="alternate" type="text/html" title="New Year 2021 brought us the ROSA project" /><published>2021-01-21T00:00:00-05:00</published><updated>2021-01-21T00:00:00-05:00</updated><id>https://norlab.ulaval.ca/news/new-project-rosa</id><content type="html" xml:base="https://norlab.ulaval.ca/news/new-project-rosa/">&lt;p&gt;In the beginning of this year, we have started working with the industrial partner Hydro-Quebec on the new project ROSA (Robot Optimizations for Surveillance and Automation).&lt;/p&gt;
-
-&lt;p&gt;This project will use 3D mapping tools developed by Norlab. They will be optimized according to the characteristics of the robot developed by Hydro-Quebec. Another task will be selection of trajectory tracking algorithms that will allow autonomous driving in the working area of the robot.&lt;/p&gt;</content><author><name>Jana Bartakova</name></author><category term="news" /><category term="project" /><summary type="html">In the beginning of this year, we have started working with the industrial partner Hydro-Quebec on the new project ROSA (Robot Optimizations for Surveillance and Automation).</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22teaser%22=%3E%22/news/new_project_rosa/logo-hydro-quebec-schema.jpg%22%7D" /><media:content medium="image" url="https://norlab.ulaval.ca/%7B%22teaser%22=%3E%22/news/new_project_rosa/logo-hydro-quebec-schema.jpg%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Improving the Iterative Closest Point Algorithm using Lie Algebra</title><link href="https://norlab.ulaval.ca/publications/icp-lie/" rel="alternate" type="text/html" title="Improving the Iterative Closest Point Algorithm using Lie Algebra" /><published>2020-10-23T00:00:00-04:00</published><updated>2020-10-23T00:00:00-04:00</updated><id>https://norlab.ulaval.ca/publications/icp-lie</id><content type="html" xml:base="https://norlab.ulaval.ca/publications/icp-lie/">&lt;p&gt;Mapping algorithms that rely on registering point clouds inevitably suffer from local drift, both in localization and in the built map.
+&lt;/figure&gt;</content><author><name>Jana Bartakova</name></author><category term="news" /><category term="project" /><summary type="html">In the context of the second milestone of the Snow project, we want to expand and improve our mapping system.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22/news/LTR/ltr_b.png%22,%20%22teaser%22=%3E%22/news/LTR/ltr_a.jpg%22%7D" /><media:content medium="image" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22/news/LTR/ltr_b.png%22,%20%22teaser%22=%3E%22/news/LTR/ltr_a.jpg%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Improving the Iterative Closest Point Algorithm using Lie Algebra</title><link href="https://norlab.ulaval.ca/publications/icp-lie/" rel="alternate" type="text/html" title="Improving the Iterative Closest Point Algorithm using Lie Algebra" /><published>2020-10-23T00:00:00-04:00</published><updated>2020-10-23T00:00:00-04:00</updated><id>https://norlab.ulaval.ca/publications/icp-lie</id><content type="html" xml:base="https://norlab.ulaval.ca/publications/icp-lie/">&lt;p&gt;Mapping algorithms that rely on registering point clouds inevitably suffer from local drift, both in localization and in the built map.
 Applications that require accurate maps, such as environmental monitoring, benefit from additional sensor modalities that reduce such drift.
 In our work, we target the family of mappers based on the ICP algorithm which use additional orientation sources such as the IMU.
 We introduce a new angular penalty term derived from Lie algebra.
@@ -186,75 +306,4 @@ Voici une démonstration du système mis en place dans le cadre de ce projet :&l
 &lt;a href=&quot;/pdf/Laconte2019.pdf&quot;&gt;&lt;i class=&quot;fas fa-file-pdf&quot;&gt;&lt;/i&gt; PDF&lt;/a&gt;
 
 
-&lt;a class=&quot;details&quot; href=&quot;/bibliography/Laconte2019/&quot;&gt; &lt;i class=&quot;fas fa-file-code&quot;&gt;&lt;/i&gt; Bibtex source&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</content><author><name>Simon-Pierre Deschênes</name><email>simon-pierre.deschenes.1@ulaval.ca</email></author><summary type="html">Simon-Pierre Deschênes est un étudiant au doctorat au sein du Norlab sous la supervision du Pr. François Pomerleau. Ayant effectué un stage au sein du laboratoire à l’été 2018 dans le cadre de son baccalauréat, Simon-Pierre a été captivé par la cartographie 3D et a décidé de poursuivre ses études supérieures dans ce domaine. Son projet de recherche s’insère dans le projet SNOW et porte sur la cartographie et la localisation 3D en conditions hivernales diffiles à l’aide de l’algorithme ICP. La participation des différents membres du projet leur a permis d’atteindre et même de surpasser les objectifs du premier jalon. Voici une démonstration du système mis en place dans le cadre de ce projet :</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22/people/sp_deschenes.jpg%22,%20%22teaser%22=%3E%22/people/sp_deschenes_avatar.jpg%22%7D" /><media:content medium="image" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22/people/sp_deschenes.jpg%22,%20%22teaser%22=%3E%22/people/sp_deschenes_avatar.jpg%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Norlab goes to CRV!</title><link href="https://norlab.ulaval.ca/news/crv20/" rel="alternate" type="text/html" title="Norlab goes to CRV!" /><published>2020-05-21T00:00:00-04:00</published><updated>2020-05-21T00:00:00-04:00</updated><id>https://norlab.ulaval.ca/news/crv20</id><content type="html" xml:base="https://norlab.ulaval.ca/news/crv20/">&lt;p&gt;This month, the lab attended the &lt;a href=&quot;https://www.computerrobotvision.org/&quot;&gt;17th conference on Computer and Robot Vision&lt;/a&gt;, which was held virtually due to the COVID-19 situation.&lt;/p&gt;
-
-&lt;p&gt;We presented our article on kinematic motion modelling for skid-steering mobile robots in subartic environments &lt;a class=&quot;citation&quot; href=&quot;#Baril2020&quot;&gt;(Baril et al., 2020)&lt;/a&gt;. More details on our article can be found &lt;a href=&quot;../../publications/subartic_kinematic_modelling&quot;&gt;here&lt;/a&gt;. The paper was awarded with the “Best robotics paper” award for the conference. The laboratory director, &lt;a href=&quot;../../people/f_pomerleau&quot;&gt;François Pomerleau&lt;/a&gt; also gave a symposium presentation on subterranean and subartic autonomous exploration.&lt;/p&gt;
-
-&lt;p&gt;Videos for both presentations can be found below :&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/2ebxortAhmE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;hr /&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fjSwHVdnzLQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;h1 id=&quot;our-articles&quot;&gt;Our articles&lt;/h1&gt;
-
-&lt;ol class=&quot;bibliography&quot; reversed=&quot;reversed&quot;&gt;&lt;li&gt;&lt;span id=&quot;Baril2020&quot;&gt;Baril, D., Grondin, V., Deschênes, S., Laconte, J., M., V., Kubelka, V., Gallant, A., Giguère, P., &amp;amp; Pomerleau, F. (2020). Evaluation of Skid-Steering Kinematic Models for Subarctic Environments. &lt;i&gt;Proceeding of the 2020 17th Conference on Computer and Robot Vision (CRV)&lt;/i&gt;.&lt;/span&gt;
-
-
-&lt;a href=&quot;/pdf/Baril2020.pdf&quot;&gt;&lt;i class=&quot;fas fa-file-pdf&quot;&gt;&lt;/i&gt; PDF&lt;/a&gt;
-
-
-&lt;a class=&quot;details&quot; href=&quot;/bibliography/Baril2020/&quot;&gt; &lt;i class=&quot;fas fa-file-code&quot;&gt;&lt;/i&gt; Bibtex source&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</content><author><name>Dominic Baril</name><email>dominic.baril@norlab.ulaval.ca</email></author><category term="news" /><category term="conference" /><summary type="html">This month, the lab attended the 17th conference on Computer and Robot Vision, which was held virtually due to the COVID-19 situation.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22teaser%22=%3E%22/news/crv20/news_crv2020.jpeg%22%7D" /><media:content medium="image" url="https://norlab.ulaval.ca/%7B%22teaser%22=%3E%22/news/crv20/news_crv2020.jpeg%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How to synchronize an Overleaf Project with a GitHub repository</title><link href="https://norlab.ulaval.ca/research/latex-github-overleaf/" rel="alternate" type="text/html" title="How to synchronize an Overleaf Project with a GitHub repository" /><published>2020-05-20T00:00:00-04:00</published><updated>2020-05-20T00:00:00-04:00</updated><id>https://norlab.ulaval.ca/research/latex-github-overleaf</id><content type="html" xml:base="https://norlab.ulaval.ca/research/latex-github-overleaf/">&lt;p&gt;Writing papers with a large number of co-authors can be complicated endeavour. This why &lt;a href=&quot;https://www.overleaf.com/&quot;&gt;Overleaf&lt;/a&gt; is an interesting choice, as it allows for multiple people to edit a same LaTeX document simultaneously. However, online compiling on Overleaf requires time and you will also want to have access to your files on your laptop and use your favorite LaTeX editor. This is why synchronizing your paper in an Overleaf project as well as in a GitHub repository &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt;. This will also grant you access to the laboratory’s &lt;a href=&quot;https://github.com/norlab-ulaval/latexGoodPractices&quot;&gt;LaTeX good practices repository&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h1 id=&quot;main-reasons-why-you-will-want-to-synchronize-your-paper-on-github-and-overleaf&quot;&gt;Main reasons why you will want to synchronize your paper on Github and Overleaf&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Allows for multiple contributors to work on a project simultaneously&lt;/li&gt;
-  &lt;li&gt;Allows to backup and archive your paper in the common laboratory repository&lt;/li&gt;
-  &lt;li&gt;Allows to easily export your paper in &lt;a href=&quot;https://arxiv.org/&quot;&gt;arXiv&lt;/a&gt; friendly format&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;procedure&quot;&gt;Procedure&lt;/h1&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;In your Overleaf dashboard, create a new blank project using &lt;img src=&quot;/images/github_overleaf_sync/overleaf_new_project.png&quot; style=&quot;width: 20%&quot; /&gt; and give it a relevant name (e.g., publication_conference/journal_name_firstnameLastname)&lt;/li&gt;
-  &lt;li&gt;In the project page on Overleaf, select &lt;img src=&quot;/images/github_overleaf_sync/overleaf_menu.png&quot; style=&quot;width: 12%&quot; /&gt; and &lt;img src=&quot;/images/github_overleaf_sync/overleaf_github.png&quot; style=&quot;width: 30%&quot; /&gt;&lt;/li&gt;
-  &lt;li&gt;Select “Create a Github repository”&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Select “norlab-ulaval” as Owner and select the “Private” option so you can choose who can commit to the repository&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The repository should now be visible on the laboratory’s GitHub page :&lt;/p&gt;
-
-    &lt;p style=&quot;text-align: center;&quot;&gt;
-&lt;a href=&quot;https://github.com/norlab-ulaval&quot; target=&quot;_blank&quot; class=&quot;btn&quot;&gt;
-&lt;img src=&quot;/images/logos/github.svg&quot; style=&quot;padding-right: 1em; width: 4em; -webkit-filter: invert(100%); filter: invert(100%);&quot; /&gt;
-norlab-ulaval
-&lt;/a&gt;
-&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Clone the repository on you computer&lt;/p&gt;
-
-    &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone &amp;lt;github_repo_url&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Add the &lt;a href=&quot;https://github.com/norlab-ulaval/latexGoodPractices&quot;&gt;LaTeX good practices repository&lt;/a&gt; as a &lt;a href=&quot;https://git-scm.com/book/en/v2/Git-Tools-Submodules&quot;&gt;Git submodule&lt;/a&gt;, as shown below :&lt;/p&gt;
-
-    &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git submodule add https://github.com/norlab-ulaval/latexGoodPractices.git
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Push the changes from your local repository to the remote GitHub repository&lt;/li&gt;
-  &lt;li&gt;Pull the changes from the Overleaf project page by selecting &lt;img src=&quot;/images/github_overleaf_sync/overleaf_menu.png&quot; style=&quot;width: 12%&quot; /&gt; , &lt;img src=&quot;/images/github_overleaf_sync/overleaf_github.png&quot; style=&quot;width: 30%&quot; /&gt; and &lt;img src=&quot;/images/github_overleaf_sync/pull_overleaf.png&quot; style=&quot;width: 35%&quot; /&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Your project is now synchronized between the two platforms and you can now push or pull changes directly from the Overleaf project page. Be careful when editing the document on your laptop at the same time as it is being changed on Overleaf as this may cause merging conflicts.&lt;/p&gt;
-
-&lt;h1 id=&quot;exporting-an-article-using-overleaf&quot;&gt;Exporting an article using Overleaf&lt;/h1&gt;
-
-&lt;p&gt;One of the main advantages of using this method for your projects is that Overleaf offers a tool to export your project for numerous publishing platforms, notably &lt;a href=&quot;https://arxiv.org/&quot;&gt;arXiv&lt;/a&gt;. Simply compile your project once it is completed and select &lt;img src=&quot;/images/github_overleaf_sync/overleaf_submit.png&quot; style=&quot;width: 12%&quot; /&gt; tab on the top left of the project page. Then select the platform where you wish to publish and Overleaf will create the necessary files.&lt;/p&gt;
-
-&lt;p&gt;It should be noted that an issue related to the biblatex file format is likely to happen when compiling the project on arXiv. This issue can be resolved by cloning &lt;a href=&quot;https://github.com/djsutherland/arxiv-collector&quot;&gt;this Python script&lt;/a&gt; in your local repository and following the instructions to create a biblatex file that is compatible with arXiv. More details on this issue can be found &lt;a href=&quot;https://github.com/plk/biblatex/wiki/biblatex-and-the-arXiv#uploading-the-relevant-parts-of-biblatex&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><author><name>Dominic Baril</name><email>dominic.baril@norlab.ulaval.ca</email></author><category term="research" /><category term="howto" /><category term="Overleaf" /><category term="GitHub" /><category term="LaTeX" /><category term="writing" /><summary type="html">Writing papers with a large number of co-authors can be complicated endeavour. This why Overleaf is an interesting choice, as it allows for multiple people to edit a same LaTeX document simultaneously. However, online compiling on Overleaf requires time and you will also want to have access to your files on your laptop and use your favorite LaTeX editor. This is why synchronizing your paper in an Overleaf project as well as in a GitHub repository GitHub. This will also grant you access to the laboratory’s LaTeX good practices repository.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22teaser%22=%3E%22/logos/github_overleaf.png%22,%20%22feature%22=%3Enil%7D" /><media:content medium="image" url="https://norlab.ulaval.ca/%7B%22teaser%22=%3E%22/logos/github_overleaf.png%22,%20%22feature%22=%3Enil%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/Laconte2019/&quot;&gt; &lt;i class=&quot;fas fa-file-code&quot;&gt;&lt;/i&gt; Bibtex source&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</content><author><name>Simon-Pierre Deschênes</name><email>simon-pierre.deschenes.1@ulaval.ca</email></author><summary type="html">Simon-Pierre Deschênes est un étudiant au doctorat au sein du Norlab sous la supervision du Pr. François Pomerleau. Ayant effectué un stage au sein du laboratoire à l’été 2018 dans le cadre de son baccalauréat, Simon-Pierre a été captivé par la cartographie 3D et a décidé de poursuivre ses études supérieures dans ce domaine. Son projet de recherche s’insère dans le projet SNOW et porte sur la cartographie et la localisation 3D en conditions hivernales diffiles à l’aide de l’algorithme ICP. La participation des différents membres du projet leur a permis d’atteindre et même de surpasser les objectifs du premier jalon. Voici une démonstration du système mis en place dans le cadre de ce projet :</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22/people/sp_deschenes.jpg%22,%20%22teaser%22=%3E%22/people/sp_deschenes_avatar.jpg%22%7D" /><media:content medium="image" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22/people/sp_deschenes.jpg%22,%20%22teaser%22=%3E%22/people/sp_deschenes_avatar.jpg%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
