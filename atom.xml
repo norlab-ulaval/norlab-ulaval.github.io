@@ -1,4 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="https://norlab.ulaval.ca/atom.xml" rel="self" type="application/atom+xml" /><link href="https://norlab.ulaval.ca/" rel="alternate" type="text/html" /><updated>2021-05-14T21:37:46-04:00</updated><id>https://norlab.ulaval.ca/atom.xml</id><title type="html">Northern Robotics Laboratory</title><subtitle>Website showcasing research and news from the Northern Robotics Laboratory, Laval University</subtitle><entry><title type="html">How to publish your preprints on Arxiv</title><link href="https://norlab.ulaval.ca/research/publish-prepints-arxiv/" rel="alternate" type="text/html" title="How to publish your preprints on Arxiv" /><published>2021-03-11T00:00:00-05:00</published><updated>2021-03-11T00:00:00-05:00</updated><id>https://norlab.ulaval.ca/research/publish-prepints-arxiv</id><content type="html" xml:base="https://norlab.ulaval.ca/research/publish-prepints-arxiv/">&lt;p&gt;Before submitting a preprint to arXiv, make sure the publisher permits preprints.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="https://norlab.ulaval.ca/atom.xml" rel="self" type="application/atom+xml" /><link href="https://norlab.ulaval.ca/" rel="alternate" type="text/html" /><updated>2021-06-04T10:09:40-04:00</updated><id>https://norlab.ulaval.ca/atom.xml</id><title type="html">Northern Robotics Laboratory</title><subtitle>Website showcasing research and news from the Northern Robotics Laboratory, Laval University</subtitle><entry><title type="html">Norlab in media!</title><link href="https://norlab.ulaval.ca/research/media/" rel="alternate" type="text/html" title="Norlab in media!" /><published>2021-06-02T00:00:00-04:00</published><updated>2021-06-02T00:00:00-04:00</updated><id>https://norlab.ulaval.ca/research/media</id><content type="html" xml:base="https://norlab.ulaval.ca/research/media/">&lt;p&gt;We are happy that Norlab is being noticed in media. See what they have written about us.&lt;/p&gt;
+
+&lt;p&gt;IEEE Spectrum:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://spectrum.ieee.org/automaton/robotics/robotics-hardware/darpa-subt-meet-the-first-nine-teams&quot;&gt;DARPA Subterranean Challenge: Meet the First 9 Teams&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://spectrum.ieee.org/automaton/robotics/robotics-software/darpa-subt-cave-circuit-competition&quot;&gt;17 Teams to Take Part in DARPA’s SubT Cave Circuit Competition&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://spectrum.ieee.org/automaton/robotics/robotics-hardware/late-nights-cool-hacks-and-more-stories-from-the-darpa-subt-urban-circuit&quot;&gt;Late Nights, Cool Hacks, and More Stories From the DARPA SubT Urban Circuit&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://spectrum.ieee.org/automaton/robotics/robotics-hardware/robotics-teams-prepare-darpa-subt-challenge-urban-circuit&quot;&gt;How Robotics Teams Prepared for DARPA’s SubT Challenge: Urban Circuit&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;IEEE Spectrum – Video Friday:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://spectrum.ieee.org/automaton/robotics/robotics-hardware/video-friday-robotic-eyeball-camera&quot;&gt;Teaser – SNOW milestone 3 achieved&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://spectrum.ieee.org/automaton/robotics/robotics-hardware/video-friday-aquatic-snakebotics&quot;&gt;DARPA SubT – Urban challenge under 10 min&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://spectrum.ieee.org/automaton/robotics/robotics-software/video-friday-starship-robots-1-million-deliveries&quot;&gt;Driving our robot on the campus after the snow storm&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://spectrum.ieee.org/automaton/robotics/robotics-hardware/video-friday-mit-mini-cheetah-robots-naver-labs&quot;&gt;Uncut – A Christmas story&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://spectrum.ieee.org/automaton/robotics/robotics-hardware/video-friday-agility-robotics-robot-production&quot;&gt;Can you throw your robot into a lake?&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://spectrum.ieee.org/automaton/robotics/robotics-hardware/video-friday-mesmer-humanoid-robot&quot;&gt;Fallen tree crossing&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://spectrum.ieee.org/automaton/robotics/robotics-software/video-friday-3d-printed-liquid-crystal-elastomer&quot;&gt;SNOW control intro video&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://spectrum.ieee.org/automaton/robotics/robotics-hardware/video-friday-quadruped-robot-locomotion-skills&quot;&gt;CTU-CRAS-NORLAB: DARPA Subterranean Challenge - Urban Circuit&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://spectrum.ieee.org/automaton/robotics/robotics-hardware/video-friday-robots-wish-happy-holidays&quot;&gt;Robotic Christmas Spirit – Norlab 2019&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;DARPA Subterranean Challenge:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.darpa.mil/news-events/2021-05-03&quot;&gt;DARPA Subterranean Challenge Announces Systems Competition Teams for Final Event&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.darpa.mil/news-events/2020-11-17&quot;&gt;Teams Coordinated Robotics, BARCS, and Dynamo On Top in DARPA Subterranean Challenge Cave Circuit Virtual Competition&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.darpa.mil/news-events/2020-09-28a&quot;&gt;Subterranean Challenge Identifies Qualified Teams for Cave Circuit Virtual Competition&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.darpa.mil/news-events/2020-02-27&quot;&gt;Teams CoSTAR and BARCS Take Top Spots in DARPA Subterranean Challenge Urban Circuit&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.darpa.mil/news-events/2020-01-10&quot;&gt;DARPA Names Qualifiers for the Subterranean Challenge Urban Circuit&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Univesité Laval:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.fsg.ulaval.ca/faculte/actualites/norlab-et-ses-partenaires-se-distinguent-au-darpa-subterranean-challenge-3400/&quot;&gt;Norlab et ses partenaires se distinguent au DARPA Subterranean Challenge&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Executive Gov:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.executivegov.com/2021/05/darpa-picks-eight-teams-for-subterranean-challenge-robot-competition-finals/&quot;&gt;DARPA Picks Eight Teams for Subterranean Challenge Robot Competition Finals&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Center for Robotics and Autonomous Systems, Czech Technical University:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://robotics.fel.cvut.cz/cras/darpa-subt/&quot;&gt;DARPA Sub-T&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Robots &amp;amp; Automation News:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://roboticsandautomationnews.com/2021/05/03/darpa-selects-eight-teams-for-3-5-million-prize-competition/42994/&quot;&gt;Darpa selects eight teams for $3.5 million prize competition&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Geek Wire:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.geekwire.com/2020/robots-masters-take-nuclear-plant-darpas-subterranean-challenge/&quot;&gt;Robots and their masters take over nuclear plant for DARPA’s Subterranean Challenge&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The Vidette:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.thevidette.com/news/robots-creeping-around-satsop-hoping-to-find-millions-in-prize-money/&quot;&gt;Robots creeping around Satsop hoping to find millions in prize money&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.thevidette.com/news/accelerating-innovation-is-one-goal-of-darpa-with-contest/&quot;&gt;Accelerating innovation is one goal of DARPA with contest&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Propulsion Québec – En Route! :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://propulsionquebec.com/en-route/le-developpement-durable-au-coeur-de-notre-enseignement/&quot;&gt;Laboratoire de robotique boréale (Norlab)&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Jana Bartakova</name></author><category term="research" /><category term="project" /><category term="media" /><summary type="html">We are happy that Norlab is being noticed in media. See what they have written about us.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22feature%22=%3Enil,%20%22teaser%22=%3E%22norlab_in_media.jpg%22%7D" /><media:content medium="image" url="https://norlab.ulaval.ca/%7B%22feature%22=%3Enil,%20%22teaser%22=%3E%22norlab_in_media.jpg%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How to publish your preprints on Arxiv</title><link href="https://norlab.ulaval.ca/research/publish-prepints-arxiv/" rel="alternate" type="text/html" title="How to publish your preprints on Arxiv" /><published>2021-03-11T00:00:00-05:00</published><updated>2021-03-11T00:00:00-05:00</updated><id>https://norlab.ulaval.ca/research/publish-prepints-arxiv</id><content type="html" xml:base="https://norlab.ulaval.ca/research/publish-prepints-arxiv/">&lt;p&gt;Before submitting a preprint to arXiv, make sure the publisher permits preprints.
 In general, they require that:&lt;/p&gt;
 
 &lt;ol&gt;
@@ -74,69 +140,7 @@ An easy solution is to include the packages that may cause errors in the submiss
 
 &lt;h2 id=&quot;list-of-known-errors-and-solutions&quot;&gt;List of known errors and solutions&lt;/h2&gt;
 &lt;h3 id=&quot;package-biblatex-ieee-error-failed-to-update-citation-style&quot;&gt;Package biblatex-ieee Error: Failed to update citation style&lt;/h3&gt;
-&lt;p&gt;Locate and include &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ieee.bbx&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ieee.cbx&lt;/code&gt; in the working directory.&lt;/p&gt;</content><author><name>Johann Laconte</name></author><category term="research" /><category term="howto" /><category term="arxiv" /><category term="preprint" /><summary type="html">Before submitting a preprint to arXiv, make sure the publisher permits preprints. In general, they require that:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22teaser%22=%3E%22/logos/arxiv_logo-400x200.png%22,%20%22feature%22=%3E%22/logos/arxiv_logo-1200x329.png%22%7D" /><media:content medium="image" url="https://norlab.ulaval.ca/%7B%22teaser%22=%3E%22/logos/arxiv_logo-400x200.png%22,%20%22feature%22=%3E%22/logos/arxiv_logo-1200x329.png%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Four internships in robotics for the summer 2021 all taken!</title><link href="https://norlab.ulaval.ca/news/internships/" rel="alternate" type="text/html" title="Four internships in robotics for the summer 2021 all taken!" /><published>2021-02-04T00:00:00-05:00</published><updated>2021-02-04T00:00:00-05:00</updated><id>https://norlab.ulaval.ca/news/internships</id><content type="html" xml:base="https://norlab.ulaval.ca/news/internships/">&lt;p&gt;Norlab is opening four internships covering multiple fields of study for this summer.
-&lt;del&gt;Apply as soon as you can, we are closing the openings soon.&lt;/del&gt;
-Here is the list of opportunities:&lt;/p&gt;
-
-&lt;p&gt;All the positions have been filled, but keep an eye on the Norlab website, there will be more in future!&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;h2 id=&quot;intern-1---not-available-anymore&quot;&gt;Intern 1 - Not available anymore&lt;/h2&gt;
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;computer science, software engineering, computer engineering&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;This internship is part of the SNOW (Self-driving Navigation Optimized for Winter) project, which aims at adapting autonomous navigation technologies to environments affected by winter. As part of his mandate, the student will develop an open library to predict the movements of a mobile robot. Several prototype algorithms have been analyzed in a Python Notebook, and must now be coded cleanly to allow real-time computation on a moving robot. The goal of the library is to allow researchers in the laboratory to do experiments faster. Ultimately, these experiments will allow mobile robots to adapt to changes in traction caused by snow cover during autonomous navigation.&lt;/p&gt;
-
-&lt;p&gt;The trainee will be supervised by a PhD student specializing in control, allowing the student to focus on software development while acquiring practical robotics skills. The student will also be expected to support the team’s efforts in robot integration and field deployments. The intern will have access to state-of-the-art equipment and a 500 kg robot. The library will be publicly hosted on the lab’s GitHub and will be integrated with ROS (Robot Operating System).&lt;/p&gt;
-
-&lt;p&gt;For contextual information, see &lt;a href=&quot;../../research/snow/&quot;&gt;the project page on SNOW&lt;/a&gt;.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;h2 id=&quot;intern-2---not-available-anymore&quot;&gt;Intern 2 - Not available anymore&lt;/h2&gt;
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;computer science, software engineering, computer engineering&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;The laboratory is continuously developing several 3D mapping solutions for autonomous vehicles. Once the robot is on the move, it is relatively easy to locate it on a map. However, the laboratory has no software tools to relocate a robot if a map is reused.&lt;/p&gt;
-
-&lt;p&gt;The objective of the internship is to develop a software to relocate a robot in a given 3D map. The first step will be to relocalize the robot manually in a 3D graphical user interface (rviz). In a second step, the placement of the robot will have to be refined automatically using a recalibration tool used in the laboratory. Finally, an algorithm to find the optimal placement of the robot in the map automatically (Go-ICP) can be implemented. The student will be supervised by experts in 3D cartography and the registration algorithm. The code will be publicly hosted on the GitHub of the laboratory and will be integrated to ROS (Robot Operating System).&lt;/p&gt;
-
-&lt;p&gt;For contextual information, see &lt;a href=&quot;../../research/libpointmatcher/&quot;&gt;the project page on libpointmatcher&lt;/a&gt;.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;h2 id=&quot;intern-3---not-available-anymore&quot;&gt;Intern 3 - Not available anymore&lt;/h2&gt;
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Electrical Engineering, Computer Engineering&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;The laboratory is preparing for a major U.S. deployment in September 2021. The goal of this deployment is to explore underground environments using a fleet of autonomous robots. To do so, the laboratory recently acquired new robots and commissioned the design of a custom power supply board for the sensors.&lt;/p&gt;
-
-&lt;p&gt;The objective of the internship is to complete the electronic integration of the robots and to participate in the robustness tests of the systems. The tracked robots should be able to climb stairs and withstand a certain level of shock. The student will be supervised by robotics experts with backgrounds in computer science, electricity and mechanics.&lt;/p&gt;
-
-&lt;p&gt;For contextual information, see &lt;a href=&quot;../../research/darpa-subt-urban/&quot;&gt;the project page on SUBT&lt;/a&gt;.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;h2 id=&quot;intern-4---not-available-anymore&quot;&gt;Intern 4 - Not available anymore&lt;/h2&gt;
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;computer science, software engineering, computer engineering&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;The laboratory is preparing for a major U.S. deployment in September 2021. The goal of this deployment is to explore underground environments using a fleet of autonomous robots. The laboratory is developing 3D mapping and localization solutions based on lidars, but the maps used are often too sparse to allow obstacle avoidance.&lt;/p&gt;
-
-&lt;p&gt;The objective of this internship is to combine the data from a lidar with the robot’s localization algorithms to produce a dense map within a close radius of the robot. In a first step, a dense map will be produced and displayed in a graphical user interface (rviz). Then, compression solutions will be tested to reduce the bandwidth of these maps during wireless transmission. Finally, obstacle avoidance algorithms will be studied. The student will be supervised by experts in 3D mapping and resetting algorithms. The code will be publicly hosted on the laboratory’s GitHub and will be integrated to ROS (Robot Operating System).&lt;/p&gt;
-
-&lt;p&gt;For contextual information, see &lt;a href=&quot;../../research/darpa-subt-urban/&quot;&gt;the project page on SUBT&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h1 id=&quot;work-environment&quot;&gt;Work environment&lt;/h1&gt;
-
-&lt;p&gt;All internships will be held in the Norlab (Northern Robotics Laboratory). This research laboratory specializes in mobile and autonomous systems operating in northern or difficult conditions in general. We aim to study problems related to navigation algorithms in order to push the limits of what is currently possible to do with a mobile robot in real-life conditions. Currently, our efforts are directed towards localization algorithms based on laser sensors (lidar) and 3D reconstruction of environments.&lt;/p&gt;
-
-&lt;p&gt;The laboratory has two workshops in the Adrien-Pouliot building allowing interaction with research equipment according to current health standards. Unless otherwise specified, software development can be done remotely using existing data sets. Once the basis has been demonstrated, tests can be done on site with real research robots.&lt;/p&gt;
-
-&lt;h1 id=&quot;compensation&quot;&gt;Compensation&lt;/h1&gt;
-
-&lt;p&gt;There are two possible compensation options. The first option is for students aiming to continue at the Master’s level. If you have a rating greater than 3.8/4.3, we suggest that you apply for the NSERC Fellowship (https://www.nserc-crsng.gc.ca/students-etudiants/ug-pc/usra-brpc_fra.asp). Obtaining this scholarship will allow you to improve your record as a young researcher and normally comes with supplements from FRQNT. The laboratory also gives a $3,000 scholarship supplement for the internship. The application deadline is February 18, 2021.&lt;/p&gt;
-
-&lt;p&gt;If you are not selected for the award, salaries are set according to the collective agreement for research assistants and are approximately $15/hour. The work week is 35 hours/week. The duration of the internship may vary from 12 to 15 weeks.&lt;/p&gt;
-
-&lt;h1 id=&quot;application&quot;&gt;Application&lt;/h1&gt;
-
-&lt;p&gt;Send your choice of internship, your CV and your transcript to the laboratory director, François Pomerleau &lt;a href=&quot;mailto:francois.pomerleau@ift.ulaval.ca&quot;&gt;francois.pomerleau@ift.ulaval.ca&lt;/a&gt; .&lt;/p&gt;
-
-&lt;p&gt;Positions will be allocated at the beginning of March 2021.&lt;/p&gt;</content><author><name>François Pomerleau</name><email>francois.pomerleau@ift.ulaval.ca</email></author><category term="news" /><category term="internships" /><summary type="html">Norlab is opening four internships covering multiple fields of study for this summer. Apply as soon as you can, we are closing the openings soon. Here is the list of opportunities:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22/news/intern21/intern21.jpg%22,%20%22teaser%22=%3E%22/news/intern21/intern21_teaser.jpg%22%7D" /><media:content medium="image" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22/news/intern21/intern21.jpg%22,%20%22teaser%22=%3E%22/news/intern21/intern21_teaser.jpg%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Quatre stages en robotique pour l’été 2021 tous pris!</title><link href="https://norlab.ulaval.ca/news/internships_fr/" rel="alternate" type="text/html" title="Quatre stages en robotique pour l’été 2021 tous pris!" /><published>2021-02-04T00:00:00-05:00</published><updated>2021-02-04T00:00:00-05:00</updated><id>https://norlab.ulaval.ca/news/internships_fr</id><content type="html" xml:base="https://norlab.ulaval.ca/news/internships_fr/">&lt;p&gt;Norlab ouvre quatre stages couvrant plusieurs domaines d’étude cet été.
+&lt;p&gt;Locate and include &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ieee.bbx&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ieee.cbx&lt;/code&gt; in the working directory.&lt;/p&gt;</content><author><name>Johann Laconte</name></author><category term="research" /><category term="howto" /><category term="arxiv" /><category term="preprint" /><summary type="html">Before submitting a preprint to arXiv, make sure the publisher permits preprints. In general, they require that:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22teaser%22=%3E%22/logos/arxiv_logo-400x200.png%22,%20%22feature%22=%3E%22/logos/arxiv_logo-1200x329.png%22%7D" /><media:content medium="image" url="https://norlab.ulaval.ca/%7B%22teaser%22=%3E%22/logos/arxiv_logo-400x200.png%22,%20%22feature%22=%3E%22/logos/arxiv_logo-1200x329.png%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Quatre stages en robotique pour l’été 2021 tous pris!</title><link href="https://norlab.ulaval.ca/news/internships_fr/" rel="alternate" type="text/html" title="Quatre stages en robotique pour l’été 2021 tous pris!" /><published>2021-02-04T00:00:00-05:00</published><updated>2021-02-04T00:00:00-05:00</updated><id>https://norlab.ulaval.ca/news/internships_fr</id><content type="html" xml:base="https://norlab.ulaval.ca/news/internships_fr/">&lt;p&gt;Norlab ouvre quatre stages couvrant plusieurs domaines d’étude cet été.
 &lt;del&gt;Appliquez aussitôt que vous pouvez car les offres se terminent sous peu.&lt;/del&gt;
 Voici la liste des offres :&lt;/p&gt;
 
@@ -198,7 +202,69 @@ Voici la liste des offres :&lt;/p&gt;
 
 &lt;p&gt;Envoyez votre choix de stage, votre CV et votre relevé de notes au directeur du laboratoire, François Pomerleau &lt;a href=&quot;mailto:francois.pomerleau@ift.ulaval.ca&quot;&gt;francois.pomerleau@ift.ulaval.ca&lt;/a&gt; .&lt;/p&gt;
 
-&lt;p&gt;Les postes seront alloués en début mars 2021.&lt;/p&gt;</content><author><name>François Pomerleau</name><email>francois.pomerleau@ift.ulaval.ca</email></author><category term="news" /><category term="internships" /><summary type="html">Norlab ouvre quatre stages couvrant plusieurs domaines d’étude cet été. Appliquez aussitôt que vous pouvez car les offres se terminent sous peu. Voici la liste des offres :</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22/news/intern21/intern21.jpg%22,%20%22teaser%22=%3E%22/news/intern21/intern21_teaser.jpg%22%7D" /><media:content medium="image" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22/news/intern21/intern21.jpg%22,%20%22teaser%22=%3E%22/news/intern21/intern21_teaser.jpg%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">New Year 2021 brought us the ROSA project</title><link href="https://norlab.ulaval.ca/news/new-project-rosa/" rel="alternate" type="text/html" title="New Year 2021 brought us the ROSA project" /><published>2021-01-21T00:00:00-05:00</published><updated>2021-01-21T00:00:00-05:00</updated><id>https://norlab.ulaval.ca/news/new-project-rosa</id><content type="html" xml:base="https://norlab.ulaval.ca/news/new-project-rosa/">&lt;p&gt;In the beginning of this year, we have started working with the industrial partner Hydro-Quebec on the new project ROSA (Robot Optimizations for Surveillance and Automation).&lt;/p&gt;
+&lt;p&gt;Les postes seront alloués en début mars 2021.&lt;/p&gt;</content><author><name>François Pomerleau</name><email>francois.pomerleau@ift.ulaval.ca</email></author><category term="news" /><category term="internships" /><summary type="html">Norlab ouvre quatre stages couvrant plusieurs domaines d’étude cet été. Appliquez aussitôt que vous pouvez car les offres se terminent sous peu. Voici la liste des offres :</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22/news/intern21/intern21.jpg%22,%20%22teaser%22=%3E%22/news/intern21/intern21_teaser.jpg%22%7D" /><media:content medium="image" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22/news/intern21/intern21.jpg%22,%20%22teaser%22=%3E%22/news/intern21/intern21_teaser.jpg%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Four internships in robotics for the summer 2021 all taken!</title><link href="https://norlab.ulaval.ca/news/internships/" rel="alternate" type="text/html" title="Four internships in robotics for the summer 2021 all taken!" /><published>2021-02-04T00:00:00-05:00</published><updated>2021-02-04T00:00:00-05:00</updated><id>https://norlab.ulaval.ca/news/internships</id><content type="html" xml:base="https://norlab.ulaval.ca/news/internships/">&lt;p&gt;Norlab is opening four internships covering multiple fields of study for this summer.
+&lt;del&gt;Apply as soon as you can, we are closing the openings soon.&lt;/del&gt;
+Here is the list of opportunities:&lt;/p&gt;
+
+&lt;p&gt;All the positions have been filled, but keep an eye on the Norlab website, there will be more in future!&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;intern-1---not-available-anymore&quot;&gt;Intern 1 - Not available anymore&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;computer science, software engineering, computer engineering&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This internship is part of the SNOW (Self-driving Navigation Optimized for Winter) project, which aims at adapting autonomous navigation technologies to environments affected by winter. As part of his mandate, the student will develop an open library to predict the movements of a mobile robot. Several prototype algorithms have been analyzed in a Python Notebook, and must now be coded cleanly to allow real-time computation on a moving robot. The goal of the library is to allow researchers in the laboratory to do experiments faster. Ultimately, these experiments will allow mobile robots to adapt to changes in traction caused by snow cover during autonomous navigation.&lt;/p&gt;
+
+&lt;p&gt;The trainee will be supervised by a PhD student specializing in control, allowing the student to focus on software development while acquiring practical robotics skills. The student will also be expected to support the team’s efforts in robot integration and field deployments. The intern will have access to state-of-the-art equipment and a 500 kg robot. The library will be publicly hosted on the lab’s GitHub and will be integrated with ROS (Robot Operating System).&lt;/p&gt;
+
+&lt;p&gt;For contextual information, see &lt;a href=&quot;../../research/snow/&quot;&gt;the project page on SNOW&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;intern-2---not-available-anymore&quot;&gt;Intern 2 - Not available anymore&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;computer science, software engineering, computer engineering&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The laboratory is continuously developing several 3D mapping solutions for autonomous vehicles. Once the robot is on the move, it is relatively easy to locate it on a map. However, the laboratory has no software tools to relocate a robot if a map is reused.&lt;/p&gt;
+
+&lt;p&gt;The objective of the internship is to develop a software to relocate a robot in a given 3D map. The first step will be to relocalize the robot manually in a 3D graphical user interface (rviz). In a second step, the placement of the robot will have to be refined automatically using a recalibration tool used in the laboratory. Finally, an algorithm to find the optimal placement of the robot in the map automatically (Go-ICP) can be implemented. The student will be supervised by experts in 3D cartography and the registration algorithm. The code will be publicly hosted on the GitHub of the laboratory and will be integrated to ROS (Robot Operating System).&lt;/p&gt;
+
+&lt;p&gt;For contextual information, see &lt;a href=&quot;../../research/libpointmatcher/&quot;&gt;the project page on libpointmatcher&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;intern-3---not-available-anymore&quot;&gt;Intern 3 - Not available anymore&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Electrical Engineering, Computer Engineering&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The laboratory is preparing for a major U.S. deployment in September 2021. The goal of this deployment is to explore underground environments using a fleet of autonomous robots. To do so, the laboratory recently acquired new robots and commissioned the design of a custom power supply board for the sensors.&lt;/p&gt;
+
+&lt;p&gt;The objective of the internship is to complete the electronic integration of the robots and to participate in the robustness tests of the systems. The tracked robots should be able to climb stairs and withstand a certain level of shock. The student will be supervised by robotics experts with backgrounds in computer science, electricity and mechanics.&lt;/p&gt;
+
+&lt;p&gt;For contextual information, see &lt;a href=&quot;../../research/darpa-subt-urban/&quot;&gt;the project page on SUBT&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;intern-4---not-available-anymore&quot;&gt;Intern 4 - Not available anymore&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;computer science, software engineering, computer engineering&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The laboratory is preparing for a major U.S. deployment in September 2021. The goal of this deployment is to explore underground environments using a fleet of autonomous robots. The laboratory is developing 3D mapping and localization solutions based on lidars, but the maps used are often too sparse to allow obstacle avoidance.&lt;/p&gt;
+
+&lt;p&gt;The objective of this internship is to combine the data from a lidar with the robot’s localization algorithms to produce a dense map within a close radius of the robot. In a first step, a dense map will be produced and displayed in a graphical user interface (rviz). Then, compression solutions will be tested to reduce the bandwidth of these maps during wireless transmission. Finally, obstacle avoidance algorithms will be studied. The student will be supervised by experts in 3D mapping and resetting algorithms. The code will be publicly hosted on the laboratory’s GitHub and will be integrated to ROS (Robot Operating System).&lt;/p&gt;
+
+&lt;p&gt;For contextual information, see &lt;a href=&quot;../../research/darpa-subt-urban/&quot;&gt;the project page on SUBT&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;work-environment&quot;&gt;Work environment&lt;/h1&gt;
+
+&lt;p&gt;All internships will be held in the Norlab (Northern Robotics Laboratory). This research laboratory specializes in mobile and autonomous systems operating in northern or difficult conditions in general. We aim to study problems related to navigation algorithms in order to push the limits of what is currently possible to do with a mobile robot in real-life conditions. Currently, our efforts are directed towards localization algorithms based on laser sensors (lidar) and 3D reconstruction of environments.&lt;/p&gt;
+
+&lt;p&gt;The laboratory has two workshops in the Adrien-Pouliot building allowing interaction with research equipment according to current health standards. Unless otherwise specified, software development can be done remotely using existing data sets. Once the basis has been demonstrated, tests can be done on site with real research robots.&lt;/p&gt;
+
+&lt;h1 id=&quot;compensation&quot;&gt;Compensation&lt;/h1&gt;
+
+&lt;p&gt;There are two possible compensation options. The first option is for students aiming to continue at the Master’s level. If you have a rating greater than 3.8/4.3, we suggest that you apply for the NSERC Fellowship (https://www.nserc-crsng.gc.ca/students-etudiants/ug-pc/usra-brpc_fra.asp). Obtaining this scholarship will allow you to improve your record as a young researcher and normally comes with supplements from FRQNT. The laboratory also gives a $3,000 scholarship supplement for the internship. The application deadline is February 18, 2021.&lt;/p&gt;
+
+&lt;p&gt;If you are not selected for the award, salaries are set according to the collective agreement for research assistants and are approximately $15/hour. The work week is 35 hours/week. The duration of the internship may vary from 12 to 15 weeks.&lt;/p&gt;
+
+&lt;h1 id=&quot;application&quot;&gt;Application&lt;/h1&gt;
+
+&lt;p&gt;Send your choice of internship, your CV and your transcript to the laboratory director, François Pomerleau &lt;a href=&quot;mailto:francois.pomerleau@ift.ulaval.ca&quot;&gt;francois.pomerleau@ift.ulaval.ca&lt;/a&gt; .&lt;/p&gt;
+
+&lt;p&gt;Positions will be allocated at the beginning of March 2021.&lt;/p&gt;</content><author><name>François Pomerleau</name><email>francois.pomerleau@ift.ulaval.ca</email></author><category term="news" /><category term="internships" /><summary type="html">Norlab is opening four internships covering multiple fields of study for this summer. Apply as soon as you can, we are closing the openings soon. Here is the list of opportunities:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22/news/intern21/intern21.jpg%22,%20%22teaser%22=%3E%22/news/intern21/intern21_teaser.jpg%22%7D" /><media:content medium="image" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22/news/intern21/intern21.jpg%22,%20%22teaser%22=%3E%22/news/intern21/intern21_teaser.jpg%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">New Year 2021 brought us the ROSA project</title><link href="https://norlab.ulaval.ca/news/new-project-rosa/" rel="alternate" type="text/html" title="New Year 2021 brought us the ROSA project" /><published>2021-01-21T00:00:00-05:00</published><updated>2021-01-21T00:00:00-05:00</updated><id>https://norlab.ulaval.ca/news/new-project-rosa</id><content type="html" xml:base="https://norlab.ulaval.ca/news/new-project-rosa/">&lt;p&gt;In the beginning of this year, we have started working with the industrial partner Hydro-Quebec on the new project ROSA (Robot Optimizations for Surveillance and Automation).&lt;/p&gt;
 
 &lt;p&gt;This project will use 3D mapping tools developed by Norlab. They will be optimized according to the characteristics of the robot developed by Hydro-Quebec. Another task will be selection of trajectory tracking algorithms that will allow autonomous driving in the working area of the robot.&lt;/p&gt;</content><author><name>Jana Bartakova</name></author><category term="news" /><category term="project" /><summary type="html">In the beginning of this year, we have started working with the industrial partner Hydro-Quebec on the new project ROSA (Robot Optimizations for Surveillance and Automation).</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22teaser%22=%3E%22/news/new_project_rosa/logo-hydro-quebec-schema.jpg%22%7D" /><media:content medium="image" url="https://norlab.ulaval.ca/%7B%22teaser%22=%3E%22/news/new_project_rosa/logo-hydro-quebec-schema.jpg%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Project SNOW update: Better mapping for Lidar Teach &amp;amp; Repeat capability</title><link href="https://norlab.ulaval.ca/news/LTR/" rel="alternate" type="text/html" title="Project SNOW update: Better mapping for Lidar Teach &amp;amp; Repeat capability" /><published>2021-01-21T00:00:00-05:00</published><updated>2021-01-21T00:00:00-05:00</updated><id>https://norlab.ulaval.ca/news/LTR</id><content type="html" xml:base="https://norlab.ulaval.ca/news/LTR/">&lt;p&gt;In the context of the second milestone of the Snow project, we want to expand and improve our mapping system.&lt;/p&gt;
 
@@ -312,63 +378,4 @@ Finally, when geometric details are not dense enough such as the pillars of the 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.frontiersin.org/articles/10.3389/frobt.2020.572054/&quot;&gt;Download article&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://projects.asl.ethz.ch/datasets/doku.php?id=laserregistration:laserregistration&quot;&gt;Details on dataset&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Johann Laconte</name></author><category term="publications" /><category term="publications" /><category term="ICP" /><category term="lidar" /><category term="mapping" /><category term="sampling" /><summary type="html">In the context of 3D mapping, larger and larger point clouds are acquired with lidar sensors. Although pleasing to the eye, dense maps are not necessarily tailored for practical applications. For instance, in a surface inspection scenario, keeping geometric information such as the edges of objects is essential to detect cracks, whereas very dense areas of very little information such as the ground could hinder the main goal of the application. Several strategies exist to address this problem by reducing the number of points. However, they tend to underperform with non-uniform density, large sensor noise, spurious measurements, and large-scale point clouds, which is the case in mobile robotics. This paper presents a novel sampling algorithm based on spectral decomposition analysis to derive local density measures for each geometric primitive. The proposed method, called Spectral Decomposition Filter (SpDF), identifies and preserves geometric information along the topology of point clouds and is able to scale to large environments with a non-uniform density. Finally, qualitative and quantitative experiments verify the feasibility of our method and present a large-scale evaluation of SpDF with other seven point cloud sampling algorithms, in the context of the 3D registration problem using the Iterative Closest Point (ICP) algorithm on real-world datasets. Results show that a compression ratio up to 97% can be achieved when accepting a registration error within the range accuracy of the sensor, here for large scale environments of less than 2cm. Contributions</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22teaser%22=%3E%22publications/map-compression_teaser.png%22,%20%22feature%22=%3E%22publications/map-compression_feature.jpg%22,%20%22thumb%22=%3Enil%7D" /><media:content medium="image" url="https://norlab.ulaval.ca/%7B%22teaser%22=%3E%22publications/map-compression_teaser.png%22,%20%22feature%22=%3E%22publications/map-compression_feature.jpg%22,%20%22thumb%22=%3Enil%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Simon-Pierre Deschênes</title><link href="https://norlab.ulaval.ca/people/sp_deschenes/" rel="alternate" type="text/html" title="Simon-Pierre Deschênes" /><published>2020-06-02T00:00:00-04:00</published><updated>2020-06-02T00:00:00-04:00</updated><id>https://norlab.ulaval.ca/people/sp_deschenes</id><content type="html" xml:base="https://norlab.ulaval.ca/people/sp_deschenes/">&lt;p&gt;Simon-Pierre Deschênes is a PhD student at Norlab, under the supervision of Pr. &lt;a href=&quot;../../people/f_pomerleau&quot;&gt;François Pomerleau&lt;/a&gt;.
-After his internship in the laboratory in summer 2018 as part of his bachelor’s degree, Simon-Pierre was captivated by 3D mapping and decided to continue his graduate studies in this field.
-His research project is part of the &lt;a href=&quot;../../research/snow&quot;&gt;SNOW project&lt;/a&gt; and focuses on 3D localization and mapping in harsh winter conditions using the ICP algorithm.
-The participation of the different project members allowed them to meet and even go beyond the first milestone objectives. 
-Here is a demonstration of the system that has been implemented in the scope of the project:&lt;/p&gt;
-&lt;iframe src=&quot;https://www.youtube.com/embed/LILvVsYoaAg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;At last, Simon-Pierre has participated in several other projects since his arrival in the laboratory, including the 2019 christmas video of Norlab, which he directed:&lt;/p&gt;
-&lt;iframe src=&quot;https://www.youtube.com/embed/uNiGKETYOjQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;h1 id=&quot;education&quot;&gt;Education&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Master’s degree in computer science (fast-track to PhD), 2020&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Bachelor’s degree in software engineering at Laval University, 2019&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;publications&quot;&gt;Publications&lt;/h1&gt;
-
-&lt;h2 class=&quot;bibliography&quot;&gt;Conference Articles&lt;/h2&gt;
-&lt;ol class=&quot;bibliography&quot; reversed=&quot;reversed&quot;&gt;&lt;li&gt;&lt;span id=&quot;Deschenes2021&quot;&gt;Deschênes, S.-P., Baril, D., Kubelka, V., Giguère, P., &amp;amp; Pomerleau, F. (2021). Lidar Scan Registration Robust to Extreme Motions. &lt;i&gt;2021 18th Conference on Robots and Vision (CRV)&lt;/i&gt;. https://arxiv.org/abs/2105.01215&lt;/span&gt;
-
-&lt;br /&gt;
-
-&lt;a href=&quot;/pdf/Deschenes2021.pdf&quot;&gt;&lt;i class=&quot;fas fa-file-pdf&quot;&gt;&amp;nbsp;PDF&lt;/i&gt;&lt;/a&gt;
-&amp;emsp;
-
-
-
-&lt;a href=&quot;https://arxiv.org/abs/2105.01215&quot;&gt;&lt;i class=&quot;fas fa-external-link-alt&quot;&gt;&amp;nbsp;Publisher&lt;/i&gt;&lt;/a&gt;
-&amp;emsp;
-
-&lt;a class=&quot;details&quot; href=&quot;/bibliography/Deschenes2021/&quot;&gt; &lt;i class=&quot;fas fa-file-code&quot;&gt;&amp;nbsp;Bibtex source&lt;/i&gt; &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;Baril2020&quot;&gt;Baril, D., Grondin, V., Deschenes, S., Laconte, J., Vaidis, M., Kubelka, V., Gallant, A., Giguere, P., &amp;amp; Pomerleau, F. (2020). Evaluation of Skid-Steering Kinematic Models for Subarctic Environments. &lt;i&gt;2020 17th Conference on Computer and Robot Vision (CRV)&lt;/i&gt;, 198–205. https://doi.org/10.1109/CRV50864.2020.00034&lt;/span&gt;
-
-&lt;br /&gt;
-
-&lt;a href=&quot;/pdf/Baril2020.pdf&quot;&gt;&lt;i class=&quot;fas fa-file-pdf&quot;&gt;&amp;nbsp;PDF&lt;/i&gt;&lt;/a&gt;
-&amp;emsp;
-
-
-
-&lt;a href=&quot;https://doi.ieeecomputersociety.org/10.1109/CRV50864.2020.00034&quot;&gt;&lt;i class=&quot;fas fa-external-link-alt&quot;&gt;&amp;nbsp;Publisher&lt;/i&gt;&lt;/a&gt;
-&amp;emsp;
-
-&lt;a class=&quot;details&quot; href=&quot;/bibliography/Baril2020/&quot;&gt; &lt;i class=&quot;fas fa-file-code&quot;&gt;&amp;nbsp;Bibtex source&lt;/i&gt; &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;Laconte2019&quot;&gt;Laconte, J., Deschênes, S.-P., Labussière, M., &amp;amp; Pomerleau, F. (2019). Lidar Measurement Bias Estimation via Return Waveform Modelling in a Context of 3D Mapping. &lt;i&gt;Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)&lt;/i&gt;.&lt;/span&gt;
-
-&lt;br /&gt;
-
-&lt;a href=&quot;/pdf/Laconte2019.pdf&quot;&gt;&lt;i class=&quot;fas fa-file-pdf&quot;&gt;&amp;nbsp;PDF&lt;/i&gt;&lt;/a&gt;
-&amp;emsp;
-
-
-
-&lt;a class=&quot;details&quot; href=&quot;/bibliography/Laconte2019/&quot;&gt; &lt;i class=&quot;fas fa-file-code&quot;&gt;&amp;nbsp;Bibtex source&lt;/i&gt; &lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</content><author><name>Simon-Pierre Deschênes</name><email>simon-pierre.deschenes.1@ulaval.ca</email></author><summary type="html">Simon-Pierre Deschênes is a PhD student at Norlab, under the supervision of Pr. François Pomerleau. After his internship in the laboratory in summer 2018 as part of his bachelor’s degree, Simon-Pierre was captivated by 3D mapping and decided to continue his graduate studies in this field. His research project is part of the SNOW project and focuses on 3D localization and mapping in harsh winter conditions using the ICP algorithm. The participation of the different project members allowed them to meet and even go beyond the first milestone objectives. Here is a demonstration of the system that has been implemented in the scope of the project:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22/people/sp_deschenes.jpg%22,%20%22teaser%22=%3E%22/people/sp_deschenes_avatar.jpg%22%7D" /><media:content medium="image" url="https://norlab.ulaval.ca/%7B%22feature%22=%3E%22/people/sp_deschenes.jpg%22,%20%22teaser%22=%3E%22/people/sp_deschenes_avatar.jpg%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/ul&gt;</content><author><name>Johann Laconte</name></author><category term="publications" /><category term="publications" /><category term="ICP" /><category term="lidar" /><category term="mapping" /><category term="sampling" /><summary type="html">In the context of 3D mapping, larger and larger point clouds are acquired with lidar sensors. Although pleasing to the eye, dense maps are not necessarily tailored for practical applications. For instance, in a surface inspection scenario, keeping geometric information such as the edges of objects is essential to detect cracks, whereas very dense areas of very little information such as the ground could hinder the main goal of the application. Several strategies exist to address this problem by reducing the number of points. However, they tend to underperform with non-uniform density, large sensor noise, spurious measurements, and large-scale point clouds, which is the case in mobile robotics. This paper presents a novel sampling algorithm based on spectral decomposition analysis to derive local density measures for each geometric primitive. The proposed method, called Spectral Decomposition Filter (SpDF), identifies and preserves geometric information along the topology of point clouds and is able to scale to large environments with a non-uniform density. Finally, qualitative and quantitative experiments verify the feasibility of our method and present a large-scale evaluation of SpDF with other seven point cloud sampling algorithms, in the context of the 3D registration problem using the Iterative Closest Point (ICP) algorithm on real-world datasets. Results show that a compression ratio up to 97% can be achieved when accepting a registration error within the range accuracy of the sensor, here for large scale environments of less than 2cm. Contributions</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://norlab.ulaval.ca/%7B%22teaser%22=%3E%22publications/map-compression_teaser.png%22,%20%22feature%22=%3E%22publications/map-compression_feature.jpg%22,%20%22thumb%22=%3Enil%7D" /><media:content medium="image" url="https://norlab.ulaval.ca/%7B%22teaser%22=%3E%22publications/map-compression_teaser.png%22,%20%22feature%22=%3E%22publications/map-compression_feature.jpg%22,%20%22thumb%22=%3Enil%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
